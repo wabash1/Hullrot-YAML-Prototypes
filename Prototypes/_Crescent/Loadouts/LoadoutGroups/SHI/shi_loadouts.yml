@@ -1,0 +1,8 @@
+- type: loadoutGroup
+  id: SHIBackpacks
+  name: loadout-group-contractor-backpack
+  loadouts:
+  - SHIClothingBackpackSHIFilled
+  - SHIClothingBackpackSatchelSHIFilled
+  - SHIClothingBackpackSHIDuffelbagFilled
+  - SHIClothingBackpackSatchelLeatherFilledDSM
