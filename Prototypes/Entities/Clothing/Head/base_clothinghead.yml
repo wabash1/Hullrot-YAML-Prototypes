@@ -148,6 +148,7 @@
   name: base hardsuit helmet
   categories: [ HideSpawnMenu ]
   components:
+  - type: BreathMask
   - type: Sprite
     state: icon # default state used by most inheritors
   - type: Clickable
