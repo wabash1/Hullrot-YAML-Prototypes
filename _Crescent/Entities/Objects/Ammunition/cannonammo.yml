@@ -14,8 +14,8 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 85
-        Piercing: 25
+        Structural: 95
+        Piercing: 45
   - type: PointLight
     radius: 3.5
     color: orange
