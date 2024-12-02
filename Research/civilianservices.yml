@@ -134,7 +134,7 @@
     state: display
   discipline: CivilianServices
   tier: 1
-  cost: 6666 #Made for centisyzing feotuses
+  cost: 6666
   recipeUnlocks:
   - FatExtractorMachineCircuitboard
   - BiofabricatorMachineCircuitboard
