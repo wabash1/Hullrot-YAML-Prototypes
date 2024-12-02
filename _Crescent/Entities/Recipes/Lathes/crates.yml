@@ -65,6 +65,6 @@
 - type: latheRecipe
   id: TitaniumScrapAlloyCrate
   result: TradeGoodAlloys
-  completiontime: 2
+  completetime: 2
   materials:
     RefinedScrapTitanium: 30000
