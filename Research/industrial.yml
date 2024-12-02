@@ -129,7 +129,7 @@
     state: icon
   discipline: Industrial
   tier: 2
-  cost: 500 #You can get most of these items from vending machines and there's like 50 of them in a given machine
+  cost: 7500
   recipeUnlocks:
   - RadarConsoleCircuitboard
   - HandHeldMassScanner
