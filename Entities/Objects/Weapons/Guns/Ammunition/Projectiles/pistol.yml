@@ -7,7 +7,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 5 #Plink Plink
+        Piercing: 10 #Plink Plink
 
 - type: entity
   id: BulletPistolPractice
