@@ -41,7 +41,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/mp49.rsi
   - type: Gun
-    fireRate: 3.5
+    fireRate: 9
     selectedMode: FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
@@ -89,7 +89,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/mp5.rsi
   - type: Gun
-    fireRate: 6
+    fireRate: 9
     selectedMode: FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
@@ -135,7 +135,7 @@
     - type: Clothing
       sprite: _Crescent/Objects/Weapons/ncwlsmg.rsi
     - type: Gun
-      fireRate: 4
+      fireRate: 9
       selectedMode: FullAuto
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
@@ -183,7 +183,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/sabre.rsi
   - type: Gun
-    fireRate: 8
+    fireRate: 9
     selectedMode: FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
@@ -231,7 +231,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/beetle.rsi
   - type: Gun
-    fireRate: 3
+    fireRate: 9
     selectedMode: FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
