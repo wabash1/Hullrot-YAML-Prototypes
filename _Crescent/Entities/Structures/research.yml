@@ -83,6 +83,7 @@
     unlockedTechnologies:
     - CommieClothes
     - CommieArmor
+    - Fighters
     - CommieHeavyArmor
     - CommieLightArms
     - CommieHeavyArms
@@ -90,7 +91,7 @@
     - CommieShuttleguns
     - CommieShuttlegunsMissile
     - CommieShuttlegunsUltraheavy
-    
+
   - type: ApcPowerReceiver
     powerLoad: 200
   - type: ExtensionCableReceiver
@@ -154,6 +155,17 @@
     supportedDisciplines:
     - Imperial
     - Arsenal
+    unlockedTechnologies:
+    - ImperialHardsuit
+    - ImperialClothes #They're fucking clothes. Why the fuck do you have to research this in the first place?
+    - ImperialLightArms
+    - FightersImp
+    - ImperialAvionics
+    - ImperialShuttleArmaments
+    - ImperialLongarms
+    - ImperialArmor
+    - ImperialLaserguns
+    - ImperialSword
   - type: ApcPowerReceiver
     powerLoad: 200
   - type: ExtensionCableReceiver
