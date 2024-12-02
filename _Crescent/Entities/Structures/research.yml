@@ -80,6 +80,17 @@
     - Industrial
     - CivilianServices
     - Communard
+    unlockedTechnologies:
+    - CommieClothes
+    - CommieArmor
+    - CommieHeavyArmor
+    - CommieLightArms
+    - CommieHeavyArms
+    - CommieAvionics
+    - CommieShuttleguns
+    - CommieShuttlegunsMissile
+    - CommieShuttlegunsUltraheavy
+    
   - type: ApcPowerReceiver
     powerLoad: 200
   - type: ExtensionCableReceiver
