@@ -781,3 +781,42 @@
   - type: Tag
     tags:
       - FlakBox
+
+#The precursors send their regards.
+- type: entity
+  id: ThermonuclearMissile
+  name: 240mm thermonuclear missile
+  description: You recoil from ancient genetic memories telling you 'This hurt me. This ruined me. I was once a human being.' But there is no other way. A gun. A sword. A bomb. A vibrokhopesh. There is no other way.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 5000
+        Heat: 5000
+  - type: Tag
+    tags:
+      - TorpedoGarg
+  - type: TimedDespawn
+    lifetime: 50
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/torp.rsi
+    layers:
+      - state: base-projectile
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 20000 #Same as the grenade version
+    intensitySlope: 5
+    maxIntensity: 50
+  - type: PointLight
+    radius: 5.5
+    color: orange
+    energy: 0.5
+  - type: ProjectileIFF
+  - type: RadiationSource
+    intensity: 0.1
+    slope: 1.0
