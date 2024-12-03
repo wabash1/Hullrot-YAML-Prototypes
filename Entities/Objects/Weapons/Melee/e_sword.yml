@@ -36,7 +36,7 @@
         variation: 0.125
     activatedDamage:
         types:
-            Slash: 15
+            Slash: 17
             Heat: 20
             Structural: 20
   - type: Sprite
@@ -107,7 +107,7 @@
         variation: 0.250
     activatedDamage:
         types:
-            Slash: 10
+            Slash: 15
             Heat: 10
     deactivatedSecret: true
   - type: ItemToggleActiveSound
@@ -190,8 +190,8 @@
   - type: ItemToggleMeleeWeapon
     activatedDamage:
         types:
-            Slash: 10
-            Heat: 12
+            Slash: 20
+            Heat: 20
     deactivatedSecret: true
   - type: ItemToggleDisarmMalus
     activatedDisarmMalus: 0.6
