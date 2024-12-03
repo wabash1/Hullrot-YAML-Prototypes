@@ -786,7 +786,7 @@
 - type: entity
   id: ThermonuclearMissile
   name: 240mm thermonuclear missile
-  description: Shit.
+  description: You recoil from ancient genetic memories telling you 'This hurt me. This ruined me. I was once a human being.' But there is no other way. A gun. A sword. A bomb. A vibrokhopesh. There is no other way.
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
