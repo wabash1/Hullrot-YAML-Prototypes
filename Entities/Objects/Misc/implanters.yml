@@ -199,6 +199,8 @@
     - type: Implanter
       implant: EmpImplant
     - type: Contraband #frontier
+    - type: StaticPrice
+      price: 1666
 
 - type: entity
   id: ScramImplanter
