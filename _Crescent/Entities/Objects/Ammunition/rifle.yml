@@ -14,3 +14,6 @@
     mayTransfer: true
     whitelist: Cartridge30Cal #This doesn't do anything until a rifle actually whitelists this
     capacity: 25
+# - type: Sprite -- Someone needs to nick a sprite from somewhere
+# sprite: Objects/Weapons/Guns/Ammunition/Magazine/Rifle/30cal_mag.rsi
+# layers just need to be set to enum.GunVisualLayers.base and enum.GunVisualLayers.mag just like a vanilla mag
