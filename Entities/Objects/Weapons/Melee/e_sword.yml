@@ -82,7 +82,7 @@
   - type: IgnitionSource
     temperature: 700
   - type: StaticPrice
-    price: 5000
+    price: 3333
 
 - type: entity
   name: pen
