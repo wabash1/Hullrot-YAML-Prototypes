@@ -819,4 +819,4 @@
   - type: ProjectileIFF
   - type: RadiationSource
     intensity: 0.1
-    slope:  
+    slope: 1.0
