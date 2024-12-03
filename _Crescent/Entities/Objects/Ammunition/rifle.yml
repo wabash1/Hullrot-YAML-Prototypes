@@ -17,3 +17,22 @@
 # - type: Sprite -- Someone needs to nick a sprite from somewhere
 # sprite: Objects/Weapons/Guns/Ammunition/Magazine/Rifle/30cal_mag.rsi
 # layers just need to be set to enum.GunVisualLayers.base and enum.GunVisualLayers.mag just like a vanilla mag
+
+- type: entity
+  id: Magazine50CalRifle #Specify that this' for rifles
+  name: rifle magazine (.50) #This is the same as 7.62 mm
+  parent: BaseMagazineRifle
+  categories: [ HideSpawnMenu ]
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - Magazine50CalRifle
+  - type: BallisticAmmoProvider
+    proto: Bullet50Cal
+    mayTransfer: true
+    whitelist: Cartridge50CalRifle #This doesn't do anything until a rifle actually whitelists this
+    capacity: 25
+# - type: Sprite -- Someone needs to nick a sprite from somewhere
+# sprite: Objects/Weapons/Guns/Ammunition/Magazine/Rifle/50cal_mag.rsi
+# layers just need to be set to enum.GunVisualLayers.base and enum.GunVisualLayers.mag just like a vanilla mag

@@ -20,7 +20,7 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
 
-#Unimplemented Custom Mags - Uncomment this should sprites actually be found for this
+#Unimplemented Custom Mag - Uncomment this should sprites actually be found for this
 - type: entity
   id: Magazine9mmPistol
   name: pistol magazine (9x19) #This is the same as 7.62 mm
