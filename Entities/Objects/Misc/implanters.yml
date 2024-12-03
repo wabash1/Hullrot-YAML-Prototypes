@@ -210,6 +210,8 @@
     - type: Implanter
       implant: ScramImplant
     - type: Contraband #frontier
+    - type: StaticPrice
+      price: 2500
 
 - type: entity
   id: DnaScramblerImplanter
