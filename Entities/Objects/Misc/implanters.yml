@@ -245,6 +245,8 @@
     - type: Implanter
       implant: MacroBombImplant
     - type: Contraband #frontier
+    - type: StaticPrice
+      price: 10000
 
 - type: entity
   id: DeathRattleImplanter
@@ -263,3 +265,5 @@
   - type: Implanter
     implant: DeathAcidifierImplant
   - type: Contraband #frontier
+  - type: StaticPrice
+    price: 250
