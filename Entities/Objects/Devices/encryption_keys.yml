@@ -230,6 +230,8 @@
     - state: crypt_red
     - state: synd_label
   - type: Contraband #frontier
+  - type: StaticPrice
+    price: 15000
 
 - type: entity
   parent: EncryptionKey

@@ -168,7 +168,7 @@
     - type: Implanter
       implant: StorageImplant
     - type: StaticPrice
-      price: 500
+      price: 8333
     - type: Contraband #frontier
 
 - type: entity
@@ -179,6 +179,8 @@
     - type: Implanter
       implant: FreedomImplant
     - type: Contraband #frontier
+    - type: StaticPrice
+      price: 1666
 
 - type: entity
   id: UplinkImplanter
@@ -197,6 +199,8 @@
     - type: Implanter
       implant: EmpImplant
     - type: Contraband #frontier
+    - type: StaticPrice
+      price: 1666
 
 - type: entity
   id: ScramImplanter
@@ -206,6 +210,8 @@
     - type: Implanter
       implant: ScramImplant
     - type: Contraband #frontier
+    - type: StaticPrice
+      price: 2500
 
 - type: entity
   id: DnaScramblerImplanter
@@ -215,6 +221,8 @@
     - type: Implanter
       implant: DnaScramblerImplant
     - type: Contraband #frontier
+    - type: StaticPrice
+      price: 5000
 
 #Nuclear Operative/Special implanters
 
@@ -226,6 +234,8 @@
     - type: Implanter
       implant: MicroBombImplant
     - type: Contraband #frontier
+    - type: StaticPrice
+      price: 3333
 
 - type: entity
   id: MacroBombImplanter
@@ -235,6 +245,8 @@
     - type: Implanter
       implant: MacroBombImplant
     - type: Contraband #frontier
+    - type: StaticPrice
+      price: 10000
 
 - type: entity
   id: DeathRattleImplanter
@@ -253,3 +265,5 @@
   - type: Implanter
     implant: DeathAcidifierImplant
   - type: Contraband #frontier
+  - type: StaticPrice
+    price: 250
