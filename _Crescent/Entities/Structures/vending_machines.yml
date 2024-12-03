@@ -151,7 +151,7 @@
   parent: [BaseStructureUnanchorable, VendingMachineWallmount]
   id: OnionAntiquarian
   name: ONION wallconsole
-  description: A wall-mounted computer with a delivery chute to order goods from.
+  description: A wall-mounted computer which delivers its gifts through a chute which reeks of waste.
   components:
   - type: VendingMachine
     pack: OnionInventory
