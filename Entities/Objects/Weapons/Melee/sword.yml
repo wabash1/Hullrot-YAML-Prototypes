@@ -50,7 +50,7 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Slash: 35
+        Slash: 40
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
