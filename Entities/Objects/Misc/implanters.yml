@@ -234,6 +234,8 @@
     - type: Implanter
       implant: MicroBombImplant
     - type: Contraband #frontier
+    - type: StaticPrice
+      price: 3333
 
 - type: entity
   id: MacroBombImplanter
