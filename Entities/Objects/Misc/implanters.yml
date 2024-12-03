@@ -221,6 +221,8 @@
     - type: Implanter
       implant: DnaScramblerImplant
     - type: Contraband #frontier
+    - type: StaticPrice
+      price: 5000
 
 #Nuclear Operative/Special implanters
 
