@@ -106,6 +106,7 @@
     - type: Tag
       tags:
         - CannotSuicide
+        - DoorBumpOpener
 
 # From the uplink injector
 - type: entity
@@ -134,6 +135,8 @@
           map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
           color: "#40a7d7"
           shader: unshaded
+    - type: Guardian
+      distanceAllowed: 15 
     # - type: HTN # Frontier
       # rootTask:
         # task: SimpleHumanoidHostileCompound
