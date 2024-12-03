@@ -1,0 +1,16 @@
+#Unimplemented Custom Mags - Uncomment this should sprites actually be found for this
+- type: entity
+  id: Magazine30Cal
+  name: bullet (.30) #This is the same as 7.62 mm
+  parent: BaseMagazineRifle
+  categories: [ HideSpawnMenu ]
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - Magazine30Cal
+  - type: BallisticAmmoProvider
+    proto: Bullet30Cal
+    mayTransfer: true
+    whitelist: Cartridge30Cal #This doesn't do anything until a rifle actually whitelists this
+    capacity: 25
