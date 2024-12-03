@@ -179,6 +179,8 @@
     - type: Implanter
       implant: FreedomImplant
     - type: Contraband #frontier
+    - type: StaticPrice
+      price: 1666
 
 - type: entity
   id: UplinkImplanter
