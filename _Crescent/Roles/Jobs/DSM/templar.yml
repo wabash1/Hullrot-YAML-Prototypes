@@ -26,6 +26,7 @@
     components:
       - type: ChatRank
         rank: crescent-rank-templar
+      - type: BibleUser
   access:
   - Command
   - Empire
@@ -46,3 +47,4 @@
     shoes: ClothingShoesBootsJack
     gloves: ClothingHandsGlovesImperialLonggloves
     pocket1: ImperialPassportBareLegit
+    pocket2: RomaineBible
