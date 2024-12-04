@@ -28,6 +28,7 @@
   - !type:AddComponentSpecial
     components:
       - type: Telepathic
+      - type: BibleUser
 
 - type: startingGear
   id: TenderGear
@@ -39,3 +40,4 @@
     head: ClothingHeadHatHunterTender
     outerClothing: ClothingOuterArmorHunterTender
     gloves: ClothingHandsGlovesHunter
+    pocket1: RomaineBible
