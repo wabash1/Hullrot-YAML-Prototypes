@@ -505,6 +505,8 @@
           - SmokeOnTrigger
     sprite: Clothing/Belt/belt_overlay.rsi
   - type: Appearance
+  - type: ExplosionResistance
+      damageCoefficient: 0.1
 
 - type: entity
   parent: [ClothingBeltBase, ClothingSlotBase]
