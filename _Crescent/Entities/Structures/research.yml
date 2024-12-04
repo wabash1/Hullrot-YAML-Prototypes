@@ -18,11 +18,8 @@
     - Arsenal
     unlockedTechnologies:
     - SyndicateHardsuit
-    - Sinn #Got to do it for Bo
     - SyndicateClothes
     - SyndicateSmallArms
-    - SyndicateAviation
-    - SyndicateShuttleArmaments
     - SyndicateLongArms
     - SyndicateEwar
   - type: ApcPowerReceiver
