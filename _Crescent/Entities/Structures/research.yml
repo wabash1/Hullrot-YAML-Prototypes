@@ -89,14 +89,9 @@
     unlockedTechnologies:
     - CommieClothes
     - CommieArmor
-    - Fighters
     - CommieHeavyArmor
     - CommieLightArms
     - CommieHeavyArms
-    - CommieAvionics
-    - CommieShuttleguns
-    - CommieShuttlegunsMissile
-    - CommieShuttlegunsUltraheavy
 
   - type: ApcPowerReceiver
     powerLoad: 200
