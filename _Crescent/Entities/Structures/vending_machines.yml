@@ -175,6 +175,8 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
     mod: 3
+  - type: AccessReader
+    access: [["Antiquarian"]]
 
 - type: entity
   parent: [BaseStructureUnanchorable, VendingMachine]
