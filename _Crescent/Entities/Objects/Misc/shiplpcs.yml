@@ -909,6 +909,41 @@
   - type: ShipVoucher
     ship: Templar
 
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherWhiteBastion
+  name: TSP 'White-Bastion' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with an Command-class White Bastion battlecruiser. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 120000
+  - type: ShipVoucher
+    ship: WhiteBastion
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherInterceptor
+  name: TSP 'interceptor' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with TSP 'Interceptor' attack shuttle. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 14000
+  - type: ShipVoucher
+    ship: Interceptor
+
+
 #SRM
 
 - type: entity

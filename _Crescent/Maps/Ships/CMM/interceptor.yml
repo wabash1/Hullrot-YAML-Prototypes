@@ -1,0 +1,30 @@
+# Author Info
+# Discord: mlgtastic
+#
+- type: vessel
+  id: Interceptor
+  name: TSP Interceptor
+  description: A light barely combat worthy vessel.
+  price: 19000
+  category: Small
+  group: None
+  shuttlePath: /Maps/_Crescent/Shuttles/CMM/interceptor.yml
+
+- type: gameMap
+  id: Interceptor
+  mapName: 'TSP Interceptor'
+  mapPath: /Maps/_Crescent/Shuttles/CMM/interceptor.yml
+  minPlayers: 0
+  stations:
+    WhiteBastion:
+      stationProto: StandardCrescentExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'TSP Interceptor {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: VesselDesignation
+          designation: vessel-designation-utility
+        - type: StationJobs
+          overflowJobs: []

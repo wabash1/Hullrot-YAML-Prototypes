@@ -150,6 +150,7 @@
     - Templar
     - Courageous
     - Provost
+    - Interceptor
 
 - type: entity
   id: RefugeMothershipComputer
