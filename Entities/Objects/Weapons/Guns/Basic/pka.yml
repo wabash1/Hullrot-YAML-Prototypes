@@ -20,8 +20,3 @@
     node: start #Frontier
     deconstructionTarget: null #Frontier
   - type: Wieldable # Frontier
-  - type: Gun
-    availableModes: FullAuto
-    fireRate: 5.0
-  - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 5.0
