@@ -1056,6 +1056,8 @@
 #  - type: Reflect # Frontier
 #    reflectProb: 0.1 # Frontier
 
+
+
 - type: entity
   parent: WallSolid
   id: WallShuttleInterior
