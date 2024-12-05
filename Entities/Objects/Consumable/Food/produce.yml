@@ -1345,6 +1345,8 @@
   - type: Tag
     tags:
     - Ambrosia
+  - type: StaticPrice
+    price: 1000
 
 - type: entity
   name: ambrosia deus
