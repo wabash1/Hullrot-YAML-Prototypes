@@ -43,6 +43,7 @@
     ears: ClothingHeadsetEmpire
     neck: ClothingNeckCloakInspector
     jumpsuit: ClothingUniformJumpsuitImperialCombat
+    back: ClothingBackpackDSMFilledSoldier
     shoes: ClothingShoesBootsJack
     gloves: ClothingHandsGlovesImperialLonggloves
     pocket1: ImperialPassportBareLegit
