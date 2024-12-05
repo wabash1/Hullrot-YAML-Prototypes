@@ -506,7 +506,7 @@
     sprite: Clothing/Belt/belt_overlay.rsi
   - type: Appearance
   - type: ExplosionResistance
-      damageCoefficient: 0.1
+      damageCoefficient: 0.5
 
 - type: entity
   parent: [ClothingBeltBase, ClothingSlotBase]
@@ -623,7 +623,7 @@
   - type: Clothing
     sprite: Clothing/Belt/securitywebbing.rsi
   - type: ExplosionResistance
-    damageCoefficient: 0.1
+    damageCoefficient: 0.5
 
 - type: entity
   parent: ClothingBeltStorageBase
