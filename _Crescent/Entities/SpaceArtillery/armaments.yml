@@ -623,6 +623,8 @@
   - type: HitscanBatteryAmmoProvider
     proto: Mining
     fireCost: 5000
+    shots: 5
+    capacity: 20
   - type: ItemSlots
   - type: ContainerContainer
     containers:
