@@ -28,3 +28,5 @@
           designation: vessel-designation-utility
         - type: StationJobs
           overflowJobs: []
+          availableJobs:
+            MinutemanCMM: [1, 1]
