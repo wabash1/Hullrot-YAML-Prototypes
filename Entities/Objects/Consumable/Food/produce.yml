@@ -1346,7 +1346,7 @@
     tags:
     - Ambrosia
   - type: StaticPrice
-    price: 1000
+    price: 250
   - type: Contraband
 
 - type: entity
