@@ -133,6 +133,7 @@
   - type: PointLight
     radius: 7
     energy: 3
+  - type: EyeProtection
 
 - type: entity
   parent: ClothingHeadHardsuitBase
@@ -156,6 +157,7 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+  - type: EyeProtection
 
 #Security Hardsuit
 - type: entity
