@@ -6,6 +6,9 @@
   components:
     - type: HumanoidAppearance
       species: Synthetic
+      hideLayersOnEquip:
+      - Hair
+      - Snout
     - type: Carriable # Carrying system from nyanotrasen.
     - type: Icon
       sprite: Mobs/Species/Human/parts.rsi
@@ -14,4 +17,14 @@
       prototype: Synthetic
       requiredLegs: 2
     - type: Damageable
-      damageContainer: Inorganic
+      damageContainer: Silicon
+    - type: Butcherable
+      butcheringType: Spike
+      spawned:
+      - id: PowerCellHigh
+        amount: 1
+    
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobSyntheticDummy
+  categories: [ HideSpawnMenu ]
