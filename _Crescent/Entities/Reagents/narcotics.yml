@@ -20,7 +20,7 @@
         probability: 0.2
       - !type:MovespeedModifier
         walkSpeedModifier: 1.35
-        sprintSpeedModifier: 3 # 4.35 is way way too much
+        sprintSpeedModifier: 3 # SPEEEEEEED
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
