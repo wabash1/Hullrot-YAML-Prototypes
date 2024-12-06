@@ -41,6 +41,13 @@
     - type: PowerCellDraw
       drawRate: 0.2
     - type: Flashable
+    - type: DamageVisuals
+      damageOverlayGroups:
+      Brute:
+        sprite: Mobs/Effects/brute_damage.rsi
+        color: "#DFDFDF"
+      Burn:
+        sprite: Mobs/Effects/burn_damage.rsi
 
     
     
