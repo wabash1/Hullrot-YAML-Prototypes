@@ -52,6 +52,11 @@
         color: "#DFDFDF"
       Burn:
         sprite: Mobs/Effects/burn_damage.rsi
+    - type: MobThresholds
+      thresholds:
+      0: Alive
+      100: Critical
+      9990: Dead #Repair Synthetics from the dead
 
     
     
