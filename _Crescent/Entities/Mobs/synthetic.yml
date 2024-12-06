@@ -27,6 +27,7 @@
     - type: ContainerContainer
       containers:
       borg_brain: !type:ContainerSlot { }
+      cell_slot: !type:ContainerSlot { }
     - type: Speech
       speechVerb: Robotic
       speechSounds: Borg
