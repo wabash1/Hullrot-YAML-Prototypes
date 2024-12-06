@@ -23,6 +23,15 @@
       spawned:
       - id: PowerCellHigh
         amount: 1
+    - type: ContainerContainer
+      containers:
+      borg_brain: !type:ContainerSlot { }
+    - type: Speech
+      speechVerb: Robotic
+      speechSounds: Borg
+    - type: Repairable
+      selfRepairPenalty: 1.0
+    
     
 - type: entity
   parent: BaseSpeciesDummy
