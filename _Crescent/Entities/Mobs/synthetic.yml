@@ -2,6 +2,7 @@
 - type: species
   parent: BaseMobSpecies
   id: BaseMobSynthetic
+  name: Urist McMachine
   abstract: true
   components:
     - type: HumanoidAppearance
@@ -31,6 +32,11 @@
       speechSounds: Borg
     - type: Repairable
       selfRepairPenalty: 1.0
+    - type: PowerCellSlot
+      cellSlotId: cell_slot
+      fitsInCharger: true
+    - type: PowerCellDraw
+      drawRate: 0.2
     
     
 - type: entity
