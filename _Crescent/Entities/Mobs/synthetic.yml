@@ -28,6 +28,9 @@
       containers:
       borg_brain: !type:ContainerSlot { }
       cell_slot: !type:ContainerSlot { }
+    - type: SiliconLawProvider
+      laws: Crewsimov #Placeholder, fuck Crewsimov
+    - type: BorgChassis
     - type: TypingIndicator
       proto: robot
     - type: Speech
@@ -41,6 +44,7 @@
     - type: PowerCellDraw
       drawRate: 0.2
     - type: Flashable
+    - type: IonStormTarget
     - type: DamageVisuals
       damageOverlayGroups:
       Brute:
