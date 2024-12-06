@@ -28,6 +28,10 @@
       containers:
       borg_brain: !type:ContainerSlot { }
       cell_slot: !type:ContainerSlot { }
+    - type: UserInterface
+      interfaces:
+        enum.SiliconLawsUiKey.Key:
+          type: SiliconLawBoundUserInterface
     - type: SiliconLawProvider
       laws: Crewsimov #Placeholder, fuck Crewsimov
     - type: BorgChassis
