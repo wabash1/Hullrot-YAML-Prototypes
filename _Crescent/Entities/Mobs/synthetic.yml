@@ -57,6 +57,7 @@
       0: Alive
       100: Critical
       9990: Dead #Repair Synthetics from the dead
+    - type: Uncloneable
 
     
     
