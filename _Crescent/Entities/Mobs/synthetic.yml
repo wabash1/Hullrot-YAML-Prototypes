@@ -32,6 +32,7 @@
       interfaces:
         enum.SiliconLawsUiKey.Key:
           type: SiliconLawBoundUserInterface
+    - type: SiliconLawBound
     - type: SiliconLawProvider
       laws: Crewsimov #Placeholder, fuck Crewsimov
     - type: BorgChassis
