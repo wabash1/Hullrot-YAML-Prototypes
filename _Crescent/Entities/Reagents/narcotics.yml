@@ -125,6 +125,7 @@
           groups:
             Brute: -16 # heals half as fast due to faster metabolisn, its -8 per half a second.
             Burn: -4
+            Airloss: -2
       - !type:AdjustTemperature
         conditions:
         - !type:ReagentThreshold
@@ -184,7 +185,7 @@
         - !type:ReagentThreshold
           min: 1
       - !type:ModifyBleedAmount
-        amount: -1.0
+        amount: 0.1 # makes you bleed
       - !type:AdjustTemperature
         conditions:
         - !type:ReagentThreshold
