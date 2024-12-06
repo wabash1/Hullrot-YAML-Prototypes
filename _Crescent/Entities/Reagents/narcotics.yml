@@ -93,8 +93,8 @@
         time: 6
         refresh: false
       - !type:MovespeedModifier
-        walkSpeedModifier: 1.35
-        sprintSpeedModifier: 2.35
+        walkSpeedModifier: 1.5
+        sprintSpeedModifier: 2
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
