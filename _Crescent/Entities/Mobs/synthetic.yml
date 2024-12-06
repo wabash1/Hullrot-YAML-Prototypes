@@ -28,6 +28,8 @@
       containers:
       borg_brain: !type:ContainerSlot { }
       cell_slot: !type:ContainerSlot { }
+    - type: TypingIndicator
+      proto: robot
     - type: Speech
       speechVerb: Robotic
       speechSounds: Borg
@@ -38,6 +40,8 @@
       fitsInCharger: true
     - type: PowerCellDraw
       drawRate: 0.2
+    - type: Flashable
+
     
     
 - type: entity
