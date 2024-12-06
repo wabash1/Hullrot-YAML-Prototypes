@@ -63,6 +63,9 @@
       100: Critical
       9990: Dead #Repair Synthetics from the dead
     - type: Uncloneable
+    - type: Bloodstream
+      bloodReagent: syntheticBlood
+      
 
     
     
