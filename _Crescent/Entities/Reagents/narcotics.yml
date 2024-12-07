@@ -177,9 +177,9 @@
       - !type:HealthChange
         damage:
           groups:
-          Brute: -12 # heals -6 per half a second due to faster metabolism
-          Burn: -4
-          Airloss: -2
+            Brute: -12 # heals -6 per half a second due to faster metabolism
+            Burn: -4
+            Airloss: -2
       - !type:ResetNarcolepsy
         conditions:
         - !type:ReagentThreshold
