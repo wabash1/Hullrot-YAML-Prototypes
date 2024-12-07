@@ -18,6 +18,7 @@
     components:
       - type: ChatRank
         rank: crescent-rank-smarts
+      - type: BibleUser
   access:
   - Command
   - Empire
@@ -34,6 +35,7 @@
     id: ScribePDA
     ears: ClothingHeadsetEmpireCiv
     pocket1: ImperialPassportBareLegit
+    pocket2: RomaineBible
     mask: ClothingMaskImperialAdjutantMask
     shoes: ClothingShoesBootsImperialClogs
     jumpsuit: ClothingUniformJumpsuitImperialDoctor
