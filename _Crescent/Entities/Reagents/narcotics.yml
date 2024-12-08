@@ -40,7 +40,7 @@
         conditions:
         - !type:ReagentThreshold
             min: 35
-        amount: 10000 # ups temp by like 5c per half a second of overdosing
+        amount: 20000 # ups temp by like 10c per half a second of overdosing
       - !type:Emote
         emote: Crying
         showInChat: true
@@ -124,13 +124,13 @@
         damage:
           groups:
             Brute: -16 # heals half as fast due to faster metabolisn, its -8 per half a second.
-            Burn: -4
+            Burn: -1
             Airloss: -2
       - !type:AdjustTemperature
         conditions:
         - !type:ReagentThreshold
             min: 40
-        amount: 10000 # ups temp by like 5c per half a second of overdosing
+        amount: 30000 # ups temp by like 15c per half a second of overdosing
       
 
 - type: reagent
@@ -178,14 +178,13 @@
         damage:
           groups:
             Brute: -12 # heals -6 per half a second due to faster metabolism
-            Burn: -4
             Airloss: -2
       - !type:ResetNarcolepsy
         conditions:
         - !type:ReagentThreshold
           min: 1
       - !type:ModifyBleedAmount
-        amount: 0.1 # makes you bleed
+        amount: 0.5 # one stim eventually applies full bleed stacks.
       - !type:AdjustTemperature
         conditions:
         - !type:ReagentThreshold
