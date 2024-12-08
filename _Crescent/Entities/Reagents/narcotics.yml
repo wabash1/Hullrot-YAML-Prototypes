@@ -103,7 +103,7 @@
         - !type:ReagentThreshold
           reagent: Crash
           min: 1
-        damage:
+      - damage:
           types:
             Poison: 5
 
