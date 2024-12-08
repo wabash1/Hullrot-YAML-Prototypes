@@ -632,7 +632,7 @@
   - type: NavMapBeacon
     defaultText: station-beacon-escape-pod
 
-    - type: entity
+- type: entity
   parent: DefaultStationBeacon
   id: DefaultStationBeaconKeep
   suffix: The Keep
@@ -642,7 +642,7 @@
 
 - type: entity
   parent: DefaultStationBeacon
-  id: DefaultStationBeaconKeep
+  id: DefaultStationBeaconQuestions
   suffix: House of Questions
   components:
   - type: NavMapBeacon
@@ -650,7 +650,7 @@
 
 - type: entity
   parent: DefaultStationBeacon
-  id: DefaultStationBeaconKeep
+  id: DefaultStationBeaconFactory
   suffix: Ministry of Labor
   components:
   - type: NavMapBeacon
