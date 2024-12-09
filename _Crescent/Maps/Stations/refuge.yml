@@ -22,7 +22,7 @@
           overflowJobs: []
           availableJobs:
             OverseerSRM: [ 1, 1 ]
-            MontagneSRM: [ 2, 2 ]
-            HunterSRM: [ 6, 6 ]
+            MontagneSRM: [ 1, 1 ]
+            HunterSRM: [ 3, 3 ]
             TenderSRM: [ 2, 2 ]
-            AcolyteSRM: [ 4, 4 ]
+            AcolyteSRM: [ 2, 2 ]
