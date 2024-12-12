@@ -44,7 +44,7 @@
     ears: ClothingHeadsetEmpire
     jumpsuit: ClothingUniformJumpsuitImperialCombat
     shoes: ClothingShoesBootsImperialJackboots
-    head: ClothingHeadHelmetImperialTrooperHelmet
-    outerClothing: ClothingOuterArmorImperialTrooperArmor
+    head: ClothingHeadHelmetImperialKnightCommanderHelmet
+    outerClothing: ClothingOuterArmorImperialArmorPrestige
     gloves: ClothingHandsGlovesImperialLonggloves
     pocket1: ImperialPassportBareLegit
