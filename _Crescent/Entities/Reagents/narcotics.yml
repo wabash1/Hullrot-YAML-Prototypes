@@ -20,7 +20,7 @@
         probability: 0.2
       - !type:MovespeedModifier
         walkSpeedModifier: 1.35
-        sprintSpeedModifier: 3 # SPEEEEEEED
+        sprintSpeedModifier: 2.3 # SPEEEEEEED
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
@@ -40,7 +40,7 @@
         conditions:
         - !type:ReagentThreshold
             min: 35
-        amount: 20000 # ups temp by like 10c per half a second of overdosing
+        amount: 20000 # ups temp by like 20c per unit of OD
       - !type:Emote
         emote: Crying
         showInChat: true
@@ -82,7 +82,7 @@
           max: 50
         damage:
           groups:
-            Brute: -2
+            Brute: -2 # heals 4 per unit at 2 per second and heals less per unit
             Burn: -1
     Narcotic:
       effects:
@@ -123,7 +123,7 @@
       - !type:HealthChange
         damage:
           groups:
-            Brute: -16 # heals half as fast due to faster metabolisn, its -8 per half a second.
+            Brute: -16 # heals 16 per unit at 16 per second
             Burn: -1
             Airloss: -2
       - !type:AdjustTemperature
@@ -148,7 +148,7 @@
       - !type:HealthChange
         damage:
           groups:
-            Brute: -4
+            Brute: -4 # heals 8 per unit at 4 per second
           types:
             Poison: -2.0
             Heat: -0.6
@@ -172,12 +172,12 @@
   color: "#FF7F7F"
   metabolisms:
     Medicine:
-      metabolismRate: 1 # makes the stim last half as long
+      metabolismRate: 1 # makes the stim last half as long and heals less per unit
       effects:
       - !type:HealthChange
         damage:
           groups:
-            Brute: -12 # heals -6 per half a second due to faster metabolism
+            Brute: -8 # heals 8 per unit at 8 per second
             Airloss: -2
       - !type:ResetNarcolepsy
         conditions:
