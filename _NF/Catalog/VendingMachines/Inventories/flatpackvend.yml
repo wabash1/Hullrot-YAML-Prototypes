@@ -24,3 +24,6 @@
     AirlockGlassFlatpack: 20
     AirlockShuttleFlatpack: 20
     AirlockGlassShuttleFlatpack: 20
+    ShutterFlatpack: 20
+    ShuttersWindowFlatpack: 15
+    BlastDoorFlatpack: 12
