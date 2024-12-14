@@ -20,7 +20,7 @@
   name: materials-scrap-steelrefined
   unit: materials-unit-chunk
   icon: { sprite: Objects/Materials/ore.rsi, state: icon-refinedscrap }
-  price: 0.2
+  price: 0.3
 
 - type: material
   id: RefinedScrapTitanium
@@ -28,7 +28,7 @@
   name: materials-scrap-titaniumrefined
   unit: materials-unit-chunk
   icon: { sprite: Objects/Materials/ore.rsi, state: icon-titta }
-  price: 0.23
+  price: 0.4
 
 #drugmaking stuff
 
@@ -46,7 +46,7 @@
   name: materials-refined-garbage
   unit: materials-unit-chunk
   icon: { sprite: Objects/Materials/ore.rsi, state: refinedgarbage }
-  price: 0.02
+  price: 0.05
 
 - type: material
   id: PlasmaIsotope

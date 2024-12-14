@@ -10,6 +10,8 @@
     state: combat_hypo
   - type: GuardianCreator
     guardianProto: MobHoloparasiteGuardian
+  - type: StaticPrice
+    price: 4166
 
 - type: entity
   name: magical lamp

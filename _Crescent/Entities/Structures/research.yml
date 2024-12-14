@@ -16,6 +16,12 @@
     supportedDisciplines:
     - Pirate
     - Arsenal
+    unlockedTechnologies:
+    - SyndicateHardsuit
+    - SyndicateClothes
+    - SyndicateSmallArms
+    - SyndicateLongArms
+    - SyndicateEwar
   - type: ApcPowerReceiver
     powerLoad: 200
   - type: ExtensionCableReceiver
@@ -80,6 +86,13 @@
     - Industrial
     - CivilianServices
     - Communard
+    unlockedTechnologies:
+    - CommieClothes
+    - CommieArmor
+    - CommieHeavyArmor
+    - CommieLightArms
+    - CommieHeavyArms
+
   - type: ApcPowerReceiver
     powerLoad: 200
   - type: ExtensionCableReceiver
@@ -143,6 +156,14 @@
     supportedDisciplines:
     - Imperial
     - Arsenal
+    unlockedTechnologies:
+    - ImperialHardsuit
+    - ImperialClothes #They're fucking clothes. Why the fuck do you have to research this in the first place?
+    - ImperialLightArms
+    - ImperialLongarms
+    - ImperialArmor
+    - ImperialLaserguns
+    - ImperialSword
   - type: ApcPowerReceiver
     powerLoad: 200
   - type: ExtensionCableReceiver

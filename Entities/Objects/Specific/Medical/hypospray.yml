@@ -433,7 +433,7 @@
   - type: UseDelay
     delay: 0.5
   - type: StaticPrice # A new shitcurity meta
-    price: 75
+    price: 5000
   - type: Contraband #frontier
 
 - type: entity

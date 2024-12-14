@@ -36,6 +36,7 @@
         sound:
           collection: MetalBreak
   - type: Pullable
+  - type: NotDisposable
 
 - type: entity
   parent: BaseTradeItem

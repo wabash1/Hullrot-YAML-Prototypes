@@ -631,3 +631,27 @@
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-escape-pod
+
+- type: entity
+  parent: DefaultStationBeacon
+  id: DefaultStationBeaconKeep
+  suffix: The Keep
+  components:
+  - type: NavMapBeacon
+    defaultText: station-beacon-keep
+
+- type: entity
+  parent: DefaultStationBeacon
+  id: DefaultStationBeaconQuestions
+  suffix: House of Questions
+  components:
+  - type: NavMapBeacon
+    defaultText: station-beacon-questions
+
+- type: entity
+  parent: DefaultStationBeacon
+  id: DefaultStationBeaconFactory
+  suffix: Ministry of Labor
+  components:
+  - type: NavMapBeacon
+    defaultText: station-beacon-factory
