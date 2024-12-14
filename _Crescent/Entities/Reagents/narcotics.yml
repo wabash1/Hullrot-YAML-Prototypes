@@ -117,8 +117,8 @@
   flavor: holy
   color: "#00e5ff"
   metabolisms:
-    metabolismRate: 1 # stim lasts half as long
     Medicine:
+      metabolismRate: 2
       effects:
       - !type:HealthChange
         damage:
