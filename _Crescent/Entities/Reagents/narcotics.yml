@@ -118,7 +118,7 @@
   color: "#00e5ff"
   metabolisms:
     Medicine:
-      metabolismRate: 2
+      metabolismRate: 5
       effects:
       - !type:HealthChange
         damage:
