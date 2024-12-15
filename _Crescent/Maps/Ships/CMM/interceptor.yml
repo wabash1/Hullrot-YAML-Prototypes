@@ -16,7 +16,7 @@
   mapPath: /Maps/_Crescent/Shuttles/CMM/interceptor.yml
   minPlayers: 0
   stations:
-    WhiteBastion:
+    Interceptor:
       stationProto: StandardCrescentExpeditionVessel
       components:
         - type: StationNameSetup

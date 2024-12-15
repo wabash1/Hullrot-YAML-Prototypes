@@ -179,6 +179,7 @@
     - state: icon
   - type: StaticPrice
     price: 3500
+  - type: Contraband
 
 #refined scrap
 

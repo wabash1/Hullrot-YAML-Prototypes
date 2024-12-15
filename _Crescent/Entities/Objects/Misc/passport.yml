@@ -51,6 +51,7 @@
     delay: 1.0
   - type: StaticPrice
     price: 1250
+  - type: Contraband
 
 - type: entity
   parent: BaseItem
@@ -153,6 +154,7 @@
           False: { state: icon }
   - type: UseDelay
     delay: 1.0
+  - type: Contraband
 
 #trade permit
 

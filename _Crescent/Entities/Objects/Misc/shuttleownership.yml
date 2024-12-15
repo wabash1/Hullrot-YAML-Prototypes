@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ShuttleOwnershipChip
-  name: Shuttle Ownership Chip
-  description: A chip that denotes the owner of a shuttle. It bears the symbol of a now-defunct paramilitary corporation.
+  name: SOC encryption chip
+  description: A 'Shuttle Ownership Chip' magnetically burned with the ownership deed of a sovereign vessel.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Misc/shuttledeed.rsi
