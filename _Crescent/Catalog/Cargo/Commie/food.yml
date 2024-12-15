@@ -10,7 +10,7 @@
   group: surezai
 
 - type: cargoProduct
-  id: FoodBarSupplySurezai
+  id: FoodBarSupplycommie
   icon:
     sprite: Objects/Consumable/Drinks/beerglass.rsi
     state: icon
