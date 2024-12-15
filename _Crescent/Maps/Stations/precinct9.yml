@@ -1,6 +1,6 @@
 - type: gameMap
   id: Precinct9
-  mapName: 'Precinct 9'
+  mapName: 'TSP Proctor Annalise'
   mapPath: /Maps/_Crescent/Stations/precinct9.yml
   minPlayers: 0
   stations:
@@ -8,10 +8,9 @@
       stationProto: StandardCrescentStation
       gridComponents:
         - type: BlockShipWeaponProjectileGrid
-        - type: PreventPilot
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Precinct 9'
+          mapNameTemplate: 'TSP Proctor Annalise'
         - type: Grammar
           attributes:
             proper: true
