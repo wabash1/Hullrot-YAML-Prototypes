@@ -1,10 +1,10 @@
 ﻿- type: spaceBiome
   id: DevilsMawWrecks
   priority: 1000
-  minX: 62
-  maxX: 88
-  minY: 62
-  maxY: 79
+  minX: 50
+  maxX: 72
+  minY: 24
+  maxY: 46
   noiseRanges: {}
   chunkComponents:
     - type: DebrisFeaturePlacerController
@@ -32,10 +32,10 @@
 - type: spaceBiome
   id: GenericWrecks1
   priority: 1000
-  minX: 32
-  maxX: 28
-  minY: 12
-  maxY: 9
+  minX: -10
+  maxX: 10
+  minY: 59
+  maxY: 81
   noiseRanges: {}
   chunkComponents:
     - type: DebrisFeaturePlacerController
@@ -63,10 +63,10 @@
 - type: spaceBiome
   id: GenericWrecks2
   priority: 1000
-  minX: -32
-  maxX: -20
-  minY: -12
-  maxY: -9
+  minX: -10
+  maxX: 10
+  minY: -10
+  maxY: 10
   noiseRanges: {}
   chunkComponents:
     - type: DebrisFeaturePlacerController
@@ -125,10 +125,10 @@
 - type: spaceBiome
   id: HayesWrecks
   priority: 1041
-  minX: -30
-  maxX: -20
-  minY: 40
-  maxY: 55
+  minX: -1
+  maxX: 1
+  minY: -1
+  maxY: 1
   noiseRanges: {}
   chunkComponents:
     - type: DebrisFeaturePlacerController
@@ -164,10 +164,10 @@
 - type: spaceBiome
   id: AsteroidsStandardShinohara
   priority: 1005
-  minX: 30
-  maxX: 65
-  minY: -5
-  maxY: 15
+  minX: 13
+  maxX: 33
+  minY: 25
+  maxY: 45
   noiseRanges: {}
   chunkComponents:
     - type: DebrisFeaturePlacerController
@@ -208,10 +208,10 @@
 - type: spaceBiome
   id: AsteroidsStandardTaypanOne
   priority: 1123
-  minX: 1
-  maxX: 13
-  minY: 36
-  maxY: 47
+  minX: 19
+  maxX: 27
+  minY: 31
+  maxY: 39
   noiseRanges: {}
   chunkComponents:
     - type: DebrisFeaturePlacerController
@@ -250,10 +250,10 @@
 - type: spaceBiome
   id: CrastersGrave
   priority: 1124
-  minX: -60
-  maxX: -40
-  minY: -110
-  maxY: -80
+  minX: 21
+  maxX: 25
+  minY: 32
+  maxY: 37
   noiseRanges: {}
   chunkComponents:
     - type: DebrisFeaturePlacerController
