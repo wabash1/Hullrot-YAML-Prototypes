@@ -80,6 +80,7 @@
     shuttles:
     - Hulk
     - Meatwagon
+    - Matabele
 
 - type: entity
   id: SawsMothershipComputer

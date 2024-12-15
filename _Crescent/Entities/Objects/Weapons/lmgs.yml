@@ -56,6 +56,7 @@
     price: 5500
   - type: UseDelay
     delay: 1
+  - type: Contraband
 
 - type: entity
   name: NCWL .30 Conscript
@@ -75,3 +76,4 @@
     steps: 4
     zeroVisible: true
   - type: Appearance
+  - type: Contraband

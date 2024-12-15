@@ -1,26 +1,26 @@
 # Author Info
-# Discord: mlgtastic
+# Discord: fleshangel
 #
 - type: vessel
-  id: Interceptor
-  name: TSP Interceptor
-  description: A light barely combat worthy vessel.
-  price: 19000
+  id: Matabele
+  name: TFSC Matabele
+  description: A stealth-capable ambulance pod.
+  price: 30000
   category: Small
   group: None
-  shuttlePath: /Maps/_Crescent/Shuttles/CMM/interceptor.yml
+  shuttlePath: /Maps/_Crescent/Shuttles/NCSP/matabele.yml
 
 - type: gameMap
-  id: Interceptor
-  mapName: 'TSP Interceptor'
-  mapPath: /Maps/_Crescent/Shuttles/CMM/interceptor.yml
+  id: Matabele
+  mapName: 'TFSC Matabele'
+  mapPath: /Maps/_Crescent/Shuttles/NCSP/matabele.yml
   minPlayers: 0
   stations:
-    Interceptor:
+    Matabele:
       stationProto: StandardCrescentExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'TSP Interceptor {1}'
+          mapNameTemplate: 'IPM Matabele {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
@@ -29,4 +29,4 @@
         - type: StationJobs
           overflowJobs: []
           availableJobs:
-            MinutemanCMM: [1, 1]
+            ChemcookNCSP: [ 0, 0 ]
