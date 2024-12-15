@@ -9,7 +9,6 @@
       containers:
         key_slots:
           - EncryptionKeyNfsd
-          - EncryptionKeyEmpire
           - EncryptionKeyTraffic
     - type: Sprite
       sprite: Clothing/Ears/Headsets/cmm.rsi
