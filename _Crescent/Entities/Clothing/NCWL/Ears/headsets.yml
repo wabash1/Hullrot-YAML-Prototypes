@@ -92,7 +92,7 @@
       containers:
         key_slots:
           - EncryptionKeyEmpire
-          - EncryptionKeyNfsd
+          - EncryptionKeyEmpireCiv
           - EncryptionKeyTraffic
     - type: Sprite
       sprite: Clothing/Ears/Headsets/brigmedic.rsi
@@ -109,7 +109,6 @@
       containers:
         key_slots:
           - EncryptionKeyEmpireCiv
-          - EncryptionKeyNfsd
           - EncryptionKeyTraffic
     - type: Sprite
       sprite: Clothing/Ears/Headsets/brigmedic.rsi
