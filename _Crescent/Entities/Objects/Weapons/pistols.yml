@@ -170,6 +170,84 @@
 
 #single use pistols
 
+#single use pistols
+
+
+#single use pistol base
+
+- type: entity
+  name: BasePistolOneuse
+  parent: BaseItem
+  id: BasePistolOneuse
+  description: A rooty tooty point and shooty.
+  abstract: true
+  components:
+  - type: Sprite
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,1,0
+    - 0,1,0,1
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Pistols/viper.rsi
+    quickEquip: false
+    slots:
+    - suitStorage
+    - Belt
+  - type: Gun
+    fireRate: 3
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+      - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 500
+
+#single use pistols actual
+
+- type: entity
+  name: SHI Blastpop 'Cherry Red'
+  parent: BasePistolOneuse
+  id: WeaponPistolBlastpopRed
+  description: A mass-produced, 3D printed sidearm. Unable to be reloaded after use. Just twist the plastic key on top to rack the first round, and blast away.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Weapons/disposableguns/red.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Crescent/Objects/Weapons/disposableguns/red.rsi
+  - type: Gun
+    fireRate: 2
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/hpistol.ogg
+  - type: StaticPrice
+    price: 100
+  - type: BallisticAmmoProvider
+    proto: Bullet6mm
+    capacity: 20
+
 - type: entity
   name: SHI Blastpop 'Cherry Red'
   parent: BaseWeaponPistol
@@ -194,8 +272,9 @@
       path: /Audio/Weapons/Guns/Gunshots/hpistol.ogg
   - type: StaticPrice
     price: 100
-  - type: ChamberMagazineAmmoProvider
-    oneUseOnly: true
+  - type: BallisticAmmoProvider
+    proto: CartridgePistol6mm
+    capacity: 20
 
 - type: entity
   name: SHI Blastpop 'Lavender Purple'
@@ -220,8 +299,9 @@
       path: /Audio/Weapons/Guns/Gunshots/hpistol.ogg
   - type: StaticPrice
     price: 100
-  - type: ChamberMagazineAmmoProvider
-    oneUseOnly: true
+  - type: BallisticAmmoProvider
+    proto: CartridgePistol6mm
+    capacity: 20
 
 - type: entity
   name: SHI Blastpop 'Lethal Gray'
@@ -246,8 +326,9 @@
       path: /Audio/Weapons/Guns/Gunshots/hpistol.ogg
   - type: StaticPrice
     price: 100
-  - type: ChamberMagazineAmmoProvider
-    oneUseOnly: true
+  - type: BallisticAmmoProvider
+    proto: CartridgePistol6mm
+    capacity: 20
 
 - type: entity
   name: SHI Blastpop 'Poison Green'
@@ -272,8 +353,9 @@
       path: /Audio/Weapons/Guns/Gunshots/hpistol.ogg
   - type: StaticPrice
     price: 100
-  - type: ChamberMagazineAmmoProvider
-    oneUseOnly: true
+  - type: BallisticAmmoProvider
+    proto: CartridgePistol6mm
+    capacity: 20
 
 - type: entity
   name: SHI Blastpop 'Royal Gold'
@@ -298,8 +380,9 @@
       path: /Audio/Weapons/Guns/Gunshots/hpistol.ogg
   - type: StaticPrice
     price: 100
-  - type: ChamberMagazineAmmoProvider
-    oneUseOnly: true
+  - type: BallisticAmmoProvider
+    proto: CartridgePistol6mm
+    capacity: 20
 
 - type: entity
   name: SHI Blastpop 'Fresh Blue'
@@ -324,8 +407,9 @@
       path: /Audio/Weapons/Guns/Gunshots/hpistol.ogg
   - type: StaticPrice
     price: 100
-  - type: ChamberMagazineAmmoProvider
-    oneUseOnly: true
+  - type: BallisticAmmoProvider
+    proto: CartridgePistol6mm
+    capacity: 20
 
 - type: entity
   name: IRM NeoVolker Tribune M-8 .45
