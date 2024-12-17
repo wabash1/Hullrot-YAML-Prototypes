@@ -448,6 +448,44 @@
   - type: Flatpack
     entity: AirlockGlassShuttle
 
+# Shutters and Blast Doors
+
+#shutter
+- type: entity
+  parent: BaseNFFlatpack
+  id: ShutterFlatpack
+  name: shutter flatpack
+  description: A flatpack used for constructing a shutter.
+  components:
+    - type: Flatpack
+      entity: BaseShutter
+    - type: StaticPrice
+      price: 50
+
+#shutter window
+- type: entity
+  parent: BaseNFFlatpack
+  id: ShuttersWindowFlatpack
+  name: window shutters flatpack
+  description: A flatpack used for constructing a window shutter.
+  components:
+    - type: Flatpack
+      entity: ShuttersWindow
+    - type: StaticPrice
+      price: 70
+
+#blast door
+- type: entity
+  parent: BaseNFFlatpack
+  id: BlastDoorFlatpack
+  name: blast door flatpack
+  description: A flatpack used for constructing a blast door.
+  components:
+    - type: Flatpack
+      entity: BlastDoor
+    - type: StaticPrice
+      price: 120
+
 # Musical instruments
 - type: entity
   parent: BaseNFFlatpack
