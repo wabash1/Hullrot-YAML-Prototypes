@@ -2,7 +2,7 @@
   name: NCWL Batanya .7.62x51mm
   parent: BaseWeaponRifle
   id: WeaponRifleNCWLBatanya
-  description: An iconic weapon of war. Uses 0.30 rifle ammo. A mass-produced battle rifle made for communard use.
+  description: An iconic weapon of war from the Union Foundry. Developed for use by their Homeguard. Comes equipped with NightGlo tracer dot sights. Chambered in .7.62x51mm, the proletariat's chamber.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/batanya.rsi
@@ -14,7 +14,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/batanyaworn.rsi
   - type: Gun
-    fireRate: 5
+    fireRate: 4
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
   - type: ChamberMagazineAmmoProvider
@@ -52,10 +52,10 @@
 
 
 - type: entity
-  name: IRM Miller .20
+  name: IRM DA-8 Miller .5.56x45mm
   parent: BaseWeaponRifle
   id: WeaponRifleMiller
-  description: A high-end .20 military carbine used and manufactured by the Mandate.
+  description: A mil-grade assault rifle produced by Olywir Armaments, primarily for the Imperial Garrison and Imperial Naval Forces. Comes chambered in light rounds. All flair.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/miller.rsi
@@ -67,26 +67,27 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/miller.rsi
   - type: Gun
+      fireRate: 5
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazineRifle
+        startingItem: MagazineLightRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineRifle
+            - MagazineLightRifle
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeRifle
+        startingItem: CartridgeLightRifle
         priority: 1
         whitelist:
           tags:
-            - CartridgeRifle
+            - CartridgeLightRifle
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -100,10 +101,10 @@
     price: 3500
 
 - type: entity
-  name: Homeguard FAL Mk. II .20
+  name: NCWL MK-2 Falin .5.56x45mm
   parent: BaseWeaponRifle
   id: WeaponRifleFAL
-  description: A high end commie-issue assault rifle. Comes with a bottle opener. Shoots .20 bullets.
+  description: Reverse-engineered from Imperial light battle rifle designs. Sacrifices heavier calibers for better rifling, allowing for more rapid fire.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/galrifle.rsi
@@ -115,26 +116,27 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/galrifle.rsi
   - type: Gun
+      fireRate: 6
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazineRifle
+        startingItem: MagazineLightRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineRifle
+            - MagazineLightRifle
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeRifle
+        startingItem: CartridgeLightRifle
         priority: 1
         whitelist:
           tags:
-            - CartridgeRifle
+            - CartridgeLightRifle
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -149,10 +151,10 @@
 
 
 - type: entity
-  name: AKMS-74U Krinkov
+  name: PTA AKMS-74U Krinkov .7.62x51mm
   parent: BaseWeaponRifle
   id: WeaponRifleKrinkov
-  description: A light rifle - commonly attributed to terrorist groups. Cheap and easily made.
+  description: A shortened battle rifle, replicated from Terran designs by Pang Tai - commonly attributed to terrorist groups. Cheap and easily made.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/krinkov.rsi
@@ -164,6 +166,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/krinkov.rsi
   - type: Gun
+      fireRate: 3
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/krinkov.ogg
   - type: ItemSlots
@@ -197,10 +200,10 @@
     price: 800
 
 - type: entity
-  name: NCSP Halyad .20
+  name: PTA 3AX Halyad 12.7×99mm
   parent: BaseWeaponRifle
   id: WeaponRifleHalyadMarksman
-  description: A mass-produced marksman's rifle produced by and for the Gorlex elite.
+  description: A hefty long-range precision rifle. Packs devastating 12.7x99mm punches. Developed as part of Pang Tai's mercenary package.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/halyad.rsi
@@ -221,20 +224,20 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazineRifle
+        startingItem: MagazineHeavyRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineRifle
+            - MagazineHeavyRifle
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeRifle
+        startingItem: CartridgeHeavyRifle
         priority: 1
         whitelist:
           tags:
-            - CartridgeRifle
+            - CartridgeHeavyRifle
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -248,10 +251,10 @@
     price: 1000
 
 - type: entity
-  name: SHI Hound .20
+  name: SHI M215s Hound .5.56x45mm
   parent: BaseWeaponRifle
   id: WeaponRifleHoundMarksman
-  description: A mass-produced marksman's rifle. Has a corporate SHI logo stamped at the butt of the stock.
+  description: A cheap marksman's rifle, one of the few weapons produced for an external market by Shinohara Heavy Industries. Often seen in the hands of wanna-be mercs and thugs.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/hound.rsi
@@ -272,20 +275,20 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazineRifle
+        startingItem: MagazineLightRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineRifle
+            - MagazineLightRifle
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeRifle
+        startingItem: CartridgeLightRifle
         priority: 1
         whitelist:
           tags:
-            - CartridgeRifle
+            - CartridgeLightRifle
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -299,10 +302,10 @@
     price: 1000
 
 - type: entity
-  name: IRM Hunter .20
+  name: HP Hunter .5.56x45mm
   parent: BaseWeaponRifle
   id: WeaponRifleHunter
-  description: A marksman's rifle of Imperial make, repurposed as a mainline battle carbine amongst the Hunters.
+  description: A marksman's rifle of foreign make, repurposed as a mainline battle carbine amongst the predators of this Sector.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/hunter.rsi
@@ -323,16 +326,16 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazineRifle
+        startingItem: MagazineLightRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineRifle
+            - MagazineLightRifle
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeRifle
+        startingItem: CartridgeLightRifle
         priority: 1
         whitelist:
           tags:
