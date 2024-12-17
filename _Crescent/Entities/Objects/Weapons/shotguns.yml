@@ -1,5 +1,5 @@
 - type: entity
-  name: NT SPAS-13
+  name: NT SPAS-13 12g
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunSpas
   description: A premium combat shotgun ripped from ancient Terran designs. Originates from the now-defunct NanoTrasen.
