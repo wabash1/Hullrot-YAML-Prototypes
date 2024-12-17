@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgePistol
-  name: cartridge (.35 auto)
+  name: cartridge (9x19mm PSTF auto)
   parent: BaseCartridge
   abstract: true
   components:
@@ -22,7 +22,7 @@
 
 - type: entity
   id: CartridgePistol
-  name: cartridge (.35 auto)
+  name: cartridge (9x19mm PSTF auto)
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -30,7 +30,7 @@
 
 - type: entity
   id: CartridgePistolPractice
-  name: cartridge (.35 auto practice)
+  name: cartridge (9x19mm PSTF auto practice)
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -60,7 +60,7 @@
 
 - type: entity
   id: CartridgePistolUranium
-  name: cartridge (.35 auto uranium)
+  name: cartridge (9x19mm PSTF auto uranium)
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
