@@ -151,7 +151,7 @@
 
 
 - type: entity
-  name: PTA AKMS-74U Krinkov .7.62x51mm
+  name: PTA AKMS-74U Krinkov 7.62x51mm
   parent: BaseWeaponRifle
   id: WeaponRifleKrinkov
   description: A shortened battle rifle, replicated from Terran designs by Pang Tai - commonly attributed to terrorist groups. Cheap and easily made.
@@ -251,7 +251,7 @@
     price: 1000
 
 - type: entity
-  name: SHI M215s Hound .5.56x45mm
+  name: SHI M215s Hound 5.56x45mm
   parent: BaseWeaponRifle
   id: WeaponRifleHoundMarksman
   description: A cheap marksman's rifle, one of the few weapons produced for an external market by Shinohara Heavy Industries. Often seen in the hands of wanna-be mercs and thugs.
@@ -302,7 +302,7 @@
     price: 1000
 
 - type: entity
-  name: HP Hunter .5.56x45mm
+  name: HP Hunter 5.56x45mm
   parent: BaseWeaponRifle
   id: WeaponRifleHunter
   description: A marksman's rifle of foreign make, repurposed as a mainline battle carbine amongst the predators of this Sector.
@@ -353,10 +353,10 @@
     price: 2000
 
 - type: entity
-  name: NCSP Mayflower .20
+  name: PTA 4AX Mayflower 7.62x51mm
   parent: BaseWeaponRifle
   id: WeaponRifleMayflower
-  description: A heavy battle carbine, mass-produced by the Gorlex for export.
+  description: A hefty battle carbine produced by Pang Tai Arms for the external independent market. Seen often in the hands of the Coalition during harassment raids.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/mayflower.rsi
