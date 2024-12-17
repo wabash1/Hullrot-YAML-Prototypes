@@ -7,7 +7,7 @@
     tags:
       - MagazinePistolSmartgun
   - type: BallisticAmmoProvider
-    proto: CartridgePistolUranium
+    proto: CartridgePistol12mm
     mayTransfer: true
     whitelist:
       tags:
@@ -19,6 +19,25 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
+   
+- type: entity
+  id: Bullet12mm
+  name: bullet (12mm auto)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 18
+
+- type: entity
+  id: CartridgePistol12mm
+  name: cartridge (12mm auto depleted uranium tip)
+  parent: BaseCartridgePistol
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet12mm
 
 #Unimplemented Custom Mag - Uncomment this should sprites actually be found for this
 - type: entity
