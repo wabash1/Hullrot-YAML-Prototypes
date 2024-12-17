@@ -44,11 +44,11 @@
     price: 500
 
 - type: entity
-  name: NCWL Bulldog
+  name: PTA MOD-2 Pozhar 12g
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: [BaseItem, BaseGunWieldable]
   id: WeaponShotgunBulldog
-  description: It's a magazine-fed shotgun designed for close quarters combat. Uses .50 shotgun shells. An bulky firearm preferred by Union heavy-hitters.
+  description: A tactical, magazine-fed shotgun designed for close quarters combat. Uses 12g shotgun shells. Developed by Pang Tai Arms for close-quarters combat situations. All combat. All the time.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
@@ -135,10 +135,10 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: SHI Enforcer 12g
+  name: SHI 00-2 Enforcer 12g
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunEnforcer
-  description: A premium combat shotgun based on the Kammerer design, featuring an upgraded clip capacity. .50 shotgun shells. On the receiver is a label that says 'for authorized use only.'
+  description: A premium, carbon-finish combat shotgun based on the NanoTrasen Kammerer design, featuring an upgraded clip capacity. Takes 12g shotgun shells.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
@@ -157,10 +157,10 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: NT Kammerer
+  name: NT 00-1 Kammerer 12g
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunKammerer
-  description: When an old Remington design meets modern materials, this is the result. A civilian grade shotgun, favored by militia forces throughout many worlds. Uses .50 shotgun shells.
+  description: When an old Remington design meets modern materials, this is the result. A civilian grade shotgun, favored by militia forces throughout many worlds and originally developed by the Remington company in Terra, later adopted by NanoTrasen. Uses 12g shotgun shells.
   components:
   - type: Item
     size: Normal
