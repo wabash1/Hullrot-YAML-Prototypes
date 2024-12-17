@@ -1,17 +1,17 @@
 - type: entity
   id: BulletRifle
-  name: bullet (.5.56x45mm USM rifle)
+  name: bullet (.7.62x51mm USM rifle)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
       types:
-        Piercing: 30
+        Piercing: 27
 
 - type: entity
   id: BulletRiflePractice
-  name: bullet (.5.56x45mm USM rifle practice)
+  name: bullet (.7.62x51mm USM rifle practice)
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -22,7 +22,7 @@
 
 - type: entity
   id: BulletRifleRubber
-  name: bullet (.5.56x45mm USM rifle rubber)
+  name: bullet (.7.62x51mm USM rifle rubber)
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
   components:
@@ -34,7 +34,7 @@
 - type: entity
   id: BulletRifleIncendiary
   parent: BaseBulletIncendiary
-  name: bullet (.5.56x45mm USM rifle incendiary)
+  name: bullet (.7.62x51mm USM rifle incendiary)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -46,7 +46,7 @@
 - type: entity
   id: BulletRifleUranium
   parent: BaseBulletUranium
-  name: bullet (.5.56x45mm USM rifle uranium)
+  name: bullet (.7.62x51mm USM rifle uranium)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
