@@ -1,8 +1,8 @@
 - type: entity
-  name: NCWL Watchdog .35
+  name: NCWL DS1 Watchdog 9x19mm
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunNCWLWatchdog
-  description: A submachine gun of communard design, chambered in .35.
+  description: A light submachinegun of communard design. Union Foundries makes these for the common grunt, and the cheap materials probably reflect that.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/watchdog.rsi
@@ -12,7 +12,7 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
-    fireRate: 10
+    fireRate: 8
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
   - type: MagazineVisuals
@@ -24,10 +24,10 @@
     price: 600
 
 - type: entity
-  name: IRM MP49 
+  name: SHI MP49 Warden 9x19mm
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunMP49
-  description: A light Imperial machinegun - a shoddy imitation of the vintage NanoTrasen MP5.
+  description: Shinohara's attempt at copying the vintage NanoTrasen MP5 and outsourcing it to the open market. Seen as an inferior model at first, most mercs and solos have taken a liking to this cheaper alternative.
   components:
   - type: StaticPrice
     price: 600
@@ -41,7 +41,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/mp49.rsi
   - type: Gun
-    fireRate: 9
+    fireRate: 7
     selectedMode: FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
@@ -72,10 +72,10 @@
   - type: Appearance
 
 - type: entity
-  name: NT MP5 .35
+  name: NT MP5 9x19mm
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunMP5
-  description: A light Terran submachine gun often seen with various security forces around the Sector.
+  description: A light Terran submachinegun originating from the now-defunct NanoTrasen Industries. Seen as a superior alternative to most light SMGs on the market and often used by elite militias everywhere.
   components:
   - type: StaticPrice
     price: 800
@@ -120,10 +120,10 @@
   - type: Appearance
 
 - type: entity
-  name: NCWL Liberator .35
+  name: NCWL DS2 Liberator .327
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunBloodhound
-  description: A fully automatic, bulky SMG. Manufactured primarily for the Homeguard.
+  description: Manufactured for internal use by the Homeguard, the second entry of the Union Foundries focuses primarily on stopping power while sacrificing speed and agility.
   components:
     - type: Sprite
       sprite: _Crescent/Objects/Weapons/ncwlsmg.rsi
@@ -135,7 +135,7 @@
     - type: Clothing
       sprite: _Crescent/Objects/Weapons/ncwlsmg.rsi
     - type: Gun
-      fireRate: 9
+      fireRate: 5
       selectedMode: FullAuto
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
@@ -145,20 +145,20 @@
       slots:
         gun_magazine:
           name: Magazine
-          startingItem: MagazinePistolSubMachineGun
+          startingItem: MagazineMagnumSub
           insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
           ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
           priority: 2
           whitelist:
             tags:
-              - MagazinePistolSubMachineGun
+              - MagazineMagnumSubMachineGun
         gun_chamber:
           name: Chamber
-          startingItem: CartridgePistol
+          startingItem: CartridgeMagnum
           priority: 1
           whitelist:
             tags:
-              - CartridgePistol
+              - CartridgeMagnum
     - type: MagazineVisuals
       magState: mag
       steps: 1
@@ -166,10 +166,10 @@
     - type: Appearance
 
 - type: entity
-  name: SHI Sabre .35
+  name: SHI M221 Sabre 9x19mm
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunSabre
-  description: A light Shinohara submachine gun, manufactured for use by corporate security.
+  description: A blatant copy of the much more advanced and cost-friendly NanoTrasen Sabre, this Shinohara conversion cuts a few corners and features to deliver a reliable, if generic product. Rifling systems lifted from the original Sabre afford a breakneck rate of fire, however.
   components:
   - type: StaticPrice
     price: 1250
@@ -183,7 +183,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/sabre.rsi
   - type: Gun
-    fireRate: 9
+    fireRate: 11
     selectedMode: FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
@@ -214,10 +214,10 @@
   - type: Appearance
 
 - type: entity
-  name: SRM Beetle .35
+  name: HP MK-1 Beetle 9x19mm
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunBeetle
-  description: A light Hunter submachine gun, manufactured for use by lower-ranking Hunters.
+  description: A crude weapon manufactured by the Hunter's Pride merchant's guild. Intended as nothing more than cheap armament to stuff into the hands of expendable fodder.
   components:
   - type: StaticPrice
     price: 1000
@@ -231,7 +231,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/beetle.rsi
   - type: Gun
-    fireRate: 9
+    fireRate: 5
     selectedMode: FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
