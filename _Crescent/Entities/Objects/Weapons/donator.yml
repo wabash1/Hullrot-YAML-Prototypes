@@ -46,7 +46,7 @@
     price: 5000
 
 - type: entity
-  name: NCWL-AR02 Porodschok .5.56x45mm
+  name: NCWL-AR02 Porodschok 5.56x45mm
   parent: BaseWeaponRifle
   id: PorodschokDonator
   description: A high-end Communard rifle, used to be produced in a Chengridz-based foundry. Recalled from production after Imperial sabotage. Only a few of these actually remain.
