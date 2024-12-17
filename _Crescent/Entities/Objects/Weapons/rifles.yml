@@ -151,10 +151,10 @@
 
 
 - type: entity
-  name: PTA AKMS-74U Krinkov 7.62x51mm
+  name: NCSP AKMS-74U Krinkov 7.62x51mm
   parent: BaseWeaponRifle
   id: WeaponRifleKrinkov
-  description: A shortened battle rifle, replicated from Terran designs by Pang Tai - commonly attributed to terrorist groups. Cheap and easily made.
+  description: A shortened battle rifle, replicated from Terran designs by the Coalition - commonly attributed to terrorist groups. Cheap and easily made.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/krinkov.rsi
@@ -355,10 +355,10 @@
     price: 2000
 
 - type: entity
-  name: PTA 4AX Mayflower 7.62x51mm
+  name: NCSP 4AX Mayflower 7.62x51mm
   parent: BaseWeaponRifle
   id: WeaponRifleMayflower
-  description: A hefty battle carbine produced by Pang Tai Arms for the external independent market. Seen often in the hands of the Coalition during harassment raids.
+  description: A hefty battle carbine produced by the Coalition for the external independent market. Seen often in the hands of the Gorlex during harassment raids.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/mayflower.rsi
