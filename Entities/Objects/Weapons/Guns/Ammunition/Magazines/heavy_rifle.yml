@@ -25,18 +25,18 @@
     magState: mag
     steps: 2
 
- - type: entity
-   id: MagazineHeavyRifle
-   name: heavy magazine (12.7×99mm USM)
-   parent: BaseMagazineHeavyRifle
-   components:
-   - type: BallisticAmmoProvider
-     proto: CartridgeHeavyRifle
-   - type: Sprite
-     layers:
-     - state: red
-       map: ["enum.GunVisualLayers.Base"]
-     - state: mag-1
-       map: ["enum.GunVisualLayers.Mag"]
-     zeroVisible: false
-   - type: Appearance
+- type: entity
+  id: MagazineHeavyRifle
+  name: heavy magazine (12.7×99mm USM)
+  parent: BaseMagazineHeavyRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeHeavyRifle
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    zeroVisible: false
+  - type: Appearance
