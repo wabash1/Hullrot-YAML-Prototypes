@@ -47,7 +47,7 @@
     zeroVisible: false
   - type: Appearance
 
-  - type: entity
+- type: entity
   id: MagazineMagnumSub
   suffix: Submachinegun
   name: extended pistol magazine (.327 Imperial magnum)

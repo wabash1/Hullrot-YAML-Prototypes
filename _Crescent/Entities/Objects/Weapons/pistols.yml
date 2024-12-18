@@ -219,34 +219,6 @@
 #single use pistols actual
 
 - type: entity
-  name: SHI-DG01 Blastpop 'Cherry Red' 6mm
-  parent: BasePistolOneuse
-  id: WeaponPistolBlastpopRed
-  description: A mass-produced, 3D printed sidearm. Unable to be reloaded after use. Just twist the plastic key on top to rack the first round, and blast away.
-  components:
-  - type: Sprite
-    sprite: _Crescent/Objects/Weapons/disposableguns/red.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-0
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: Clothing
-    sprite: _Crescent/Objects/Weapons/disposableguns/red.rsi
-  - type: Gun
-    fireRate: 2
-    selectedMode: SemiAuto
-    availableModes:
-    - SemiAuto
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/hpistol.ogg
-  - type: StaticPrice
-    price: 100
-  - type: BallisticAmmoProvider
-    proto: Bullet6mm
-    capacity: 20
-
-- type: entity
   name: SHI-DG02 Blastpop 'Cherry Red' 6mm
   parent: BaseWeaponPistol
   id: WeaponPistolBlastpopRed
