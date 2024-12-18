@@ -73,12 +73,13 @@
   description: A small, pocket-sized pistol developed by Pang Tai Arms. Factory-modified with a fully automatic receiver and decent rifling allows for better rate of fire compared to most pistols on the market.
   components:
   - type: Gun
-      fireRate: 6
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/viper.rsi
+    fireRate: 6
+    selectedMode: SemiAuto
     availableModes:
     - FullAuto
     - SemiAuto
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Pistols/viper.rsi
   - type: ItemSlots
     slots:
       gun_magazine:
