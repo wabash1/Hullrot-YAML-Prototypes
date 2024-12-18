@@ -138,7 +138,7 @@
 
 - type: entity
   id: MagazinePistol
-  name: pistol magazine (.35 auto)
+  name: pistol magazine (9x19mm PSTF auto)
   parent: BaseMagazinePistol
   components:
   - type: BallisticAmmoProvider
@@ -257,7 +257,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGun
-  name: SMG magazine (.35 auto)
+  name: SMG magazine (9x19mm PSTF auto)
   parent: BaseMagazinePistolSubMachineGun
   components:
   - type: BallisticAmmoProvider
