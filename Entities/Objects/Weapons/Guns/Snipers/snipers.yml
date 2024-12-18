@@ -39,10 +39,10 @@
     price: 500
 
 - type: entity # Frontier - Mosin rework (PR#1391)
-  name: Kardashev-Mosin
+  name: ICM Kardashev-Mosin 7.62x51mm
   parent: [BaseWeaponSniper, BaseGunWieldable]
   id: WeaponSniperMosin
-  description: A civilian grade weapon for hunting, or endless trench warfare. Uses .30 rifle ammo. Now with new shiny bayonet!
+  description: A civilian grade weapon for hunting, or endless trench warfare. Uses 7.62x51mm rifle ammo. Developed by Ihikerja Civilian Manufacturing.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
@@ -95,7 +95,7 @@
 
 
 - type: entity
-  name: Hristov
+  name: SHI HAMR-1 Hristov .60
   parent: [BaseWeaponSniper, BaseGunWieldable]
   id: WeaponSniperHristov
   description: A portable anti-materiel rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-materiel ammo. On the receiver is a label that says 'for authorized use only.'

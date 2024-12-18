@@ -18,7 +18,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 8
+        Piercing: 10
 
 - type: entity
   id: CartridgePistol6mm

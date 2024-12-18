@@ -51,10 +51,10 @@
     price: 50
 
 - type: entity
-  name: NT Deckard
+  name: NT LEQ-023 Deckard .327
   parent: BaseWeaponRevolver
   id: WeaponRevolverDeckard
-  description: A rare, antiquated custom-built revolver. Use when there is no time for Voight-Kampff test. Uses .45 magnum ammo.
+  description: A heavy-duty smart revolver, part of a limited-edition series NanoTrasen carried out around four hundred years ago. There are only a handful left in Sector Crescent, let alone Taypan.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi
@@ -76,13 +76,13 @@
     zeroVisible: true
   - type: Appearance
   - type: StaticPrice
-    price: 150
+    price: 2500
 
 - type: entity
-  name: SHI Inspector .45
+  name: SHI T-6 Inspector .327
   parent: BaseWeaponRevolver
   id: WeaponRevolverInspector
-  description: A detective's best friend. Uses .45 magnum ammo. On the handle is a label that says 'for authorized use only.'
+  description: A detective's best friend. Uses .327 magnum ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/inspector.rsi
@@ -94,10 +94,10 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: SHI Mateba
+  name: SHI Mateba .327
   parent: BaseWeaponRevolver
   id: WeaponRevolverMateba
-  description: The iconic sidearm of the dreaded corporate liquidation squads. Uses .45 magnum ammo. On the handle is a label that says 'for authorized use only.'
+  description: The iconic sidearm of the dreaded corporate liquidation squads. Uses .327 magnum ammo. The biometric lock for the trigger seems to be not functioning.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi
@@ -109,10 +109,10 @@
       path: /Audio/Weapons/Guns/Gunshots/mateba.ogg
 
 - type: entity
-  name: NCWL Python .45
+  name: NCWL PX21 Python .45
   parent: BaseWeaponRevolver
   id: WeaponRevolverPython
-  description: A bulky revolver developed by the Union.
+  description: A bulky service revolver developed by the Union Foundries. Given to officers and high-ranking officials as a 'compliance ensurance tool'.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/python.rsi
@@ -131,11 +131,11 @@
     price: 1
 
 - type: entity
-  name: NCWL Python .45
+  name: NCWL PX22 Python .45
   parent: WeaponRevolverPython
   id: WeaponRevolverPythonAP # For the uplink.
   suffix: armor-piercing
-  description: An illegal revolver favoured by Syndicate agents. Uses .45 magnum ammo.
+  description: A bulky service revolver developed by the Union Foundries. Given to officers and high-ranking officials as a 'compliance ensurance tool'. This one has seen some use.
   components:
   - type: RevolverAmmoProvider
     whitelist:
