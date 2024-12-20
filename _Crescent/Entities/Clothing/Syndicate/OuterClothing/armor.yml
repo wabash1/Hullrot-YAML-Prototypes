@@ -34,6 +34,39 @@
   - type: Contraband
 
 - type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitSyndieDonator
+  name: UNIONIZER modified combat technician's hardsuit
+  description: A modular hardsuit, bears the colors of the Shipfitters and Astronautics Workers Union of the Syndicate. Hard-worn and modified after many years of use.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Syndicate/OuterClothing/syndicatedonator.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Syndicate/OuterClothing/syndicatedonator.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Heat: 0.9
+        Radiation: 0.5
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.9
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetSyndiDonator
+  - type: StaticPrice
+    price: 1000
+  - type: Contraband
+
+- type: entity
   parent: ClothingOuterHardsuitRamzi
   id: ClothingOuterHardsuitCybersun
   name: RONIN mk.III modular hardsuit
