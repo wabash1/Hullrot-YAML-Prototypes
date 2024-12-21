@@ -38,6 +38,8 @@
         - state: implanter1
           map: [ "implantFull" ]
           visible: false
+    - type: UseDelay
+      delay: 5.0
     - type: Item
       sprite: Objects/Specific/Medical/implanter.rsi
       heldPrefix: 0
