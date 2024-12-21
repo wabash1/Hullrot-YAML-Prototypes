@@ -65,7 +65,7 @@
   description: Walking through a rough station with no iron? Allow us to sell you a temporary safeguard!
   components:
   - type: VendingMachine
-    pack: ISHIBudgetArmoryInventory
+    pack: SHIBudgetArmoryInventory
     offState: off
     brokenState: broken
     normalState: normal-unshaded
