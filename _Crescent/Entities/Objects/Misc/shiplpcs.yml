@@ -603,6 +603,23 @@
 
 - type: entity
   parent: BaseItem
+  id: ShipVoucherHarpy
+  name: IPM 'Harpy' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with an Interdyne Pharmaceutical Harpy-class missile platform pattern. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 30000
+  - type: ShipVoucher
+    ship: Harpy
+
+- type: entity
+  parent: BaseItem
   id: ShipVoucherCorvax
   name: GSC 'Corvax' pattern LPC fabprint disk
   description: An LPC fabprint disk loaded with a Gorlex Security Consulting Corvax-class missile platform pattern. Has to be redeemed at a shipyard console.
