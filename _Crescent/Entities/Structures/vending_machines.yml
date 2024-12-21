@@ -60,6 +60,35 @@
 
 - type: entity
   parent: [BaseStructureUnanchorable, VendingMachine]
+  id: ShinoharaBudgetVendor
+  name: shinohara budget armory vendor
+  description: Walking through a rough station (see: Atyrian-populated) with no iron? Allow us to sell you a temporary safeguard!
+  components:
+  - type: VendingMachine
+    pack: ISHIBudgetArmoryInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: Advertise
+    pack: AmmoVendAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Speech
+  - type: Sprite
+    sprite: _Crescent/Structures/gunvend.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: MarketModifier
+    mod: 1.5
+    
+- type: entity
+  parent: [BaseStructureUnanchorable, VendingMachine]
   id: NCWLArmoryVendory
   name: union armory vendor
   description: Weapons to fuel the liberation of this system.
