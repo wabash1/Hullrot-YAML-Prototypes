@@ -40,6 +40,7 @@
           visible: false
     - type: UseDelay
       delay: 5.0
+    - type: DoAfter
     - type: Item
       sprite: Objects/Specific/Medical/implanter.rsi
       heldPrefix: 0
@@ -93,6 +94,9 @@
     - type: Implanter
       currentMode: Inject
       implantOnly: true
+    - type: DoAfter
+    - type: UseDelay
+      delay: 5.0
 
 - type: entity
   id: BaseImplantOnlyImplanterSyndi
