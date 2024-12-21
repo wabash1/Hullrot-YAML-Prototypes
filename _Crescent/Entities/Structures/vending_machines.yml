@@ -62,7 +62,7 @@
   parent: [BaseStructureUnanchorable, VendingMachine]
   id: ShinoharaBudgetVendor
   name: shinohara budget armory vendor
-  description: Walking through a rough station (see: Atyrian-populated) with no iron? Allow us to sell you a temporary safeguard!
+  description: Walking through a rough station with no iron? Allow us to sell you a temporary safeguard!
   components:
   - type: VendingMachine
     pack: ISHIBudgetArmoryInventory
