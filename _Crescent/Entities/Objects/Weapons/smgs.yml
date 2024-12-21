@@ -12,7 +12,7 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
-    fireRate: 8
+    fireRate: 7
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
   - type: MagazineVisuals
@@ -68,7 +68,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/mp5.rsi
   - type: Gun
-    fireRate: 9
+    fireRate: 7
     selectedMode: FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
@@ -114,7 +114,7 @@
     - type: Clothing
       sprite: _Crescent/Objects/Weapons/ncwlsmg.rsi
     - type: Gun
-      fireRate: 5
+      fireRate: 4.5
       selectedMode: FullAuto
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
@@ -162,7 +162,7 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/sabre.rsi
   - type: Gun
-    fireRate: 11
+    fireRate: 6.5
     selectedMode: FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
