@@ -18,7 +18,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 10
+        Piercing: 14
 
 - type: entity
   id: CartridgePistol6mm
@@ -27,3 +27,6 @@
   components:
   - type: CartridgeAmmo
     proto: Bullet6mm
+  - type: Tag
+    tags:
+      - CartridgePistol6mm
