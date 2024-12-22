@@ -241,7 +241,7 @@
   - type: Appearance
 
 - type: entity
-  name: PTA P-M100 Cheshyre 10mm
+  name: PTA P-M100 Cheshyre 11mm
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunCheshyre
   description: A heavy operator's SMG developed by Pang Tai Arms. Sold to independent contractors and security forces everywhere.
