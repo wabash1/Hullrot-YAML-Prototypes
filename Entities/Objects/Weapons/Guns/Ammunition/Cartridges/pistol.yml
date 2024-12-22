@@ -81,5 +81,6 @@
   - type: Tag
     tags:
       - CartridgeHeavyPistol
+      - Cartridge
   - type: CartridgeAmmo
     proto: BulletHeavyPistol
