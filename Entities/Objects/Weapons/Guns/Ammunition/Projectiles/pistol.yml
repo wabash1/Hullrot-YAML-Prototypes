@@ -64,4 +64,5 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 20
+        Piercing: 21
+        Blunt: 1
