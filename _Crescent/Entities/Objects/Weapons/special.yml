@@ -14,6 +14,10 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Appearance
+  - type: MagazineVisuals
+    magState: mag
+    steps: 3
+    zeroVisible: false
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/makoworn.rsi
   - type: Gun
