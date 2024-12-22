@@ -448,12 +448,34 @@
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/rongyu.rsi
   - type: Gun
+    minAngle: 1
+    maxAngle: 20
+    angleIncrease: 8
+    angleDecay: 9
     fireRate: 4
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
     - Burst
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
+      path: /Audio/Weapons/Guns/Gunshots/hpistol.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazinePistol6mm
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazinePistol6mm
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgePistol6mm
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgePistol6mm
   - type: StaticPrice
     price: 750
