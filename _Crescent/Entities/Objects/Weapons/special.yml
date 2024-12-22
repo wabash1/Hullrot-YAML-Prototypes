@@ -1,5 +1,5 @@
 - type: entity
-  name: PTA W-500c Mako handheld plasma repeater
+  name: PTA 400c Mako handheld plasma repeater
   parent: BaseWeaponBattery
   id: WeaponSpecialMako
   description: A shoulder-carried version of the NanoTrasen plasma repeater intended for infantry use by field operatives. Developed by Pang Tai Arms.
@@ -24,11 +24,37 @@
     projectileSpeed: 4
     fireRate: 0.5
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
+      path: /Audio/Weapons/Guns/Gunshots/ship_svalinn.ogg
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletMachineGunPlasmaShuttle
+    proto: MakoPlasmaBullet
     fireCost: 250
-  - type: BatteryWeaponFireModes
-    fireModes:
-    - proto: BulletMachineGunPlasmaShuttleLarge
-      fireCost: 500
+
+- type: entity
+  id: MakoPlasmaBullet
+  name: plasma bolt
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 90
+        Radiation: 10
+        Heat: 25
+  - type: ProjectileIFF
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 15
+    intensitySlope: 25
+    totalIntensity: 20
+    maxTileBreak: 2
+  - type: PointLight
+    radius: 3.5
+    color: orange
+    energy: 0.5
+  - type: Sprite
+    sprite: _NF/Objects/SpaceArtillery/plasmahardpoint.rsi
+    layers:
+      - state: icon
