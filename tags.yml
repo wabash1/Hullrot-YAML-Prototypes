@@ -689,6 +689,9 @@
   id: HideContextMenu
 
 - type: Tag
+  id: CartridgeHeavyPistol
+
+- type: Tag
   id: HideCorgi # corgi hide for crafting, not for making corgis invisible
 
 - type: Tag
