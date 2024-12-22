@@ -12,3 +12,9 @@
 
 - type: Tag
   id: MagazineHeavySMG
+
+- type: Tag
+  id: CartridgePistol6mm
+
+- type: Tag
+  id: MagazinePistol6mm
