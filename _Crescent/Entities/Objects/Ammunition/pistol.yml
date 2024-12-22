@@ -1,6 +1,6 @@
 - type: entity
   id: MagazinePistolSmartgun
-  name: smartpistol magazine (12mm auto depleted-uranium)
+  name: smartpistol magazine (12mm)
   parent: BaseMagazinePistol
   components:
   - type: Tag
@@ -11,7 +11,7 @@
     mayTransfer: true
     whitelist:
       tags:
-        - CartridgePistol
+        - CartridgePistolSmart
     capacity: 25
    
 - type: entity
@@ -27,26 +27,35 @@
 
 - type: entity
   id: CartridgePistol12mm
-  name: cartridge (12mm auto depleted uranium tip)
+  name: cartridge (12mm)
   parent: BaseCartridgePistol
-  components:
-  - type: CartridgeAmmo
-    proto: Bullet12mm
-
-#Unimplemented Custom Mag - Uncomment this should sprites actually be found for this
-- type: entity
-  id: Magazine9mmPistol
-  name: pistol magazine (9x19) #This is the same as 7.62 mm
-  parent: BaseMagazineRifle
-  categories: [ HideSpawnMenu ]
-  abstract: true
   components:
   - type: Tag
     tags:
-    - Magazine9mmPistol
+      - CartridgePistolSmart
+  - type: CartridgeAmmo
+    proto: Bullet12mm
+#
+
+- type: entity
+  id: MagazinePistol6mm
+  name: pistol magazine (6mm)
+  parent: BaseMagazinePistol
+  components:
+  - type: Tag
+    tags:
+      - MagazinePistol6mm
   - type: BallisticAmmoProvider
-    proto: Bullet9mm
+    proto: CartridgePistol6mm
     mayTransfer: true
-    whitelist: Cartridge9mm #This doesn't do anything until a pistol actually whitelists this
+    whitelist:
+      tags:
+        - CartridgePistol6mm
     capacity: 16
-# - type: Sprite -- Someone needs to nick a sprite from somewhere
+  - type: Sprite
+    sprite: _Crescent/Ammunition/6mm.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
