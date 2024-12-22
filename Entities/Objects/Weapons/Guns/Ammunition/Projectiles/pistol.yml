@@ -54,3 +54,14 @@
       types:
         Radiation: 5
         Piercing: 12
+
+- type: entity
+  id: BulletHeavyPistol
+  name: bullet (11mm PSTF)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
