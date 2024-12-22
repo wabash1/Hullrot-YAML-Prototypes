@@ -430,3 +430,30 @@
 
 - type: Tag
   id: MagazinePistolSmartgun
+
+
+- type: entity
+  name: PTA BA-6 Rongyu 6mm 
+  parent: BaseWeaponPistol
+  id: WeaponPistolRongyu
+  description: A cheap sidearm produced by Pang Tai Arms. Made for the merc on a budget. Chambered in small 6mm rounds.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Weapons/rongyu.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Crescent/Objects/Weapons/rongyu.rsi
+  - type: Gun
+    fireRate: 4
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    - Burst
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
+  - type: StaticPrice
+    price: 750
