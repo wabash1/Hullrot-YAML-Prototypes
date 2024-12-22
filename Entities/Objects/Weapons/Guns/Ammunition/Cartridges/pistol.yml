@@ -72,3 +72,14 @@
       - state: tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#65fe08"
+
+- type: entity
+  id: CartridgeHeavyPistol
+  name: cartridge (11mm PSTF auto)
+  parent: BaseCartridgePistol
+  components:
+  - type: Tag
+    tags:
+      - CartridgeHeavyPistol
+  - type: CartridgeAmmo
+    proto: BulletHeavyPistol
