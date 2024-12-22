@@ -40,13 +40,11 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
-    ignoreWeaponGrid: true
     damage:
       types:
         Structural: 90
         Radiation: 10
         Heat: 25
-  - type: ProjectileIFF
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
