@@ -3,3 +3,9 @@
 
 - type: Tag
   id: Organ
+
+- type: Tag
+  id: CartridgeHeavyPistol
+
+- type: Tag
+  id: MagazineHeavySMG
