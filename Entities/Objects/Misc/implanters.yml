@@ -273,3 +273,15 @@
   - type: Contraband #frontier
   - type: StaticPrice
     price: 250
+
+- type: entity
+  id: ArmorImplanter
+  name: test implanter
+  parent: BaseImplantOnlyImplanterSyndi
+  components:
+  - type: Implanter
+    implant: SubdermalArmorPlate
+  - type: Contraband #frontier
+  - type: StaticPrice
+    price: 250
+
