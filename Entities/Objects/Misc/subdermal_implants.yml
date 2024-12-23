@@ -312,3 +312,24 @@
       - Critical
       - Dead
     - type: Rattle
+
+- type: entity
+  parent: BaseSubdermalImplant
+  id: SubdermalArmorPlate
+  name: armor test implant
+  description: This implant will inform the Syndicate radio channel should the user fall into critical condition or die.
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: SubdermalImplant
+      permanent: true
+      whitelist:
+        components:
+        - MobState # admeme implanting a chair with rattle implant needs to give the chair mobstate so it can die first
+    - type: Armor
+      modifiers:
+        coefficients:
+          Blunt: 0.70
+          Slash: 0.70
+          Piercing: 0.70
+          Heat: 0.80
+          Caustic: 0.9
