@@ -51,6 +51,59 @@
     price: 2500
 
 - type: entity
+  name: SHI M55 Goro 7.62x51mm
+  parent: BaseWeaponRifle
+  id: WeaponRifleGoro
+  description: A clunky battle rifle produced by Shinohara Heavy Industries for the civilian market. Often overlooked by more experienced solos and mercs for more rapid-firing alternatives - it's only saving grace is the heavy caliber.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Weapons/goro.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _Crescent/Objects/Weapons/goroworn.rsi
+  - type: Gun
+    fireRate: 4.8
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineRifle
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 2500
+
+
+- type: entity
   name: PTA D5 Takemura 7.62x51mm
   parent: BaseWeaponRifle
   id: WeaponRifleTakemura
