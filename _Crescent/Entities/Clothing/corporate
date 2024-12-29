@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: ClothingHeadHatShinoharaNonevaHelm
+  name: SHI TAC-1 ballistic helmet
+  description: A cycloptic helmet of Shinohara design. A ballistic visor feeds combat data to the wearer.
+  components:
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+  - type: Sprite
+    sprite: _Crescent/Clothing/Corpo/Head/eyehelmet.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Corpo/Head/eyehelmet.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
