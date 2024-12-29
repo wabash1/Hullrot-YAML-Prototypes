@@ -30,7 +30,7 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitCorpsec
   categories: [ HideSpawnMenu ]
-  name: shinohara highsec hardsuit helmet
+  name: shinohara SVBT-2 combat hardsuit helmet
   description: Spaceworthy protection for your fragile skull.
   components:
   - type: BreathMask
@@ -47,10 +47,10 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Heat: 0.9
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
 
 - type: entity
   parent: ClothingHeadHardsuitBase
@@ -70,10 +70,10 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Heat: 0.9
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
 
 #hats
 
@@ -106,9 +106,13 @@
 - type: entity
   parent: ClothingHeadHelmetBasic
   id: ClothingHeadHatShinoharaHelmet
-  name: highsec officer's helmet
-  description: A sturdy helmet with the Shinohara Heavy Industries corporate logo emblazoned on the front.
+  name: SHI BULWARK-2 ballistic helmet
+  description: A high-tech, cycloptic helmet with the Shinohara Heavy Industries corporate logo emblazoned on the front. Preferred by liquidation agents and elite mercs everywhere.
   components:
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
   - type: Sprite
     sprite: _Crescent/Clothing/SHI/Head/highsec.rsi
   - type: Clothing

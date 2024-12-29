@@ -1,0 +1,49 @@
+#HELMETS
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: ClothingHeadHatShinoharaNonevaHelm
+  name: SHI TAC-1 ballistic helmet
+  description: A cycloptic helmet of Shinohara design. A ballistic visor feeds combat data to the wearer.
+  components:
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+  - type: Sprite
+    sprite: _Crescent/Clothing/Corpo/Head/eyehelmet.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Corpo/Head/eyehelmet.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+# SUITS
+
+- type: entity
+  parent: ClothingOuterBaseLarge
+  id: ClothingOuterArmorShinoharaArmorHighsec
+  name: SHI BULWARK-1 ballistic combat vest
+  description: A heavy combat carapace padded on the inside with ballistic-gel reinforced durathread. Standard issue for many corporate security agents and mercs.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Corpo/OuterClothing/ballisticvest.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/Corpo/OuterClothing/ballisticvest.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.65
+        Piercing: 0.60
+        Heat: 0.90
+        Caustic: 0.80
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ExplosionResistance
+    damageCoefficient: 0.80
+  - type: GroupExamine
