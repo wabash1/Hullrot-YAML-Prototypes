@@ -30,7 +30,7 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitCorpsec
   categories: [ HideSpawnMenu ]
-  name: shinohara SVBT-2 combat hardsuit
+  name: shinohara SVBT-2 combat hardsuit helmet
   description: Spaceworthy protection for your fragile skull.
   components:
   - type: BreathMask
