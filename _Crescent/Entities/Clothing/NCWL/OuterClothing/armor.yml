@@ -40,7 +40,7 @@
       coefficients:
         Blunt: 0.80
         Slash: 0.70
-        Piercing: 0.65
+        Piercing: 0.60
         Heat: 0.90
         Caustic: 0.9
   - type: ClothingSpeedModifier
@@ -128,7 +128,7 @@
       coefficients:
         Blunt: 0.7
         Slash: 0.8
-        Piercing: 0.75
+        Piercing: 0.85
         Heat: 0.4
         Caustic: 0.75
   - type: ClothingSpeedModifier
@@ -160,12 +160,12 @@
       coefficients:
         Blunt: 0.6
         Slash: 0.7
-        Piercing: 0.45
+        Piercing: 0.75
         Heat: 0.3
         Caustic: 0.55
   - type: ClothingSpeedModifier
-    walkModifier: 0.8
-    sprintModifier: 0.8
+    walkModifier: 0.65
+    sprintModifier: 0.65
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitNCWLJuggernaut
