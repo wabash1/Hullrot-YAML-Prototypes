@@ -100,9 +100,9 @@
   description: A pressurized EVA-worthy combat hardsuit with heavy armor padding inside. Sacrifices protection and speed for spaceworthiness.
   components:
   - type: Sprite
-    sprite: _Crescent/Clothing/Empire/OuterClothing/zhanshi.rsi
+    sprite: _Crescent/Clothing/Corpo/OuterClothing/zhanshi.rsi
   - type: Clothing
-    sprite: _Crescent/Clothing/Empire/OuterClothing/zhanshi.rsi
+    sprite: _Crescent/Clothing/Corpo/OuterClothing/zhanshi.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
