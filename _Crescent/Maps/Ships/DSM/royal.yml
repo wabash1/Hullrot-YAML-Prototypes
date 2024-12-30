@@ -3,7 +3,7 @@
   name: DSM Royal
   description: The dreadnought battleship of the Divine Mandate, it is the icon of the empire's power projection throughout space
   price: 2500000
-  category: Large
+  category: Small
   group: None
   shuttlePath: /Maps/_Crescent/Shuttles/DSM/royal.yml
 
