@@ -18,9 +18,9 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.85
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
         Heat: 0.9
         Radiation: 0.4
         Caustic: 0.8
@@ -52,8 +52,8 @@
       coefficients:
         Blunt: 0.7
         Slash: 0.7
-        Piercing: 0.6
-        Heat: 0.8
+        Piercing: 0.85
+        Heat: 0.9
         Radiation: 0.9
         Caustic: 0.9
   - type: ClothingSpeedModifier
@@ -82,10 +82,10 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.8
-        Slash: 0.8
-        Piercing: 0.7
-        Heat: 0.65
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
         Radiation: 0.4
         Caustic: 0.4
   - type: ClothingSpeedModifier
@@ -134,10 +134,10 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.7
-        Slash: 0.7
-        Piercing: 0.6
-        Heat: 0.6
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
         Radiation: 0.8
         Caustic: 0.8
   - type: ClothingSpeedModifier
@@ -166,11 +166,11 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.8
-        Slash: 0.95
-        Piercing: 0.7
+        Blunt: 0.75
+        Slash: 0.75
+        Piercing: 0.75
         Heat: 0.8
-        Radiation: 0.2
+        Radiation: 0.5
         Caustic: 0.7
   - type: ClothingSpeedModifier
     walkModifier: 0.85
@@ -200,7 +200,7 @@
       coefficients:
         Blunt: 0.8
         Slash: 0.95
-        Piercing: 0.8
+        Piercing: 0.85
         Heat: 0.8
         Radiation: 0.9
         Caustic: 0.9
@@ -273,7 +273,7 @@
       coefficients:
         Blunt: 0.7
         Slash: 0.7
-        Piercing: 0.6
+        Piercing: 0.65
         Heat: 0.7
   - type: ExplosionResistance
     damageCoefficient: 0.80
@@ -297,7 +297,7 @@
       coefficients:
         Blunt: 0.80
         Slash: 0.80
-        Piercing: 0.90
+        Piercing: 0.95
         Heat: 0.95
   - type: StaticPrice
     price: 1500
