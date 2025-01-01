@@ -29,16 +29,6 @@
   group: pangtai
 
 - type: cargoProduct
-  id: MakoPangtai
-  icon:
-    sprite: _Crescent/Objects/Weapons/mako.rsi
-    state: base
-  product: CratePangtaiMako
-  cost: 30000
-  category: cargoproduct-category-name-military
-  group: pangtai
-
-- type: cargoProduct
   id: HalyadPangtai
   icon:
     sprite: _Crescent/Objects/Weapons/halyad.rsi
