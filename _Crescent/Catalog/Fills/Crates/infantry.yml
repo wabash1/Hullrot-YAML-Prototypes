@@ -33,4 +33,170 @@
       - id: WeaponPistolHKUSP
         amount: 2
       - id: WeaponSubMachineGunSabre
-        amount: 2        
+        amount: 2     
+
+#pangtai
+
+- type: entity
+  id: CratePangtaiTakemura
+  parent: CrateSecgear
+  name: pang tai arms "Takemura" crate
+  description: A corporate assault rifle packaged in a stamped cargo crate.
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponRifleTakemura
+        amount: 1
+      - id: MagazineRifle
+        amount: 2    
+
+- type: entity
+  id: CratePangtaiHalyad
+  parent: CrateSecgear
+  name: pang tai arms "Halyad" crate
+  description: A heavy marksman's rifle packaged in a stamped cargo crate.
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponRifleHalyadMarksman
+        amount: 1
+      - id: MagazineHeavyRifle
+        amount: 2    
+
+- type: entity
+  id: CratePangtaiBarghest
+  parent: CrateSecgear
+  name: pang tai arms "Barghest" crate
+  description: A heavy marksman's rifle packaged in a stamped cargo crate.
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponRifleBarghest
+        amount: 1
+      - id: MagazineHeavyRifle
+        amount: 2    
+
+- type: entity
+  id: CratePangtaiCheshyre
+  parent: CrateSecgear
+  name: pang tai arms "Cheshyre" crate
+  description: A heavy operator's submachine gun packaged in a stamped cargo crate.
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponSubMachineGunCheshyre
+        amount: 1
+      - id: MagazinePistolSubMachineGunHeavy
+        amount: 2    
+
+- type: entity
+  id: CratePangtaiRongyu
+  parent: CrateSecgear
+  name: pang tai arms "Rongyu" crate
+  description: A cheap six milimeter sidearm packaged in a stamped cargo crate.
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponPistolRongyu
+        amount: 1
+      - id: MagazinePistol6mm
+        amount: 2  
+
+- type: entity
+  id: CratePangtaiViper
+  parent: CrateSecgear
+  name: pang tai arms "Viper" crate
+  description: A nine milimeter operator's handgun packaged in a stamped cargo crate.
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponPistolViper
+        amount: 1
+      - id: MagazinePistol
+        amount: 2  
+
+- type: entity
+  id: CratePangtaiDrozd
+  parent: CrateSecgear
+  name: pang tai arms "Drozd" crate
+  description: A heavy submachinegun packaged in a stamped cargo crate.
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponSubMachineGunDrozd
+        amount: 1
+      - id: MagazineMagnumSub
+        amount: 2  
+
+- type: entity
+  id: CratePangtaiPozhar
+  parent: CrateSecgear
+  name: pang tai arms "Pozhar" crate
+  description: A shotgun packaged in a stamped cargo crate.
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponShotgunBulldog
+        amount: 1
+      - id: MagazineShotgun
+        amount: 2  
+
+- type: entity
+  id: CratePangtaiMako
+  parent: CrateSecgear
+  name: pang tai arms "Mako" crate
+  description: A shoulder-operated plasma caster packaged in a stamped cargo crate.
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponSpecialMako
+        amount: 1
+
+- type: entity
+  id: CratePangtaiLowArmor
+  parent: CrateSecgear
+  name: pang tai arms civilian armor crate
+  description: A cheap armor set packaged in a stamped cargo crate.
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingUniformJumpsuitMilitaryColorGrey
+        amount: 1
+      - id: ClothingShoesBootsJack
+        amount: 1  
+      - id: ClothingHandsGlovesFingerless
+        amount: 1  
+      - id: ClothingHeadHatPangtaiCorvidHelmet
+        amount: 1 
+      - id: ClothingOuterArmorPangTaiVest
+        amount: 1 
+
+- type: entity
+  id: CratePangtaiHighArmor
+  parent: CrateSecgear
+  name: pang tai arms ballistic armor crate
+  description: A high-tier armor set packaged in a stamped cargo crate.
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingUniformJumpsuitMilitaryColorGrey
+        amount: 1
+      - id: ClothingShoesBootsJack
+        amount: 1  
+      - id: ClothingHandsGlovesFingerless
+        amount: 1  
+      - id: ClothingHeadHatPangtaiKorundHelmet
+        amount: 1 
+      - id: ClothingOuterArmorPangTaiKorund
+        amount: 1 
+
+- type: entity
+  id: CratePangtaiHardsuitArmor
+  parent: CrateSecgear
+  name: pang tai arms hardsuit armor crate
+  description: A spaceworthy corporate hardsuit set packaged in a stamped cargo crate.
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitPangTai
+        amount: 1

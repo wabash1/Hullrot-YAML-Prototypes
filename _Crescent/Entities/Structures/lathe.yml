@@ -107,6 +107,9 @@
       - MagazineBoxPistol
       - MagazineBoxRifle
       - MagazineLightRifle
+      - MagazinePistol6mm
+      - MagazineHeavyRifle
+      - MagazinePistolSubMachineGunHeavy
       - MagazinePistol
       - MagazinePistolSubMachineGun
       - MagazinePistolSubMachineGunTopMounted
@@ -158,6 +161,13 @@
       - ClothingOuterSuitEmergency
       - ClothingHeadHelmetEVALarge # Frontier
     dynamicRecipes:
+      - WeaponSubMachineGunCheshyre
+      - WeaponPistolRongyu
+      - WeaponSpecialMako
+      - ClothingOuterArmorPangTaiVest
+      - ClothingHeadHatPangtaiCorvidHelmet
+      - ClothingOuterArmorPangTaiKorund
+      - ClothingHeadHatPangtaiKorundHelmet
       - BoxBeanbag
       - BoxShotgunIncendiary
       - BoxShotgunUranium

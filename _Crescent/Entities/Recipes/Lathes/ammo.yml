@@ -28,3 +28,25 @@
   materials:
     Steel: 2500
     Plasma: 1000
+
+- type: latheRecipe
+  id: MagazinePistol6mm
+  result: MagazinePistol6mm
+  completetime: 2
+  materials:
+    Steel: 250
+
+- type: latheRecipe
+  id: MagazineHeavyRifle
+  result: MagazineHeavyRifle
+  completetime: 2
+  materials:
+    Steel: 750
+    Uranium: 250
+
+- type: latheRecipe
+  id: MagazinePistolSubMachineGunHeavy
+  result: MagazinePistolSubMachineGunHeavy
+  completetime: 2
+  materials:
+    Steel: 750
