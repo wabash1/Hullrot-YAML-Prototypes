@@ -29,7 +29,7 @@
   group: pangtai
 
 - type: cargoProduct
-  id: MedicalBodybagssurezai
+  id: MedicalBodybagsPangtai
   icon:
     sprite: Objects/Specific/Medical/Morgue/bodybags.rsi
     state: bag_folded
