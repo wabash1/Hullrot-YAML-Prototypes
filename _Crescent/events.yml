@@ -10,7 +10,7 @@
      endAnnouncement: station-event-bluespace-asteroid-end-announcement
      earliestStart: 55
      minimumPlayers: 25
-     weight: 2
+     weight: 4
      startDelay: 10
      duration: 2100
      maxDuration: 2400
@@ -52,7 +52,7 @@
      endAnnouncement: station-event-bluespace-pangtai-trader-end
      earliestStart: 1
      minimumPlayers: 1
-     weight: 2
+     weight: 5
      startDelay: 10
      duration: 3200
      maxDuration: 4000
