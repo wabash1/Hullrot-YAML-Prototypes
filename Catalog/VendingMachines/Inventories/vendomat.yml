@@ -2,13 +2,13 @@
   id: VendomatInventory
   startingInventory:
     RemoteSignaller: 10
-    Igniter: 2
+    Igniter: 8
     Wirecutter: 20
-    CableApcStack: 8
+    CableApcStack: 12
     FlashlightLantern: 12
     PowerCellSmallPrinted: 10
-    MatterBinStockPart: 8
-    CapacitorStockPart: 8
-    MicroManipulatorStockPart: 8
+    MatterBinStockPart: 12
+    CapacitorStockPart: 12
+    MicroManipulatorStockPart: 12
     Beaker: 8    # Frontier - beakers are required for some machines
     AirFreshener: 10

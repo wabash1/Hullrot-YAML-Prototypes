@@ -123,7 +123,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: JetpackBlue
+      - id: JetpackBlueFilled
         amount: 2
 
 - type: entity
