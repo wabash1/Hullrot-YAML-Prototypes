@@ -8,8 +8,8 @@
      startAudio:
        path: /Audio/Announcements/attention.ogg
      endAnnouncement: station-event-bluespace-asteroid-end-announcement
-     earliestStart: 55
-     minimumPlayers: 25
+     earliestStart: 1
+     minimumPlayers: 1
      weight: 4
      startDelay: 10
      duration: 2100
@@ -29,8 +29,8 @@
      startAudio:
        path: /Audio/Announcements/attention.ogg
      endAnnouncement: station-event-bluespace-shinohara-trader-end
-     earliestStart: 20
-     minimumPlayers: 25
+     earliestStart: 1
+     minimumPlayers: 1
      weight: 3
      startDelay: 10
      duration: 3200
