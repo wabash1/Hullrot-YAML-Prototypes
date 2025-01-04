@@ -33,9 +33,9 @@
      minimumPlayers: 1
      weight: 3
      startDelay: 10
-     duration: 3200
-     maxDuration: 4000
-     maxOccurrences: 4
+     duration: 2100
+     maxDuration: 2400
+     maxOccurrences: 1
    - type: BluespaceErrorRule
      gridPath: /Maps/_Crescent/Bluespace/shitrader.yml
      rewardFactor: 0.5 # Filler to make the bank go up
@@ -54,9 +54,9 @@
      minimumPlayers: 1
      weight: 5
      startDelay: 10
-     duration: 3200
-     maxDuration: 4000
-     maxOccurrences: 4
+     duration: 2100
+     maxDuration: 2400
+     maxOccurrences: 1
    - type: BluespaceErrorRule
      gridPath: /Maps/_Crescent/Bluespace/trader.yml
      rewardFactor: 0.5 # Filler to make the bank go up
