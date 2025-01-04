@@ -9,14 +9,14 @@
   group: shinohara
 
 - type: cargoProduct
-  id: MedicalChemistrySuppliesPang
+  id: MedicalChemistrySuppliesshinohara
   icon:
     sprite: Objects/Specific/Chemistry/beaker.rsi
     state: beaker
   product: CrateChemistrySupplies
   cost: 750
   category: cargoproduct-category-name-medical
-  group: pangtai
+  group: shinohara
 
 - type: cargoProduct
   id: MedicalChemistryVialsshinohara
