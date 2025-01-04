@@ -31,7 +31,7 @@
      endAnnouncement: station-event-bluespace-shinohara-trader-end
      earliestStart: 20
      minimumPlayers: 25
-     weight: 2
+     weight: 3
      startDelay: 10
      duration: 3200
      maxDuration: 4000
