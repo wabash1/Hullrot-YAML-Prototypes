@@ -50,8 +50,8 @@
      startAudio:
        path: /Audio/Announcements/attention.ogg
      endAnnouncement: station-event-bluespace-pangtai-trader-end
-     earliestStart: 20
-     minimumPlayers: 25
+     earliestStart: 1
+     minimumPlayers: 1
      weight: 2
      startDelay: 10
      duration: 3200
