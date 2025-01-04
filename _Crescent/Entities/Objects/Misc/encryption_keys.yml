@@ -112,7 +112,7 @@
   - type: Sprite
     layers:
     - state: crypt_gray
-    - state: common_label    
+    - state: common_label
 
 - type: entity
   parent: EncryptionKey
@@ -123,7 +123,6 @@
   - type: EncryptionKey
     channels:
     - Imperial
-    - Nfsd
     - EmpireCiv
     - Common
     defaultChannel: Common
@@ -189,7 +188,6 @@
   - type: EncryptionKey
     channels:
     - Nfsd
-    - Imperial
     - Common
     defaultChannel: Common
   - type: Sprite
