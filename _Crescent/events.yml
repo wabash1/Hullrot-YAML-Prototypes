@@ -1,15 +1,15 @@
  - type: entity # Need rework
    id: BluespaceAsteroidBunker
    parent: BaseGameRule
-   noSpawn: true
+   abstract: true
    components:
    - type: StationEvent
      startAnnouncement: station-event-bluespace-asteroid-start-announcement
      startAudio:
        path: /Audio/Announcements/attention.ogg
      endAnnouncement: station-event-bluespace-asteroid-end-announcement
-     earliestStart: 1
-     minimumPlayers: 1
+     earliestStart: 55
+     minimumPlayers: 25
      weight: 2
      startDelay: 10
      duration: 2100
@@ -17,4 +17,46 @@
      maxOccurrences: 1 # Only once per shift possible
    - type: BluespaceErrorRule
      gridPath: /Maps/_NF/Bluespace/asteroidbunker.yml
+     rewardFactor: 0.5 # Filler to make the bank go up
+
+ - type: entity # Need rework
+   id: ShinoharaTrader
+   abstract: true
+   parent: BaseGameRule
+   components:
+   - type: StationEvent
+     startAnnouncement: station-event-bluespace-shinohara-trader
+     startAudio:
+       path: /Audio/Announcements/attention.ogg
+     endAnnouncement: station-event-bluespace-shinohara-trader-end
+     earliestStart: 20
+     minimumPlayers: 25
+     weight: 2
+     startDelay: 10
+     duration: 3200
+     maxDuration: 4000
+     maxOccurrences: 4
+   - type: BluespaceErrorRule
+     gridPath: /Maps/_Crescent/Bluespace/shitrader.yml
+     rewardFactor: 0.5 # Filler to make the bank go up
+
+ - type: entity # Need rework
+   id: PangTaiTrader
+   abstract: true
+   parent: BaseGameRule
+   components:
+   - type: StationEvent
+     startAnnouncement: station-event-bluespace-pangtai-trader
+     startAudio:
+       path: /Audio/Announcements/attention.ogg
+     endAnnouncement: station-event-bluespace-pangtai-trader-end
+     earliestStart: 20
+     minimumPlayers: 25
+     weight: 2
+     startDelay: 10
+     duration: 3200
+     maxDuration: 4000
+     maxOccurrences: 4
+   - type: BluespaceErrorRule
+     gridPath: /Maps/_Crescent/Bluespace/trader.yml
      rewardFactor: 0.5 # Filler to make the bank go up

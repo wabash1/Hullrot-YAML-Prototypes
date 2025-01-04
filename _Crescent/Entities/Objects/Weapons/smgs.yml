@@ -145,7 +145,7 @@
     - type: Appearance
 
 - type: entity
-  name: NT M221 Sabre 9x19mm
+  name: SHI M221 Sabre 9x19mm
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunSabre
   description: A blatant copy of the much more advanced and cost-friendly NanoTrasen Sabre, this Shinohara conversion cuts a few corners and features to deliver a reliable, if generic product. Rifling systems lifted from the original Sabre afford a breakneck rate of fire, however.
