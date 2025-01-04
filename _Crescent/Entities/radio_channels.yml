@@ -31,7 +31,7 @@
   name: chat-radio-empireciv
   keycode: "j"
   frequency: 6223
-  color: "#535961"
+  color: "#cbc3e3"
 
 - type: radioChannel
   id: Gorlex
