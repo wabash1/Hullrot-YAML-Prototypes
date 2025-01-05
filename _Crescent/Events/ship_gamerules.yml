@@ -14,12 +14,12 @@
             prefixCreator: '14'
 
 - type: gameMap
-  id: shinoharatrader
+  id: shitrader
   mapName: 'SHI Kitamura Jeon'
   mapPath: /Maps/_Crescent/Bluespace/shitrader.yml
   minPlayers: 0
   stations:
-    shinoharatrader:
+    shitrader:
       stationProto: StandardCrescentOutpost
       components:
         - type: StationNameSetup
