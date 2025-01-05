@@ -1,7 +1,6 @@
  - type: entity # Need rework
    id: BluespaceAsteroidBunker
    parent: BaseGameRule
-   abstract: true
    components:
    - type: StationEvent
      startAnnouncement: station-event-bluespace-asteroid-start-announcement
@@ -21,7 +20,6 @@
 
  - type: entity # Need rework
    id: ShinoharaTrader
-   abstract: true
    parent: BaseGameRule
    components:
    - type: StationEvent
@@ -42,7 +40,6 @@
 
  - type: entity # Need rework
    id: PangTaiTrader
-   abstract: true
    parent: BaseGameRule
    components:
    - type: StationEvent
