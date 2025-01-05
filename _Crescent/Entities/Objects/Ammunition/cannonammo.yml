@@ -461,7 +461,7 @@
   - type: HeatSeeking
     acceleration: 75
     rotationSpeed: 15
-    seekRange: 150
+    seekRange: 750
   - type: PointLight
     radius: 3.5
     color: orange
