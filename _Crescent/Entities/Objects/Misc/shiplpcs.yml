@@ -962,9 +962,9 @@
 
 - type: entity
   parent: BaseItem
-  id: ShipVoucherInterceptor
-  name: TSP 'interceptor' pattern LPC fabprint disk
-  description: An LPC fabprint disk loaded with TSP 'Interceptor' attack shuttle. Has to be redeemed at a shipyard console.
+  id: ShipVoucherAdjudicator
+  name: TSP 'Adjudicator' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with TSP 'Adjudicator' attack shuttle. Has to be redeemed at a shipyard console.
   components:
   - type: Item
     size: Small
@@ -975,7 +975,7 @@
   - type: StaticPrice
     price: 14000
   - type: ShipVoucher
-    ship: Interceptor
+    ship: Adjudicator
 
 
 #SRM
@@ -1121,7 +1121,7 @@
 - type: entity
   parent: BaseItem
   id: ShipVoucherAntiquarianWarthog
-  name: Kourindou Limited GNSY Edition 
+  name: Kourindou Limited GNSY Edition
   description: A hideously mistreated tech-voucher granting you to the right to ride one of the sector's finest Meatmobiles. Your meatmobile. It's crusted with odd stains which smell of things better left unremembered.
   components:
   - type: Item
