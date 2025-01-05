@@ -12,7 +12,7 @@
     - !type:WhitelistRequirement
     - !type:FactionRequirement
       factionID: "NCWL"
-  supervisors: job-supervisors-highcomm 
+  supervisors: job-supervisors-highcomm
   canBeAntag: false
   special:
   - !type:AddComponentSpecial
@@ -75,3 +75,4 @@
     ears: ClothingHeadsetNCWL
     belt: WeaponPistolT91
     pocket1: NCWLPassportAccepted
+    pocket2: ShipVoucherClementine
