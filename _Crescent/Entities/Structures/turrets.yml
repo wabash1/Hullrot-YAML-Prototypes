@@ -3,7 +3,7 @@
 - type: entity
   parent: BaseStructure
   id: BaseWeaponTurretPDT
-  name: light dual machinegun
+  name: SHI MG-213 light dual machinegun 20x135mm
   abstract: true
   components:
     - type: PointCannon
@@ -62,7 +62,7 @@
     - type: TurretIFF
     - type: Gun
       projectileSpeed: 80
-      fireRate: 7
+      fireRate: 5
       selectedMode: FullAuto
       availableModes:
         - FullAuto
@@ -100,7 +100,7 @@
 
 - type: entity
   parent: BaseWeaponTurretPDT
-  name: NCWL 30mm 'Gran Sudaruska' point defense turret
+  name: SHI MG-213 light dual machinegun 20x135mm
   id: WeaponTurretPDTNCWL
   suffix: NCWL PDT
   components:
@@ -110,13 +110,14 @@
 
 - type: entity
   parent: BaseWeaponTurretPDT
-  name: NCSP 30mm 'Anklebiter' point defense turret
+  name: SHI MG-213 light dual machinegun 20x135mm Mk. II
   id: WeaponTurretPDTNCSP
-  suffix: NCSP PDT
+  suffix: Mark Two
   components:
-    - type: NpcFactionMember
-      factions:
-        - NCSPFighter
+    - type: Gun
+      projectileSpeed: 85
+      fireRate: 5.5
+
 
 - type: entity
   parent: BaseWeaponTurretPDT
@@ -165,7 +166,7 @@
 - type: entity
   parent: BaseStructure
   id: BaseWeaponTurretVulcan
-  name: ballistic autogun
+  name: vulcan gun
   abstract: true
   components:
     - type: PointCannon
@@ -219,12 +220,12 @@
                   min: 3
                   max: 5
     - type: Gun
-      fireRate: 9.6
+      fireRate: 9.5
+      projectileSpeed: 85
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       soundGunshot: /Audio/Weapons/Guns/Gunshots/vulcan.ogg
-    # TODO: Power ammo provider?
     - type: MagazineAmmoProvider
     - type: ItemSlots
       slots:
