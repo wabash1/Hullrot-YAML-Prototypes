@@ -15,8 +15,8 @@
   materials:
     ExoticProteins: 1500
     PlasmaIsotope: 500
-    RefinedGarbage: 2000
-    DeactivatedPhoron: 1000 
+    RefinedGarbage: 1750
+    DeactivatedPhoron: 750
     Galine: 250
 
 - type: latheRecipe
@@ -49,7 +49,7 @@
     ExoticProteins: 1500
     Galine: 500
     DeactivatedPhoron: 1000 
-    RefinedGarbage: 2000
+    RefinedGarbage: 1750
 
 - type: latheRecipe
   id: PartyDrugs
