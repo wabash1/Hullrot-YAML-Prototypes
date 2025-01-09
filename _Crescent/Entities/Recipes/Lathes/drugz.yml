@@ -54,7 +54,7 @@
   id: PartyDrugs
   result: TradeGoodDrugs
   applyMaterialDiscount: false
-  completetime: 1
+  completetime: 2
   materials:
     PlasmaIsotope: 1000
     Galine: 500
