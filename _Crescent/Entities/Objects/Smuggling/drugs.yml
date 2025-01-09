@@ -53,8 +53,6 @@
         reagents:
         - ReagentId: Exile
           Quantity: 25
-        - ReagentId: Omnizine
-          Quantity: 5
         - ReagentId: TranexamicAcid
           Quantity: 5
   - type: Tag
@@ -90,8 +88,6 @@
           Quantity: 25
         - ReagentId: Ephedrine
           Quantity: 15
-        - ReagentId: TranexamicAcid
-          Quantity: 5
   - type: Tag
     tags: []
   - type: Contraband
@@ -122,9 +118,7 @@
         maxVol: 40
         reagents:
         - ReagentId: Mechanites
-          Quantity: 25
-        - ReagentId: Omnizine
-          Quantity: 15
+          Quantity: 35
         - ReagentId: TranexamicAcid
           Quantity: 5
   - type: Tag
@@ -156,13 +150,9 @@
         maxVol: 45
         reagents:
         - ReagentId: Bloodeye
-          Quantity: 20
+          Quantity: 30
         - ReagentId: Crash
-          Quantity: 10
-        - ReagentId: Stimulants
           Quantity: 15
-        - ReagentId: Impedrezene
-          Quantity: 5
   - type: Tag
     tags: []
   - type: Contraband
