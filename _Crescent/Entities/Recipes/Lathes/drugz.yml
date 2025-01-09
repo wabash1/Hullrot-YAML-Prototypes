@@ -14,7 +14,7 @@
   completetime: 1
   materials:
     ExoticProteins: 1500
-    RefinedGarbage: 2000
+    RefinedGarbage: 1000
     DeactivatedPhoron: 1000 
     Galine: 250
 
@@ -24,10 +24,10 @@
   applyMaterialDiscount: false
   completetime: 1
   materials:
-    ExoticProteins: 2000
+    ExoticProteins: 1250
     PlasmaIsotope: 1500
-    DeactivatedPhoron: 1000
-    Galine: 500
+    DeactivatedPhoron: 1750
+    Galine: 1000
 
 - type: latheRecipe
   id: Mechanite
@@ -45,10 +45,9 @@
   applyMaterialDiscount: false
   completetime: 1
   materials:
-    ExoticProteins: 1500
-    Galine: 500
-    DeactivatedPhoron: 1000 
-    RefinedGarbage: 2000
+    ExoticProteins: 1000
+    Galine: 1500
+    RefinedGarbage: 1000
 
 - type: latheRecipe
   id: PartyDrugs
