@@ -68,9 +68,17 @@
         - FullAuto
       soundGunshot: /Audio/Weapons/Guns/Gunshots/gun_sentry.ogg
     # TODO: Power ammo provider?
-    - type: BallisticAmmoProvider
-      proto: PDTBulletCase
-      capacity: 5000
+    - type: BasicEntityAmmoProvider
+      proto: PDTBullet
+      capacity: 60
+      count: 60
+    - type: RechargeBasicEntityAmmo
+      rechargeCooldown: 5
+      rechargeSound:
+        path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
+        params:
+          pitch: 1.2
+          variation: 0.08
     - type: SignalControl
       isOnByDefault: true
     - type: DeviceNetwork
