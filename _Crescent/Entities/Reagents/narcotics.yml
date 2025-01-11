@@ -139,7 +139,7 @@
         conditions:
         - !type:ReagentThreshold
             min: 25
-        amount: 30000
+        amount: 100000
       
 
 - type: reagent
