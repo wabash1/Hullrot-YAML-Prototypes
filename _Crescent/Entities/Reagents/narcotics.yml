@@ -18,9 +18,12 @@
       effects:
       - !type:ChemVomit
         probability: 0.05
+        conditions:
+        - !type:ReagentThreshold
+            min: 10
       - !type:MovespeedModifier
         walkSpeedModifier: 1.35
-        sprintSpeedModifier: 1.7 
+        sprintSpeedModifier: 1.6 
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
@@ -35,16 +38,16 @@
         type: Remove
       - !type:Emote
         emote: Scream
-        probability: 0.1
+        probability: 0.25
       - !type:AdjustTemperature
         conditions:
         - !type:ReagentThreshold
             min: 15
-        amount: 20000 # ups temp by like 20c per unit of OD
+        amount: 50000 
       - !type:Emote
-        emote: Crying
+        emote: Scream
         showInChat: true
-        probability: 0.25
+        probability: 0.5
         conditions:
         - !type:ReagentThreshold
           min: 15
@@ -90,7 +93,7 @@
         conditions:
         - !type:ReagentThreshold
             min: 25
-        amount: 20000 # ups temp by like 20c per unit of OD
+        amount: 50000 
       - !type:GenericStatusEffect
         key: SeeingRainbows
         component: SeeingRainbows
@@ -136,7 +139,7 @@
         conditions:
         - !type:ReagentThreshold
             min: 25
-        amount: 30000 # ups temp by like 15c per half a second of overdosing
+        amount: 30000
       
 
 - type: reagent
@@ -195,4 +198,4 @@
         conditions:
         - !type:ReagentThreshold
             min: 30
-        amount: 10000 # ups temp by like 5c per half a second of overdosing
+        amount: 50000 
