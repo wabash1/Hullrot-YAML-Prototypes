@@ -13,7 +13,7 @@
   mapPath: /Maps/_Crescent/Shuttles/DSM/royal.yml
   minPlayers: 0
   stations:
-    Valor:
+    Royal:
       stationProto: StandardCrescentVessel
       components:
         - type: StationNameSetup

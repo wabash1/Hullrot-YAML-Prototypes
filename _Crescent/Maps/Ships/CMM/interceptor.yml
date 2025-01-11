@@ -3,7 +3,7 @@
 #
 - type: vessel
   id: Adjudicator
-  name: TSP Adjudicator
+  name: CMM Adjudicator
   description: A light barely combat worthy vessel.
   price: 19000
   category: Small
@@ -12,7 +12,7 @@
 
 - type: gameMap
   id: Adjudicator
-  mapName: 'TSP Adjudicator'
+  mapName: 'CMM Adjudicator'
   mapPath: /Maps/_Crescent/Shuttles/CMM/adjudicator.yml
   minPlayers: 0
   stations:
@@ -20,7 +20,7 @@
       stationProto: StandardCrescentExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'TSP Adjudicator {1}'
+          mapNameTemplate: 'CMM Adjudicator {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

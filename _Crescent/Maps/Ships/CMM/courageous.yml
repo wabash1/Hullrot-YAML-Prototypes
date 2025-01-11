@@ -1,6 +1,6 @@
 - type: vessel
   id: Courageous
-  name: TSP Courageous
+  name: CMM Courageous
   description: A heavy missile platform equipped with an expanded security module.
   price: 80000
   category: Medium
@@ -9,7 +9,7 @@
 
 - type: gameMap
   id: Courageous
-  mapName: 'TSP Courageous'
+  mapName: 'CMM Courageous'
   mapPath: /Maps/_Crescent/Shuttles/CMM/courageous.yml
   minPlayers: 0
   stations:
@@ -17,7 +17,7 @@
       stationProto: StandardCrescentVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'TSP Courageous {1}'
+          mapNameTemplate: 'CMM Courageous {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

@@ -1,6 +1,6 @@
 - type: vessel
   id: Templar
-  name: TSP Templar
+  name: CMM Templar
   description: A frontliner assault corvette.
   price: 62500
   category: Small
@@ -17,7 +17,7 @@
       stationProto: StandardCrescentVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'TSP Templar {1}'
+          mapNameTemplate: 'CMM Templar {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

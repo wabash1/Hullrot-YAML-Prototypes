@@ -10,9 +10,7 @@
     - Cherenzikov
     - Hind
     - Ivarod
-    - Broadsword
-    - Rapier
-    - Khopesh
+    - Meteor
 
 - type: entity
   id: JackalMothershipComputer
@@ -59,6 +57,7 @@
   - type: ShipyardListing
     shuttles:
     - Gnosis
+    - Sunesis
 
 - type: entity
   id: NemesisMothershipComputer
@@ -154,6 +153,7 @@
     - Justiciar
     - Templar
     - Courageous
+    - Lunge
     - Provost
     - Adjudicator
 
