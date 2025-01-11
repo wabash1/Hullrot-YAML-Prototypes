@@ -64,7 +64,7 @@
       tags:
         - VulcanCartridgeBox
     proto: CartridgeVulcanStandard
-    capacity: 200
+    capacity: 400
   - type: Item
   - type: Sprite
     sprite: _Crescent/Ammunition/vulcan.rsi
