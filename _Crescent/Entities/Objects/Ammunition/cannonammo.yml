@@ -455,12 +455,12 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    totalIntensity: 700
-    intensitySlope: 140
-    maxIntensity: 140
+    totalIntensity: 25
+    intensitySlope: 5
+    maxIntensity: 4
   - type: HeatSeeking
-    acceleration: 75
-    rotationSpeed: 15
+    acceleration: 100
+    rotationSpeed: 25
     seekRange: 750
   - type: PointLight
     radius: 3.5
