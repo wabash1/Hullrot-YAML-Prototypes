@@ -4,8 +4,9 @@
   applyMaterialDiscount: false
   completetime: 1
   materials:
-    RefinedGarbage: 2000
-    ExoticProteins: 750
+    ExoticProteins: 250
+    DeactivatedPhoron: 500
+    Garbage: 1750
 
 - type: latheRecipe
   id: Exile
@@ -13,11 +14,11 @@
   applyMaterialDiscount: false
   completetime: 1
   materials:
-    ExoticProteins: 1500
-    PlasmaIsotope: 500
-    RefinedGarbage: 1750
-    DeactivatedPhoron: 750
     Galine: 250
+    PlasmaIsotope: 500
+    DeactivatedPhoron: 500
+    ExoticProteins: 1000
+    RefinedGarbage: 1500
 
 - type: latheRecipe
   id: Kaiser
@@ -25,10 +26,10 @@
   applyMaterialDiscount: false
   completetime: 1
   materials:
-    ExoticProteins: 2000
-    PlasmaIsotope: 1500
-    DeactivatedPhoron: 1750
     Galine: 1000
+    ExoticProteins: 1500
+    DeactivatedPhoron: 1500
+    PlasmaIsotope: 2000
 
 - type: latheRecipe
   id: Mechanite
@@ -36,8 +37,9 @@
   applyMaterialDiscount: false
   completetime: 1
   materials:
-    PlasmaIsotope: 1250
     Galine: 500
+    PlasmaIsotope: 1000
+    DeactivatedPhoron: 1500
     Mechanites: 2000
 
 - type: latheRecipe
@@ -46,10 +48,10 @@
   applyMaterialDiscount: false
   completetime: 1
   materials:
-    ExoticProteins: 1500
     Galine: 500
     DeactivatedPhoron: 1000 
-    RefinedGarbage: 1750
+    ExoticProteins: 1500
+    RefinedGarbage: 2000
 
 - type: latheRecipe
   id: PartyDrugs
@@ -57,7 +59,7 @@
   applyMaterialDiscount: false
   completetime: 2
   materials:
-    PlasmaIsotope: 1000
     Galine: 500
+    PlasmaIsotope: 1000
     DeactivatedPhoron: 1500
     RefinedGarbage: 1500
