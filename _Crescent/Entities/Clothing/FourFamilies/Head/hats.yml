@@ -8,6 +8,11 @@
     sprite: _Crescent/Clothing/FourFamilies/Head/draugrhead.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/FourFamilies/Head/draugrhead.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+  - type: IdentityBlocker
 
 - type: entity
   parent: ClothingHeadBase
@@ -19,6 +24,11 @@
     sprite: _Crescent/Clothing/FourFamilies/Head/servilewrap.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/FourFamilies/Head/servilewrap.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+  - type: IdentityBlocker
 
 - type: entity
   parent: ClothingHeadHardsuitBase
