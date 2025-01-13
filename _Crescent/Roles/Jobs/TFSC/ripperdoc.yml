@@ -33,7 +33,7 @@
 - type: startingGear
   id: RipperdocGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSyndicate
+    jumpsuit: ClothingUniformJumpsuitSyndicateInterdyne
     shoes: ClothingShoesBootsCombat
     head: ClothingHeadHatSyndicateDoctor
     id: RipperdocPDA
