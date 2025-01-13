@@ -329,8 +329,8 @@
 
 - type: entity
   parent: DoorElectronics
-  id: DoorElectronicsIzdari
-  suffix: Izdari, Locked
+  id: DoorElectronicsThukker
+  suffix: Thukker, Locked
   components:
   - type: AccessReader
-    access: [["Izdari"]]
+    access: [["Thukker"]]
