@@ -147,3 +147,29 @@
 - type: accessLevel
   id: Antiquarian
   name: id-card-access-level-antiquarian
+
+#4families
+
+- type: accessLevel
+  id: Arabet
+  name: id-card-access-level-arabet
+
+- type: accessLevel
+  id: Thukker
+  name: id-card-access-level-thukker
+
+- type: accessLevel
+  id: Alseik
+  name: id-card-access-level-Alseik
+
+- type: accessLevel
+  id: AlseikServile
+  name: id-card-access-level-Servile
+
+- type: accessLevel
+  id: Families
+  name: id-card-access-level-Families
+
+- type: accessLevel
+  id: Izdari
+  name: id-card-access-level-Izdari
