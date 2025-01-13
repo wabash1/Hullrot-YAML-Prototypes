@@ -34,8 +34,72 @@
 
 - type: entity
   parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitArabet
+  name: prophet's pressurized hardsuit
+  description: An unusual hardsuit constructed of sleek plasteel, gilded with tribal patterns. The shoulderplates bear the mark of the Arabet family of the Pact.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/FourFamilies/OuterClothing/prophetsuit.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/FourFamilies/OuterClothing/prophetsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.6
+  - type: ClothingSpeedModifier
+    walkModifier: 0.80
+    sprintModifier: 0.85
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitArabet
+  - type: StaticPrice
+    price: 1000
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitIzdari
+  name: izdari beltrunner's armored hardsuit
+  description: A modified version of an antiquated atmospheric techinican's hardsuit. Around three generations out of date. Attributed commonly to the Izdari family.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/FourFamilies/OuterClothing/izdarianti.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/FourFamilies/OuterClothing/izdarianti.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.8
+        Radiation: 0.7
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.80
+    sprintModifier: 0.85
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitIzdari
+  - type: StaticPrice
+    price: 1000
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitThukker
-  name: thukker engineering hardsuit
+  name: thukker combat engineer's hardsuit
   description: A modified mining hardsuit adorned with the livery of the Thukker family of the Pact. Features bulky lead shielding against radiation.
   components:
   - type: Sprite
@@ -79,3 +143,84 @@
     - SuitEVA
   - type: StaticPrice
     price: 1000
+
+- type: entity
+  parent: ClothingOuterBaseLarge
+  id: ClothingOuterArmorServileAlseik
+  name: servile's durathread rags
+  description: A durathread robe adorned with tribal fetishes. This one doesn't bear as many rank stripes or adornments.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/FourFamilies/OuterClothing/alseikservile.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/FourFamilies/OuterClothing/alseikservile.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.80
+        Piercing: 0.95
+        Heat: 0.80
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+  - type: GroupExamine
+  - type: StaticPrice
+    price: 250
+
+- type: entity
+  parent: ClothingOuterBaseLarge
+  id: ClothingOuterArmorDraugrAlseik
+  name: draugr's armored durathread robes
+  description: A durathread robe adorned with tribal fetishes. This one bears the color stripes and adornments of a decorated tribal warrior.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/FourFamilies/OuterClothing/alseikdraugr.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/FourFamilies/OuterClothing/alseikdraugr.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.75
+        Piercing: 0.75
+        Heat: 0.80
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+  - type: GroupExamine
+  - type: StaticPrice
+    price: 250
+
+- type: entity
+  parent: ClothingOuterBaseLarge
+  id: ClothingOuterArmorThukkerEngiVest
+  name: thukker combat engineer's vest
+  description: A half-vest of kevlar-reinforced durathread, meant to shield engineers' vitals during combat.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/FourFamilies/OuterClothing/engineervest.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/FourFamilies/OuterClothing/engineervest.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.75
+        Piercing: 0.85
+        Heat: 0.80
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+  - type: GroupExamine
+  - type: StaticPrice
+    price: 250
