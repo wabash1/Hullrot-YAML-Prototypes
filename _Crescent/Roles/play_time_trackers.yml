@@ -163,6 +163,35 @@
 - type: playTimeTracker
   id: JobMarshalCMM
 
+#4fams
+
+- type: playTimeTracker
+  id: JobProphetTAP
+
+- type: playTimeTracker
+  id: JobAcolyteTAP
+
+- type: playTimeTracker
+  id: JobDraugrTAP
+
+- type: playTimeTracker
+  id: JobServileTAP
+
+- type: playTimeTracker
+  id: JobTechminerTAP
+
+- type: playTimeTracker
+  id: JobHangarTechTAP
+  
+- type: playTimeTracker
+  id: JobTinkererTAP
+
+- type: playTimeTracker
+  id: JobBeltrunnerTAP
+
+- type: playTimeTracker
+  id: JobAntiquarianTAP
+  
 #misc
 
 - type: playTimeTracker
