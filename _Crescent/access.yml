@@ -169,3 +169,7 @@
 - type: accessLevel
   id: Families
   name: id-card-access-level-Families
+
+- type: accessLevel
+  id: Izdari
+  name: id-card-access-level-Izdari
