@@ -253,6 +253,7 @@
   - type: Tag
     tags:
     - RawMaterial
+    - DrugComponent
   - type: Stack
     stackType: GarbageOre
   - type: Sprite

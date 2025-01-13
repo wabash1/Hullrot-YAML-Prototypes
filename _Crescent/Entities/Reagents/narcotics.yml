@@ -17,10 +17,13 @@
     Narcotic:
       effects:
       - !type:ChemVomit
-        probability: 0.2
+        probability: 0.05
+        conditions:
+        - !type:ReagentThreshold
+            min: 10
       - !type:MovespeedModifier
         walkSpeedModifier: 1.35
-        sprintSpeedModifier: 2 # you vomit so much that you are lucky if you get more than 1.4 speed out of this at any time.
+        sprintSpeedModifier: 1.6 
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
@@ -35,16 +38,16 @@
         type: Remove
       - !type:Emote
         emote: Scream
-        probability: 0.05
+        probability: 0.25
       - !type:AdjustTemperature
         conditions:
         - !type:ReagentThreshold
-            min: 35
-        amount: 20000 # ups temp by like 20c per unit of OD
+            min: 15
+        amount: 50000 
       - !type:Emote
-        emote: Crying
+        emote: Scream
         showInChat: true
-        probability: 0.7
+        probability: 0.5
         conditions:
         - !type:ReagentThreshold
           min: 15
@@ -82,10 +85,15 @@
           max: 50
         damage:
           groups:
-            Brute: -2 # heals 4 per unit at 2 per second and heals less per unit
+            Brute: -2
             Burn: -1
     Narcotic:
       effects:
+      - !type:AdjustTemperature
+        conditions:
+        - !type:ReagentThreshold
+            min: 25
+        amount: 50000 
       - !type:GenericStatusEffect
         key: SeeingRainbows
         component: SeeingRainbows
@@ -93,8 +101,8 @@
         time: 6
         refresh: false
       - !type:MovespeedModifier
-        walkSpeedModifier: 1.5
-        sprintSpeedModifier: 1.6
+        walkSpeedModifier: 1.25
+        sprintSpeedModifier: 1.5
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
@@ -124,14 +132,16 @@
       - !type:HealthChange
         damage:
           groups:
-            Brute: -16 # heals 16 per unit at 16 per second
+            Brute: -15
             Burn: -1
             Airloss: -2
+          types:
+            Piercing: -10
       - !type:AdjustTemperature
         conditions:
         - !type:ReagentThreshold
-            min: 40
-        amount: 30000 # ups temp by like 15c per half a second of overdosing
+            min: 25
+        amount: 100000
       
 
 - type: reagent
@@ -149,7 +159,7 @@
       - !type:HealthChange
         damage:
           groups:
-            Brute: -4 # heals 8 per unit at 4 per second
+            Brute: -4 
           types:
             Poison: -2.0
             Heat: -0.6
@@ -173,12 +183,12 @@
   color: "#FF7F7F"
   metabolisms:
     Medicine:
-      metabolismRate: 1 # makes the stim last half as long and heals less per unit
+      metabolismRate: 1 
       effects:
       - !type:HealthChange
         damage:
           groups:
-            Brute: -8 # heals 8 per unit at 8 per second
+            Brute: -8 
             Airloss: -2
       - !type:ResetNarcolepsy
         conditions:
@@ -189,5 +199,5 @@
       - !type:AdjustTemperature
         conditions:
         - !type:ReagentThreshold
-            min: 40
-        amount: 10000 # ups temp by like 5c per half a second of overdosing
+            min: 30
+        amount: 50000 
