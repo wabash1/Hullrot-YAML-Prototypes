@@ -672,6 +672,80 @@
     containers:
       board: [ DoorElectronicsCMMMarshal ]
 
+#4fam
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandFamilies
+  suffix: Families, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsFamilies ]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandArabet
+  suffix: Arabet, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsArabet ]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandThukker
+  suffix: Thukker, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsThukker ]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandIzdari
+  suffix: Izdari, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsIzdari ]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandAlseik
+  suffix: Al'Seik, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAlseik ]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandServile
+  suffix: Servile, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsServile ]
+
+- type: entity
+  parent: WindoorSecure
+  id: WindoorSecureThukker
+  suffix: Thukker, Windoor
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsThukker ]
+
+- type: entity
+  parent: WindoorSecure
+  id: WindoorSecureAlseik
+  suffix: Al'Seik, Windoor
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAlseik ]
+
 #misc
 
 - type: entity
