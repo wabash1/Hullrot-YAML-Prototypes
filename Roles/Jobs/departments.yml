@@ -149,7 +149,7 @@
   - HunterSRM
   - MontagneSRM
   - OverseerSRM
-  enabled: disabled
+  enabled: false
 
 - type: department
   id: SHI
@@ -163,7 +163,7 @@
   - CorpsecSHI
   - EmployeeSHI
   - MedtechSHI
-  enabled: disabled
+  enabled: false
 
 - type: department
   id: CMM
