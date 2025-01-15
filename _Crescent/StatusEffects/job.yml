@@ -322,7 +322,7 @@
 
 - type: statusIcon
   parent: JobIcon
-  id: JobIconAcolyte
+  id: JobIconAcolyteFamilies
   icon:
     sprite: Interface/Misc/job_icons.rsi
     state: AcolyteFamilies
