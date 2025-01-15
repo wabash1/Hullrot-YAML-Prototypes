@@ -336,3 +336,10 @@
   - ContractorImplanter
   - ContractorUtility
   - ContractorFun
+
+#fourfamilies
+
+- type: roleLoadout
+  id: JobProphetTAP
+  groups:
+  - ContractorTrinkets

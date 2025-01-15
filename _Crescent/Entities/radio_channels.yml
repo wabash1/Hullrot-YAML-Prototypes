@@ -58,5 +58,12 @@
   id: Saws
   name: chat-radio-syndiesaws
   keycode: "x"
-  frequency: 6103
+  frequency: 6105
   color: "#ff5349"
+
+- type: radioChannel
+  id: Families
+  name: chat-radio-pact
+  keycode: "4"
+  frequency: 6104
+  color: "#000674f"

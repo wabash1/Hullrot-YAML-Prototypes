@@ -337,7 +337,7 @@
   - type: PdaBorderColor
     borderColor: "#6d5f8a"
   - type: Icon
-    state: basic
+    state: pda-rd
 
 - type: entity
   parent: BasePDA
@@ -379,7 +379,7 @@
   - type: PdaBorderColor
     borderColor: "#6d5f8a"
   - type: Icon
-    state: basic
+    state: pda-science
 
 - type: entity
   parent: BasePDA
@@ -794,3 +794,19 @@
   - type: Icon
     sprite: _NF/Objects/Devices/pda.rsi
     state: pda-mercenary
+
+#fourfamilies
+
+- type: entity
+  parent: BasePDA
+  id: ProphetPDA
+  name: prophet's PDA
+  description: How clerical.
+  components:
+  - type: Pda
+    id: TAPIDCardProphet
+    state: hunter
+  - type: PdaBorderColor
+    borderColor: "#ffffff"
+  - type: Icon
+    state: hunter

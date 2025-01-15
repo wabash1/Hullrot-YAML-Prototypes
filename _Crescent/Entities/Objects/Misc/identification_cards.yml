@@ -643,3 +643,17 @@
     layers:
     - state: default
     - state: idseniorresearcher
+
+#families
+
+- type: entity
+  parent: IDCardStandard
+  id: TAPIDCardProphet
+  name: nomadic ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idquartermaster
+  - type: PresetIdCard
+    job: ProphetTAP

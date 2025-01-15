@@ -80,6 +80,22 @@
     state: shi
 
 - type: faction
+  name: "The Taypani-Atyrian Pact"
+  id: TAP
+  description: |
+    A loosely organized tribal community of nomadic starfarers, the Taypani-Atyrian Pact consists of several nomadic
+    families of various racial backgrounds. Primarily made up of the spiritual Arabet, the militaristic Al'Seik, 
+    the materialistic Izdari, and the scrappy Thukker families, they operate out of a converted capital freighter,
+    moving from site to site to eke out a living. Most nomads carry the foul reputations of mercenaries, lowlives,
+    smugglers, racketeers, and gamblers.
+  color: "#9FED58"
+  weight: -7
+  enabled: true
+  icon:
+    sprite: /Textures/_Crescent/faction_icons.rsi
+    state: fourfamilies
+
+- type: faction
   name: "Saint Romaine's Militia"
   id: SRM
   description: |

@@ -346,32 +346,32 @@
   id: JobIconTechminer
   icon:
     sprite: Interface/Misc/job_icons.rsi
-    state: Techminer
+    state: techminer
 
 - type: statusIcon
   parent: JobIcon
   id: JobIconTinkerer
   icon:
     sprite: Interface/Misc/job_icons.rsi
-    state: Tinkerer
+    state: tinkerer
 
 - type: statusIcon
   parent: JobIcon
   id: JobIconHangarTech
   icon:
     sprite: Interface/Misc/job_icons.rsi
-    state: HangarTech
+    state: hangartech
 
 - type: statusIcon
   parent: JobIcon
   id: JobIconAntiquarian
   icon:
     sprite: Interface/Misc/job_icons.rsi
-    state: AntiquarianIzdari
+    state: antiquarian
 
 - type: statusIcon
   parent: JobIcon
   id: JobIconBeltrunner
   icon:
     sprite: Interface/Misc/job_icons.rsi
-    state: Beltrunner
+    state: beltrunner

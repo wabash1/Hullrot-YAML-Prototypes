@@ -92,8 +92,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBodysuit
-  name: skintight bodysuit
-  description: An underarmor bodysuit crafted from breathwable polymers and durathread. Generically worn under hardsuits by many nomadic families.
+  name: preacher's clericals
+  description: An uncomfortable jumpsuit made from natural fibers. Commonly worn by tribal preachers.
   components:
   - type: Sprite
     sprite: _Crescent/Clothing/FourFamilies/Uniform/bodysuit.rsi

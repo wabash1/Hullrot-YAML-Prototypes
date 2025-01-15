@@ -624,3 +624,17 @@
     layers:
       - state: green
       - state: passenger
+
+#fourfamilies
+
+- type: entity
+  id: SpawnPointProphetTAP
+  parent: SpawnPointJobBase
+  name: ProphetTAP
+  components:
+  - type: SpawnPoint
+    job_id: ProphetTAP
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
