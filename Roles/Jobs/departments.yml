@@ -183,7 +183,7 @@
 - type: department
   id: TAP
   description: department-TAP-description
-  color: "#000674f"
+  color: "#50c878"
   weight: 55
   roles:
   - ProphetTAP
