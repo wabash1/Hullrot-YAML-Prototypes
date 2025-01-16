@@ -200,7 +200,7 @@
   components:
   - type: SpaceBiomeSource
     biome: moonapproach
-    swapDistance: 2500
+    swapDistance: 1500
     priority: 2500
 
 - type: crescentFactionBiome
