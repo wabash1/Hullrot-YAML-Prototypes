@@ -7,10 +7,6 @@
     - !type:WhitelistRequirement
     - !type:FactionRequirement
       factionID: "TAP"
-  special:
-  - !type:AddComponentSpecial
-    components:
-    - type: MimePowers
   weight: 54
   startingGear: AcolyteTAPGear
   alwaysUseSpawner: true
