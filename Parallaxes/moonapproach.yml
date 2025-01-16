@@ -18,11 +18,6 @@
       slowness: 0.979375
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/Parallaxes/noise.png"
-      slowness: 0.968046875
-      scale: "1, 1"
-    - texture:
-        !type:ImageParallaxTextureSource
         path: "/Textures/Parallaxes/taypantwo.png"
       slowness: 0.998046875
       scale: "1, 1"
