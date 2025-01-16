@@ -1,7 +1,7 @@
 - type: job
   id: AcolyteTAP
-  name: job-name-acolyetap
-  description: job-description-acolyetap
+  name: job-name-acolytetap
+  description: job-description-acolytetap
   playTimeTracker: JobAcolyteTAP
   requirements:
     - !type:WhitelistRequirement
