@@ -76,7 +76,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitBodysuit
     back: ClothingBackpackSatchelLeatherFilledNCWL
-    shoes: ClothingShoesTourist
+    shoes: ClothingShoesBootsHunter
     outerClothing: ClothingOuterArmorAcolyteRobes
     id: AcolyteTAPPDA
     ears: ClothingHeadsetFamilies
