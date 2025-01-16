@@ -343,3 +343,8 @@
   id: JobProphetTAP
   groups:
   - ContractorTrinkets
+
+- type: roleLoadout
+  id: JobAcolyteTAP
+  groups:
+  - ContractorTrinkets

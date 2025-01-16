@@ -810,3 +810,17 @@
     borderColor: "#ffffff"
   - type: Icon
     state: hunter
+
+- type: entity
+  parent: BasePDA
+  id: AcolyteTAPPDA
+  name: devoted's PDA
+  description: How clerical.
+  components:
+  - type: Pda
+    id: TAPIDCardAcolyte
+    state: hunter
+  - type: PdaBorderColor
+    borderColor: "#ffffff"
+  - type: Icon
+    state: hunter

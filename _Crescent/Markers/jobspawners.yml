@@ -638,3 +638,15 @@
     layers:
       - state: green
       - state: passenger
+
+- type: entity
+  id: SpawnPointAcolyteTAP
+  parent: SpawnPointJobBase
+  name: AcolyteTAP
+  components:
+  - type: SpawnPoint
+    job_id: AcolyteTAP
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger

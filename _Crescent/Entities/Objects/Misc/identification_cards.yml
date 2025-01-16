@@ -657,3 +657,15 @@
     - state: idquartermaster
   - type: PresetIdCard
     job: ProphetTAP
+
+- type: entity
+  parent: IDCardStandard
+  id: TAPIDCardAcolyte
+  name: nomadic ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idquartermaster
+  - type: PresetIdCard
+    job: AcolyteTAP

@@ -200,6 +200,33 @@
 
 - type: entity
   parent: ClothingOuterBaseLarge
+  id: ClothingOuterArmorAcolyteRobes
+  name: devoted's robes
+  description: A set of hooded robes for the truly devoted.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/FourFamilies/OuterClothing/acolyterobes.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/FourFamilies/OuterClothing/acolyterobes.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.85
+        Piercing: 0.95
+        Heat: 0.70
+        Caustic: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+  - type: GroupExamine
+  - type: StaticPrice
+    price: 250
+
+- type: entity
+  parent: ClothingOuterBaseLarge
   id: ClothingOuterArmorThukkerEngiVest
   name: thukker combat engineer's vest
   description: A half-vest of kevlar-reinforced durathread, meant to shield engineers' vitals during combat.
