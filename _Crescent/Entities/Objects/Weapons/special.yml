@@ -44,7 +44,7 @@
       types:
         Structural: 90
         Radiation: 10
-        Heat: 25
+        Heat: 150
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
