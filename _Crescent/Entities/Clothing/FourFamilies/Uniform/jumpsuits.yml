@@ -92,7 +92,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBodysuit
-  name: preacher's clericals
+  name: preachers clericals
   description: An uncomfortable jumpsuit made from natural fibers. Commonly worn by tribal preachers.
   components:
   - type: Sprite
