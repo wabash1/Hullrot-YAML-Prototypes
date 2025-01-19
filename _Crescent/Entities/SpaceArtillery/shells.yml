@@ -49,7 +49,6 @@
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
   - type: SpentAmmoVisuals
-  - type: SpaceGarbage
 
 
 #Solid Shell
@@ -108,7 +107,6 @@
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
   - type: SpentAmmoVisuals
-  - type: SpaceGarbage
 
 #High Explosive Shell
 - type: entity
@@ -166,7 +164,6 @@
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
   - type: SpentAmmoVisuals
-  - type: SpaceGarbage
 
 #Practice Shell
 - type: entity
@@ -224,7 +221,6 @@
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
   - type: SpentAmmoVisuals
-  - type: SpaceGarbage
 
 #.50 call EMP for machine gun
 - type: entity
