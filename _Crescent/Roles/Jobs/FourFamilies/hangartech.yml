@@ -4,7 +4,6 @@
   description: job-description-hangartech
   playTimeTracker:  JobHangarTechTAP
   requirements:
-    - !type:WhitelistRequirement
     - !type:FactionRequirement
       factionID: "TAP"
     - !type:SpeciesRequirement

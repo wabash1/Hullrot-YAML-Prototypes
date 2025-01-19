@@ -698,3 +698,27 @@
     layers:
       - state: green
       - state: passenger
+
+- type: entity
+  id: SpawnPointServileTAP
+  parent: SpawnPointJobBase
+  name: ServileTAP
+  components:
+  - type: SpawnPoint
+    job_id: ServileTAP
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: SpawnPointBeltrunnerTAP
+  parent: SpawnPointJobBase
+  name: BeltrunnerTAP
+  components:
+  - type: SpawnPoint
+    job_id: BeltrunnerTAP
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger

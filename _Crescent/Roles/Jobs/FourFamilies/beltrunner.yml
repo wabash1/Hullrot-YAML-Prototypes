@@ -1,15 +1,18 @@
 - type: job
-  id: AcolyteTAP
-  name: job-name-acolytetap
-  description: job-description-acolytetap
-  playTimeTracker: JobAcolyteTAP
+  id: BeltrunnerTAP
+  name: job-name-beltrunner
+  description: job-description-beltrunner
+  playTimeTracker:  JobBeltrunnerTAP
   requirements:
     - !type:FactionRequirement
       factionID: "TAP"
-  weight: 54
-  startingGear: AcolyteTAPGear
+    - !type:SpeciesRequirement
+      allowedOnly:
+        - Human
+  weight: 52
+  startingGear: BeltrunnerGear
   alwaysUseSpawner: true
-  icon: "JobIconAcolyteFamilies"
+  icon: "JobIconBeltrunner"
   requireAdminNotify: false
   supervisors: job-supervisors-tap
   canBeAntag: false
@@ -17,15 +20,15 @@
   - !type:AddComponentSpecial
     components:
       - type: ChatRank
-        rank: crescent-rank-acolytetap
+        rank: crescent-rank-beltrunner
   access:
   - EmergencyShuttleRepealAll
   - Captain
   - HeadOfPersonnel
   - ChiefEngineer
   - ChiefMedicalOfficer
+  - Izdari
   - Families
-  - Arabet
   - HeadOfSecurity
   - ResearchDirector
   - Frontier # Frontier
@@ -62,11 +65,11 @@
   - Captain # Frontier
 
 - type: startingGear
-  id: AcolyteTAPGear
+  id: BeltrunnerGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitBodysuit
-    back: ClothingBackpackSatchelLeatherFilledNCWL
-    shoes: ClothingShoesBootsHunter
-    outerClothing: ClothingOuterArmorAcolyteRobes
-    id: AcolyteTAPPDA
+    jumpsuit: ClothingUniformJumpsuitBeltrunner
+    back: ClothingBackpackSatchelFilled
+    shoes: ClothingShoesBootsJack
+    id: BeltrunnerPDA
     ears: ClothingHeadsetFamilies
+    gloves: ClothingHandsGlovesFingerless

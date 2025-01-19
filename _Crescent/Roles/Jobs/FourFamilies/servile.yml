@@ -1,15 +1,19 @@
 - type: job
-  id: AcolyteTAP
-  name: job-name-acolytetap
-  description: job-description-acolytetap
-  playTimeTracker: JobAcolyteTAP
+  id: ServileTAP
+  name: job-name-servile
+  description: job-description-servile
+  playTimeTracker:  JobServileTAP
   requirements:
     - !type:FactionRequirement
       factionID: "TAP"
-  weight: 54
-  startingGear: AcolyteTAPGear
+    - !type:SpeciesRequirement
+      allowedOnly:
+        - Human
+        - Reptilian
+  weight: 50
+  startingGear: ServileGear
   alwaysUseSpawner: true
-  icon: "JobIconAcolyteFamilies"
+  icon: "JobIconServile"
   requireAdminNotify: false
   supervisors: job-supervisors-tap
   canBeAntag: false
@@ -17,15 +21,15 @@
   - !type:AddComponentSpecial
     components:
       - type: ChatRank
-        rank: crescent-rank-acolytetap
+        rank: crescent-rank-servile
   access:
   - EmergencyShuttleRepealAll
   - Captain
   - HeadOfPersonnel
   - ChiefEngineer
   - ChiefMedicalOfficer
+  - AlseikServile
   - Families
-  - Arabet
   - HeadOfSecurity
   - ResearchDirector
   - Frontier # Frontier
@@ -62,11 +66,12 @@
   - Captain # Frontier
 
 - type: startingGear
-  id: AcolyteTAPGear
+  id: ServileGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitBodysuit
-    back: ClothingBackpackSatchelLeatherFilledNCWL
-    shoes: ClothingShoesBootsHunter
-    outerClothing: ClothingOuterArmorAcolyteRobes
-    id: AcolyteTAPPDA
+    jumpsuit: ClothingUniformJumpsuitServile
+    back: ClothingBackpackSatchelFilled
+    shoes: ClothingShoesBootsJack
+    id: ServilePDA
+    outerClothing: ClothingOuterArmorServileAlseik
     ears: ClothingHeadsetFamilies
+    gloves: ClothingHandsGlovesFingerless

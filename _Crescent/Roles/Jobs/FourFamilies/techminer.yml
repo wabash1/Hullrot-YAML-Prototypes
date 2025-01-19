@@ -4,7 +4,6 @@
   description: job-description-techminer
   playTimeTracker:  JobTechminerTAP
   requirements:
-    - !type:WhitelistRequirement
     - !type:FactionRequirement
       factionID: "TAP"
     - !type:SpeciesRequirement

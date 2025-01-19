@@ -192,4 +192,7 @@
   - TechminerTAP
   - HangarTechTAP
   - Antiquarian
+  - BeltrunnerTAP
+  - DraugrTAP
+  - ServileTAP
   enabled: true
