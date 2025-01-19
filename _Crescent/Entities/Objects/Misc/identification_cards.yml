@@ -720,18 +720,6 @@
 
 - type: entity
   parent: IDCardStandard
-  id: TAPIDCardTechminer
-  name: nomadic ID card
-  components:
-  - type: Sprite
-    layers:
-    - state: default
-    - state: idquartermaster
-  - type: PresetIdCard
-    job: TechminerTAP
-
-- type: entity
-  parent: IDCardStandard
   id: TAPIDCardDraugr
   name: nomadic ID card
   components:
