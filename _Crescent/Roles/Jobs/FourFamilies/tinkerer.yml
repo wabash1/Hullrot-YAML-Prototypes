@@ -1,16 +1,20 @@
 - type: job
-  id: AcolyteTAP
-  name: job-name-acolytetap
-  description: job-description-acolytetap
-  playTimeTracker: JobAcolyteTAP
+  id: TinkererTAP
+  name: job-name-tinkerer
+  description: job-description-tinkerer
+  playTimeTracker:  JobTinkererTAP
   requirements:
     - !type:WhitelistRequirement
     - !type:FactionRequirement
       factionID: "TAP"
-  weight: 54
-  startingGear: AcolyteTAPGear
+    - !type:SpeciesRequirement
+      allowedOnly:
+        - Moth
+        - Arachnid
+  weight: 53
+  startingGear: TinkererGear
   alwaysUseSpawner: true
-  icon: "JobIconAcolyteFamilies"
+  icon: "JobIconTinkerer"
   requireAdminNotify: false
   supervisors: job-supervisors-tap
   canBeAntag: false
@@ -18,7 +22,7 @@
   - !type:AddComponentSpecial
     components:
       - type: ChatRank
-        rank: crescent-rank-acolytetap
+        rank: crescent-rank-tinkerer
   access:
   - EmergencyShuttleRepealAll
   - Captain
@@ -26,7 +30,7 @@
   - ChiefEngineer
   - ChiefMedicalOfficer
   - Families
-  - Arabet
+  - Thukker
   - HeadOfSecurity
   - ResearchDirector
   - Frontier # Frontier
@@ -63,11 +67,13 @@
   - Captain # Frontier
 
 - type: startingGear
-  id: AcolyteTAPGear
+  id: TinkererGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitBodysuit
-    back: ClothingBackpackSatchelLeatherFilledNCWL
-    shoes: ClothingShoesBootsHunter
-    outerClothing: ClothingOuterArmorAcolyteRobes
-    id: AcolyteTAPPDA
+    jumpsuit: ClothingUniformJumpsuitTinkerer
+    back: ClothingBackpackSatchelFilled
+    shoes: ClothingShoesBootsJack
+    outerClothing: ClothingOuterArmorThukkerEngiVest
+    id: TinkererPDA
+    belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetFamilies
+    gloves: ClothingHandsGlovesFingerless

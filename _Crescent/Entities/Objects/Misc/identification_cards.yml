@@ -592,7 +592,7 @@
 - type: entity
   parent: IDCardStandard
   id: IDCardAntiquarian
-  name: civilian ID card
+  name: nomadic ID card
   components:
   - type: Sprite
     layers:
@@ -669,3 +669,87 @@
     - state: idquartermaster
   - type: PresetIdCard
     job: AcolyteTAP
+
+- type: entity
+  parent: IDCardStandard
+  id: TAPIDCardTinkerer
+  name: nomadic ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idquartermaster
+  - type: PresetIdCard
+    job: TinkererTAP
+
+- type: entity
+  parent: IDCardStandard
+  id: TAPIDCardTechminer
+  name: nomadic ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idquartermaster
+  - type: PresetIdCard
+    job: TechminerTAP
+
+- type: entity
+  parent: IDCardStandard
+  id: TAPIDCardHangarTech
+  name: nomadic ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idquartermaster
+  - type: PresetIdCard
+    job: HangarTechTAP
+
+- type: entity
+  parent: IDCardStandard
+  id: TAPIDCardBeltrunner
+  name: nomadic ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idquartermaster
+  - type: PresetIdCard
+    job: BeltrunnerTAP
+
+- type: entity
+  parent: IDCardStandard
+  id: TAPIDCardTechminer
+  name: nomadic ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idquartermaster
+  - type: PresetIdCard
+    job: TechminerTAP
+
+- type: entity
+  parent: IDCardStandard
+  id: TAPIDCardDraugr
+  name: nomadic ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idquartermaster
+  - type: PresetIdCard
+    job: DraugrTAP
+
+- type: entity
+  parent: IDCardStandard
+  id: TAPIDCardServile
+  name: nomadic ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idquartermaster
+  - type: PresetIdCard
+    job: ServileTAP

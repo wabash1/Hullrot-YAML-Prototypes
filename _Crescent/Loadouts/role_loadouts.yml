@@ -348,3 +348,33 @@
   id: JobAcolyteTAP
   groups:
   - ContractorTrinkets
+
+- type: roleLoadout
+  id: JobTinkererTAP
+  groups:
+  - ContractorTrinkets
+
+- type: roleLoadout
+  id: JobTechminerTAP
+  groups:
+  - ContractorTrinkets
+
+- type: roleLoadout
+  id: JobHangarTechTAP
+  groups:
+  - ContractorTrinkets
+
+- type: roleLoadout
+  id: JobBeltrunnerTAP
+  groups:
+  - ContractorTrinkets
+
+- type: roleLoadout
+  id: JobDraugrTAP
+  groups:
+  - ContractorTrinkets
+
+- type: roleLoadout
+  id: JobServileTAP
+  groups:
+  - ContractorTrinkets

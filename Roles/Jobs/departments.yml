@@ -188,4 +188,10 @@
   roles:
   - ProphetTAP
   - AcolyteTAP
+  - TinkererTAP
+  - TechminerTAP
+  - HangarTechTAP
+  - DraugrTAP
+  - ServileTAP
+  - Antiquarian
   enabled: true

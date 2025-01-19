@@ -1,16 +1,20 @@
 - type: job
-  id: AcolyteTAP
-  name: job-name-acolytetap
-  description: job-description-acolytetap
-  playTimeTracker: JobAcolyteTAP
+  id: TechminerTAP
+  name: job-name-techminer
+  description: job-description-techminer
+  playTimeTracker:  JobTechminerTAP
   requirements:
     - !type:WhitelistRequirement
     - !type:FactionRequirement
       factionID: "TAP"
-  weight: 54
-  startingGear: AcolyteTAPGear
+    - !type:SpeciesRequirement
+      allowedOnly:
+        - Moth
+        - Arachnid
+  weight: 52
+  startingGear: TechminerGear
   alwaysUseSpawner: true
-  icon: "JobIconAcolyteFamilies"
+  icon: "JobIconTechminer"
   requireAdminNotify: false
   supervisors: job-supervisors-tap
   canBeAntag: false
@@ -18,7 +22,7 @@
   - !type:AddComponentSpecial
     components:
       - type: ChatRank
-        rank: crescent-rank-acolytetap
+        rank: crescent-rank-techminer
   access:
   - EmergencyShuttleRepealAll
   - Captain
@@ -26,7 +30,7 @@
   - ChiefEngineer
   - ChiefMedicalOfficer
   - Families
-  - Arabet
+  - Thukker
   - HeadOfSecurity
   - ResearchDirector
   - Frontier # Frontier
@@ -63,11 +67,11 @@
   - Captain # Frontier
 
 - type: startingGear
-  id: AcolyteTAPGear
+  id: TechminerGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitBodysuit
-    back: ClothingBackpackSatchelLeatherFilledNCWL
-    shoes: ClothingShoesBootsHunter
-    outerClothing: ClothingOuterArmorAcolyteRobes
-    id: AcolyteTAPPDA
+    jumpsuit: ClothingUniformJumpsuitTechminer
+    back: ClothingBackpackSatchelFilled
+    shoes: ClothingShoesBootsJack
+    id: TechminerPDA
     ears: ClothingHeadsetFamilies
+    gloves: ClothingHandsGlovesFingerless

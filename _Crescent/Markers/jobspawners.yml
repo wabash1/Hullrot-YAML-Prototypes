@@ -650,3 +650,51 @@
     layers:
       - state: green
       - state: passenger
+
+- type: entity
+  id: SpawnPointTinkererTAP
+  parent: SpawnPointJobBase
+  name: TinkererTAP
+  components:
+  - type: SpawnPoint
+    job_id: TinkererTAP
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: SpawnPointTechminerTAP
+  parent: SpawnPointJobBase
+  name: TechminerTAP
+  components:
+  - type: SpawnPoint
+    job_id: TechminerTAP
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: SpawnPointHangarTechTAP
+  parent: SpawnPointJobBase
+  name: HangarTechTAP
+  components:
+  - type: SpawnPoint
+    job_id: HangarTechTAP
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: SpawnPointDraugrTAP
+  parent: SpawnPointJobBase
+  name: DraugrTAP
+  components:
+  - type: SpawnPoint
+    job_id: DraugrTAP
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger

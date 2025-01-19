@@ -1,16 +1,20 @@
 - type: job
-  id: AcolyteTAP
-  name: job-name-acolytetap
-  description: job-description-acolytetap
-  playTimeTracker: JobAcolyteTAP
+  id: HangarTechTAP
+  name: job-name-hangartech
+  description: job-description-hangartech
+  playTimeTracker:  JobHangarTechTAP
   requirements:
     - !type:WhitelistRequirement
     - !type:FactionRequirement
       factionID: "TAP"
-  weight: 54
-  startingGear: AcolyteTAPGear
+    - !type:SpeciesRequirement
+      allowedOnly:
+        - Moth
+        - Arachnid
+  weight: 52
+  startingGear: HangarTechGear
   alwaysUseSpawner: true
-  icon: "JobIconAcolyteFamilies"
+  icon: "JobIconHangarTech"
   requireAdminNotify: false
   supervisors: job-supervisors-tap
   canBeAntag: false
@@ -18,7 +22,7 @@
   - !type:AddComponentSpecial
     components:
       - type: ChatRank
-        rank: crescent-rank-acolytetap
+        rank: crescent-rank-hangartech
   access:
   - EmergencyShuttleRepealAll
   - Captain
@@ -26,7 +30,7 @@
   - ChiefEngineer
   - ChiefMedicalOfficer
   - Families
-  - Arabet
+  - Thukker
   - HeadOfSecurity
   - ResearchDirector
   - Frontier # Frontier
@@ -63,11 +67,12 @@
   - Captain # Frontier
 
 - type: startingGear
-  id: AcolyteTAPGear
+  id: HangarTechGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitBodysuit
-    back: ClothingBackpackSatchelLeatherFilledNCWL
-    shoes: ClothingShoesBootsHunter
-    outerClothing: ClothingOuterArmorAcolyteRobes
-    id: AcolyteTAPPDA
+    jumpsuit:  ClothingUniformJumpsuitHangarTechnician
+    back: ClothingBackpackSatchelFilled
+    shoes: ClothingShoesBootsJack
+    head: ClothingHeadHatBeretQM
+    id: HangarTechPDA
     ears: ClothingHeadsetFamilies
+    gloves: ClothingHandsGlovesFingerless

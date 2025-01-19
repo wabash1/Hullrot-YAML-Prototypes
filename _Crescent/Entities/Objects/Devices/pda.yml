@@ -824,3 +824,87 @@
     borderColor: "#ffffff"
   - type: Icon
     state: hunter
+
+- type: entity
+  parent: BasePDA
+  id: TinkererPDA
+  name: tinkerer's PDA
+  description: How tinker-y.
+  components:
+  - type: Pda
+    id: TAPIDCardTinkerer
+    state: hunter
+  - type: PdaBorderColor
+    borderColor: "#ffffff"
+  - type: Icon
+    state: hunter
+
+- type: entity
+  parent: BasePDA
+  id: TechminerPDA
+  name: techminer's PDA
+  description: Green for family.
+  components:
+  - type: Pda
+    id: TAPIDCardTechminer
+    state: hunter
+  - type: PdaBorderColor
+    borderColor: "#ffffff"
+  - type: Icon
+    state: hunter
+
+- type: entity
+  parent: BasePDA
+  id: HangarTechPDA
+  name: hangar technician's PDA
+  description: Green for family.
+  components:
+  - type: Pda
+    id: TAPIDCardHangarTech
+    state: hunter
+  - type: PdaBorderColor
+    borderColor: "#ffffff"
+  - type: Icon
+    state: hunter
+
+- type: entity
+  parent: BasePDA
+  id: BeltrunnerPDA
+  name: beltrunner's PDA
+  description: Green for family.
+  components:
+  - type: Pda
+    id: TAPIDCardBeltrunner
+    state: hunter
+  - type: PdaBorderColor
+    borderColor: "#ffffff"
+  - type: Icon
+    state: hunter
+
+- type: entity
+  parent: BasePDA
+  id: DraugrPDA
+  name: draugr's PDA
+  description: Green for family.
+  components:
+  - type: Pda
+    id: TAPIDCardDraugr
+    state: hunter
+  - type: PdaBorderColor
+    borderColor: "#ffffff"
+  - type: Icon
+    state: hunter
+
+- type: entity
+  parent: BasePDA
+  id: ServilePDA
+  name: servile's PDA
+  description: Green for family.
+  components:
+  - type: Pda
+    id: TAPIDCardServile
+    state: hunter
+  - type: PdaBorderColor
+    borderColor: "#ffffff"
+  - type: Icon
+    state: hunter
