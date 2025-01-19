@@ -587,7 +587,6 @@
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
   - type: SpentAmmoVisuals
-  - type: SpaceGarbage
 
 - type: entity
   id: LanceRocketProjectile
