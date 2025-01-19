@@ -379,7 +379,6 @@
     size: Normal
   - type: CartridgeAmmo
     proto: TorpedoBase
-    deleteOnSpawn: false
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/torpedop.rsi
     layers:
@@ -482,7 +481,6 @@
     size: Normal
   - type: CartridgeAmmo
     proto: TorpedoGargoyle
-    deleteOnSpawn: false
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/torp.rsi
     layers:
@@ -511,7 +509,6 @@
     size: Large
   - type: CartridgeAmmo
     proto: TorpedoGargoyleEMP
-    deleteOnSpawn: true
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/torpemp.rsi
     layers:
@@ -583,7 +580,6 @@
     size: Small
   - type: CartridgeAmmo
     proto: LanceRocketProjectile
-    deleteOnSpawn: true
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/lance.rsi
     layers:
