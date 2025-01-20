@@ -5,7 +5,7 @@
   id: Piranha
   name: NCSP Piranha
   description: An ultralight Syndicate fighter.
-  price: 9000
+  price: 15000
   category: Small
   group: None
   shuttlePath: /Maps/_Crescent/Shuttles/NCSP/piranha.yml

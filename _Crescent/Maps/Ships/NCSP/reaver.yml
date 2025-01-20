@@ -5,7 +5,7 @@
   id: Reaver
   name: NCSP Reaver
   description: A medium Syndicate fighter.
-  price: 12500
+  price: 27000
   category: Small
   group: None
   shuttlePath: /Maps/_Crescent/Shuttles/NCSP/reaver.yml

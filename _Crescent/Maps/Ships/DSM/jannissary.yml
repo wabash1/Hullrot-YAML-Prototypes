@@ -2,7 +2,7 @@
   id: Jannissary
   name: DSM Jannissary
   description: A light Imperial combat shuttle.
-  price: 19500
+  price: 30000
   category: Small
   group: None
   shuttlePath: /Maps/_Crescent/Shuttles/DSM/jannissary.yml

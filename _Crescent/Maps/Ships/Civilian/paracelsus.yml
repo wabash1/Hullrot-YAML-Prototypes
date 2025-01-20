@@ -5,7 +5,7 @@
   id: Paracelsus
   name: ICM Paracelsus
   description: An entry-level medical corvette.
-  price: 35000
+  price: 39000
   category: Small
   group: Civilian
   shuttlePath: /Maps/_Crescent/Shuttles/Civilian/paracelsus.yml
