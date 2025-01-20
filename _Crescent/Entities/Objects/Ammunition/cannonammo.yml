@@ -664,7 +664,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 1500
+        Structural: 500
         Blunt: 40
   - type: Tag
     tags:
@@ -678,9 +678,9 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    totalIntensity: 230
-    intensitySlope: 7
-    maxIntensity: 55
+    totalIntensity: 900
+    intensitySlope: 35
+    maxIntensity: 250
     maxTileBreak: 12
   - type: PointLight
     radius: 3.5

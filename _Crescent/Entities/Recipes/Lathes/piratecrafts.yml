@@ -227,21 +227,6 @@
     Plasma: 250
     Silver: 100
 
-- type: latheRecipe
-  id: CartridgeShellEmpCraft
-  result: CartridgeShellEmp
-  completetime: 4
-  materials:
-    Steel: 750
-    Silver: 500
-
-- type: latheRecipe
-  id: MagazineLightRifleBoxSlugEMPCraft
-  result: MagazineLightRifleBoxSlugEMP
-  completetime: 4
-  materials:
-    Steel: 1000
-    Silver: 300
 
 # - type: latheRecipe
 #   id: GrenadeEMPCraft
