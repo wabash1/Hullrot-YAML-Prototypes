@@ -65,26 +65,6 @@
     state: base
 
 - type: entity
-  id: MagazineLightRifleBoxSlugEMP
-  name: ".50 cal EMP slugthrower box"
-  parent: BaseMagazineLightRifle
-  components:
-  - type: Tag
-    tags:
-      - SlugthrowerCartridgeBox
-  - type: BallisticAmmoProvider
-    mayTransfer: true
-    whitelist:
-      tags:
-        - CartridgeMachineGun
-    proto: CartridgeMachineGunEMP
-    capacity: 200
-  - type: Item
-  - type: Sprite
-    sprite: _Crescent/Ammunition/conscript_ammo_box.rsi
-    state: base
-
-- type: entity
   id: MagazineLightRifleBoxSlugInert
   name: ".50 cal inert slugthrower box"
   parent: BaseMagazineLightRifle

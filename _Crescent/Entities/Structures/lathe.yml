@@ -337,8 +337,6 @@
       - RadioJammerNCSP
       - EmagNCSP
       - EmpGrenadeNCSP
-      - MagazineLightRifleBoxSlugEMPCraft
-      - CartridgeShellEmpCraft
       # - GrenadeEMPCraft YAMLFIX: Duplicate recipe result
       - ClothingUniformJumpsuitNCWLMedicCraft
       - ClothingUniformJumpsuitNCWLCraft
