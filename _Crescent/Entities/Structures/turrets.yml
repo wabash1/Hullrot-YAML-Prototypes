@@ -70,8 +70,8 @@
     # TODO: Power ammo provider?
     - type: BasicEntityAmmoProvider
       proto: PDTBullet
-      capacity: 60
-      count: 60
+      capacity: 240
+      count: 240
     - type: RechargeBasicEntityAmmo
       rechargeCooldown: 5
       rechargeSound:
