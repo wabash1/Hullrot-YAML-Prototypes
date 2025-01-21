@@ -107,6 +107,8 @@
   effects:
     - !type:CreateEntityReactionEffect
       entity: SheetPlastic1
+      entity: SheetPlastic1
+      entity: SheetPlastic1
 
 - type: reaction
   id: FlashFreezeIce
