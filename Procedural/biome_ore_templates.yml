@@ -8,10 +8,10 @@
     WallRockChromite: WallRockChromiteTin
     WallRockSand: WallRockSandTin
     WallRockSnow: WallRockSnowTin
-  maxCount: 30
+  maxCount: 60
   minGroupSize: 10
-  maxGroupSize: 20
-  radius: 4
+  maxGroupSize: 40
+  radius: 8
 
 - type: biomeMarkerLayer
   id: OreQuartz
@@ -27,20 +27,6 @@
   radius: 4
 
 - type: biomeMarkerLayer
-  id: OreCoal
-  entityMask:
-    AsteroidRock: AsteroidRockCoal
-    WallRock: WallRockCoal
-    WallRockBasalt: WallRockBasaltCoal
-    WallRockChromite: WallRockChromiteCoal
-    WallRockSand: WallRockSandCoal
-    WallRockSnow: WallRockSnowCoal
-  maxCount: 30
-  minGroupSize: 10
-  maxGroupSize: 20
-  radius: 4
-
-- type: biomeMarkerLayer
   id: OreSalt
   entityMask:
     AsteroidRock: AsteroidRockSalt
@@ -49,10 +35,24 @@
     WallRockChromite: WallRockChromiteSalt
     WallRockSand: WallRockSandSalt
     WallRockSnow: WallRockSnowSalt
-  maxCount: 30
+  maxCount: 10
+  minGroupSize: 2
+  maxGroupSize: 5
+  radius: 2
+
+- type: biomeMarkerLayer
+  id: OreCoal
+  entityMask:
+    AsteroidRock: AsteroidRockCoal
+    WallRock: WallRockCoal
+    WallRockBasalt: WallRockBasaltCoal
+    WallRockChromite: WallRockChromiteCoal
+    WallRockSand: WallRockSandCoal
+    WallRockSnow: WallRockSnowCoal
+  maxCount: 60
   minGroupSize: 10
-  maxGroupSize: 20
-  radius: 4
+  maxGroupSize: 35
+  radius: 8
 
 # Medium value
 # Gold
@@ -65,9 +65,9 @@
     WallRockChromite: WallRockChromiteGold
     WallRockSand: WallRockSandGold
     WallRockSnow: WallRockSnowGold
-  maxCount: 30
+  maxCount: 45
   minGroupSize: 5
-  maxGroupSize: 10
+  maxGroupSize: 15
   radius: 4
 
 # Silver
@@ -80,10 +80,10 @@
     WallRockChromite: WallRockChromiteSilver
     WallRockSand: WallRockSandSilver
     WallRockSnow: WallRockSnowSilver
-  maxCount: 30
-  minGroupSize: 5
-  maxGroupSize: 10
-  radius: 4
+  maxCount: 45
+  minGroupSize: 8
+  maxGroupSize: 15
+  radius: 3
 
 # High value
 # Plasma
@@ -96,39 +96,10 @@
     WallRockChromite: WallRockChromitePlasma
     WallRockSand: WallRockSandPlasma
     WallRockSnow: WallRockSnowPlasma
-  maxCount: 12
-  minGroupSize: 5
-  maxGroupSize: 10
-  radius: 4
-
-# Uranium
-- type: biomeMarkerLayer
-  id: OreUranium
-  entityMask:
-    AsteroidRock: AsteroidRockUranium
-    WallRock: WallRockUranium
-    WallRockBasalt: WallRockBasaltUranium
-    WallRockChromite: WallRockChromiteUranium
-    WallRockSand: WallRockSandUranium
-    WallRockSnow: WallRockSnowUranium
-  maxCount: 12
-  minGroupSize: 5
-  maxGroupSize: 10
-  radius: 4
-
-- type: biomeMarkerLayer
-  id: OreBananium
-  entityMask:
-    AsteroidRock: AsteroidRockBananium
-    WallRock: WallRockBananium
-    WallRockBasalt: WallRockBasaltBananium
-    WallRockChromite: WallRockChromiteBananium
-    WallRockSand: WallRockSandBananium
-    WallRockSnow: WallRockSnowBananium
-  maxCount: 12
-  minGroupSize: 5
-  maxGroupSize: 10
-  radius: 4
+  maxCount: 45
+  minGroupSize: 8
+  maxGroupSize: 15
+  radius: 3
 
 # Artifact Fragment
 - type: biomeMarkerLayer
