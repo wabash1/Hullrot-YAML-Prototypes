@@ -24,6 +24,11 @@
   id: NCWLJail
   name: id-card-access-level-ncwljail
 
+- type: accessLevel
+  id: NCWLFunds
+  name: NCWL Funding Account
+
+
 #syndicate#
 
 - type: accessLevel
@@ -53,6 +58,10 @@
 - type: accessLevel
   id: SyndicateRingleader
   name: id-card-access-level-syndicateringleader
+
+- type: accessLevel
+  id: SyndicateFunds
+  name: PMC Funding Account
 
 # empire #
 
@@ -91,6 +100,10 @@
 - type: accessLevel
   id: Advocatus
   name: id-card-access-level-advocatus
+
+- type: accessLevel
+  id: DSMFunds
+  name: Imperial Funding Account
 
 #srm
 
@@ -141,6 +154,10 @@
 - type: accessLevel
   id: MinutemanMarshal
   name: id-card-access-level-cmmmarshal
+
+- type: accessLevel
+  id: CMMFunds
+  name: CMM Funding Account
 
 #misc
 
