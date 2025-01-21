@@ -350,7 +350,7 @@
         Heat: 35
   - type: ProjectileIFF
   - type: EmpOnTrigger
-    range: 4
+    range: 3
     energyConsumption: 1000
     disableDuration: 6
   - type: PointLight
@@ -454,13 +454,13 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    totalIntensity: 25
-    intensitySlope: 5
-    maxIntensity: 4
+    totalIntensity: 800
+    intensitySlope: 200
+    maxIntensity: 200
   - type: HeatSeeking
-    acceleration: 100
-    rotationSpeed: 25
-    seekRange: 750
+    acceleration: 75
+    rotationSpeed: 35
+    seekRange: 1250
   - type: PointLight
     radius: 3.5
     color: orange
@@ -614,7 +614,7 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 55
+    maxIntensity: 400
     intensitySlope: 50
     totalIntensity: 80
     maxTileBreak: 4
@@ -733,7 +733,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 150
+        Structural: 600
         Blunt: 40
   - type: Tag
     tags:

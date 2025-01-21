@@ -731,7 +731,7 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    totalIntensity: 140
+    totalIntensity: 320
     intensitySlope: 4
     maxIntensity: 6
   - type: ProjectileIFF
