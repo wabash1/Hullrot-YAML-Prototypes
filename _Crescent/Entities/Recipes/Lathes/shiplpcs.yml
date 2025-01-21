@@ -98,6 +98,15 @@
     ShipHull: 19000
 
 - type: latheRecipe
+  id: ClementineLPC
+  result: ShipVoucherClementine
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 12000
+    ShipComponents: 8000
+    ShipHull: 23000
+
+- type: latheRecipe
   id: GargutLPC
   result: ShipVoucherGargut
   completetime: 1

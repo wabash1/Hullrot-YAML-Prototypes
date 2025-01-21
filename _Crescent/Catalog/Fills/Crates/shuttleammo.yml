@@ -111,7 +111,7 @@
   - type: StorageFill
     contents:
       - id: CoolantCartridge30
-        amount: 6
+        amount: 15
 
 - type: entity
   id: CrateArtilleryAmmo

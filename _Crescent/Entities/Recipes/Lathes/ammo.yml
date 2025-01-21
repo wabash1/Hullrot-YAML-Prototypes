@@ -15,6 +15,24 @@
     Steel: 2000
 
 - type: latheRecipe
+  id: Automortar90
+  result: MagazineMortar
+  completetime: 2
+  materials:
+    Steel: 10000
+    Plasma: 5000
+
+- type: latheRecipe
+  id: Needler60
+  result: MagazineNeedler
+  completetime: 2
+  materials:
+    Steel: 10000
+    Uranium: 2000
+    Plasma: 2000
+
+
+- type: latheRecipe
   id: MagazineVulcan
   result: MagazineVulcan
   completetime: 2
