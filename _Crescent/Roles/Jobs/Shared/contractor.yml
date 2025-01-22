@@ -6,6 +6,8 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 4000
+    - !type:WealthRequirement
+      below: 20000
   startingGear: ContractorGear
   icon: "JobIconPassenger"
   supervisors: job-supervisors-hire
