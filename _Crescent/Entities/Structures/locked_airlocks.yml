@@ -746,6 +746,61 @@
     containers:
       board: [ DoorElectronicsAlseik ]
 
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandLockedFamiliesHorizontalAlseik
+  suffix: Al'Seik, Horizontal
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAlseik ]
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandLockedFamiliesHorizontalServile
+  suffix: Servile, Horizontal
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsServile ]
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandLockedFamiliesHorizontalIzdari
+  suffix: Izdari, Horizontal
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsIzdari ]
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandLockedFamiliesHorizontalThukker
+  suffix: Thukker, Horizontal
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsThukker ]
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandLockedFamiliesHorizontalArabet
+  suffix: Arabet, Horizontal
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsArabet ]
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandLockedFamiliesHorizontalFamilies
+  suffix: Families, Horizontal
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsFamilies ]
+
+
 #misc
 
 - type: entity
