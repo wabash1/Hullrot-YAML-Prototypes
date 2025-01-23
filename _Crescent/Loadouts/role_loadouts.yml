@@ -130,6 +130,14 @@
 #empire
 
 - type: roleLoadout
+  id: JobCitizenDSM
+  groups:
+  - DSMCommonerBags
+  - DSMCommonerJumpsuits
+  - DSMCommonerFeetwear
+  - DSMWorkerBelt
+
+- type: roleLoadout
   id: JobFreeholderDSM
   groups:
   - ContractorTrinkets

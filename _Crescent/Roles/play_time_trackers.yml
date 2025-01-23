@@ -59,6 +59,9 @@
 # empire
 
 - type: playTimeTracker
+  id: JobCitizenDSM
+  
+- type: playTimeTracker
   id: JobFreeholderDSM
 
 - type: playTimeTracker
