@@ -1,10 +1,10 @@
 - type: job
   id: CitizenDSM
   name: Imperial Citizen
-  description: A inhabitant of the Taypani Sector
-  playTimeTracker: JobFreeholderDSM
+  description: A inhabitant of the Taypani Sector with no ties to the local nobles
+  playTimeTracker: JobCitizenDSM
   weight: 18
-  startingGear: FreeholderGear
+  startingGear: CitizenGear
   requirements:
     - !type:FactionRequirement
         factionID: "DSM"
@@ -22,8 +22,8 @@
   - Captain # Frontier
 
 - type: startingGear
-  id: FreeholderGear
+  id: CitizenGear
   equipment:
     id: FreeholderPDA
-    ears: ClothingHeadsetEmpireCiv
+    ears: ClothingHeadsetGrey
     pocket1: ImperialPassportBareLegit
