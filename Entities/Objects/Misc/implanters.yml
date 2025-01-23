@@ -158,11 +158,35 @@
 
 - type: entity
   id: TrackingImplanter
-  name: tracking implanter
+  name: tracking implanter (CMM Death Alarm)
   parent: BaseImplantOnlyImplanter
   components:
     - type: Implanter
       implant: TrackingImplant
+
+- type: entity
+  id: TrackingImplanterDSMSec
+  name: tracking implanter (DSM Sec Death Alarm)
+  parent: BaseImplantOnlyImplanter 
+  components:
+    - type: Implanter
+      implant: TrackingImplantDSMSec
+
+- type: entity
+  id: TrackingImplanterDSMCiv
+  name: tracking implanter (DSM Civ Death Alarm)
+  parent: BaseImplantOnlyImplanter
+  components:
+    - type: Implanter
+      implant: TrackingImplantDSMCiv
+  
+- type: entity
+  id: TrackingImplanterNCWL
+  name: tracking implanter (NCWL Death Alarm)
+  parent: BaseImplantOnlyImplanter
+  components:
+    - type: Implanter
+      implant: TrackingImplantNCWL
 
 #Traitor implanters
 

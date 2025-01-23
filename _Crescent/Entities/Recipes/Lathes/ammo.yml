@@ -19,17 +19,17 @@
   result: MagazineMortar
   completetime: 2
   materials:
-    Steel: 10000
-    Plasma: 5000
+    Steel: 2000
+    Plasma: 500
 
 - type: latheRecipe
   id: Needler60
   result: MagazineNeedler
   completetime: 2
   materials:
-    Steel: 10000
-    Uranium: 2000
-    Plasma: 2000
+    Steel: 1500
+    Uranium: 200
+    Plasma: 300
 
 
 - type: latheRecipe
