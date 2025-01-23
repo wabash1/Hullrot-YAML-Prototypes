@@ -77,6 +77,8 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: Contraband
+    value: 3
 
 - type: entity
   name: IRM C-20r 9x19mm

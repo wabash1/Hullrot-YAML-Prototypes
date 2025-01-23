@@ -81,7 +81,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCybersunSuit
   - type: Contraband
-    value : 8
+    value: 8
   - type: Armor
     modifiers:
       coefficients:

@@ -29,6 +29,8 @@
     sprintModifier: 0.9
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitTraumasec
+  - type: Contraband
+    value: 5
 
 - type: entity
   parent: ClothingOuterHardsuitBase
