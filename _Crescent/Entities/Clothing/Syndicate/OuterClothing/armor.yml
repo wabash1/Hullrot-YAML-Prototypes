@@ -32,6 +32,7 @@
   - type: StaticPrice
     price: 1000
   - type: Contraband
+    value: 12
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -65,6 +66,7 @@
   - type: StaticPrice
     price: 1000
   - type: Contraband
+    value: 8
 
 - type: entity
   parent: ClothingOuterHardsuitRamzi
@@ -79,6 +81,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCybersunSuit
   - type: Contraband
+    value : 8
   - type: Armor
     modifiers:
       coefficients:
@@ -121,6 +124,7 @@
   - type: StaticPrice
     price: 1250
   - type: Contraband
+    value: 10
 
 #regular shit. if you put hardsuit below here i'm going to explode your cock
 
