@@ -197,7 +197,7 @@
   # This is done because these chemicals need to have some effect even if they aren't being filtered out of your body.
   # You're technically 'immune to poison' without a heart, but.. uhh, you'll have bigger problems on your hands.
   - type: Metabolizer
-    maxReagents: 2
+    maxReagents: 10
     metabolizerTypes: [Human]
     groups:
     - id: Medicine
@@ -235,7 +235,7 @@
   # to intestines instead.
   - type: Metabolizer
     # mm yummy
-    maxReagents: 3
+    maxReagents: 10
     metabolizerTypes: [Human]
     groups:
     - id: Food
@@ -284,7 +284,7 @@
       - state: kidney-r
   # The kidneys just remove anything that doesn't currently have any metabolisms, as a stopgap.
   - type: Metabolizer
-    maxReagents: 5
+    maxReagents: 10
     metabolizerTypes: [Human]
     removeEmpty: true
   - type: Contraband

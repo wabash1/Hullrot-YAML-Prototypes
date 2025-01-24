@@ -22,7 +22,7 @@
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
         - type: VesselDesignation
-          designation: vessel-designation-torpedo-bomber
+          designation: Imperial Dreadnought
         - type: StationJobs
           overflowJobs: []
           availableJobs:

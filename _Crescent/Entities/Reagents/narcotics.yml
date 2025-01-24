@@ -50,7 +50,7 @@
         probability: 0.5
         conditions:
         - !type:ReagentThreshold
-          min: 15
+          min: 20
       - !type:PopupMessage # we dont have sanity/mood so this will have to do
         type: Local
         visualType: Medium
@@ -92,7 +92,7 @@
       - !type:AdjustTemperature
         conditions:
         - !type:ReagentThreshold
-            min: 25
+            min: 30
         amount: 50000 
       - !type:GenericStatusEffect
         key: SeeingRainbows
@@ -140,7 +140,7 @@
       - !type:AdjustTemperature
         conditions:
         - !type:ReagentThreshold
-            min: 25
+            min: 30
         amount: 100000
       
 
@@ -199,5 +199,5 @@
       - !type:AdjustTemperature
         conditions:
         - !type:ReagentThreshold
-            min: 30
+            min: 35
         amount: 50000 

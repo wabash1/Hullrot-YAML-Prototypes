@@ -18,6 +18,8 @@
   - type: PhysicalComposition
     materialComposition:
       ExoticProteins: 500
+  - type: Contraband
+    value: 1
 
 - type: entity
   id: ProteinCan1

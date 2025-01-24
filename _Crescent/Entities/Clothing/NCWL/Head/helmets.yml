@@ -42,6 +42,9 @@
     sprite: _Crescent/Clothing/NCWL/Head/infantryhelm.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/NCWL/Head/infantryhelm.rsi
+  - type: PointLight
+    radius: 6
+    color: "#e86d3c"
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
@@ -65,6 +68,9 @@
     sprite: _Crescent/Clothing/NCWL/Head/ncwljuggernauthelm.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/NCWL/Head/ncwljuggernauthelm.rsi
+  - type: PointLight
+    radius: 6
+    color: "#e86d3c"
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000

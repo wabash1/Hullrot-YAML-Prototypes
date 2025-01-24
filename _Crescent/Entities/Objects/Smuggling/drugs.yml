@@ -25,6 +25,7 @@
   - type: StaticPrice
     price: 1000
   - type: Contraband
+    value: 3
 
 - type: entity
   name: exile autoinjector
@@ -58,6 +59,7 @@
   - type: Tag
     tags: []
   - type: Contraband
+    value: 5
 
 - type: entity
   name: kaiser autoinjector
@@ -91,6 +93,7 @@
   - type: Tag
     tags: []
   - type: Contraband
+    value: 10
 
 - type: entity
   name: mechanite injector gun
@@ -156,3 +159,4 @@
   - type: Tag
     tags: []
   - type: Contraband
+    value: 4
