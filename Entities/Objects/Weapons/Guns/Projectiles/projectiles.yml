@@ -733,7 +733,7 @@
     explosionType: Default
     totalIntensity: 320
     intensitySlope: 4
-    maxIntensity: 6
+    maxIntensity: 320
   - type: ProjectileIFF
 
 - type: entity
