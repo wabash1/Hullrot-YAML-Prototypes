@@ -437,6 +437,13 @@
     # Frontier Start
     - SalvageTechFabCircuitboardNF
     # Frontier End
+    - ChemMasterMachineCircuitboard
+    - ChemDispenserMachineCircuitboard
+    - DoorElectronics
+    - APCElectronics
+    - SMESMachineCircuitboard
+    - SubstationMachineCircuitboard
+    - WallmountSubstationElectronics
     dynamicRecipes:
       - ThermomachineFreezerMachineCircuitBoard
       - HellfireFreezerMachineCircuitBoard
@@ -446,8 +453,6 @@
       - CryoPodMachineCircuitboard
       - VaccinatorMachineCircuitboard
       - DiagnoserMachineCircuitboard
-      - ChemMasterMachineCircuitboard
-      - ChemDispenserMachineCircuitboard
       - BiomassReclaimerMachineCircuitboard
       - BiofabricatorMachineCircuitboard
       - SurveillanceCameraRouterCircuitboard
