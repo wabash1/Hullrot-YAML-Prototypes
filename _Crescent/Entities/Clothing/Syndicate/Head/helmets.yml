@@ -28,7 +28,7 @@
 ## hardsuit helmets
 
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetSyndiDonator
   categories: [ HideSpawnMenu ]
   name: combat technician's hardsuit helmet
