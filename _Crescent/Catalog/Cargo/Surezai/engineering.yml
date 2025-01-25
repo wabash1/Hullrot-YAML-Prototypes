@@ -30,7 +30,7 @@
   group: surezai
 
 - type: cargoProduct
-  id: EngineAmeJar
+  id: EngineAmeJarImperial
   icon:
     sprite: Objects/Power/AME/ame_jar.rsi
     state: jar
