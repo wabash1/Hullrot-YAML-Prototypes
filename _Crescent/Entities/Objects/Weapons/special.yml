@@ -101,36 +101,7 @@
     interfaces:
       enum.RadarConsoleUiKey.Key:
         type: RadarConsoleBoundUserInterface
-
-- type: entity
-  id: MakoPlasmaBullet
-  name: plasma bolt
-  parent: BaseBulletTrigger
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Projectile
-    damage:
-      types:
-        Structural: 90
-        Radiation: 10
-        Heat: 150
-  - type: ExplodeOnTrigger
-  - type: Explosive
-    explosionType: Default
-    maxIntensity: 15
-    intensitySlope: 25
-    totalIntensity: 20
-    maxTileBreak: 2
-  - type: PointLight
-    radius: 3.5
-    color: orange
-    energy: 0.5
-  - type: Sprite
-    sprite: _NF/Objects/SpaceArtillery/plasmahardpoint.rsi
-    layers:
-      - state: icon
-
-      
+   
 - type: entity
   id: BulletRocketSmart
   name: smart missile
