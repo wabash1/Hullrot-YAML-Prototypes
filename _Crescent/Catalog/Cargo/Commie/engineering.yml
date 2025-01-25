@@ -30,7 +30,7 @@
   group: commie
 
 - type: cargoProduct
-  id: EngineAmeJar
+  id: EngineAmeJarCommie
   icon:
     sprite: Objects/Power/AME/ame_jar.rsi
     state: jar
