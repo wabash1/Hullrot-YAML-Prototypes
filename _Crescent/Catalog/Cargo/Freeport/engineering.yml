@@ -20,7 +20,7 @@
   group: freeport
 
 - type: cargoProduct
-  id: EngineAmeJar
+  id: EngineAmeJarFreeport
   icon:
     sprite: Objects/Power/AME/ame_jar.rsi
     state: jar
