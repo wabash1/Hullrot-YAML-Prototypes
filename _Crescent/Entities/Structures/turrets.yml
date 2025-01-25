@@ -70,10 +70,10 @@
     # TODO: Power ammo provider?
     - type: BasicEntityAmmoProvider
       proto: PDTBullet
-      capacity: 60
-      count: 60
+      capacity: 300
+      count: 300
     - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 5
+      rechargeCooldown: 2.5
       rechargeSound:
         path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
         params:

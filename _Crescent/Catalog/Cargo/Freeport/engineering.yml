@@ -18,3 +18,13 @@
   cost: 3250
   category: cargoproduct-category-name-engineering
   group: freeport
+
+- type: cargoProduct
+  id: EngineAmeJar
+  icon:
+    sprite: Objects/Power/AME/ame_jar.rsi
+    state: jar
+  product: CrateEngineeringAMEJar
+  cost: 4500
+  category: cargoproduct-category-name-engineering
+  group: freeport

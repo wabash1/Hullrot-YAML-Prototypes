@@ -28,3 +28,13 @@
   cost: 600
   category: cargoproduct-category-name-engineering
   group: surezai
+
+- type: cargoProduct
+  id: EngineAmeJar
+  icon:
+    sprite: Objects/Power/AME/ame_jar.rsi
+    state: jar
+  product: CrateEngineeringAMEJar
+  cost: 3000
+  category: cargoproduct-category-name-engineering
+  group: surezai
