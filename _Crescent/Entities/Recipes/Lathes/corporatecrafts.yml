@@ -221,3 +221,13 @@
     Silver: 2500
     Gold: 1500
     Plasma: 500
+
+- type: latheRecipe
+  id: WeaponLauncherHammerheadCraft
+  result: WeaponLauncherHammerhead
+  completetime: 5
+  materials:
+    Steel: 3000
+    Uranium: 1500
+    Gold: 1000
+    Plasma: 4000
