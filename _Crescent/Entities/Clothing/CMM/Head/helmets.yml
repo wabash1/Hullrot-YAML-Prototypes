@@ -52,7 +52,7 @@
         Caustic: 0.95
 
 - type: entity
-  parent: ClothingHeadHardsuitBase
+  parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitCMMPatrol
   categories: [ HideSpawnMenu ]
   name: minuteman's patrolsuit

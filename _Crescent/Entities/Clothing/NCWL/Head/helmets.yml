@@ -31,7 +31,7 @@
 ## hardsuit helmets
 
 - type: entity
-  parent: ClothingHeadHardsuitBase
+  parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitNCWLInfantry
   categories: [ HideSpawnMenu ]
   name: homeguard infanteer's hardsuit helmet
@@ -57,7 +57,7 @@
         Heat: 0.9
 
 - type: entity
-  parent: ClothingHeadHardsuitBase
+  parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitNCWLJuggernaut
   categories: [ HideSpawnMenu ]
   name: homeguard juggernaut's hardsuit helmet

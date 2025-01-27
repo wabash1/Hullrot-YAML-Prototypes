@@ -56,7 +56,7 @@
         Caustic: 0.95
 
 - type: entity
-  parent: ClothingHeadHardsuitBase
+  parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitClarizeWorker
   categories: [ HideSpawnMenu ]
   name: clarizian technician's hardsuit helmet
@@ -85,7 +85,7 @@
   - type: EyeProtection
 
 - type: entity
-  parent: ClothingHeadHardsuitBase
+  parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitClarize
   categories: [ HideSpawnMenu ]
   name: royal trooper's hardsuit helmet
@@ -113,7 +113,7 @@
         Caustic: 0.95
 
 - type: entity
-  parent: ClothingHeadHardsuitBase
+  parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitImperialCommand
   categories: [ HideSpawnMenu ]
   name: imperial command hardsuit helmet
