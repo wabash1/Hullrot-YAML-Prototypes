@@ -129,8 +129,8 @@
   result: ShipVoucherBroadsword
   completetime: 1
   materials:
-    StarshipEngineComponents: 250
-    ShipComponents: 300
+    StarshipEngineComponents: 2000
+    ShipComponents: 2000
     ShipHull: 1000
 
 - type: latheRecipe
@@ -138,8 +138,8 @@
   result: ShipVoucherKhopesh
   completetime: 1
   materials:
-    StarshipEngineComponents: 750
-    ShipComponents: 400
+    StarshipEngineComponents: 2000
+    ShipComponents: 2000
     ShipHull: 850
 
 - type: latheRecipe
@@ -147,9 +147,9 @@
   result: ShipVoucherRapier
   completetime: 1
   materials:
-    StarshipEngineComponents: 850
-    ShipComponents: 700
-    ShipHull: 550
+    StarshipEngineComponents: 2000
+    ShipComponents: 2000
+    ShipHull: 1000
 
 - type: latheRecipe
   id: IvarodLPC
