@@ -431,3 +431,29 @@
     - state: ame-part
   - type: StaticPrice
     price: 15000
+- type: entity
+  parent: BaseFlatpack
+  id: RecyclerFlatpack
+  name: basic recycler
+  description:  A large crushing machine used to recycle small items inefficiently.
+  components:
+  - type: Flatpack
+    entity: Recycler
+  - type: Sprite
+    layers:
+    - state: ame-part
+  - type: StaticPrice
+    price: 3000
+- type: entity
+  parent: BaseFlatpack
+  id: ComputerShuttleFlatpack
+  name: ComputerShuttle
+  description:  Used to pilot a shuttle.
+  components:
+  - type: Flatpack
+    entity: ComputerShuttle
+  - type: Sprite
+    layers:
+    - state: ame-part
+  - type: StaticPrice
+    price: 3000
