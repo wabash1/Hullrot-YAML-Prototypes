@@ -48,6 +48,8 @@
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+  - type: StaticPrice
+    price: 200
 
 - type: entity
   name: chemical payload
