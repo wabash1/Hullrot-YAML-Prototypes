@@ -10,9 +10,18 @@
   id: 120mmWeldDU
   name: weld 120mm DU casing
   inputs:
-    Steel: 5
+    EmptyCasing: 1
   outputs:
-    Casing120: 1
+    WeldedCasing: 1
+
+- type: factoryRecipe
+  id: 120mmAssembleDU
+  name: assemble 120mm DU casing
+  inputs:
+    WeldedCasing: 1
+  outputs:
+    CartridgeShellArmorPiercing: 1
+
 
 - type: factoryRecipe
   id: 120mmCasingHE
@@ -21,6 +30,22 @@
     Plasma: 6
   outputs:
     Casing120HE: 1
+
+- type: factoryRecipe
+  id: 120mmWeldHE
+  name: weld 120mm HE casing
+  inputs:
+    Casing120HE: 1
+  outputs:
+    WeldedCasingHE: 1
+
+- type: factoryRecipe
+  id: 120mmAssembleHE
+  name: assemble 120mm HE casing
+  inputs:
+    WeldedCasingHE: 1
+  outputs:
+    CartridgeShellArmorPiercing: 1
 
 - type: factoryRecipe
   id: GargoyleCasing
@@ -37,4 +62,25 @@
     Plastic: 3
   outputs:
     LanceRocketCartridge: 1
+
+  - type: factoryRecipe
+  id: 320mmCasing
+  name: Create 320mm casing
+  inputs:
+    Steel: 15
+  outputs:
+    ColonyShellIncomplete: 1
+
+- type: factoryRecipe
+  id: 320mmPack
+  name: Pack 320mm casing with GP
+  inputs:
+    ColonyShellIncomplete: 1
+    Gunpowder: 5
+    Plasma: 5
+  outputs:
+    ColonyShellComplete: 1
+
+
+
 

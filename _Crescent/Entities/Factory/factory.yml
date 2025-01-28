@@ -182,27 +182,8 @@
       params:
         variation: 0.125
     recipes:
-      casingToWeldedCasing:
-        inputs:
-          EmptyCasing:
-            1
-        outputs:
-          Casing120Welded:
-            1
-      casingEmpToWeldedCasing:
-        inputs:
-          EmptyCasingEMP:
-            1
-        outputs:
-          Casing120WeldedEMP:
-            1
-      casingHEToWeldedCasing:
-        inputs:
-          EmptyCasingHE:
-            1
-        outputs:
-          Casing120WeldedHE:
-            1
+    - 120mmWeldDU
+    - 120mmWeldHE
 
 - type: entity
   id: Factory120Assembler
@@ -221,21 +202,8 @@
       params:
         variation: 0.125
     recipes:
-      weldedCasingToLiveAmmo:
-        inputs:
-          WeldedCasing:
-            1
-        outputs:
-          CartridgeShellArmorPiercing:
-            1
-      weldedHECasingToLiveAmmo:
-        inputs:
-          WeldedCasingHE:
-            1
-        outputs:
-          CartridgeShellHighExplosive:
-            1
-
+    - 120mmAssembleDU
+    - 120mmAssembleHE
 
 - type: entity
   id: Factory320Assembler
@@ -254,17 +222,7 @@
       params:
         variation: 0.125
     recipes:
-      incompleteToComplete:
-        inputs:
-          ColonyShellIncomplete:
-            1
-          Gunpowder:
-            5          
-          Plasma:
-            5          
-        outputs:
-          ColonyShellComplete:
-            1
+    - 320mmPack
 
 - type: entity
   id: Factory320Fab
@@ -283,10 +241,4 @@
       params:
         variation: 0.125
     recipes:
-      steelToEmptyCasing:
-        inputs:
-          Steel:
-            15
-        outputs:
-          ColonyShellIncomplete:
-            1
+    - 320mmCasing
