@@ -36,4 +36,5 @@
     ChameleonProjector: 4
     Hypopen: 5
     EncryptionKeySyndie: 4
-    ExplosivePayload: 5
+    ExplosivePayload: 20
+    TimerTrigger: 5
