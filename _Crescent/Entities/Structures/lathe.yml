@@ -33,6 +33,40 @@
     - SteelScraptoSteel
     - SteelScraptoSteel1
 
+- type: entity
+  parent: [ BaseMachinePowered, ConstructibleMachine ]
+  id: IndustrialScrapRefiner
+  name: Industrial SHI scrap upcycler
+  description: An automated refinery with scrap metal refinement patterns. Now employing factory protocols! Throw scrap at it!
+  components:
+  - type: Sprite
+    sprite: Structures/Machines/sheetifier.rsi
+    layers:
+    - state: base_machine
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: buttons_on
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+  - type: MaterialStorage
+    dropOnDeconstruct: false #should drop ores instead of ingots/sheets
+    ignoreColor: true
+    canEjectStoredMaterials: false
+    whitelist:
+      tags:
+      - RawMaterial
+  - type: Lathe
+    idleState: base_machine
+    runningState: base_machine_processing
+    staticRecipes:
+    - SteelScrap
+    - TitaniumScrap
+    - Garbage
+    - PlasteelFromScrap1
+    - PlasteelFromScrap
+    - SteelScraptoSteel
+    - SteelScraptoSteel1
+
+
 #drugs
 
 - type: entity
