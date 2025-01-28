@@ -8,8 +8,6 @@
     sprite: _Crescent/Objects/FactoryGoods/120.rsi
     layers:
     - state: icon
-  - type: Stack
-    stackType: EmptyCasing
 
 - type: entity
   parent: BaseItem
@@ -21,8 +19,6 @@
     sprite: _Crescent/Objects/FactoryGoods/120.rsi
     layers:
     - state: icon
-  - type: Stack
-    stackType: EmptyCasingHE
 
 - type: entity
   parent: BaseItem
@@ -34,8 +30,6 @@
     sprite: _Crescent/Objects/FactoryGoods/120w.rsi
     layers:
     - state: icon
-  - type: Stack
-    stackType: WeldedCasing
 
 
 - type: entity
@@ -48,5 +42,3 @@
     sprite: _Crescent/Objects/FactoryGoods/120whe.rsi
     layers:
     - state: icon
-  - type: Stack
-    stackType: WeldedCasingHE

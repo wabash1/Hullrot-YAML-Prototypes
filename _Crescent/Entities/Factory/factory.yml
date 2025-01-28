@@ -97,3 +97,22 @@
         variation: 0.125
     recipes:
       - 320mmCasing
+
+- type: entity
+  parent: BaseMachinePowered
+  id: BiomassFoodMulcher
+  name: biomass mulcher
+  description: A miniature vat that accepts grown produce and mulches it into usable biomass.
+  components:
+  - type: Factory
+    recipes:
+      - BiomassFromWheat
+      - BiomassFromSugarcane
+  - type: Sprite
+    sprite: _Crescent/Structures/mulcher.rsi
+    layers:
+    - state: "icon"
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#9dc5c9"

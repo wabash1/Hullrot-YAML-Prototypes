@@ -10,7 +10,7 @@
   id: 120mmWeldDU
   name: weld 120mm DU casing
   inputs:
-    EmptyCasing: 1
+    Casing120: 1
   outputs:
     Casing120Welded: 1
 
@@ -44,7 +44,7 @@
   inputs:
     Casing120WeldedHE: 1
   outputs:
-    CartridgeShellArmorPiercing: 1
+    CartridgeShellHighExplosive: 1
 
 - type: factoryRecipe
   id: GargoyleCasing
@@ -79,6 +79,22 @@
     Plasma: 5
   outputs:
     ColonyShellComplete: 1
+
+- type: factoryRecipe
+  id: BiomassFromWheat
+  name: Wheat to Biomass
+  inputs:
+    WheatBushel: 1
+  outputs:
+    MaterialBiomass: 25
+
+- type: factoryRecipe
+  id: BiomassFromSugarcane 
+  name: Sugarcane to Biomass
+  inputs:
+    Sugarcane: 1
+  outputs:
+    MaterialBiomass: 40
 
 
 
