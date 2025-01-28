@@ -53,7 +53,7 @@
         Heat: 0.95
 
 - type: entity
-  parent: ClothingHeadHardsuitBase
+  parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitTraumasec
   categories: [ HideSpawnMenu ]
   name: interdyne traumasec hardsuit helmet
