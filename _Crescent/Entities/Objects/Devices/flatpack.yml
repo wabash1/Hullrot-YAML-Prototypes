@@ -431,6 +431,7 @@
     - state: ame-part
   - type: StaticPrice
     price: 15000
+    
 - type: entity
   parent: BaseFlatpack
   id: RecyclerFlatpack
@@ -444,6 +445,7 @@
     - state: ame-part
   - type: StaticPrice
     price: 3000
+    
 - type: entity
   parent: BaseFlatpack
   id: ComputerShuttleFlatpack
