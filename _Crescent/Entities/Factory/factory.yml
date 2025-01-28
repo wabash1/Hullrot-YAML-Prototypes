@@ -1,149 +1,4 @@
 - type: entity
-  id: Factory
-  parent: BaseLathe
-  name: autolathe-factory
-  description: It produces basic items using metal and glass and crafts by contact! wow!
-  components:
-  - type: Sprite
-    sprite: Structures/Machines/autolathe.rsi
-    snapCardinals: true
-    layers:
-    - state: icon
-      map: ["enum.LatheVisualLayers.IsRunning"]
-    - state: unlit
-      shader: unshaded
-      map: ["enum.PowerDeviceVisualLayers.Powered"]
-    - state: inserting
-      map: ["enum.MaterialStorageVisualLayers.Inserting"]
-    - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
-  - type: Machine
-    board: AutolatheMachineCircuitboard
-  - type: MaterialStorage
-    whitelist:
-      tags:
-        - Sheet
-        - RawMaterial
-        - Ingot
-  - type: Factory
-    sound:
-      collection: CluwneHorn
-      params:
-        variation: 0.125
-    recipes:
-      metalToGun:
-        inputs:
-          MetalRod:
-            3
-          Steel:
-            5
-        outputs:
-          WeaponPistolViper:
-            1
-          MagazinePistol:
-            3
-      rodToMetal:
-        inputs:
-          MetalRod:
-            2
-        outputs:
-          SheetSteel:
-            1
-
-  - type: Lathe
-    idleState: icon
-    runningState: building
-    staticRecipes:
-      - Wirecutter
-      - Igniter
-      - Signaller
-      - Screwdriver
-      - Welder
-      - Wrench
-      - Crowbar
-      - Multitool
-      - NetworkConfigurator
-      - SprayPainter
-      - FlashlightLantern
-      - CableStack
-      - CableMVStack
-      - CableHVStack
-      - HandheldGPSBasic
-      - TRayScanner
-      - AirTank
-      - GasAnalyzer
-      - UtilityBelt
-#      - Fulton # Frontier
-#      - FultonBeacon # Frontier
-      - Pickaxe
-      - ModularReceiver
-      - AppraisalTool
-      - SheetRGlass
-      - Beaker
-      - Syringe
-      - HandLabeler
-      - LightTube
-      - LedLightTube
-      - SodiumLightTube
-      - ExteriorLightTube
-      - LightBulb
-      - LedLightBulb
-      - Bucket
-      - DrinkMug
-      - DrinkMugMetal
-      - DrinkGlass
-      - DrinkShotGlass
-      - DrinkGlassCoupeShaped
-      - CustomDrinkJug
-      - FoodPlate
-      - FoodPlateSmall
-      - FoodPlatePlastic
-      - FoodPlateSmallPlastic
-      - FoodBowlBig
-      - FoodPlateTin
-      - FoodKebabSkewer
-      - SprayBottle
-      - MopItem
-      - Holoprojector
-      - Mousetrap
-      - LightReplacer
-      - TrashBag
-      - PowerCellSmall
-      - PowerCellMedium
-      - VehicleWheelchairFolded
-      - RollerBedSpawnFolded
-      - CheapRollerBedSpawnFolded
-      - EmergencyRollerBedSpawnFolded
-      - MicroManipulatorStockPart
-      - MatterBinStockPart
-      - CapacitorStockPart
-      - ConveyorBeltAssembly
-      - IntercomElectronics
-      - FirelockElectronics
-      - DoorElectronics
-      - AirAlarmElectronics
-      - StationMapElectronics
-      - FireAlarmElectronics
-      - MailingUnitElectronics
-      - SignalTimerElectronics
-      - APCElectronics
-      - SMESMachineCircuitboard
-      - SubstationMachineCircuitboard
-      - WallmountSubstationElectronics
-      - CellRechargerCircuitboard
-      - BorgChargerCircuitboard
-      - WeaponCapacitorRechargerCircuitboard
-      - HandheldStationMap
-      - ClothingHeadHatWelding
-      - Durathread # Frontier
-      - SheetPlasteel
-      - ClothingOuterSuitEmergency # Frontier
-      - ClothingHeadHelmetEVA # Frontier
-      - ClothingHeadHelmetEVALarge # Frontier
-      - ClothingOuterHardsuitEVA # Frontier
-
-
-- type: entity
   id: Factory120Fab
   parent: BaseMachinePowered
   name: shell fabricator
@@ -160,10 +15,10 @@
       params:
         variation: 0.125
     recipes:
-    - 120mmCasingDU
-    - 120mmCasingHE
-    - GargoyleCasing
-    - LancerCasing
+      - 120mmCasingDU
+      - 120mmCasingHE
+      - GargoyleCasing
+      - LancerCasing
 
 - type: entity
   id: Factory120Weld
@@ -182,8 +37,8 @@
       params:
         variation: 0.125
     recipes:
-    - 120mmWeldDU
-    - 120mmWeldHE
+      - 120mmWeldDU
+      - 120mmWeldHE
 
 - type: entity
   id: Factory120Assembler
@@ -202,8 +57,8 @@
       params:
         variation: 0.125
     recipes:
-    - 120mmAssembleDU
-    - 120mmAssembleHE
+      - 120mmAssembleDU
+      - 120mmAssembleHE
 
 - type: entity
   id: Factory320Assembler
@@ -222,7 +77,7 @@
       params:
         variation: 0.125
     recipes:
-    - 320mmPack
+      - 320mmPack
 
 - type: entity
   id: Factory320Fab
@@ -241,4 +96,4 @@
       params:
         variation: 0.125
     recipes:
-    - 320mmCasing
+      - 320mmCasing

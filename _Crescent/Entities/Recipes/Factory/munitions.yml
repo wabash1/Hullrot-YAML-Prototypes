@@ -12,16 +12,15 @@
   inputs:
     EmptyCasing: 1
   outputs:
-    WeldedCasing: 1
+    Casing120Welded: 1
 
 - type: factoryRecipe
   id: 120mmAssembleDU
   name: assemble 120mm DU casing
   inputs:
-    WeldedCasing: 1
+    Casing120Welded: 1
   outputs:
     CartridgeShellArmorPiercing: 1
-
 
 - type: factoryRecipe
   id: 120mmCasingHE
@@ -37,13 +36,13 @@
   inputs:
     Casing120HE: 1
   outputs:
-    WeldedCasingHE: 1
+    Casing120WeldedHE: 1
 
 - type: factoryRecipe
   id: 120mmAssembleHE
   name: assemble 120mm HE casing
   inputs:
-    WeldedCasingHE: 1
+    Casing120WeldedHE: 1
   outputs:
     CartridgeShellArmorPiercing: 1
 
@@ -63,7 +62,7 @@
   outputs:
     LanceRocketCartridge: 1
 
-  - type: factoryRecipe
+- type: factoryRecipe
   id: 320mmCasing
   name: Create 320mm casing
   inputs:
