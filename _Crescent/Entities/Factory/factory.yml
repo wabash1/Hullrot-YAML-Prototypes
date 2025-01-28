@@ -160,34 +160,10 @@
       params:
         variation: 0.125
     recipes:
-      steelToCasing:
-        inputs:
-          Steel:
-            5
-        outputs:
-          Casing120:
-            1
-      plasmaToHECasing:
-        inputs:
-          Plasma:
-            10
-        outputs:
-          Casing120HE:
-            1
-      plasteeltoGargoyle:
-        inputs:
-          Plasteel:
-            10
-        outputs:
-          TorpGarg:
-            1
-      plasictoLancer:
-        inputs:
-          Plastic:
-            3
-        outputs:
-          LanceRocketCartridge:
-            1
+    - 120mmCasingDU
+    - 120mmCasingHE
+    - GargoyleCasing
+    - LancerCasing
 
 - type: entity
   id: Factory120Weld

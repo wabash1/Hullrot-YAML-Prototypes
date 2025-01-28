@@ -1,0 +1,40 @@
+- type: factoryRecipe
+  id: 120mmCasingDU
+  name: 120mm DU casing
+  inputs:
+    Steel: 5
+  outputs:
+    Casing120: 1
+
+- type: factoryRecipe
+  id: 120mmWeldDU
+  name: weld 120mm DU casing
+  inputs:
+    Steel: 5
+  outputs:
+    Casing120: 1
+
+- type: factoryRecipe
+  id: 120mmCasingHE
+  name: 120mm HE casing
+  inputs:
+    Plasma: 6
+  outputs:
+    Casing120HE: 1
+
+- type: factoryRecipe
+  id: GargoyleCasing
+  name: Gargoyle Cruise Missile
+  inputs:
+    Plasteel: 10
+  outputs:
+    TorpGarg: 1
+  
+- type: factoryRecipe
+  id: LancerCasing
+  name: Lancer 100mm Missile
+  inputs:
+    Plastic: 3
+  outputs:
+    LanceRocketCartridge: 1
+
