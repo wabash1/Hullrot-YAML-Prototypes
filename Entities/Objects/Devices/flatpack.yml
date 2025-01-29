@@ -188,7 +188,7 @@
   description: A flatpack used for constructing a thruster.
   components:
   - type: Flatpack
-    entity: Thruster
+    entity: ThrusterUnwelded
   - type: Sprite
     layers:
     - state: base

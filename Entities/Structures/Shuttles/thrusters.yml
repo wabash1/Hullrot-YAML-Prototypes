@@ -230,15 +230,15 @@
   id: BaseThrusterUnwelded
   parent: BaseThruster
   name: thruster
-  description: A thruster that allows a shuttle to move.
+  description: A thruster that allows a shuttle to move. Has to be reinforced by welding
   abstract: true
   components:
   - type: Construction
-      graph: ThrusterConstructionGraph
-      node: machine
-      containers:
-      - machine_parts
-      - machine_board
+    graph: ThrusterConstructionGraph
+    node: machineUnwelded
+    containers:
+    - machine_parts
+    - machine_board
 
 - type: entity
   id: Thruster
@@ -280,6 +280,24 @@
       shader: unshaded
       visible: false
       offset: 0, 1
+
+- type: entity
+  id: ThrusterUnwelded
+  name: thruster
+  parent: Thruster
+  components:
+  - type: Construction
+    graph: ThrusterConstructionGraph
+    node: machineUnwelded
+    containers:
+    - machine_parts
+    - machine_board
+  - type: Transform
+    anchored: false
+  - type: Anchorable
+    flags:
+    - Anchorable
+    - Unanchorable
 
 - type: entity
   id: ThrusterUnanchored
