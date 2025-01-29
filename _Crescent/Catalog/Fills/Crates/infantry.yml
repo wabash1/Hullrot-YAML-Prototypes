@@ -327,3 +327,14 @@
         amount: 1
       - id: ClothingOuterArmorShinoharaArmorBulwark
         amount: 1
+
+- type: entity
+  id: CrateShinoharaHammerhead
+  parent: CrateSecgear
+  name: shinohara "Hammerhead" crate
+  description: A disposable smart rocket launcher packaged in a stamped cargo crate.
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponLauncherHammerhead
+        amount: 1
