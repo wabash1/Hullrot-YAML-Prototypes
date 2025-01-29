@@ -173,10 +173,6 @@
   - type: Sprite
     sprite: _Crescent/Objects/Weapons/plas_sword.rsi
     layers:
-      - state: e_sword
-      - state: e_sword_blade
-        color: "#FFFFFF"
-        visible: false
         shader: unshaded
         map: [ "blade" ]
   - type: MeleeWeapon
@@ -194,7 +190,7 @@
     enabled: false
     radius: 2
     energy: 2
-    color: white
+    color: purple
     netsync: false
   - type: Appearance
   - type: ToggleableLightVisuals
