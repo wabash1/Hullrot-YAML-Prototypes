@@ -169,34 +169,28 @@
             prob: 0.08
             orGroup: rock
           - id: WallRockSnow
-            prob: 0.65
+            prob: 0.8
             orGroup: rock
           - id: WallRockSnowArtifactFragment
             prob: 0.05
             orGroup: rock
           - id: WallRockSnowCoal
-            prob: 0.08
+            prob: 0.04
             orGroup: rock
           - id: WallRockSnowPlasma
-            prob: 0.2
+            prob: 0.09
             orGroup: rock
           - id: WallRockSnowUranium
-            prob: 0.13
+            prob: 0.09
             orGroup: rock
           - id: WallRockSnowTin
-            prob: 0.01
+            prob: 0.04
             orGroup: rock
           - id: WallRockSnowGold
             prob: 0.01
             orGroup: rock
-          - id: WallRockSnowQuartz
-            prob: 0.01
-            orGroup: rock
           - id: WallRockSnowSilver
             prob: 0.01
-            orGroup: rock
-          - id: WallIce
-            prob: 0.1
             orGroup: rock
     - type: GCAbleObject
       queue: SpaceDebris
@@ -478,22 +472,22 @@
             prob: 0.01
             orGroup: rock
           - id: WallRockBasaltUranium
-            prob: 0.05
+            prob: 0.01
             orGroup: rock
           - id: WallRockBasaltSilver
             prob: 0.09
             orGroup: rock
           - id: WallRockBasaltTin
-            prob: 0.40
+            prob: 0.1
             orGroup: rock
           - id: WallRockBasaltGold
-            prob: 0.01
+            prob: 0.02
             orGroup: rock
           - id: WallRockBasaltQuartz
             prob: 0.01
             orGroup: rock
           - id: WallRockBasaltCoal
-            prob: 0.2
+            prob: 0.1
             orGroup: rock
           - id: WallRockBasaltArtifactFragment
             prob: 0.01
@@ -620,21 +614,18 @@
             prob: 0.08
             orGroup: rock
           - id: WallRockSand
-            prob: 0.45
+            prob: 0.6
             orGroup: rock
           - id: WallRockSandGold
-            prob: 0.13
+            prob: 0.09
             orGroup: rock
           - id: WallRockSandQuartz
             prob: 0.3
             orGroup: rock
           - id: WallRockSandSilver
-            prob: 0.1
+            prob: 0.09
             orGroup: rock
           - id: WallRockSandSalt
-            prob: 0.01
-            orGroup: rock
-          - id: WallRockSandBananium
             prob: 0.01
             orGroup: rock
           - id: WallRockSandPlasma
@@ -644,7 +635,7 @@
             prob: 0.01
             orGroup: rock
           - id: WallRockSandCoal
-            prob: 0.2
+            prob: 0.1
             orGroup: rock
           - id: WallRockSandUranium
             prob: 0.01
@@ -771,19 +762,19 @@
             prob: 0.01
             orGroup: rock
           - id: ChromiteElementalSpawner
-            prob: 0.08
+            prob: 0.2
             orGroup: rock
           - id: WallRockChromite
             prob: 0.65
             orGroup: rock
           - id: WallRockChromiteUranium
-            prob: 0.1
+            prob: 0.08
             orGroup: rock
           - id: WallRockChromitePlasma
             prob: 0.05
             orGroup: rock
           - id: WallRockChromiteTin
-            prob: 0.1
+            prob: 0.08
             orGroup: rock
           - id: WallRockChromiteArtifactFragment
             prob: 0.01
@@ -795,7 +786,7 @@
             prob: 0.01
             orGroup: rock
           - id: WallRockChromiteCoal
-            prob: 0.1
+            prob: 0.07
             orGroup: rock
           - id: WallRockChromiteSilver
             prob: 0.09
