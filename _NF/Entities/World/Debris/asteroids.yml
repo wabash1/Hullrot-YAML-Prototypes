@@ -16,34 +16,34 @@
       entries:
         FloorAsteroidSand:
           - id: RandomArtifactSpawner20
-            prob: 0.03
+            prob: 0.001
             orGroup: rock
           - id: WallRock
-            prob: 0.3
-            orGroup: rock
-          - id: WallRockCoal
-            prob: 0.4
-            orGroup: rock
-          - id: WallRockTin
             prob: 0.5
             orGroup: rock
+          - id: WallRockCoal
+            prob: 0.01
+            orGroup: rock
+          - id: WallRockTin
+            prob: 0.01
+            orGroup: rock
           - id: WallRockQuartz
-            prob: 0.3
+            prob: 0.01
             orGroup: rock
           - id: WallRockGold
-            prob: 0.06
+            prob: 0.003
             orGroup: rock
           - id: WallRockSilver
-            prob: 0.04
+            prob: 0.003
             orGroup: rock
           - id: WallRockPlasma
-            prob: 0.02
+            prob: 0.002
             orGroup: rock
           - id: WallRockUranium
-            prob: 0.02
+            prob: 0.002
             orGroup: rock
           - id: WallRockArtifactFragment
-            prob: 0.03
+            prob: 0.0009
             orGroup: rock
           - id: RockElementalSpawner
             prob: 0.08
@@ -141,8 +141,8 @@
     - type: MapGrid
     - type: BlobFloorPlanBuilder
       blobDrawProb: 0.66
-      radius: 23
-      floorPlacements: 250
+      radius: 30
+      floorPlacements: 450
 
 # Snow
 
@@ -163,34 +163,34 @@
       entries:
         FloorIce:
           - id: RandomArtifactSpawner20
-            prob: 0.03
+            prob: 0.001
             orGroup: rock
           - id: SnowElementalSpawner
             prob: 0.08
             orGroup: rock
           - id: WallRockSnow
-            prob: 0.8
+            prob: 0.5
             orGroup: rock
           - id: WallRockSnowArtifactFragment
-            prob: 0.05
+            prob: 0.0009
             orGroup: rock
           - id: WallRockSnowCoal
-            prob: 0.04
+            prob: 0.015
             orGroup: rock
           - id: WallRockSnowPlasma
-            prob: 0.09
+            prob: 0.015
             orGroup: rock
           - id: WallRockSnowUranium
-            prob: 0.09
+            prob: 0.015
             orGroup: rock
           - id: WallRockSnowTin
-            prob: 0.04
+            prob: 0.015
             orGroup: rock
           - id: WallRockSnowGold
-            prob: 0.01
+            prob: 0.005
             orGroup: rock
           - id: WallRockSnowSilver
-            prob: 0.01
+            prob: 0.005
             orGroup: rock
     - type: GCAbleObject
       queue: SpaceDebris
@@ -285,8 +285,8 @@
     - type: MapGrid
     - type: BlobFloorPlanBuilder
       blobDrawProb: 0.66
-      radius: 23
-      floorPlacements: 250
+      radius: 30
+      floorPlacements: 450
 
 # Andesite
 
@@ -307,13 +307,13 @@
       entries:
         FloorCaveDrought:
           - id: RandomArtifactSpawner20
-            prob: 0.01
+            prob: 0.0009
             orGroup: rock
           - id: AndesiteElementalSpawner
             prob: 0.08
             orGroup: rock
           - id: WallRockAndesite
-            prob: 0.65
+            prob: 0.5
             orGroup: rock
           - id: WallRockAndesiteQuartz
             prob: 0.3
@@ -325,22 +325,22 @@
             prob: 0.08
             orGroup: rock
           - id: WallRockAndesiteGold
-            prob: 0.02
+            prob: 0.01
             orGroup: rock
           - id: WallRockAndesitePlasma
-            prob: 0.02
+            prob: 0.005
             orGroup: rock
           - id: WallRockAndesiteSilver
-            prob: 0.02
+            prob: 0.005
             orGroup: rock
           - id: WallRockAndesiteSalt
             prob: 0.1
             orGroup: rock
           - id: WallRockAndesiteUranium
-            prob: 0.01
+            prob: 0.005
             orGroup: rock
           - id: WallRockAndesiteArtifactFragment
-            prob: 0.01
+            prob: 0.009
             orGroup: rock
           - id: WallAndesiteCobblebrick
             prob: 0.1
@@ -438,8 +438,8 @@
     - type: MapGrid
     - type: BlobFloorPlanBuilder
       blobDrawProb: 0.66
-      radius: 23
-      floorPlacements: 250
+      radius: 30
+      floorPlacements: 450
 
 # Basalt
 
@@ -466,31 +466,31 @@
             prob: 0.08
             orGroup: rock
           - id: WallRockBasalt
-            prob: 0.65
+            prob: 0.5
             orGroup: rock
           - id: WallRockBasaltPlasma
-            prob: 0.01
+            prob: 0.006
             orGroup: rock
           - id: WallRockBasaltUranium
-            prob: 0.01
+            prob: 0.006
             orGroup: rock
           - id: WallRockBasaltSilver
-            prob: 0.09
+            prob: 0.009
             orGroup: rock
           - id: WallRockBasaltTin
             prob: 0.1
             orGroup: rock
           - id: WallRockBasaltGold
-            prob: 0.02
+            prob: 0.006
             orGroup: rock
           - id: WallRockBasaltQuartz
             prob: 0.01
             orGroup: rock
           - id: WallRockBasaltCoal
-            prob: 0.1
+            prob: 0.09
             orGroup: rock
           - id: WallRockBasaltArtifactFragment
-            prob: 0.01
+            prob: 0.009
             orGroup: rock
           - id: WallBasaltCobblebrick
             prob: 0.1
@@ -586,8 +586,8 @@
     - type: MapGrid
     - type: BlobFloorPlanBuilder
       blobDrawProb: 0.66
-      radius: 23
-      floorPlacements: 250
+      radius: 30
+      floorPlacements: 450
 
 # Sand
 
@@ -614,31 +614,31 @@
             prob: 0.08
             orGroup: rock
           - id: WallRockSand
-            prob: 0.6
+            prob: 0.7
             orGroup: rock
           - id: WallRockSandGold
-            prob: 0.09
+            prob: 0.006
             orGroup: rock
           - id: WallRockSandQuartz
             prob: 0.3
             orGroup: rock
           - id: WallRockSandSilver
-            prob: 0.09
+            prob: 0.006
             orGroup: rock
           - id: WallRockSandSalt
             prob: 0.01
             orGroup: rock
           - id: WallRockSandPlasma
-            prob: 0.01
+            prob: 0.003
             orGroup: rock
           - id: WallRockSandTin
-            prob: 0.01
+            prob: 0.09
             orGroup: rock
           - id: WallRockSandCoal
-            prob: 0.1
+            prob: 0.09
             orGroup: rock
           - id: WallRockSandUranium
-            prob: 0.01
+            prob: 0.009
             orGroup: rock
           - id: WallRockSandArtifactFragment
             prob: 0.01
@@ -737,8 +737,8 @@
     - type: MapGrid
     - type: BlobFloorPlanBuilder
       blobDrawProb: 0.66
-      radius: 23
-      floorPlacements: 250
+      radius: 30
+      floorPlacements: 450
 
 # Chromite
 
@@ -768,28 +768,28 @@
             prob: 0.65
             orGroup: rock
           - id: WallRockChromiteUranium
-            prob: 0.08
+            prob: 0.0013
             orGroup: rock
           - id: WallRockChromitePlasma
-            prob: 0.05
+            prob: 0.0013
             orGroup: rock
           - id: WallRockChromiteTin
-            prob: 0.08
+            prob: 0.09
             orGroup: rock
           - id: WallRockChromiteArtifactFragment
             prob: 0.01
             orGroup: rock
           - id: WallRockChromiteGold
-            prob: 0.09
+            prob: 0.009
             orGroup: rock
           - id: WallRockChromiteQuartz
             prob: 0.01
             orGroup: rock
           - id: WallRockChromiteCoal
-            prob: 0.07
+            prob: 0.09
             orGroup: rock
           - id: WallRockChromiteSilver
-            prob: 0.09
+            prob: 0.009
             orGroup: rock
           - id: WallChromiteCobblebrick
             prob: 0.1
@@ -885,8 +885,8 @@
     - type: MapGrid
     - type: BlobFloorPlanBuilder
       blobDrawProb: 0.66
-      radius: 23
-      floorPlacements: 250
+      radius: 30
+      floorPlacements: 450
 
 # Asteroid Asteroid Debris, because yes, base asteroid is made NOT from asteroid
 
@@ -913,34 +913,31 @@
             prob: 0.08
             orGroup: rock
           - id: AsteroidRock
-            prob: 0.65
+            prob: 0.7
             orGroup: rock
           - id: AsteroidRockCoal
-            prob: 0.15
+            prob: 0.09
             orGroup: rock
           - id: AsteroidRockTin
-            prob: 0.2
+            prob: 0.09
             orGroup: rock
           - id: AsteroidRockQuartz
             prob: 0.1
             orGroup: rock
           - id: AsteroidRockSalt
-            prob: 0.15
+            prob: 0.009
             orGroup: rock
           - id: AsteroidRockGold
-            prob: 0.06
+            prob: 0.003
             orGroup: rock
           - id: AsteroidRockSilver
-            prob: 0.04
+            prob: 0.003
             orGroup: rock
           - id: AsteroidRockPlasma
-            prob: 0.07
+            prob: 0.001
             orGroup: rock
           - id: AsteroidRockUranium
-            prob: 0.04
-            orGroup: rock
-          - id: AsteroidRockBananium
-            prob: 0.03
+            prob: 0.001
             orGroup: rock
           - id: AsteroidRockArtifactFragment
             prob: 0.01
@@ -1039,5 +1036,5 @@
     - type: MapGrid
     - type: BlobFloorPlanBuilder
       blobDrawProb: 0.66
-      radius: 23
-      floorPlacements: 250
+      radius: 30
+      floorPlacements: 450
