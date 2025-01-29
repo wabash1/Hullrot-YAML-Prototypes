@@ -123,11 +123,11 @@
             - !type:WirePanel
           steps:
             - tool: Welding
-              doAfter: 30
+              doAfter: 10
             - tool: Prying
-              doAfter: 15
+              doAfter: 5
             - tool: Welding
-              doAfter: 15
+              doAfter: 10
 
     - node: destroyedMachineFrame
       entity: MachineFrameDestroyed
@@ -225,6 +225,20 @@
           - BulletImpassable
   placement:
     mode: SnapgridCenter
+
+- type: entity
+  id: BaseThrusterUnwelded
+  parent: BaseThruster
+  name: thruster
+  description: A thruster that allows a shuttle to move.
+  abstract: true
+  components:
+  - type: Construction
+      graph: ThrusterConstructionGraph
+      node: machine
+      containers:
+      - machine_parts
+      - machine_board
 
 - type: entity
   id: Thruster
