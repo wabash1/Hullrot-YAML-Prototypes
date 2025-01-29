@@ -20,7 +20,7 @@
     state: icon
   discipline: Imperial
   tier: 1
-  cost: 3000
+  cost: 1000
   recipeUnlocks:
   - ClothingOuterCoatImperialParadeCraft
   - ClothingUniformJumpsuitImperialSoldierFormalCraft
@@ -88,7 +88,7 @@
     state: icon
   discipline: Imperial
   tier: 1
-  cost: 6000
+  cost: 3000
   recipeUnlocks:
   - ValorLPC
   - ConquestLPC
