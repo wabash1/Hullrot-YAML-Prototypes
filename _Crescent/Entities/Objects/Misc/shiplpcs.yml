@@ -1086,6 +1086,24 @@
 
 - type: entity
   parent: BaseItem
+  id: ShipVoucherRockchipper
+  name: SAW 'Rockchipper' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a SAW Retrofitted Mining Class Vessel. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 3000
+  - type: ShipVoucher
+    ship: Rockchipper
+
+
+- type: entity
+  parent: BaseItem
   id: ShipVoucherMercury
   name: ICM 'Mercury' pattern LPC fabprint disk
   description: An LPC fabprint disk loaded with a Ihikerja Civilian Manufacturing Mercury-class salvage shuttle pattern. Has to be redeemed at a shipyard console.
