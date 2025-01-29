@@ -607,6 +607,15 @@
       board: [ DoorElectronicsCMM ]
 
 - type: entity
+  parent:  AirlockEngineering
+  id:  AirlockEngineeringCMMLocked
+  suffix: Minutemen
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCMM ]
+
+- type: entity
   parent:  AirlockSecurity
   id:  AirlockCMMLockedRanking
   suffix: Minutemen Ranking
