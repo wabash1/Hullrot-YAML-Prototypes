@@ -6,7 +6,7 @@
     state: icon
   discipline: Communard
   tier: 1
-  cost: 5000
+  cost: 1600
   recipeUnlocks:
   - ClothingUniformJumpsuitNCWLCraft
   - ClothingUniformJumpsuitNCWLMedicCraft
@@ -54,7 +54,7 @@
     state: icon
   discipline: Communard
   tier: 1
-  cost: 6000
+  cost: 3000
   recipeUnlocks:
   - KhopeshLPC
   - BroadswordLPC
