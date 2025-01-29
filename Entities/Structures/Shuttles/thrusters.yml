@@ -123,11 +123,7 @@
             - !type:WirePanel
           steps:
             - tool: Welding
-              doAfter: 10
-            - tool: Prying
-              doAfter: 5
-            - tool: Welding
-              doAfter: 10
+              doAfter: 15
 
     - node: destroyedMachineFrame
       entity: MachineFrameDestroyed
