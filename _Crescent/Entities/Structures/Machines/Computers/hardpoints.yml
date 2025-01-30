@@ -157,6 +157,18 @@
   - type: Sprite
     sprite: _Crescent/Structures/hardpoints.rsi
     state: Large
-
+    
+- type: entity
+  id: HardpointLargeUniversal
+  parent: BaseHardpoint
+  name: Hardpoint Large/Universal
+  components:
+  - type: Hardpoint
+    range: 35
+    class: Universal
+    size: Large
+  - type: Sprite
+    sprite: _Crescent/Structures/hardpoints.rsi
+    state: Large
 
   
