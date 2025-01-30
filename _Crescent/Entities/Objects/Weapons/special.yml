@@ -252,3 +252,24 @@
     delay: 1
   - type: IgniteOnMeleeHit
     fireStacks: 1
+
+- type: entity
+  name: SCHK-3 charge warhammer
+  parent: BaseItem
+  id: Plashammer
+  description: A robust warclub made by the Families.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Weapons/plashammer.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -155 #onehanded stance allows for wider swing
+    damage:
+      types:
+        Blunt: 35
+        Heat: 10
+    soundHit:
+      collection: MetalThud
+  - type: Item
+    size: Normal
+  - type: DisarmMalus #harder to shake firm grip
