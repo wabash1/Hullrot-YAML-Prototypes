@@ -42,7 +42,7 @@
     fixtures: {}
 
 - type: entity
-  id: AHardpointSmallBallistic
+  id: AAAHardpointSmallBallistic
   parent: BaseHardpoint
   name: Hardpoint Small/Ballistic
   components:
@@ -55,7 +55,7 @@
     state: Small
 
 - type: entity
-  id: AHardpointSmallEnergy
+  id: AAAHardpointSmallEnergy
   parent: BaseHardpoint
   name: Hardpoint Small/Energy
   components:
@@ -68,7 +68,7 @@
     state: Small
 
 - type: entity
-  id: AHardpointSmallMissile
+  id: AAAHardpointSmallMissile
   parent: BaseHardpoint
   name: Hardpoint Small/Missile
   components:
@@ -81,7 +81,7 @@
     state: Small
 
 - type: entity
-  id: AHardpointMediumBallistic
+  id: AAAHardpointMediumBallistic
   parent: BaseHardpoint
   name: Hardpoint Medium/Ballistic
   components:
@@ -94,7 +94,7 @@
     state: Medium
 
 - type: entity
-  id: AHardpointMediumEnergy
+  id: AAAHardpointMediumEnergy
   parent: BaseHardpoint
   name: Hardpoint Medium/Energy
   components:
@@ -107,7 +107,7 @@
     state: Medium
 
 - type: entity
-  id: AHardpointMediumMissile
+  id: AAAardpointMediumMissile
   parent: BaseHardpoint
   name: Hardpoint Medium/Missile
   components:
@@ -120,7 +120,7 @@
     state: Medium
 
 - type: entity
-  id: AHardpointLargeBallistic
+  id: AAAHardpointLargeBallistic
   parent: BaseHardpoint
   name: Hardpoint Large/Ballistic
   components:
@@ -133,7 +133,7 @@
     state: Large
 
 - type: entity
-  id: AHardpointLargeEnergy
+  id: AAAHardpointLargeEnergy
   parent: BaseHardpoint
   name: Hardpoint Large/Energy
   components:
@@ -146,7 +146,7 @@
     state: Large
 
 - type: entity
-  id: AHardpointLargeMissile
+  id: AAAHardpointLargeMissile
   parent: BaseHardpoint
   name: Hardpoint Large/Missile
   components:
@@ -159,7 +159,7 @@
     state: Large
     
 - type: entity
-  id: AHardpointLargeUniversal
+  id: AAAAAHardpointLargeUniversal
   parent: BaseHardpoint
   name: Hardpoint Large/Universal
   components:
