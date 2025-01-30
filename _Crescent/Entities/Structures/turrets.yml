@@ -104,6 +104,10 @@
     - type: NoRotateOnMove
     - type: Input
       context: "human"
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Ballistic
+      size: Small
 
 
 - type: entity
@@ -283,6 +287,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Ballistic
+      size: Small
 
 #faction-flagged variants
 
@@ -461,6 +469,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Missile
+      size: Small
 
 
 #faction variants
@@ -626,6 +638,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Ballistic
+      size: Medium
 
 # faction-flagged
 
@@ -813,6 +829,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Ballistic
+      size: Medium
 
 #faction-flagged
 
@@ -981,6 +1001,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Energy
+      size: Small
 
 - type: entity
   parent: BaseWeaponTurretLaser
@@ -1147,6 +1171,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Missile
+      size: Small
 
 - type: entity
   parent: BaseWeaponTurretSmartbomb
@@ -1322,6 +1350,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Ballistic
+      size: Medium
 
 - type: entity
   parent: BaseWeaponTurretNeedler
@@ -1449,6 +1481,10 @@
     - type: BallisticAmmoProvider
       proto: PDTBulletCase
       capacity: 25000
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Ballistic
+      size: Small
 
 # gargoyle
 
@@ -1540,6 +1576,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Missile
+      size: Large
 
 #lancer
 
@@ -1631,6 +1671,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Missile
+      size: Medium
 
 #battlemortar
 
@@ -1722,6 +1766,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Ballistic
+      size: Large
 
 
 # flak
@@ -1826,3 +1874,7 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Ballistic
+      size: Large
