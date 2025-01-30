@@ -239,8 +239,8 @@
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Slash: 40
-        Heat: 45
+        Slash: 35
+        Heat: 25
   - type: Item
     size: Ginormous
   - type: Tool
