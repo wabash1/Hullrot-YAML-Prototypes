@@ -159,7 +159,7 @@
     state: Large
     
 - type: entity
-  id: AAAAAHardpointLargeUniversal
+  id: AAAHardpointLargeUniversal
   parent: BaseHardpoint
   name: Hardpoint Large/Universal
   components:
