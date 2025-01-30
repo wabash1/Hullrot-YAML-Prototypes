@@ -1,0 +1,162 @@
+- type: entity
+  id: BaseHardpoint
+  parent: BaseMachinePowered
+  name: Hardpoint
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Crescent/Structures/hardpoints.rsi
+    state: Small
+    snapCardinals: true
+  - type: Physics
+    bodyType: Static
+  - type: Transform
+    noRot: true
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3500
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalGlassBreak
+  - type: Repairable
+    doAfterDelay: 8
+  - type: Anchorable
+  - type: PointLight
+    enabled: false
+    castShadows: false
+    radius: 3
+  - type: LitOnPowered
+  - type: ApcPowerReceiver
+    powerLoad: 3500
+  - type: Appearance
+  - type: Hardpoint
+    range: 20
+    class: Ballistic
+    size: Small
+  - type: Fixtures
+    fixtures: {}
+
+- type: entity
+  id: HardpointSmallBallistic
+  parent: BaseHardpoint
+  name: Hardpoint Small/Ballistic
+  components:
+  - type: Hardpoint
+    range: 20
+    class: Ballistic
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Structures/hardpoints.rsi
+    state: Small
+
+- type: entity
+  id: HardpointSmallEnergy
+  parent: BaseHardpoint
+  name: Hardpoint Small/Energy
+  components:
+  - type: Hardpoint
+    range: 20
+    class: Energy
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Structures/hardpoints.rsi
+    state: Small
+
+- type: entity
+  id: HardpointSmallMissile
+  parent: BaseHardpoint
+  name: Hardpoint Small/Missile
+  components:
+  - type: Hardpoint
+    range: 20
+    class: Missile
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Structures/hardpoints.rsi
+    state: Small
+
+- type: entity
+  id: HardpointMediumBallistic
+  parent: BaseHardpoint
+  name: Hardpoint Medium/Ballistic
+  components:
+  - type: Hardpoint
+    range: 35
+    class: Ballistic
+    size: Medium
+  - type: Sprite
+    sprite: _Crescent/Structures/hardpoints.rsi
+    state: Medium
+
+- type: entity
+  id: HardpointMediumEnergy
+  parent: BaseHardpoint
+  name: Hardpoint Medium/Energy
+  components:
+  - type: Hardpoint
+    range: 35
+    class: Energy
+    size: Medium
+  - type: Sprite
+    sprite: _Crescent/Structures/hardpoints.rsi
+    state: Medium
+
+- type: entity
+  id: HardpointMediumMissile
+  parent: BaseHardpoint
+  name: Hardpoint Medium/Missile
+  components:
+  - type: Hardpoint
+    range: 35
+    class: Missile
+    size: Medium
+  - type: Sprite
+    sprite: _Crescent/Structures/hardpoints.rsi
+    state: Medium
+
+- type: entity
+  id: HardpointLargeBallistic
+  parent: BaseHardpoint
+  name: Hardpoint Large/Ballistic
+  components:
+  - type: Hardpoint
+    range: 35
+    class: Ballistic
+    size: Large
+  - type: Sprite
+    sprite: _Crescent/Structures/hardpoints.rsi
+    state: Large
+
+- type: entity
+  id: HardpointLargeEnergy
+  parent: BaseHardpoint
+  name: Hardpoint Large/Energy
+  components:
+  - type: Hardpoint
+    range: 35
+    class: Energy
+    size: Large
+  - type: Sprite
+    sprite: _Crescent/Structures/hardpoints.rsi
+    state: Large
+
+- type: entity
+  id: HardpointLargeMissile
+  parent: BaseHardpoint
+  name: Hardpoint Large/Missile
+  components:
+  - type: Hardpoint
+    range: 35
+    class: Missile
+    size: Large
+  - type: Sprite
+    sprite: _Crescent/Structures/hardpoints.rsi
+    state: Large
+
+
+  
