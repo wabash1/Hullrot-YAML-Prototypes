@@ -164,8 +164,6 @@
       - WeaponCapacitorRechargerCircuitboard
       - HandheldStationMap
       - ClothingHeadHatWelding
-      - Durathread # Frontier
-      - SheetPlasteel
       - ClothingOuterSuitEmergency # Frontier
       - ClothingHeadHelmetEVA # Frontier
       - ClothingHeadHelmetEVALarge # Frontier
@@ -1244,7 +1242,6 @@
       - SheetPlasma30
       - SheetPGlass30
       - SheetRPGlass30
-      - SheetPlasteel30
       - SheetUranium30
       - SheetUGlass30
       - SheetRUGlass30

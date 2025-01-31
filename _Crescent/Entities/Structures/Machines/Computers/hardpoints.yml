@@ -39,10 +39,21 @@
     class: Ballistic
     size: Small
   - type: Fixtures
-    fixtures: {}
+    fixtures:
+      fix1:
+          shape:
+            !type:PhysShapeCircle
+            radius: 0.3
+          # very not dense to make it easy to pull
+          density: 600
+          mask:
+          - SmallMobMask
+          layer:
+          - MachineLayer
+  - type: CollideOnAnchor
 
 - type: entity
-  id: HardpointSmallBallistic
+  id: AAAHardpointSmallBallistic
   parent: BaseHardpoint
   name: Hardpoint Small/Ballistic
   components:
@@ -55,7 +66,7 @@
     state: Small
 
 - type: entity
-  id: HardpointSmallEnergy
+  id: AAAHardpointSmallEnergy
   parent: BaseHardpoint
   name: Hardpoint Small/Energy
   components:
@@ -68,7 +79,7 @@
     state: Small
 
 - type: entity
-  id: HardpointSmallMissile
+  id: AAAHardpointSmallMissile
   parent: BaseHardpoint
   name: Hardpoint Small/Missile
   components:
@@ -81,7 +92,7 @@
     state: Small
 
 - type: entity
-  id: HardpointMediumBallistic
+  id: AAAHardpointMediumBallistic
   parent: BaseHardpoint
   name: Hardpoint Medium/Ballistic
   components:
@@ -94,7 +105,7 @@
     state: Medium
 
 - type: entity
-  id: HardpointMediumEnergy
+  id: AAAHardpointMediumEnergy
   parent: BaseHardpoint
   name: Hardpoint Medium/Energy
   components:
@@ -107,7 +118,7 @@
     state: Medium
 
 - type: entity
-  id: HardpointMediumMissile
+  id: AAAardpointMediumMissile
   parent: BaseHardpoint
   name: Hardpoint Medium/Missile
   components:
@@ -120,7 +131,7 @@
     state: Medium
 
 - type: entity
-  id: HardpointLargeBallistic
+  id: AAAHardpointLargeBallistic
   parent: BaseHardpoint
   name: Hardpoint Large/Ballistic
   components:
@@ -133,7 +144,7 @@
     state: Large
 
 - type: entity
-  id: HardpointLargeEnergy
+  id: AAAHardpointLargeEnergy
   parent: BaseHardpoint
   name: Hardpoint Large/Energy
   components:
@@ -146,7 +157,7 @@
     state: Large
 
 - type: entity
-  id: HardpointLargeMissile
+  id: AAAHardpointLargeMissile
   parent: BaseHardpoint
   name: Hardpoint Large/Missile
   components:
@@ -159,12 +170,12 @@
     state: Large
     
 - type: entity
-  id: HardpointLargeUniversal
+  id: AAAHardpointLargeUniversal
   parent: BaseHardpoint
   name: Hardpoint Large/Universal
   components:
   - type: Hardpoint
-    range: 35
+    range: 15
     class: Universal
     size: Large
   - type: Sprite
