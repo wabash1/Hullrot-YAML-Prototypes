@@ -175,7 +175,7 @@
   name: Hardpoint Large/Universal
   components:
   - type: Hardpoint
-    range: 35
+    range: 15
     class: Universal
     size: Large
   - type: Sprite
