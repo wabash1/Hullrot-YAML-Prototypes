@@ -39,7 +39,18 @@
     class: Ballistic
     size: Small
   - type: Fixtures
-    fixtures: {}
+    fixtures:
+      fix1:
+          shape:
+            !type:PhysShapeCircle
+            radius: 0.3
+          # very not dense to make it easy to pull
+          density: 600
+          mask:
+          - SmallMobMask
+          layer:
+          - MachineLayer
+  - type: CollideOnAnchor
 
 - type: entity
   id: AAAHardpointSmallBallistic
