@@ -96,6 +96,15 @@
   outputs:
     MaterialBiomass: 40
 
+- type: factoryRecipe
+  id: FourFamiliesPlasteel
+  name: Fourfamilies Plasteel
+  inputs:
+    Plasma: 10
+    Steel: 20
+  outputs:
+    SheetPlasteel1: 5
+
 
 
 
