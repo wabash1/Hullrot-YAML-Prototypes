@@ -140,6 +140,7 @@
     - TemporaryBlindness
     - Pacified
     - StaminaModifier
+    - Flashed
   - type: Reflect
     enabled: false
     reflectProb: 0
@@ -268,6 +269,7 @@
     - Muted
     - Pacified
     - StaminaModifier
+    - Flashed
   - type: Blindable
   # Other
   - type: Temperature
