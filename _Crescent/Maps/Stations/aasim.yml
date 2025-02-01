@@ -4,7 +4,7 @@
   mapPath: /Maps/_Crescent/Stations/aasim.yml
   minPlayers: 0
   stations:
-    Precinct9:
+    Aasim:
       stationProto: StandardCrescentStation
       gridComponents:
         - type: BlockShipWeaponProjectileGrid
