@@ -1,5 +1,5 @@
 - type: technology
-  id: Families
+  id: FamiliesClothes
   name: research-technology-clothwork
   icon:
     sprite: _Crescent/Clothing/FourFamilies/OuterClothing/acolyterobes.rsi
@@ -23,7 +23,7 @@
   - ClothingOuterArmorThukkerEngiVest
 
 - type: technology
-  id: Families
+  id: FamiliesEVA
   name: research-technology-evafam
   icon:
     sprite: _Crescent/Clothing/FourFamilies/OuterClothing/beltrunner.rsi
@@ -36,7 +36,7 @@
   - ClothingOuterBeltrunnerEVA
 
 - type: technology
-  id: Families
+  id: FamiliesHardsuit
   name: research-technology-armorsfam
   icon:
     sprite: _Crescent/Clothing/FourFamilies/OuterClothing/beltrunner.rsi
@@ -50,21 +50,7 @@
   - ClothingOuterHardsuitIzdari
 
 - type: technology
-  id: Families
-  name: research-technology-armorsfam
-  icon:
-    sprite: _Crescent/Clothing/FourFamilies/OuterClothing/draugrexo.rsi
-    state: icon
-  discipline: Families
-  tier: 1
-  cost: 3500
-  recipeUnlocks:
-  - ClothingOuterHardsuitDraugr
-  - ClothingOuterHardsuitArabet
-  - ClothingOuterHardsuitIzdari
-
-- type: technology
-  id: Families
+  id: FamiliesSvalinn
   name: research-technology-lasergun
   icon:
     sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
@@ -76,7 +62,7 @@
   - WeaponLaserSvalinn
 
 - type: technology
-  id: Families
+  id: FamiliesMelee
   name: research-technology-meleefam
   icon:
     sprite: _Crescent/Objects/Weapons/plashammer.rsi
@@ -90,7 +76,7 @@
   - Plashammer
 
 - type: technology
-  id: Families
+  id: FamiliesXray
   name: research-technology-xrayfam	
   icon:
     sprite: Objects/Weapons/Guns/Battery/xray.rsi
@@ -102,7 +88,7 @@
   - WeaponXrayCannonFam
 
 - type: technology
-  id: Families
+  id: FamiliesTesla
   name: research-technology-tesla	
   icon:
     sprite: Objects/Weapons/Guns/Battery/tesla_gun.rsi
@@ -114,7 +100,7 @@
   - WeaponTeslaGunFam
 
 - type: technology
-  id: Families
+  id: FamiliesPulse
   name: research-technology-pulsefam	
   icon:
     sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
