@@ -92,7 +92,7 @@
   name: research-technology-tesla	
   icon:
     sprite: Objects/Weapons/Guns/Battery/tesla_gun.rsi
-    state: icon
+    state: base
   discipline: Families
   tier: 2
   cost: 7500
