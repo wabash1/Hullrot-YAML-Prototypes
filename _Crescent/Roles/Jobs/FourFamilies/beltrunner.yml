@@ -21,6 +21,9 @@
     components:
       - type: ChatRank
         rank: crescent-rank-beltrunner
+  - !type:AddComponentSpecial
+    components:
+      - type: Telepathic
   access:
   - EmergencyShuttleRepealAll
   - Captain

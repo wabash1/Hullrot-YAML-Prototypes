@@ -18,6 +18,9 @@
     components:
       - type: ChatRank
         rank: crescent-rank-acolytetap
+  - !type:AddComponentSpecial
+    components:
+      - type: Telepathic
   access:
   - EmergencyShuttleRepealAll
   - Captain
