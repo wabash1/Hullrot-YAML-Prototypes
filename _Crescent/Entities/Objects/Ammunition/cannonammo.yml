@@ -974,7 +974,7 @@
     - state: base-spent
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
-  - type: SpentAmmoVisuals
+  - type: SpaceGarbage
 
 - type: entity
   id: LensXray
@@ -1047,7 +1047,7 @@
     - state: base-spent
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
-  - type: SpentAmmoVisuals
+  - type: SpaceGarbage
 
 - type: entity
   id: LensInfared
@@ -1123,7 +1123,7 @@
     - state: base-spent
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
-  - type: SpentAmmoVisuals
+  - type: SpaceGarbage
 
 - type: entity
   id: LensMicrowave
@@ -1204,7 +1204,8 @@
     - state: base-spent
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
-  - type: SpentAmmoVisuals
+  - type: SpaceGarbage
+  
 
 - type: entity
   id: LensPlasma
