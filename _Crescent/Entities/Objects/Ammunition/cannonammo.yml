@@ -956,6 +956,7 @@
 - type: entity
   id: XrayLensCartridge
   name: hybrid xray lens
+  abstract: true
   parent: BaseItem
   description: A laser lens meant to be fitted over laser gatlings. This one is tuned to the xray frequency.
   components:
@@ -978,7 +979,7 @@
 - type: entity
   id: LensXray
   name: hybrid xray lens
-  parent: BaseMagazineLightRifle
+  parent: BaseMagazineLens
   components:
   - type: Tag
     tags:
@@ -1029,6 +1030,7 @@
 - type: entity
   id: InfraredLensCartridge
   name: hybrid infrared lens
+  abstract: true
   parent: BaseItem
   components:
   - type: Tag
@@ -1051,7 +1053,7 @@
   id: LensInfared
   name: hybrid infrared lens
   description: A laser lens meant to be fitted over laser gatlings. This one is tuned to the infrared frequency.
-  parent: BaseMagazineLightRifle
+  parent: BaseMagazineLens
   components:
   - type: Tag
     tags:
@@ -1102,6 +1104,7 @@
 - type: entity
   id: MicrowaveLensCartridge
   name: hybrid microwave lens
+  abstract: true
   parent: BaseItem
   components:
   - type: Tag
@@ -1126,7 +1129,7 @@
   id: LensMicrowave
   name: hybrid microwave lens
   description: A laser lens meant to be fitted over laser gatlings. This one is tuned to the microwave frequency.
-  parent: BaseMagazineLightRifle
+  parent: BaseMagazineLens
   components:
   - type: Tag
     tags:
@@ -1184,6 +1187,7 @@
 - type: entity
   id: PlasmaLensCartridge
   name: hybrid plasma lens
+  abstract: true
   parent: BaseItem
   components:
   - type: Tag
@@ -1206,7 +1210,7 @@
   id: LensPlasma
   name: hybrid plasma lens
   description: A laser lens meant to be fitted over laser gatlings. This one comes pre-loaded with plasma-derived chemicals for an explosive payload.
-  parent: BaseMagazineLightRifle
+  parent: BaseMagazineLens
   components:
   - type: Tag
     tags:
