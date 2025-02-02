@@ -35,7 +35,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 100
+        damage: 3500
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
@@ -60,7 +60,7 @@
   - type: Explosive
     explosionType: Default
     intensitySlope: 5
-    maxIntensity: 60
+    maxIntensity: 99999999999999
   - type: ActivatableUI
     key: enum.AmeControllerUiKey.Key
   - type: UserInterface
@@ -159,7 +159,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 100
+        damage: 3500
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
