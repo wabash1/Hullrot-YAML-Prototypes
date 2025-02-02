@@ -60,7 +60,7 @@
   - type: Explosive
     explosionType: Default
     intensitySlope: 5
-    maxIntensity: 60
+    maxIntensity: 99999999999999
   - type: ActivatableUI
     key: enum.AmeControllerUiKey.Key
   - type: UserInterface
