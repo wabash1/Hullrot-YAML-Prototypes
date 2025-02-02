@@ -1977,7 +1977,7 @@
 
 - type: entity
   parent: BaseStructure
-  id: BaseWeaponTurretHeavyPlasma
+  id: BaseWeaponTurretHeavyPlasmaRimward
   name: 800c "Rimward" hybrid plasma blaster
   description: A heavy laser turret combining antimatter and plasma technology.
   components:
