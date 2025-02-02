@@ -5,7 +5,7 @@
   id: Rockchipper
   name: SAW Rockchipper
   description: A SAW Retrofit of wrecked termites. Made for intense mining operations.
-  price: 18000w
+  price: 18000
   category: Small
   group: None
   shuttlePath: /Maps/_Crescent/Shuttles/NCSP/rockchipper.yml
