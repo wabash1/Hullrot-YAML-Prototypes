@@ -406,6 +406,10 @@
     damageModifierSet: Electronic
   - type: StaticPrice
     price: 300 # Frontier - 2000<300
+  - type: Anchorable
+    flags:
+    - Anchorable
+    - Unanchorable
 
 - type: entity
   id: GyroscopeUnanchored
