@@ -966,8 +966,8 @@
   - type: Item
     size: Small
   - type: CartridgeAmmo
-    proto: CompaktXrayProjectile
     deleteOnSpawn: true
+    proto: CompaktXrayProjectile
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
     layers:
@@ -1039,8 +1039,8 @@
   - type: Item
     size: Small
   - type: CartridgeAmmo
-    proto: CompaktInfraredProjectile
     deleteOnSpawn: true
+    proto: CompaktInfraredProjectile
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
     layers:
@@ -1113,10 +1113,10 @@
   - type: Item
     size: Small
   - type: CartridgeAmmo
+    deleteOnSpawn: true
     proto: CompaktMicrowaveProjectile
     count: 4
     spread: 15
-    deleteOnSpawn: true
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
     layers:
@@ -1196,8 +1196,8 @@
   - type: Item
     size: Small
   - type: CartridgeAmmo
-    proto: CompaktPlasmaProjectile
     deleteOnSpawn: true
+    proto: CompaktPlasmaProjectile
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
     layers:
