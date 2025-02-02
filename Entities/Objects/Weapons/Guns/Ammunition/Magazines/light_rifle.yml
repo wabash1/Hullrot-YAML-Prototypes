@@ -1,3 +1,29 @@
+- type: entity
+  id: BaseMagazineLens
+  name: dont spawn this lol
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: BallisticAmmoProvider
+    mayTransfer: false
+    whitelist:
+      tags:
+        - CompaktLens
+    proto: CartridgeLightRifle
+    capacity: 30
+  - type: Item
+    size: Small
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_mag.rsi
+    state: base
+  - type: Appearance
+
 # Empty mags
 - type: entity
   id: BaseMagazineLightRifle
