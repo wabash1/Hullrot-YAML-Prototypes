@@ -956,7 +956,7 @@
 - type: entity
   id: XrayLensCartridge
   name: hybrid xray lens
-  abstract: true
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   description: A laser lens meant to be fitted over laser gatlings. This one is tuned to the xray frequency.
   components:
@@ -1030,7 +1030,7 @@
 - type: entity
   id: InfraredLensCartridge
   name: hybrid infrared lens
-  abstract: true
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   components:
   - type: Tag
@@ -1104,7 +1104,7 @@
 - type: entity
   id: MicrowaveLensCartridge
   name: hybrid microwave lens
-  abstract: true
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   components:
   - type: Tag
@@ -1187,7 +1187,7 @@
 - type: entity
   id: PlasmaLensCartridge
   name: hybrid plasma lens
-  abstract: true
+  categories: [ HideSpawnMenu ]
   parent: BaseItem
   components:
   - type: Tag
