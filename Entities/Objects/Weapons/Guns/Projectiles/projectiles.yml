@@ -732,7 +732,7 @@
   - type: Explosive
     explosionType: Default
     totalIntensity: 650
-    intensitySlope: 4
+    intensitySlope: 25
     maxIntensity: 650
   - type: ProjectileIFF
 

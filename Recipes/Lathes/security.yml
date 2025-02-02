@@ -672,7 +672,7 @@
   completetime: 3
   materials:
      Steel: 100
-     Plasma: 500
+     Plasma: 800
      Gold: 100
 
 - type: latheRecipe
