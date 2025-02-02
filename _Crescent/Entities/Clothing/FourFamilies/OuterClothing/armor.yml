@@ -216,6 +216,10 @@
         Piercing: 0.95
         Heat: 0.70
         Caustic: 0.7
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
   - type: ClothingSpeedModifier
     walkModifier: 1.0
     sprintModifier: 1.0

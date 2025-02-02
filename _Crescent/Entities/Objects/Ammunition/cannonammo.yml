@@ -780,7 +780,7 @@
 #The precursors send their regards.
 - type: entity
   id: ThermonuclearMissile
-  name: 240mm thermonuclear missile
+  name: primed thermonuclear missile
   description: You recoil from ancient genetic memories telling you 'This hurt me. This ruined me. I was once a human being.' But there is no other way. A gun. A sword. A bomb. A vibrokhopesh. There is no other way.
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
@@ -795,6 +795,7 @@
   - type: Tag
     tags:
       - TorpedoGarg
+      - TorpedoCatapult
   - type: TimedDespawn
     lifetime: 50
   - type: Sprite
@@ -815,3 +816,409 @@
   - type: RadiationSource
     intensity: 0.1
     slope: 1.0
+
+#catapult
+
+- type: Tag
+  id: TorpedoCatapult
+
+- type: entity
+  id: CatapultProjectile
+  name: 320mm high-explosive torpedo
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 5000
+        Blunt: 40
+  - type: Tag
+    tags:
+      - TorpedoCatapult
+  - type: TimedDespawn
+    lifetime: 35
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/catapult.rsi
+    layers:
+      - state: base-projectile
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 1500
+    intensitySlope: 35
+    maxIntensity: 250
+    maxTileBreak: 12
+  - type: PointLight
+    radius: 3.5
+    color: orange
+    energy: 0.5
+  - type: ProjectileIFF
+
+- type: entity
+  id: TorpCatapult
+  name: 320mm "Immolator" high-explosive torpedo
+  parent: BaseItem
+  description: A dumbfire torpedo meant to be fired from Catapult platforms.
+  components:
+  - type: Tag
+    tags:
+      - TorpedoCatapult
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    proto: CatapultProjectile
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/catapult.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+
+#plasmablaster
+
+- type: entity
+  id: BulletPlasmaBlaster
+  name: heavy plasma bolt
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 375
+        Radiation: 35
+        Heat: 40
+        Blunt: 20
+  - type: ProjectileIFF
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 35
+    intensitySlope: 7
+    totalIntensity: 25
+    maxTileBreak: 6
+  - type: PointLight
+    radius: 3.5
+    color: red
+    energy: 0.5
+  - type: TimedDespawn
+    lifetime: 20
+  - type: Sprite
+    sprite: _NF/Objects/SpaceArtillery/plasmaheavy.rsi
+    layers:
+      - state: base-projectile
+
+#compaktshit
+
+- type: Tag
+  id: CompaktLens
+
+- type: entity
+  id: CompaktXrayProjectile
+  name: xray laser
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 70
+        Radiation: 45
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: TimedDespawn
+    lifetime: 8
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    layers:
+      - state: base-xray
+  - type: EmpOnTrigger
+    range: 2
+    energyConsumption: 500
+    disableDuration: 1
+  - type: PointLight
+    radius: 3.5
+    color: blue
+    energy: 0.5
+  - type: ProjectileIFF
+
+- type: entity
+  id: XrayLensCartridge
+  name: hybrid xray lens
+  parent: BaseItem
+  description: A laser lens meant to be fitted over laser gatlings. This one is tuned to the xray frequency.
+  components:
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    proto: CompaktXrayProjectile
+    deleteOnSpawn: true
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    layers:
+    - state: base-spent
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+
+- type: entity
+  id: LensXray
+  name: hybrid xray lens
+  parent: BaseMagazineLightRifle
+  components:
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: BallisticAmmoProvider
+    mayTransfer: false
+    whitelist:
+      tags:
+      - CompaktLens
+    proto: XrayLensCartridge
+    capacity: 100
+  - type: Item
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    state: xraylens
+
+#infrared
+
+- type: entity
+  id: CompaktInfraredProjectile
+  name: infrared laser
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 125
+        Radiation: 20
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: TimedDespawn
+    lifetime: 25
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    layers:
+      - state: base-projectile
+  - type: PointLight
+    radius: 3.5
+    color: white
+    energy: 0.5
+  - type: ProjectileIFF
+
+- type: entity
+  id: InfraredLensCartridge
+  name: hybrid infrared lens
+  parent: BaseItem
+  components:
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    proto: CompaktInfraredProjectile
+    deleteOnSpawn: true
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    layers:
+    - state: base-spent
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+
+- type: entity
+  id: LensInfared
+  name: hybrid infrared lens
+  description: A laser lens meant to be fitted over laser gatlings. This one is tuned to the infrared frequency.
+  parent: BaseMagazineLightRifle
+  components:
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: BallisticAmmoProvider
+    mayTransfer: false
+    whitelist:
+      tags:
+      - CompaktLens
+    proto: InfraredLensCartridge
+    capacity: 250
+  - type: Item
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    state: infraredlens
+
+#microwave
+
+- type: entity
+  id: CompaktMicrowaveProjectile
+  name: microwave laser
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 75
+        Radiation: 20
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: TimedDespawn
+    lifetime: 14
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    layers:
+      - state: base-projectile
+  - type: PointLight
+    radius: 3.5
+    color: white
+    energy: 0.5
+  - type: ProjectileIFF
+
+- type: entity
+  id: MicrowaveLensCartridge
+  name: hybrid microwave lens
+  parent: BaseItem
+  components:
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    proto: CompaktMicrowaveProjectile
+    count: 4
+    spread: 15
+    deleteOnSpawn: true
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    layers:
+    - state: base-spent
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+
+- type: entity
+  id: LensMicrowave
+  name: hybrid microwave lens
+  description: A laser lens meant to be fitted over laser gatlings. This one is tuned to the microwave frequency.
+  parent: BaseMagazineLightRifle
+  components:
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: BallisticAmmoProvider
+    mayTransfer: false
+    whitelist:
+      tags:
+      - CompaktLens
+    proto: MicrowaveLensCartridge
+    capacity: 60
+  - type: Item
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    state: microwavelens
+
+#plasma
+
+- type: entity
+  id: CompaktPlasmaProjectile
+  name: plasma laser
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 4
+    intensitySlope: 3
+    totalIntensity: 4
+    maxTileBreak: 1
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 200
+        Radiation: 20
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: TimedDespawn
+    lifetime: 14
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    layers:
+      - state: base-projectile
+  - type: PointLight
+    radius: 3.5
+    color: white
+    energy: 0.5
+  - type: ProjectileIFF
+
+- type: entity
+  id: PlasmaLensCartridge
+  name: hybrid plasma lens
+  parent: BaseItem
+  components:
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    proto: CompaktPlasmaProjectile
+    deleteOnSpawn: true
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    layers:
+    - state: base-spent
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+
+- type: entity
+  id: LensPlasma
+  name: hybrid plasma lens
+  description: A laser lens meant to be fitted over laser gatlings. This one comes pre-loaded with plasma-derived chemicals for an explosive payload.
+  parent: BaseMagazineLightRifle
+  components:
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: BallisticAmmoProvider
+    mayTransfer: false
+    whitelist:
+      tags:
+      - CompaktLens
+    proto: PlasmaLensCartridge
+    capacity: 100
+  - type: Item
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    state: plasmalens

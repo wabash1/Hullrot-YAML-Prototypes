@@ -74,6 +74,7 @@
     jumpsuit: ClothingUniformJumpsuitServile
     back: ClothingBackpackSatchelFilled
     shoes: ClothingShoesBootsJack
+    head: ClothingHeadHatServile
     id: ServilePDA
     outerClothing: ClothingOuterArmorServileAlseik
     ears: ClothingHeadsetFamilies
