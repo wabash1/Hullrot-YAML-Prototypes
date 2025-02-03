@@ -43,6 +43,13 @@
 - type: roleLoadout
   id: JobKapitanNCWL
   groups:
+  - SanitarJumpsuit
+  - SanitarBackpack
+  - NCWLShoes
+  - NCWLOuterClothingKapitan
+  - SanitarHeadKapitan
+  - SanitarBelt
+  - NCWLGloves
   - ContractorTrinkets
 
 # Administrator
