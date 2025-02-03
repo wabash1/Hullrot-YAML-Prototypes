@@ -29,6 +29,11 @@
 - type: roleLoadout
   id: JobKommissarNCWL
   groups:
+  - SanitarBackpackKommissar
+  - NCWLShoes
+  - NCWLOuterClothingKapitan
+  - SanitarHeadKommissar
+  - NCWLGloves
   - ContractorTrinkets
 
 # Doktor
@@ -43,12 +48,10 @@
 - type: roleLoadout
   id: JobKapitanNCWL
   groups:
-  - SanitarJumpsuit
   - SanitarBackpack
   - NCWLShoes
   - NCWLOuterClothingKapitan
   - SanitarHeadKapitan
-  - SanitarBelt
   - NCWLGloves
   - ContractorTrinkets
 
