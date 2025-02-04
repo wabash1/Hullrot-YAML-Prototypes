@@ -50,6 +50,7 @@
   - NCWLOuterClothing
   - SanitarHeadDoktor
   - ContractorGlasses
+  - MedicalHypoMini
   - ContractorTrinkets
 
 # Kapitan
@@ -118,12 +119,14 @@
   id: JobRipperdocNCSP
   groups:
   - ContractorTrinkets
+  - MedicalHypoMini
   - NCSPBackpacks
 
 - type: roleLoadout
   id: JobChemcookNCSP
   groups:
   - ContractorTrinkets
+  - MedicalHypoMini
   - NCSPBackpacks
 
 - type: roleLoadout
@@ -210,6 +213,7 @@
   id: JobSurgeonDSM
   groups:
   - ContractorTrinkets
+  - MedicalHypoMini
   - DSMCommonerBags
 
 - type: roleLoadout
@@ -255,6 +259,7 @@
   id: JobTenderSRM
   groups:
   - ContractorTrinkets
+  - MedicalHypoMini
   - SRMBackpacks
 
 - type: roleLoadout
@@ -317,6 +322,7 @@
   id: JobMedtechSHI
   groups:
   - ContractorTrinkets
+  - MedicalHypoMini
   - SHIBackpacks
 
 #CMM
@@ -337,6 +343,7 @@
   id: JobPhysicianCMM
   groups:
   - ContractorTrinkets
+  - MedicalHypoMini
   - CMMBackpacks
 
 - type: roleLoadout
