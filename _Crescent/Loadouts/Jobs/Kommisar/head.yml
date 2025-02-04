@@ -6,4 +6,4 @@
 - type: startingGear
   id: KommissarClothingHeadHatNCWLBeret
   equipment:
-    jumpsuit: ClothingHeadHatNCWLKommissarHat
+    head: ClothingHeadHatNCWLKommissarHat

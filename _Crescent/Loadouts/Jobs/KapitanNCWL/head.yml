@@ -6,4 +6,4 @@
 - type: startingGear
   id: KapitanClothingHeadHatNCWLBeret
   equipment:
-    jumpsuit: ClothingHeadHatNCWLBereta
+    head: ClothingHeadHatNCWLBeret

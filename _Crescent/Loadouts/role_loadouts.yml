@@ -41,6 +41,10 @@
 - type: roleLoadout
   id: JobDoktorNCWL
   groups:
+  - SanitarBackpack
+  - NCWLShoes
+  - NCWLOuterClothing
+  - SanitarHeadDoktor
   - ContractorTrinkets
 
 # Kapitan
@@ -60,6 +64,10 @@
 - type: roleLoadout
   id: JobAdministratorNCWL
   groups:
+  - NCWLShoes
+  - NCWLOuterClothingKapitan
+  - SanitarHeadAdministrator
+  - NCWLGloves
   - ContractorTrinkets
 
 # Artificer
@@ -67,8 +75,11 @@
 - type: roleLoadout
   id: JobArtificerNCWL
   groups:
+  - NCWLShoes
+  - NCWLOuterClothing
+  - SanitarHeadKapitan
+  - NCWLGloves
   - ContractorTrinkets
-
 #---------------------------#
 
 #Syndicate

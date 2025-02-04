@@ -6,4 +6,4 @@
 - type: startingGear
   id: StartClothingOuterArmorNCWLCarapaceKapitan
   equipment:
-    jumpsuit: ClothingOuterArmorNCWLCarapaceKapitan
+    outerClothing: ClothingOuterArmorNCWLCarapaceKapitan
