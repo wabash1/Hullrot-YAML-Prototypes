@@ -10,7 +10,9 @@
   - SanitarHead
   - SanitarBelt
   - NCWLGloves
+  - ContractorGlasses
   - ContractorTrinkets
+  
 
 # Kadet
 
@@ -22,6 +24,7 @@
   - NCWLShoes
   - KadetHead
   - KadetBelt
+  - ContractorGlasses
   - ContractorTrinkets
 
 # Kommissar
@@ -34,6 +37,7 @@
   - NCWLOuterClothingKapitan
   - SanitarHeadKommissar
   - NCWLGloves
+  - ContractorGlasses
   - ContractorTrinkets
 
 # Doktor
@@ -45,6 +49,7 @@
   - NCWLShoes
   - NCWLOuterClothing
   - SanitarHeadDoktor
+  - ContractorGlasses
   - ContractorTrinkets
 
 # Kapitan
@@ -57,6 +62,7 @@
   - NCWLOuterClothingKapitan
   - SanitarHeadKapitan
   - NCWLGloves
+  - ContractorGlasses
   - ContractorTrinkets
 
 # Administrator
@@ -68,6 +74,7 @@
   - NCWLOuterClothingKapitan
   - SanitarHeadAdministrator
   - NCWLGloves
+  - ContractorGlasses
   - ContractorTrinkets
 
 # Artificer
@@ -79,6 +86,7 @@
   - NCWLOuterClothing
   - SanitarHeadKapitan
   - NCWLGloves
+  - ContractorGlasses
   - ContractorTrinkets
 #---------------------------#
 
