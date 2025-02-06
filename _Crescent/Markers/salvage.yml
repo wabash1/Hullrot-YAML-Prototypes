@@ -15,6 +15,9 @@
         - SteelScrap25
         - ScrapBluespace
         - GarbageOre25
+        - TradeGoodNanoTrasen
+        - TradeGoodOldCyber
+        - TradeGoodOldParts
       rareChance: 0.03
       prototypes:
         - SteelScrap1
