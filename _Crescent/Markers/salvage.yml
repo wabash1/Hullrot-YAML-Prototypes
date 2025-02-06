@@ -53,15 +53,19 @@
     - type: RandomSpawner
       rarePrototypes:
         - DelamDisk
+        - ShipVoucherRockchipper
+        - ShipVoucherMercury
         - ShipVoucherTermite
         - ShipVoucherParacelsus
         - DelamDisk
         - DelamDisk
         - ShipVoucherExhumer
+        - ShipVoucherAntiquarianWarthog
         - NanotrasenFabdiskWeapons
         - ShipVoucherHomesteader
         - ShipVoucherBroadsword
         - ImperialFabdiskKhopesh
+        - ShipVoucherKite
         - UnionFabdiskConscript
         - SyndicateFabdiskDrozd
         - UnionFabdiskJuggernaut
