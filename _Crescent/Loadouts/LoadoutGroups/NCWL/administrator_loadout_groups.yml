@@ -1,4 +1,4 @@
-  - type: loadoutGroup
+  type: loadoutGroup
   id: SanitarHeadAdministrator
   name: loadout-group-contractor-head
   minLimit: 1
