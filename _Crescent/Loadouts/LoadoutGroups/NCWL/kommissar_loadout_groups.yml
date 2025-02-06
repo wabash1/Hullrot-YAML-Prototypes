@@ -7,7 +7,7 @@
   - SanitarNCWLClothingHeadHelmetNCWLBasic
   - SanitarNCWLClothingHeadHelmetNCWLHeavy
 
-  - type: loadoutGroup
+- type: loadoutGroup
   id: SanitarBackpack
   name: loadout-group-contractor-backpack
   loadouts:
