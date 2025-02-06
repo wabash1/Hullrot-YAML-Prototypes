@@ -32,7 +32,6 @@
 - type: roleLoadout
   id: JobKommissarNCWL
   groups:
-  - SanitarBackpackKommissar
   - NCWLShoes
   - NCWLOuterClothingKapitan
   - SanitarHeadKommissar
