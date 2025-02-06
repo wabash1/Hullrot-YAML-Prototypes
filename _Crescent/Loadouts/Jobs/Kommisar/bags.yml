@@ -1,9 +1,1 @@
- type: loadout
- id: KommissarClothingBackpackSatchelLeatherFilledNCWL
- equipment: KommissarClothingBackpackSatchelLeatherFilledNCWL
- price: 0
-
- type: startingGear
- id: KommissarClothingBackpackSatchelLeatherFilledNCWL
- equipment:
-   back: ClothingBackpackSatchelLeatherFilledNCWL
+#woe..
