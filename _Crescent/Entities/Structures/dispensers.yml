@@ -305,7 +305,7 @@
       TradeGoodAlloys: TradeDeedExotic
       TradeGoodGoodScrap: TradeDeedVeryHigh
       TradeGoodPlasma: TradeDeedExotic
-     TradeGoodNanoTrasen: TradeDeedHigh
+      TradeGoodNanoTrasen: TradeDeedHigh
       TradeGoodOldCyber: TradeDeedHigh
       TradeGoodOldParts: TradeDeedHigh
   - type: Sprite
