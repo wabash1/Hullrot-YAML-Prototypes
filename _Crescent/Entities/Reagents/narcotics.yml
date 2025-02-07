@@ -23,7 +23,7 @@
             min: 10
       - !type:MovespeedModifier
         walkSpeedModifier: 1.35
-        sprintSpeedModifier: 1.6 
+        sprintSpeedModifier: 1.35
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
@@ -101,8 +101,8 @@
         time: 6
         refresh: false
       - !type:MovespeedModifier
-        walkSpeedModifier: 1.25
-        sprintSpeedModifier: 1.5
+        walkSpeedModifier: 1.4
+        sprintSpeedModifier: 1.4
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
@@ -195,7 +195,7 @@
         - !type:ReagentThreshold
           min: 1
       - !type:ModifyBleedAmount
-        amount: 0.5 # one stim eventually applies full bleed stacks.
+        amount: 2 # one stim eventually applies full bleed stacks.
       - !type:AdjustTemperature
         conditions:
         - !type:ReagentThreshold
