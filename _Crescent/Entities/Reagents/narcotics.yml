@@ -42,7 +42,7 @@
       - !type:AdjustTemperature
         conditions:
         - !type:ReagentThreshold
-            min: 15
+            min: 20
         amount: 50000 
       - !type:Emote
         emote: Scream
@@ -82,7 +82,7 @@
       - !type:HealthChange
         conditions:
         - !type:TotalDamage
-          max: 50
+          max: 115 # will only bring you out of crit if you have a tiny bit of damage, no more standing back up after being double tapped.
         damage:
           groups:
             Brute: -2
