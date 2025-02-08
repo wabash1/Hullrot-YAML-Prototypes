@@ -30,15 +30,6 @@
       types:
         Piercing: 20
 
-- type: entity
-  id: PelletShotgunSpreadHeavyBuck
-  categories: [ HideSpawnMenu ]
-  parent: PelletShotgunHeavyBuck
-  components:
-  - type: ProjectileSpread
-    proto: PelletShotgunHeavyBuck
-    count: 6
-    spread: 15
 #-- Slug ------------------------------ very high damage i was thinking of something that 2 shots EVA dudes
 - type: entity
   id: PelletShotgunHeavySlug
