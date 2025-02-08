@@ -84,7 +84,7 @@
     damage:
       types:
         Piercing: 25
-        Structural: 60
+        Structural: 90
   - type: ProjectileIFF
   - type: ExplodeOnTrigger
   - type: Explosive
@@ -144,7 +144,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 275
+        Structural: 400
         Piercing: 25
   - type: ExplodeOnTrigger
   - type: Explosive
@@ -417,9 +417,12 @@
     intensitySlope: 150
     totalIntensity: 450
   - type: HeatSeeking
-    rotationSpeed: 245
-    acceleration: 90
-    seekRange: 1000
+    rotationSpeed: 350
+    acceleration: 15 # m/s/s
+    topSpeed: 25 # m/s
+    initialSpeed: 5 # m/s (speed at launch)
+    defaultSeekingRange: 1500 # distance in meters
+    guidanceAlgorithm: PredictiveGuidance # Options are "PredictiveGuidance" and "PurePursuit".
   - type: PointLight
     radius: 3.5
     color: orange
@@ -458,9 +461,12 @@
     intensitySlope: 200
     maxIntensity: 200
   - type: HeatSeeking
-    acceleration: 75
-    rotationSpeed: 35
-    seekRange: 1250
+    rotationSpeed: 350
+    acceleration: 15 # m/s/s
+    topSpeed: 25 # m/s
+    initialSpeed: 5 # m/s (speed at launch)
+    defaultSeekingRange: 1500 # distance in meters
+    guidanceAlgorithm: PredictiveGuidance # Options are "PredictiveGuidance" and "PurePursuit".
   - type: PointLight
     radius: 3.5
     color: orange
@@ -623,6 +629,13 @@
     color: orange
     energy: 0.5
   - type: ProjectileIFF
+  - type: HeatSeeking
+    rotationSpeed: 110
+    acceleration: 35 # m/s/s
+    topSpeed: 40 # m/s
+    initialSpeed: 10 # m/s (speed at launch)
+    defaultSeekingRange: 400 # distance in meters
+    guidanceAlgorithm: PredictiveGuidance # Options are "PredictiveGuidance" and "PurePursuit".
 
 # battlemortar
 
@@ -783,7 +796,6 @@
   name: primed thermonuclear missile
   description: You recoil from ancient genetic memories telling you 'This hurt me. This ruined me. I was once a human being.' But there is no other way. A gun. A sword. A bomb. A vibrokhopesh. There is no other way.
   parent: BaseBulletTrigger
-  categories: [ HideSpawnMenu ]
   components:
   - type: ShipWeaponProjectile
   - type: Projectile
@@ -799,7 +811,7 @@
   - type: TimedDespawn
     lifetime: 50
   - type: Sprite
-    sprite: _Crescent/Objects/ShuttleWeapons/torp.rsi
+    sprite: _Crescent/Objects/ShuttleWeapons/nuke.rsi
     layers:
       - state: base-projectile
   - type: ExplodeOnTrigger
