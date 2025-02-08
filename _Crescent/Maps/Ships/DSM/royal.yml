@@ -26,4 +26,4 @@
         - type: StationJobs
           overflowJobs: []
           availableJobs:
-            LevymanDSM: [ 0, 1 ]
+            LevymanDSM: [ 9, 9 ]

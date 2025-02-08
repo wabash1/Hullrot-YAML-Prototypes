@@ -24,6 +24,7 @@
     - Piranha
     - Wolf
     - Scuttlefish
+    - Hornetsnest
 
 - type: entity
   id: CountsmanMothershipComputer
