@@ -110,7 +110,7 @@
   name : Manufacture IDNA Torpedo
   inputs:
     Plasma: 5
-    Steel: 10
+    Steel: 5
   outputs:
     IdnaTorpedo: 1
 
