@@ -125,8 +125,8 @@
     color: orange
     energy: 0.5
   - type: HeatSeeking
-    rotationSpeed: 50
-    acceleration: 200 # you ever see an igla fire?
+    rotationSpeed: 100
+    acceleration: 25 
     topSpeed: 75
     initialSpeed: 15
     FOV: 90
