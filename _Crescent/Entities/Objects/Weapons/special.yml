@@ -125,9 +125,13 @@
     color: orange
     energy: 0.5
   - type: HeatSeeking
-    rotationSpeed: 245
-    acceleration: 90
-    seekRange: 300
+    rotationSpeed: 50
+    acceleration: 200 # you ever see an igla fire?
+    topSpeed: 75
+    initialSpeed: 15
+    FOV: 90
+    defaultSeekingRange: 300
+    guidanceAlgorithm: PredictiveGuidance
 
 - type: entity
   name: SCHK-2 plasma hardlight sword

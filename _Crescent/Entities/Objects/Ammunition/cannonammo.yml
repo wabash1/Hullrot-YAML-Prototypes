@@ -417,7 +417,7 @@
     intensitySlope: 150
     totalIntensity: 450
   - type: HeatSeeking
-    rotationSpeed: 50
+    rotationSpeed: 75
     acceleration: 25
     topSpeed: 50
     initialSpeed: 25
@@ -462,7 +462,7 @@
     intensitySlope: 40
     maxIntensity: 20
   - type: HeatSeeking
-    rotationSpeed: 25 # slow turn rate
+    rotationSpeed: 40 # slow turn rate
     acceleration: 10 
     topSpeed: 30
     initialSpeed: 15 
@@ -561,7 +561,7 @@
     totalIntensity: 120
     maxTileBreak: 5
   - type: HeatSeeking
-    rotationSpeed: 25 # slow turn rate
+    rotationSpeed: 40 # slow turn rate
     acceleration: 10 
     topSpeed: 35
     initialSpeed: 15 
