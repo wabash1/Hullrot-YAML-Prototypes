@@ -110,3 +110,19 @@
   cost: 10000
   recipeUnlocks:
   - WeaponPulsePistolFam
+
+- type: technology
+  id: FamiliesPulse
+  name: research-technology-compakt
+  icon:
+    sprite: Objects/Devices/flatpack.rsi
+    state: ame-part
+  discipline: Families
+  tier: 3
+  cost: 10000
+  recipeUnlocks:
+  - CompaktFlatpack
+  - LensPlasma
+  - LensInfrared
+  - LensMicrowave
+  - MediumEnergyHardpointFlatpack

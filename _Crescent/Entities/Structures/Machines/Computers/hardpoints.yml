@@ -32,7 +32,7 @@
     radius: 3
   - type: LitOnPowered
   - type: ApcPowerReceiver
-    powerLoad: 3500
+    powerLoad: 5000
   - type: Appearance
   - type: Hardpoint
     range: 20
@@ -61,6 +61,8 @@
     range: 20
     class: Ballistic
     size: Small
+  - type: ApcPowerReceiver
+    powerLoad: 500
   - type: Sprite
     sprite: _Crescent/Structures/hardpoints.rsi
     state: Small
@@ -74,6 +76,8 @@
     range: 20
     class: Energy
     size: Small
+  - type: ApcPowerReceiver
+    powerLoad: 1500
   - type: Sprite
     sprite: _Crescent/Structures/hardpoints.rsi
     state: Small
@@ -87,6 +91,8 @@
     range: 20
     class: Missile
     size: Small
+  - type: ApcPowerReceiver
+    powerLoad: 50
   - type: Sprite
     sprite: _Crescent/Structures/hardpoints.rsi
     state: Small
@@ -100,6 +106,8 @@
     range: 35
     class: Ballistic
     size: Medium
+  - type: ApcPowerReceiver
+    powerLoad: 1000
   - type: Sprite
     sprite: _Crescent/Structures/hardpoints.rsi
     state: Medium
@@ -113,6 +121,8 @@
     range: 35
     class: Energy
     size: Medium
+  - type: ApcPowerReceiver
+    powerLoad: 3500
   - type: Sprite
     sprite: _Crescent/Structures/hardpoints.rsi
     state: Medium
@@ -126,6 +136,8 @@
     range: 35
     class: Missile
     size: Medium
+  - type: ApcPowerReceiver
+    powerLoad: 250
   - type: Sprite
     sprite: _Crescent/Structures/hardpoints.rsi
     state: Medium
@@ -139,6 +151,8 @@
     range: 35
     class: Ballistic
     size: Large
+  - type: ApcPowerReceiver
+    powerLoad: 5000
   - type: Sprite
     sprite: _Crescent/Structures/hardpoints.rsi
     state: Large
@@ -152,6 +166,8 @@
     range: 35
     class: Energy
     size: Large
+  - type: ApcPowerReceiver
+    powerLoad: 7500
   - type: Sprite
     sprite: _Crescent/Structures/hardpoints.rsi
     state: Large
@@ -165,6 +181,8 @@
     range: 35
     class: Missile
     size: Large
+  - type: ApcPowerReceiver
+    powerLoad: 1500
   - type: Sprite
     sprite: _Crescent/Structures/hardpoints.rsi
     state: Large
@@ -178,6 +196,8 @@
     range: 15
     class: Universal
     size: Large
+  - type: ApcPowerReceiver
+    powerLoad: 10000
   - type: Sprite
     sprite: _Crescent/Structures/hardpoints.rsi
     state: Large
