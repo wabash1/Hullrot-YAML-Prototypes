@@ -31,7 +31,7 @@
   - type: ActivatableUIRequiresPowerCell
   - type: ActivatableUI
     key: enum.RadarConsoleUiKey.Key
-    inHandsOnly: true
+    inHandsOnly: false
     singleUser: true
   - type: UserInterface
     interfaces:
