@@ -22,8 +22,8 @@
         - !type:ReagentThreshold
             min: 10
       - !type:MovespeedModifier
-        walkSpeedModifier: 1.35
-        sprintSpeedModifier: 1.6 
+        walkSpeedModifier: 1
+        sprintSpeedModifier: 1.2
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
@@ -43,7 +43,7 @@
         conditions:
         - !type:ReagentThreshold
             min: 15
-        amount: 50000 
+        amount: 50000
       - !type:Emote
         emote: Scream
         showInChat: true
@@ -93,7 +93,7 @@
         conditions:
         - !type:ReagentThreshold
             min: 30
-        amount: 50000 
+        amount: 50000
       - !type:GenericStatusEffect
         key: SeeingRainbows
         component: SeeingRainbows
@@ -101,8 +101,8 @@
         time: 6
         refresh: false
       - !type:MovespeedModifier
-        walkSpeedModifier: 1.25
-        sprintSpeedModifier: 1.5
+        walkSpeedModifier: 1
+        sprintSpeedModifier: 1.2
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
@@ -132,17 +132,17 @@
       - !type:HealthChange
         damage:
           groups:
-            Brute: -15
+            Brute: -10
             Burn: -1
             Airloss: -2
           types:
-            Piercing: -10
+            Piercing: -5
       - !type:AdjustTemperature
         conditions:
         - !type:ReagentThreshold
             min: 30
         amount: 100000
-      
+
 
 - type: reagent
   id: Mechanites
@@ -159,7 +159,7 @@
       - !type:HealthChange
         damage:
           groups:
-            Brute: -4 
+            Brute: -4
           types:
             Poison: -2.0
             Heat: -0.6
@@ -183,12 +183,12 @@
   color: "#FF7F7F"
   metabolisms:
     Medicine:
-      metabolismRate: 1 
+      metabolismRate: 1
       effects:
       - !type:HealthChange
         damage:
           groups:
-            Brute: -8 
+            Brute: -8
             Airloss: -2
       - !type:ResetNarcolepsy
         conditions:
@@ -200,4 +200,4 @@
         conditions:
         - !type:ReagentThreshold
             min: 35
-        amount: 50000 
+        amount: 50000
