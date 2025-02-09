@@ -168,7 +168,7 @@
   - type: Sprite
     sprite: _Crescent/Structures/hardpoints.rsi
     state: Large
-    
+
 - type: entity
   id: AAAHardpointLargeUniversal
   parent: BaseHardpoint
@@ -182,4 +182,17 @@
     sprite: _Crescent/Structures/hardpoints.rsi
     state: Large
 
-  
+- type: entity
+  id: AAAHardpointFixed
+  parent: BaseHardpoint
+  name: Hardpoint Fixed/Universal
+  components:
+  - type: Hardpoint
+    range: 15
+    class: Universal
+    size: Large
+  - type: HardpointFixedMount
+  - type: Sprite
+    sprite: _Crescent/Structures/hardpoints.rsi
+    state: Large
+
