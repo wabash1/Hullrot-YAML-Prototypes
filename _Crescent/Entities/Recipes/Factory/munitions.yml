@@ -53,7 +53,7 @@
     Plasteel: 10
   outputs:
     TorpGarg: 1
-  
+
 - type: factoryRecipe
   id: LancerCasing
   name: Lancer 100mm Missile
@@ -89,7 +89,7 @@
     MaterialBiomass: 25
 
 - type: factoryRecipe
-  id: BiomassFromSugarcane 
+  id: BiomassFromSugarcane
   name: Sugarcane to Biomass
   inputs:
     Sugarcane: 1
@@ -104,6 +104,15 @@
     Steel: 20
   outputs:
     SheetPlasteel1: 5
+
+- type: factoryRecipe
+  id: IdnaTorpedoManufacturing
+  name : Manufacture IDNA Torpedo
+  inputs:
+    Plasma: 5
+    Steel: 5
+  outputs:
+    IdnaTorpedo: 1
 
 
 

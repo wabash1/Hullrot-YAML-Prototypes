@@ -84,7 +84,7 @@
     damage:
       types:
         Piercing: 25
-        Structural: 60
+        Structural: 90
   - type: ProjectileIFF
   - type: ExplodeOnTrigger
   - type: Explosive
@@ -144,7 +144,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 275
+        Structural: 400
         Piercing: 25
   - type: ExplodeOnTrigger
   - type: Explosive
@@ -417,9 +417,13 @@
     intensitySlope: 150
     totalIntensity: 450
   - type: HeatSeeking
-    rotationSpeed: 245
-    acceleration: 90
-    seekRange: 1000
+    rotationSpeed: 75
+    acceleration: 25
+    topSpeed: 50
+    initialSpeed: 25
+    FOV: 90
+    defaultSeekingRange: 1000
+    guidanceAlgorithm: PredictiveGuidance 
   - type: PointLight
     radius: 3.5
     color: orange
@@ -454,13 +458,17 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    totalIntensity: 800
-    intensitySlope: 200
-    maxIntensity: 200
+    totalIntensity: 600
+    intensitySlope: 40
+    maxIntensity: 20
   - type: HeatSeeking
-    acceleration: 75
-    rotationSpeed: 35
-    seekRange: 1250
+    rotationSpeed: 40 # slow turn rate
+    acceleration: 10 
+    topSpeed: 30
+    initialSpeed: 15 
+    FOV: 40 # narrow FOV to take advantage of long range
+    defaultSeekingRange: 1500 # long range
+    guidanceAlgorithm: PredictiveGuidance 
   - type: PointLight
     radius: 3.5
     color: orange
@@ -553,9 +561,12 @@
     totalIntensity: 120
     maxTileBreak: 5
   - type: HeatSeeking
-    rotationSpeed: 250
-    acceleration: 100
-    seekRange: 1000
+    rotationSpeed: 40 # slow turn rate
+    acceleration: 10 
+    topSpeed: 35
+    initialSpeed: 15 
+    FOV: 40 # narrow FOV to take advantage of long range
+    defaultSeekingRange: 1500 # long range
   - type: PointLight
     radius: 3.5
     color: orange
@@ -623,6 +634,14 @@
     color: orange
     energy: 0.5
   - type: ProjectileIFF
+  - type: HeatSeeking
+    rotationSpeed: 20 # slow rotation so it isnt aimbot, still fairly accurate though
+    acceleration: 0 # it starts full speed
+    topSpeed: 50
+    initialSpeed: 50
+    FOV: 60
+    defaultSeekingRange: 400
+    guidanceAlgorithm: PredictiveGuidance
 
 # battlemortar
 
@@ -783,7 +802,6 @@
   name: primed thermonuclear missile
   description: You recoil from ancient genetic memories telling you 'This hurt me. This ruined me. I was once a human being.' But there is no other way. A gun. A sword. A bomb. A vibrokhopesh. There is no other way.
   parent: BaseBulletTrigger
-  categories: [ HideSpawnMenu ]
   components:
   - type: ShipWeaponProjectile
   - type: Projectile
@@ -799,7 +817,7 @@
   - type: TimedDespawn
     lifetime: 50
   - type: Sprite
-    sprite: _Crescent/Objects/ShuttleWeapons/torp.rsi
+    sprite: _Crescent/Objects/ShuttleWeapons/nuke.rsi
     layers:
       - state: base-projectile
   - type: ExplodeOnTrigger

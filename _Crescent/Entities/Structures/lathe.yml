@@ -580,6 +580,9 @@
     - ShipHull
     - ShipElectronics
     - ShipEngine
+  - type: Anchorable
+    flags:
+    - Anchorable
 
 #organs
 
@@ -609,6 +612,10 @@
     runningState: fab-active
     staticRecipes:
     - OrganCrate
+  - type: Anchorable
+    flags:
+    - Anchorable
+
 
 #crates
 #imperial
@@ -642,6 +649,9 @@
     staticRecipes:
     - FabricsCrate
     - WineCrate
+  - type: Anchorable
+    flags:
+    - Anchorable
 
 #shi
 
@@ -673,6 +683,9 @@
     staticRecipes:
     - MiltechCrate
     - AlloysCrate
+  - type: Anchorable
+    flags:
+    - Anchorable
 
 #saws
 
@@ -707,3 +720,6 @@
     - ScrapCrate
     - GunpartsCrate
     - TitaniumScrapAlloyCrate
+  - type: Anchorable
+    flags:
+    - Anchorable

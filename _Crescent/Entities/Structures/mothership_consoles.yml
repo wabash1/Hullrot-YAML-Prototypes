@@ -24,6 +24,7 @@
     - Piranha
     - Wolf
     - Scuttlefish
+    - Hornetsnest
 
 - type: entity
   id: CountsmanMothershipComputer
@@ -177,4 +178,16 @@
     shuttles:
     - Conquest
     - Valor
+
+- type: entity
+  id: AlseikMothershipComputer
+  parent: BaseMothershipComputer
+  name: alseik tribal shipyard
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - Svipul
+    - Einherji
+    - Glaive
+    - Bhaalgorn
 

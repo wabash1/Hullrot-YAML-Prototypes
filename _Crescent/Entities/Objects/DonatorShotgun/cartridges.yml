@@ -1,0 +1,78 @@
+- type: entity
+  id: BaseShellShotgun4g
+  name: shell (4g)
+  parent: [ BaseCartridge ]
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - Cartridge
+    - ShellShotgun4g
+  - type: CartridgeAmmo
+    soundEject:
+      collection: ShellEject
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+#-- Beanbag ----------------------------
+- type: entity
+  id: ShellShotgun4gBeanbag
+  name: shell (4g beanbag)
+  parent: [ BaseShellShotgun4g ]
+  components:
+  - type: Sprite
+    layers: 
+      - state: beanbag
+        map: [ "enum.AmmoVisualLayers.Base" ]
+  - type: CartridgeAmmo
+    proto: PelletShotgunHeavyBean
+  - type: SpentAmmoVisuals
+    state: "beanbag"
+#-- Buckshot ---------------------------
+- type: entity
+  id: ShellShotgun4gBuckshot
+  name: shell (4g buckshot)
+  parent: [ BaseShellShotgun4g ]
+  components:
+  - type: Sprite
+    layers: 
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+  - type: CartridgeAmmo
+    proto: PelletShotgunSpreadHeavyBuck
+    count: 5
+    spread: 10
+  - type: SpentAmmoVisuals
+    state: "base"
+#-- Slug -------------------------------
+- type: entity
+  id: ShellShotgun4gSlug
+  name: shell (4g slug)
+  parent: [ BaseShellShotgun4g ]
+  components:
+  - type: Sprite
+    layers: 
+      - state: slug
+        map: [ "enum.AmmoVisualLayers.Base" ]
+  - type: CartridgeAmmo
+    proto: PelletShotgunHeavySlug
+  - type: SpentAmmoVisuals
+    state: "slug"
+#-- Breaching Slug -------------------------------
+- type: entity
+  id: ShellShotgun4gBreachingSlug
+  name: shell (4g breaching slug)
+  parent: [ BaseShellShotgun4g ]
+  components:
+  - type: Sprite
+    layers: 
+      - state: flare
+        map: [ "enum.AmmoVisualLayers.Base" ]
+  - type: CartridgeAmmo
+    proto: PelletShotgunHeavyBreach
+  - type: SpentAmmoVisuals
+    state: "flare"

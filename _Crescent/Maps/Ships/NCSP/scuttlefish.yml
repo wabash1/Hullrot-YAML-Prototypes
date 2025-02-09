@@ -5,7 +5,7 @@
   id: Scuttlefish
   name: NCSP Scuttlefish
   description: An ultralight Syndicate fighter.
-  price: 9500
+  price: 12000
   category: Small
   group: None
   shuttlePath: /Maps/_Crescent/Shuttles/NCSP/scuttlefish.yml

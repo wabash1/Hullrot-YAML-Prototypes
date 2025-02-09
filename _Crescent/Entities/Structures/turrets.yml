@@ -639,6 +639,8 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      flags:
+      - None
     - type: HardpointAnchorableOnly
       class: Ballistic
       size: Medium
