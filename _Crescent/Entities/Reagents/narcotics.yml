@@ -22,8 +22,8 @@
         - !type:ReagentThreshold
             min: 10
       - !type:MovespeedModifier
-        walkSpeedModifier: 1.35
-        sprintSpeedModifier: 1.35
+        walkSpeedModifier: 1.3
+        sprintSpeedModifier: 1.3
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
@@ -82,7 +82,7 @@
       - !type:HealthChange
         conditions:
         - !type:TotalDamage
-          max: 115 # will only bring you out of crit if you have a tiny bit of damage, no more standing back up after being double tapped.
+          max: 90 # no more standing back up after being double tapped.
         damage:
           groups:
             Brute: -2
@@ -101,8 +101,8 @@
         time: 6
         refresh: false
       - !type:MovespeedModifier
-        walkSpeedModifier: 1.4
-        sprintSpeedModifier: 1.4
+        walkSpeedModifier: 1.35
+        sprintSpeedModifier: 1.35
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
