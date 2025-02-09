@@ -82,7 +82,7 @@
       - !type:HealthChange
         conditions:
         - !type:TotalDamage
-          max: 90 # no more standing back up after being double tapped.
+          max: 50
         damage:
           groups:
             Brute: -2
