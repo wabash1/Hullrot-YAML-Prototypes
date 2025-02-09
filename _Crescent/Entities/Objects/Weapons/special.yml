@@ -125,7 +125,7 @@
     color: orange
     energy: 0.5
   - type: HeatSeeking
-    rotationSpeed: 100
+    rotationSpeed: 75
     acceleration: 25 
     topSpeed: 75
     initialSpeed: 15
