@@ -13,7 +13,7 @@
         probability: 0.3
         damage:
           groups:
-            Airloss: 2
+            Poison: 1
     Narcotic:
       effects:
       - !type:ChemVomit
