@@ -17,6 +17,7 @@
         map: [ "enum.PowerDeviceVisualLayers.Powered" ]
   - type: RadarConsole
     maxRange: 256
+    alertOnPing: false
   - type: Appearance
   - type: GenericVisualizer
     visuals:
@@ -40,3 +41,4 @@
     price: 20
   - type: VendPrice
     price: 5000
+  - type: RadarPinger
