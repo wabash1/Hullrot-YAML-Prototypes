@@ -417,12 +417,13 @@
     intensitySlope: 150
     totalIntensity: 450
   - type: HeatSeeking
-    rotationSpeed: 350
-    acceleration: 15 # m/s/s
-    topSpeed: 25 # m/s
-    initialSpeed: 5 # m/s (speed at launch)
-    defaultSeekingRange: 1500 # distance in meters
-    guidanceAlgorithm: PredictiveGuidance # Options are "PredictiveGuidance" and "PurePursuit".
+    rotationSpeed: 50
+    acceleration: 25
+    topSpeed: 50
+    initialSpeed: 25
+    FOV: 90
+    defaultSeekingRange: 1000
+    guidanceAlgorithm: PredictiveGuidance 
   - type: PointLight
     radius: 3.5
     color: orange
@@ -457,16 +458,17 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    totalIntensity: 800
-    intensitySlope: 200
-    maxIntensity: 200
+    totalIntensity: 600
+    intensitySlope: 40
+    maxIntensity: 20
   - type: HeatSeeking
-    rotationSpeed: 350
-    acceleration: 15 # m/s/s
-    topSpeed: 25 # m/s
-    initialSpeed: 5 # m/s (speed at launch)
-    defaultSeekingRange: 1500 # distance in meters
-    guidanceAlgorithm: PredictiveGuidance # Options are "PredictiveGuidance" and "PurePursuit".
+    rotationSpeed: 25 # slow turn rate
+    acceleration: 10 
+    topSpeed: 30
+    initialSpeed: 15 
+    FOV: 40 # narrow FOV to take advantage of long range
+    defaultSeekingRange: 1500 # long range
+    guidanceAlgorithm: PredictiveGuidance 
   - type: PointLight
     radius: 3.5
     color: orange
@@ -559,9 +561,12 @@
     totalIntensity: 120
     maxTileBreak: 5
   - type: HeatSeeking
-    rotationSpeed: 250
-    acceleration: 100
-    seekRange: 1000
+    rotationSpeed: 25 # slow turn rate
+    acceleration: 10 
+    topSpeed: 35
+    initialSpeed: 15 
+    FOV: 40 # narrow FOV to take advantage of long range
+    defaultSeekingRange: 1500 # long range
   - type: PointLight
     radius: 3.5
     color: orange
@@ -630,12 +635,13 @@
     energy: 0.5
   - type: ProjectileIFF
   - type: HeatSeeking
-    rotationSpeed: 110
-    acceleration: 35 # m/s/s
-    topSpeed: 40 # m/s
-    initialSpeed: 10 # m/s (speed at launch)
-    defaultSeekingRange: 400 # distance in meters
-    guidanceAlgorithm: PredictiveGuidance # Options are "PredictiveGuidance" and "PurePursuit".
+    rotationSpeed: 20 # slow rotation so it isnt aimbot, still fairly accurate though
+    acceleration: 0 # it starts full speed
+    topSpeed: 50
+    initialSpeed: 50
+    FOV: 60
+    defaultSeekingRange: 400
+    guidanceAlgorithm: PredictiveGuidance
 
 # battlemortar
 
