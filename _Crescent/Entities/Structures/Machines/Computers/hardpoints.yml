@@ -214,7 +214,6 @@
   - type: Sprite
     sprite: _Crescent/Structures/hardpoints.rsi
     state: Large
-  - type: Rotatable
   - type: DeviceNetwork
     deviceNetId: Wireless
     receiveFrequencyId: BasicDevice
@@ -224,4 +223,6 @@
     ports:
       - Toggle
       - SpaceArtilleryFire
+  - type: Rotatable
+  - type: ExtensionCableReceiver
 
