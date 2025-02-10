@@ -18,7 +18,7 @@
   alwaysUseSpawner: true
   icon: "JobIconSyndieChemcook"
   requireAdminNotify: false
-  supervisors: job-supervisors-ncsp 
+  supervisors: You answer to the interests of the Interdyne Pharmaceuticals Company. Whichever you decide with your colleagues they be.
   canBeAntag: false
   access:
   - Command

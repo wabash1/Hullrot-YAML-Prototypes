@@ -16,7 +16,7 @@
         rank: crescent-rank-ordnance
   icon: "JobIconOrdnanceman"
   requireAdminNotify: false
-  supervisors: job-supervisors-highcomm 
+  supervisors: You answer to your Colonial Marshal , Deputy Marshal and Watchmaster.
   canBeAntag: false
   access:
   - Command

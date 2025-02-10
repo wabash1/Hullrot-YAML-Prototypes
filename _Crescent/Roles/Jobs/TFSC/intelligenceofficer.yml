@@ -8,7 +8,7 @@
   alwaysUseSpawner: true
   icon: "JobIconSyndieIntelligenceOfficer"
   requireAdminNotify: true
-  supervisors: job-supervisors-ncsp 
+  supervisors: You answer to the Station Administrator
   canBeAntag: false
   requirements:
     - !type:WhitelistRequirement

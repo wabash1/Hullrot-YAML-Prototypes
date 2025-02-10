@@ -16,7 +16,7 @@
         rank: crescent-rank-freeman
   icon: "JobIconSyndieOperative"
   requireAdminNotify: false
-  supervisors: job-supervisors-ncsp 
+  supervisors: You answer to the interests of the Cyberdawn Technologies company , whatever your peers decide they may be.
   canBeAntag: false
   access:
   - Command

@@ -17,7 +17,7 @@
   alwaysUseSpawner: true
   icon: "JobIconSyndieRingleader"
   requireAdminNotify: true
-  supervisors: job-supervisors-ncsp 
+  supervisors: You're the defacto Commander of the Taypani Free Stations. You answer only to your heart's desires
   canBeAntag: false
   access:
 
