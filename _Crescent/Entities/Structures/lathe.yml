@@ -513,6 +513,11 @@
       - TermiteLPC
       - ParacelsusLPC
       - ExhumerLPC
+      - CompaktFlatpack
+      - MediumEnergyHardpointFlatpack
+      - LensPlasma
+      - LensInfrared
+      - LensMicrowave
   - type: Machine
     board: MicroforgeCircuitboard
 

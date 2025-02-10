@@ -209,3 +209,49 @@
     Cloth: 1750
     Plasteel: 3000
     Uranium: 500
+
+- type: latheRecipe
+  id: CompaktFlatpack
+  result: CompaktFlatpack
+  completetime: 4
+  materials:
+    Gold: 1750
+    Plasteel: 3000
+    Uranium: 1500
+    Silver: 500
+
+- type: latheRecipe
+  id: LensPlasma
+  result: LensPlasma
+  completetime: 2
+  materials:
+    Glass: 1750
+    Plasma: 500
+
+- type: latheRecipe
+  id: LensMicrowave
+  result: LensMicrowave
+  completetime: 2
+  materials:
+    Glass: 1750
+    Uranium: 500
+
+- type: latheRecipe
+  id: LensInfrared
+  result: LensInfrared
+  completetime: 2
+  materials:
+    Glass: 1750
+    Silver: 500
+
+- type: latheRecipe
+  id: MediumEnergyHardpointFlatpack
+  result: MediumEnergyHardpointFlatpack
+  completetime: 5
+  materials:
+    Glass: 1750
+    Silver: 2500
+    Plasma: 4000
+    Steel: 2500
+    Plasteel: 1000
+    Gold: 2500
