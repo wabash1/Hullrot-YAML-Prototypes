@@ -214,4 +214,14 @@
   - type: Sprite
     sprite: _Crescent/Structures/hardpoints.rsi
     state: Large
+  - type: Rotatable
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: BasicDevice
+  - type: WirelessNetworkConnection
+    range: 1200
+  - type: DeviceLinkSink
+    ports:
+      - Toggle
+      - SpaceArtilleryFire
 
