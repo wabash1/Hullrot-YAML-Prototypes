@@ -743,7 +743,7 @@
   name: GliessDockmaster
   components:
   - type: SpawnPoint
-    job_id: GliessDockmaster
+    job_id: GliessianDockmaster
   - type: Sprite
     layers:
       - state: green
@@ -755,7 +755,7 @@
   name: GliessSheriff
   components:
   - type: SpawnPoint
-    job_id: GliessSheriff
+    job_id: GliessianSheriff
   - type: Sprite
     layers:
       - state: green
