@@ -18,7 +18,7 @@
   alwaysUseSpawner: true
   icon: "JobIconCyberdawnTech"
   requireAdminNotify: false
-  supervisors: You answer to the interests of the Cyberdawn Technologies company , whichever you and your colleagues decide they may be.
+  supervisors: You answer to the patriach and the interests of the CyberDawn Technologies company.
   canBeAntag: false
   access:
   - Command
