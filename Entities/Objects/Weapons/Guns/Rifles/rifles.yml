@@ -49,6 +49,8 @@
       gun_chamber: !type:ContainerSlot
   - type: StaticPrice
     price: 500
+  - type: DisarmMalus
+    malus: -1
 
 - type: entity
   name: NCSP AKMS-47 7.62x51mm
