@@ -296,7 +296,7 @@
 
 - type: entity
   parent: BaseWeaponTurretVulcan
-  name: CMM 23mm automated turret
+  name: CMM 20mm automated turret
   id: WeaponTurretVulcanCMM
   suffix: CMM VLCN
   components:
@@ -306,7 +306,7 @@
 
 - type: entity
   parent: BaseWeaponTurretVulcan
-  name: SRM 23mm automated turret
+  name: SRM 20mm automated turret
   id: WeaponTurretVulcanSRM
   suffix: SRM VLCN
   components:
@@ -316,7 +316,7 @@
 
 - type: entity
   parent: BaseWeaponTurretVulcan
-  name: NCSP 23mm automated turret
+  name: NCSP 20mm automated turret
   id: WeaponTurretVulcanNCSP
   suffix: NCSP VLCN
   components:
@@ -326,7 +326,7 @@
 
 - type: entity
   parent: BaseWeaponTurretVulcan
-  name: NCWL 23mm automated turret
+  name: NCWL 20mm automated turret
   id: WeaponTurretVulcanNCWL
   suffix: NCWL VLCN
   components:
@@ -336,7 +336,7 @@
 
 - type: entity
   parent: BaseWeaponTurretVulcan
-  name: DSM 23mm automated turret
+  name: DSM 20mm automated turret
   id: WeaponTurretVulcanDSM
   suffix: DSM VLCN
   components:
@@ -346,7 +346,7 @@
 
 - type: entity
   parent: BaseWeaponTurretVulcan
-  name: SHI 23mm automated turret
+  name: SHI 20mm automated turret
   id: WeaponTurretVulcanSHI
   suffix: SHI VLCN
   components:

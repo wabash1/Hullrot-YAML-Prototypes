@@ -17,7 +17,7 @@
   alwaysUseSpawner: true
   icon: "JobIconSyndieRingleader"
   requireAdminNotify: true
-  supervisors: You're the defacto Commander of the Taypani Free Stations, wheter by charm or by firepower. You answer only to your heart's desires
+  supervisors: You're the defacto Commander of the Taypani Free Stations, wheter by charm or by firepower. You answer to money and your heart's desires.
   canBeAntag: false
   access:
 
@@ -74,3 +74,4 @@
     ears: ClothingHeadsetNCSP
     belt: WeaponRevolverPythonAP
     gloves: ClothingHandsGlovesFingerless
+    pocket1: AccesElevatorGSC

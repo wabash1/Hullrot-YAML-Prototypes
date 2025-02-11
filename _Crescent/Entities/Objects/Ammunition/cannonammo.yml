@@ -14,8 +14,8 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 95
-        Piercing: 45
+        Structural: 100
+        Piercing: 50
   - type: PointLight
     radius: 3.5
     color: orange
@@ -74,7 +74,7 @@
 
 - type: entity
   id: BulletMachineGunVulcanTurret
-  name: 23mm uranium-tipped vulcan bullet
+  name: 20mm uranium-tipped vulcan bullet
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -83,8 +83,8 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Piercing: 25
-        Structural: 90
+        Piercing: 50
+        Structural: 100
   - type: ProjectileIFF
   - type: ExplodeOnTrigger
   - type: Explosive
@@ -106,7 +106,7 @@
 
 - type: entity
   id: CartridgeVulcanStandardTurret
-  name: 23mm surplus casing
+  name: 20mm surplus casing
   parent: BaseItem
   description: Ammunition for turrets.
   components:
@@ -423,7 +423,7 @@
     initialSpeed: 25
     FOV: 90
     defaultSeekingRange: 1000
-    guidanceAlgorithm: PredictiveGuidance 
+    guidanceAlgorithm: PredictiveGuidance
   - type: PointLight
     radius: 3.5
     color: orange
@@ -463,12 +463,12 @@
     maxIntensity: 20
   - type: HeatSeeking
     rotationSpeed: 40 # slow turn rate
-    acceleration: 10 
+    acceleration: 10
     topSpeed: 30
-    initialSpeed: 15 
+    initialSpeed: 15
     FOV: 40 # narrow FOV to take advantage of long range
     defaultSeekingRange: 1500 # long range
-    guidanceAlgorithm: PredictiveGuidance 
+    guidanceAlgorithm: PredictiveGuidance
   - type: PointLight
     radius: 3.5
     color: orange
@@ -562,9 +562,9 @@
     maxTileBreak: 5
   - type: HeatSeeking
     rotationSpeed: 40 # slow turn rate
-    acceleration: 10 
+    acceleration: 10
     topSpeed: 35
-    initialSpeed: 15 
+    initialSpeed: 15
     FOV: 40 # narrow FOV to take advantage of long range
     defaultSeekingRange: 1500 # long range
   - type: PointLight
@@ -1223,7 +1223,7 @@
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
   - type: SpaceGarbage
-  
+
 
 - type: entity
   id: LensPlasma
