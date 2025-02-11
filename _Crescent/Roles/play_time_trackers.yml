@@ -208,3 +208,12 @@
 
 - type: playTimeTracker
   id: JobMercenary
+
+- type: playTimeTracker
+  id: JobSpacer
+
+- type: playTimeTracker
+  id: JobGliessSheriff
+
+- type: playTimeTracker
+  id: JobGliessDockmaster

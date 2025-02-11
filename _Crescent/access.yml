@@ -166,11 +166,11 @@
   name: id-card-access-level-antiquarian
 
 - type: accessLevel
-  id: Antiquarian
+  id: GliessDockmaster
   name: id-card-access-level-gliess-admin
 
 - type: accessLevel
-  id: Antiquarian
+  id: GliessSheriff
   name: id-card-access-level-gliess-sheriff
 
 #4families

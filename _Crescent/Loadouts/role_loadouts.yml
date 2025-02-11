@@ -420,3 +420,15 @@
   id: JobServileTAP
   groups:
   - ContractorTrinkets
+
+#misc
+
+- type: roleLoadout
+  id: JobGliessDockmaster
+  groups:
+  - ContractorTrinkets
+
+- type: roleLoadout
+  id: JobGliessSheriff
+  groups:
+  - ContractorTrinkets
