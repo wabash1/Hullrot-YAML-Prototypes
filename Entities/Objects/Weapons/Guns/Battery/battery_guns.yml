@@ -30,8 +30,6 @@
   - type: Appearance
   - type: StaticPrice
     price: 500
-  - type: DisarmMalus
-    malus: -1
 
 - type: entity
   id: BaseWeaponPowerCell
@@ -67,8 +65,6 @@
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
-  - type: DisarmMalus
-    malus: -1
 
 - type: entity
   id: BaseWeaponBatterySmall
@@ -89,8 +85,6 @@
     slots:
     - Belt
     - suitStorage
-  - type: DisarmMalus
-    malus: -1
 
 - type: entity
   id: BaseWeaponPowerCellSmall
@@ -107,8 +101,6 @@
     quickEquip: false
     slots:
     - Belt
-  - type: DisarmMalus
-    malus: -1
 
 - type: entity
   name: svalinn laser pistol

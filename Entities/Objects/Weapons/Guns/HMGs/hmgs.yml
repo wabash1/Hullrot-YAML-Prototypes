@@ -19,8 +19,6 @@
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
   - type: StaticPrice
     price: 500
-  - type: DisarmMalus
-    malus: -1
   # No chamber because HMG may want its own
 
 - type: entity

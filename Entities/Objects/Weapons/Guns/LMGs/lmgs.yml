@@ -70,8 +70,6 @@
     price: 500
   - type: UseDelay
     delay: 1
-  - type: DisarmMalus
-    malus: -1
 
 - type: entity
   name: SHI L93 .30
