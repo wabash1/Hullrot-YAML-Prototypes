@@ -112,7 +112,7 @@
   - WeaponPulsePistolFam
 
 - type: technology
-  id: FamiliesPulse
+  id: FamiliesCompakt
   name: research-technology-compakt
   icon:
     sprite: Objects/Devices/flatpack.rsi
