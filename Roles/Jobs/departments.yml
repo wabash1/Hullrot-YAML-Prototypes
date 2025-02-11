@@ -12,8 +12,8 @@
   weight: 5
   roles:
   - Borg
-  - GliessDockmaster
-  - GliessSheriff
+  - GliessianDockmaster
+  - GliessianSheriff
   - Spacer
  # - Botanist
  # - Boxer
