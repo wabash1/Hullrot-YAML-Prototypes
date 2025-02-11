@@ -78,31 +78,63 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: TrackingImplant
-  name: tracking implant
-  description: This implant has a tracking device monitor for the Security radio channel.
-  categories: [ HideSpawnMenu ]
+  name: tracking implant (CMM)
+  description: This implant has a tracking device monitor for the Colonial MinuteMen radio channel.
   components:
     - type: SubdermalImplant
       whitelist:
         components:
-        - MobState # admeme implanting a chair with tracking implant needs to give the chair mobstate so it can die first
-#    - type: SuitSensor
-#      randomMode: false
-#      controlsLocked: true
-#      mode: SensorCords
-#      activationContainer: "implant"
-#    - type: DeviceNetwork
-#      deviceNetId: Wireless
-#      transmitFrequencyId: SuitSensor
-#    - type: StationLimitedNetwork
-#    - type: WirelessNetworkConnection
-#      range: 500
+        - MobState
     - type: TriggerOnMobstateChange
       mobState:
       - Critical
       - Dead
     - type: Rattle
       radioChannel: "Nfsd"
+
+- type: entity
+  parent: BaseSubdermalImplant
+  id: MedicalTrackingImplant
+  name: tracking implant (IPM)
+  description: This implant has a tracking device monitor for the Interdyne Pharmaceuticals radio channel.
+  components:
+    - type: SubdermalImplant
+      whitelist:
+        components:
+        - MobState
+    - type: TriggerOnMobstateChange
+      mobState:
+      - Critical
+      - Dead
+    - type: Rattle
+      radioChannel: "Interdyne"
+
+- type: entity
+  parent: TrackingImplant
+  id: TrackingImplantDSMSec
+  name : tracking implant (DSM-Sec)
+  description: This implant has a tracking device monitor for the Divine Mandate Security radio channel
+  components:
+  - type: Rattle
+    radioChannel: "Imperial"
+
+- type: entity
+  parent: TrackingImplant
+  name : tracking implant (DSM-Civ)
+  id: TrackingImplantDSMCiv
+  description: This implant has a tracking device monitor for the Divine Mandate Civilian radio channel
+  components:
+  - type: Rattle
+    radioChannel: "EmpireCiv"
+
+- type: entity
+  parent: TrackingImplant
+  name : tracking implant (NCWL)
+  id: TrackingImplantNCWL
+  description: This implant has a tracking device monitor for the New Crescent Workers League radio channel
+  components:
+  - type: Rattle
+    radioChannel: "NCWL"
 
 #Traitor implants
 

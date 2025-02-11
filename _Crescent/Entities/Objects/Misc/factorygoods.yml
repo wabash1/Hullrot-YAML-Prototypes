@@ -8,21 +8,6 @@
     sprite: _Crescent/Objects/FactoryGoods/120.rsi
     layers:
     - state: icon
-  - type: Stack
-    stackType: EmptyCasing
-
-- type: entity
-  parent: BaseItem
-  id: Casing120EMP
-  name: empty 120mm casing
-  description: A hollow 120mm casing for ship artillery, marked for EMP shells.
-  components:
-  - type: Sprite
-    sprite: _Crescent/Objects/FactoryGoods/120.rsi
-    layers:
-    - state: icon
-  - type: Stack
-    stackType: EmptyCasingEMP
 
 - type: entity
   parent: BaseItem
@@ -34,8 +19,6 @@
     sprite: _Crescent/Objects/FactoryGoods/120.rsi
     layers:
     - state: icon
-  - type: Stack
-    stackType: EmptyCasingHE
 
 - type: entity
   parent: BaseItem
@@ -47,21 +30,6 @@
     sprite: _Crescent/Objects/FactoryGoods/120w.rsi
     layers:
     - state: icon
-  - type: Stack
-    stackType: WeldedCasing
-
-- type: entity
-  parent: BaseItem
-  id: Casing120WeldedEMP
-  name: welded 120mm EMP casing
-  description: A hollow 120mm casing for ship artillery, welded and ready for priming with EMP payloads.
-  components:
-  - type: Sprite
-    sprite: _Crescent/Objects/FactoryGoods/120wemp.rsi
-    layers:
-    - state: icon
-  - type: Stack
-    stackType: WeldedCasingEmp
 
 
 - type: entity
@@ -74,5 +42,3 @@
     sprite: _Crescent/Objects/FactoryGoods/120whe.rsi
     layers:
     - state: icon
-  - type: Stack
-    stackType: WeldedCasingHE

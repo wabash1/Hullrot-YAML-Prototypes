@@ -34,8 +34,11 @@
     DnaScramblerImplanter: 2
     MacroBombImplanter: 2
     MicroBombImplanter: 5
-    DeathAcidifierImplant: 30
     HoloparasiteInjector: 5
     ChameleonProjector: 4
     Hypopen: 5
     EncryptionKeySyndie: 4
+    ExplosivePayload: 20
+    TimerTrigger: 5
+    VoiceTrigger: 5
+    SignalTrigger: 5

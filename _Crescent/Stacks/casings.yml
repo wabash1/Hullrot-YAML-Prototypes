@@ -9,14 +9,6 @@
   itemSize: 2
 
 - type: stack
-  id: EmptyCasingEMP
-  name: empty munitions casing
-  icon: { sprite: _Crescent/Objects/FactoryGoods/120.rsi, state: icon }
-  spawn: Casing120EMP
-  maxCount: 2
-  itemSize: 2
-
-- type: stack
   id: EmptyCasingHE
   name: empty munitions casing
   icon: { sprite: _Crescent/Objects/FactoryGoods/120.rsi, state: icon }

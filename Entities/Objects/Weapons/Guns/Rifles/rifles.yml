@@ -49,6 +49,8 @@
       gun_chamber: !type:ContainerSlot
   - type: StaticPrice
     price: 500
+  - type: DisarmMalus
+    malus: -0.2
 
 - type: entity
   name: NCSP AKMS-47 7.62x51mm
@@ -97,6 +99,8 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: Contraband
+    value: 3
 
 - type: entity
   name: NT M-90gl Hercules 5.56x45mm

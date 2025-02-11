@@ -18,7 +18,7 @@
   alwaysUseSpawner: true
   icon: "JobIconSyndieForeman"
   requireAdminNotify: true
-  supervisors: job-supervisors-ncsp
+  supervisors: You're the leader of the SAW. You answer to your own interests
   canBeAntag: false
   access:
   - Command
@@ -43,3 +43,4 @@
     belt: ClothingBeltUtilityEngineering
     pocket1: WeaponPistolHKUSP
     gloves: ClothingHandsGlovesFingerless
+   # pocket2: AccesElevatorSAW

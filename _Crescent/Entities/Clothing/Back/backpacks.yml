@@ -19,6 +19,8 @@
   components:
   - type: Sprite
     sprite: _Crescent/Clothing/Back/ncwlsatchel.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.1
 
 - type: entity
   parent: ClothingBackpackDuffel
@@ -26,8 +28,10 @@
   name: union duffle bag
   description: A large duffel bag emblazoned with the NCWL logo.
   components:
-    - type: Sprite
-      sprite: _Crescent/Clothing/Back/ncwlduffle.rsi
+  - type: Sprite
+    sprite: _Crescent/Clothing/Back/ncwlduffle.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.1
 
 #syndicate#
 

@@ -5,7 +5,7 @@
   id: Ivarod
   name: NCWL Ivarod
   description: A converted light destroyer, purpose-built with endurance in mind.
-  price: 190000
+  price: 80000
   category: Large
   group: None
   shuttlePath: /Maps/_Crescent/Shuttles/NCWL/ivarod.yml

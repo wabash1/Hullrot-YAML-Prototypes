@@ -31,7 +31,7 @@
   name: chat-radio-empireciv
   keycode: "j"
   frequency: 6223
-  color: "#535961"
+  color: "#cbc3e3"
 
 - type: radioChannel
   id: Gorlex
@@ -58,5 +58,12 @@
   id: Saws
   name: chat-radio-syndiesaws
   keycode: "x"
-  frequency: 6103
+  frequency: 6105
   color: "#ff5349"
+
+- type: radioChannel
+  id: Families
+  name: chat-radio-pact
+  keycode: "4"
+  frequency: 6104
+  color: "#50c878"

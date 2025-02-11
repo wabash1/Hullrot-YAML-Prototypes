@@ -57,6 +57,8 @@
   - type: UseDelay
     delay: 1
   - type: Contraband
+  - type: DisarmMalus
+    malus: -1
 
 - type: entity
   name: NCWL .30 Conscript

@@ -702,7 +702,7 @@
 
 - type: entity
   id: BulletGrenadeBaton
-  name: low-yield missile
+  name: low-yield rocket
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -713,14 +713,14 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    totalIntensity: 60
-    intensitySlope: 7
-    maxIntensity: 9
+    totalIntensity: 320
+    intensitySlope: 2
+    maxIntensity: 320
   - type: ProjectileIFF
 
 - type: entity
   id: BulletGrenadeBlast
-  name: high-yield missile
+  name: high-yield rocket
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -731,14 +731,14 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    totalIntensity: 140
-    intensitySlope: 4
-    maxIntensity: 6
+    totalIntensity: 650
+    intensitySlope: 25
+    maxIntensity: 650
   - type: ProjectileIFF
 
 - type: entity
   id: BulletGrenadeFlash
-  name: flash missile
+  name: flash rocket
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:

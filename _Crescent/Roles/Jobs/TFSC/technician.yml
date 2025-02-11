@@ -6,6 +6,9 @@
   requirements:
     - !type:FactionRequirement
       factionID: "TFSC"
+    - !type:OverallPlaytimeRequirement
+      time: 21600 # 6 hours
+      inverted: true # Leave slots open for newer, less confident players.
   special:
   - !type:AddComponentSpecial
     components:
@@ -16,7 +19,7 @@
   alwaysUseSpawner: true
   icon: "JobIconSyndieNewblood"
   requireAdminNotify: false
-  supervisors: job-supervisors-ncsp 
+  supervisors: You answer to all Gorlex Security personnel and the Station Administrator
   canBeAntag: false
   access:
   - Command

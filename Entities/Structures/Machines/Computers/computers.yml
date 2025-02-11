@@ -725,7 +725,7 @@
   - type: Computer
     board: AdvancedRadarConsoleCircuitboard
   - type: RadarConsole
-    maxRange: 768
+    maxRange: 1024
   - type: Sprite
     layers:
     - map: ["computerLayerBody"]
@@ -736,6 +736,13 @@
       state: eris_control
     - map: ["computerLayerKeys"]
       state: generic_keys
+  - type: RadarDetector
+  - type: Speech
+    speechVerb: Robotic
+    speechSounds: Pai
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Traffic
 
 - type: entity
   id: ComputerCargoShuttle

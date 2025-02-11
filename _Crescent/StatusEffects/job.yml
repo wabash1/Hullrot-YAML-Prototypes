@@ -312,3 +312,73 @@
   icon:
     sprite: Interface/Misc/job_icons.rsi
     state: Engineman
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconProphet
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: Prophet
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconAcolyteFamilies
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: AcolyteFamilies
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconDraugr
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: draugrfamilies
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconServile
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: servile
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconTechminer
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: techminer
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconTinkerer
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: tinkerer
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconHangarTech
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: hangartech
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconAntiquarian
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: antiquarian
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconBeltrunner
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: beltrunner
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconGliessSheriff
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: sheriff

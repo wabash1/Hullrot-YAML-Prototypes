@@ -3,14 +3,30 @@
   name: job-name-antiquarian
   description: job-description-antiquarian
   playTimeTracker: JobAntiquarian
+  requirements:
+    - !type:FactionRequirement
+      factionID: "TAP"
+    - !type:SpeciesRequirement
+      allowedOnly:
+        - Human
   weight: 1
   startingGear: AntiquarianGear
   alwaysUseSpawner: true
-  icon: "JobIconPassenger"
+  icon: "JobIconAntiquarian"
   requireAdminNotify: false
-  supervisors: job-supervisors-ncsp 
+  supervisors: job-supervisors-tap
   canBeAntag: false
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: ChatRank
+        rank: crescent-rank-antiquarian
+  - !type:AddComponentSpecial
+    components:
+      - type: Telepathic
   access:
+  - Families
+  - Izdari
   - Command
   - Maintenance
   - Antiquarian
@@ -23,9 +39,8 @@
   id: AntiquarianGear
   equipment:
     id: AntiquarianPDA
-    ears: ClothingHeadsetGrey
+    ears: ClothingHeadsetFamilies
     shoes: ClothingShoesBootsCombat
     gloves: ClothingHandsGlovesFingerless
-    jumpsuit: ClothingUniformJumpsuitAntiquarian
+    jumpsuit: ClothingUniformJumpsuitAntiquarianFamilies
     back: BackpackAntiquarianSatchelFilled
-    pocket1: NukeDiskFake

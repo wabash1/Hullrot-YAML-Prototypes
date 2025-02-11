@@ -2,6 +2,23 @@
 
 - type: entity
   parent: BaseItem
+  id: ShipVoucherRoyal
+  name: DSM 'Royal' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with the design schematic for the DSM dreadnought. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 230000
+  - type: ShipVoucher
+    ship: Royal
+
+- type: entity
+  parent: BaseItem
   id: ShipVoucherImparator
   name: DSM 'Imparator' pattern LPC fabprint disk
   description: An LPC fabprint disk loaded with an Imperial Imparator-class picket fighter. Has to be redeemed at a shipyard console.
@@ -115,7 +132,7 @@
     layers:
     - state: icon
   - type: StaticPrice
-    price: 70000
+    price: 80000
   - type: ShipVoucher
     ship: Anathema
 
@@ -637,6 +654,23 @@
 
 - type: entity
   parent: BaseItem
+  id: ShipVoucherHornetsnest
+  name: GSC 'Hornets nest' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a Gorlex Security Consulting Hornet's nest class carrier. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 70000
+  - type: ShipVoucher
+    ship: Hornetsnest
+
+- type: entity
+  parent: BaseItem
   id: ShipVoucherSinn
   name: GSC 'Sinn' pattern LPC fabprint disk
   description: An LPC fabprint disk loaded with a Gorlex Security Consulting Sinn-class light destroyer pattern. Has to be redeemed at a shipyard console.
@@ -945,9 +979,9 @@
 
 - type: entity
   parent: BaseItem
-  id: ShipVoucherInterceptor
-  name: TSP 'interceptor' pattern LPC fabprint disk
-  description: An LPC fabprint disk loaded with TSP 'Interceptor' attack shuttle. Has to be redeemed at a shipyard console.
+  id: ShipVoucherAdjudicator
+  name: TSP 'Adjudicator' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with TSP 'Adjudicator' attack shuttle. Has to be redeemed at a shipyard console.
   components:
   - type: Item
     size: Small
@@ -958,7 +992,7 @@
   - type: StaticPrice
     price: 14000
   - type: ShipVoucher
-    ship: Interceptor
+    ship: Adjudicator
 
 
 #SRM
@@ -1069,6 +1103,24 @@
 
 - type: entity
   parent: BaseItem
+  id: ShipVoucherRockchipper
+  name: SAW 'Rockchipper' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a SAW Retrofitted Mining Class Vessel. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 3000
+  - type: ShipVoucher
+    ship: Rockchipper
+
+
+- type: entity
+  parent: BaseItem
   id: ShipVoucherMercury
   name: ICM 'Mercury' pattern LPC fabprint disk
   description: An LPC fabprint disk loaded with a Ihikerja Civilian Manufacturing Mercury-class salvage shuttle pattern. Has to be redeemed at a shipyard console.
@@ -1104,7 +1156,7 @@
 - type: entity
   parent: BaseItem
   id: ShipVoucherAntiquarianWarthog
-  name: Kourindou Limited GNSY Edition 
+  name: Kourindou Limited GNSY Edition
   description: A hideously mistreated tech-voucher granting you to the right to ride one of the sector's finest Meatmobiles. Your meatmobile. It's crusted with odd stains which smell of things better left unremembered.
   components:
   - type: Item

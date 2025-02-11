@@ -18,7 +18,7 @@
       - type: ChatRank
         rank: crescent-rank-watchmaster
   requireAdminNotify: false
-  supervisors: job-supervisors-highcomm 
+  supervisors: You answer to your Colonial Marshal and the Deputy Marshal
   canBeAntag: false
   access:
   - Command

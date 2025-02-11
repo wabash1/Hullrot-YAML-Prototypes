@@ -17,7 +17,7 @@
   alwaysUseSpawner: true
   icon: "JobIconMarshal"
   requireAdminNotify: false
-  supervisors: job-supervisors-highcomm 
+  supervisors: You answer to your heart's contempt, wheter it be protecting the sector's civilians or aiding criminal organizations.
   canBeAntag: false
   access:
   - Command
@@ -26,6 +26,7 @@
   - MinutemanPrison
   - MinutemanRankingOfficer
   - MinutemanMarshal
+  - CMMFunds
   - External
   - Mercenary # Frontier
   - Captain # Frontier

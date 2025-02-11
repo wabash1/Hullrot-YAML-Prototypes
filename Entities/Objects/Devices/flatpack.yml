@@ -180,6 +180,8 @@
     - state: overlay
       color: "#cec8ac"
     - state: icon-default
+    - type: StaticPrice
+      price: 300
 
 - type: entity
   parent: BaseFlatpack
@@ -188,10 +190,12 @@
   description: A flatpack used for constructing a thruster.
   components:
   - type: Flatpack
-    entity: Thruster
+    entity: ThrusterUnwelded
   - type: Sprite
     layers:
     - state: base
     - state: overlay
       color: "#cec8ac"
     - state: icon-default
+    - type: StaticPrice
+      price: 100

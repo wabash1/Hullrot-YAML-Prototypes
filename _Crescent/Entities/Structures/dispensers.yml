@@ -96,6 +96,9 @@
     defaultItem: TradeDeedStub
     inventory:
       TradeGoodAmmo: TradeDeedHigh
+      TradeGoodNanoTrasen: TradeDeedHigh
+      TradeGoodOldCyber: TradeDeedHigh
+      TradeGoodOldParts: TradeDeedHigh
       TradeGoodAntibiotics: TradeDeedVeryHigh
       TradeGoodScrap: TradeDeedHigh
       TradeGoodCybernetics: TradeDeedNormal
@@ -123,6 +126,9 @@
       TradeGoodAntibiotics: TradeDeedLow
       TradeGoodRice: TradeDeedLow
       TradeGoodFlour: TradeDeedNormal
+      TradeGoodNanoTrasen: TradeDeedHigh
+      TradeGoodOldCyber: TradeDeedHigh
+      TradeGoodOldParts: TradeDeedHigh
       TradeGoodSugar: TradeDeedNormal
       TradeGoodFabrics: TradeDeedVeryHigh
       TradeGoodMiltech: TradeDeedVeryHigh
@@ -268,9 +274,9 @@
       WeaponPistolHimehabu: SpaceCash2500
       WeaponPistolComplianceImperial: SpaceCash2500
       WeaponPistolSmartpistol: SpaceCash2500
-      TradeGoodOrgans: SpaceCash10000
-      TradeGoodDrugs: SpaceCash8000
-      FoodAmbrosiaVulgaris: SpaceCash350
+      TradeGoodOrgans: SpaceCash20000
+      TradeGoodDrugs: SpaceCash12500
+      FoodAmbrosiaVulgaris: SpaceCash1000
   - type: Sprite
     sprite: _Crescent/Structures/onionchute.rsi
     layers:
@@ -299,6 +305,9 @@
       TradeGoodAlloys: TradeDeedExotic
       TradeGoodGoodScrap: TradeDeedVeryHigh
       TradeGoodPlasma: TradeDeedExotic
+      TradeGoodNanoTrasen: TradeDeedHigh
+      TradeGoodOldCyber: TradeDeedHigh
+      TradeGoodOldParts: TradeDeedHigh
   - type: Sprite
     sprite: _Crescent/Structures/cargochute.rsi
     layers:
@@ -330,6 +339,9 @@
       TradeGoodPlasma: TradeDeedHigh
       TradeGoodWine: TradeDeedHigh
       TradeGoodFabrics: TradeDeedHigh
+      TradeGoodNanoTrasen: TradeDeedHigh
+      TradeGoodOldCyber: TradeDeedHigh
+      TradeGoodOldParts: TradeDeedHigh
   - type: Sprite
     sprite: _Crescent/Structures/cargochute.rsi
     layers:
@@ -360,6 +372,9 @@
       TradeGoodGoodScrap: TradeDeedVeryHigh
       TradeGoodPlasma: TradeDeedVeryHigh
       TradeGoodWine: TradeDeedVeryHigh
+      TradeGoodNanoTrasen: TradeDeedHigh
+      TradeGoodOldCyber: TradeDeedHigh
+      TradeGoodOldParts: TradeDeedHigh
   - type: Sprite
     sprite: _Crescent/Structures/cargochute.rsi
     layers:
@@ -390,6 +405,9 @@
       TradeGoodMiltech: TradeDeedVeryHigh
       TradeGoodAlloys: TradeDeedExotic
       TradeGoodWine: TradeDeedExotic
+      TradeGoodNanoTrasen: TradeDeedHigh
+      TradeGoodOldCyber: TradeDeedHigh
+      TradeGoodOldParts: TradeDeedHigh
   - type: Sprite
     sprite: _Crescent/Structures/cargochute.rsi
     layers:
@@ -418,6 +436,9 @@
       TradeGoodFabrics: TradeDeedExotic
       TradeGoodWine: TradeDeedVeryHigh
       TradeGoodPlasma: TradeDeedExotic
+      TradeGoodNanoTrasen: TradeDeedHigh
+      TradeGoodOldCyber: TradeDeedHigh
+      TradeGoodOldParts: TradeDeedHigh
   - type: Sprite
     sprite: _Crescent/Structures/cargochute.rsi
     layers:
@@ -507,41 +528,6 @@
       IDCardAntiquarian: SpaceCash10000
   - type: Sprite
     sprite: _Crescent/Structures/deedsmachine.rsi
-    layers:
-    - state: "icon"
-  - type: PointLight
-    radius: 1.5
-    energy: 1.6
-    color: "#9dc5c9"
-
-- type: entity
-  parent: BaseDispenser
-  id: BiomassFoodMulcher
-  name: biomass mulcher
-  description: A miniature vat that accepts grown produce and mulches it into usable biomass.
-  components:
-  - type: Dispenser
-    defaultItem: PlaceholderNothing
-    inventory:
-      WheatBushel: MaterialBiomass25
-      OatBushel: MaterialBiomass25
-      Sugarcane: MaterialBiomass25
-      FoodBanana: MaterialBiomass25
-      FoodCarrot: MaterialBiomass25
-      FoodCabbage: MaterialBiomass25
-      FoodGarlic: MaterialBiomass25
-      FoodLemon: MaterialBiomass25
-      FoodApple: MaterialBiomass25
-      FoodOrange: MaterialBiomass25
-      FoodLime: MaterialBiomass25
-      FoodPotato: MaterialBiomass25
-      FoodTomato: MaterialBiomass25
-      FoodEggplant: MaterialBiomass25
-      FoodCorn: MaterialBiomass25
-      FoodOnion: MaterialBiomass25
-      FoodMushroom: MaterialBiomass25
-  - type: Sprite
-    sprite: _Crescent/Structures/mulcher.rsi
     layers:
     - state: "icon"
   - type: PointLight

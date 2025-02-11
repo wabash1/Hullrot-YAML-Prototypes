@@ -164,8 +164,6 @@
       - WeaponCapacitorRechargerCircuitboard
       - HandheldStationMap
       - ClothingHeadHatWelding
-      - Durathread # Frontier
-      - SheetPlasteel
       - ClothingOuterSuitEmergency # Frontier
       - ClothingHeadHelmetEVA # Frontier
       - ClothingHeadHelmetEVALarge # Frontier
@@ -437,6 +435,13 @@
     # Frontier Start
     - SalvageTechFabCircuitboardNF
     # Frontier End
+    - ChemMasterMachineCircuitboard
+    - ChemDispenserMachineCircuitboard
+    - DoorElectronics
+    - APCElectronics
+    - SMESMachineCircuitboard
+    - SubstationMachineCircuitboard
+    - WallmountSubstationElectronics
     dynamicRecipes:
       - ThermomachineFreezerMachineCircuitBoard
       - HellfireFreezerMachineCircuitBoard
@@ -446,8 +451,6 @@
       - CryoPodMachineCircuitboard
       - VaccinatorMachineCircuitboard
       - DiagnoserMachineCircuitboard
-      - ChemMasterMachineCircuitboard
-      - ChemDispenserMachineCircuitboard
       - BiomassReclaimerMachineCircuitboard
       - BiofabricatorMachineCircuitboard
       - SurveillanceCameraRouterCircuitboard
@@ -859,10 +862,16 @@
       staticRecipes:
         - SluggieHE
         - SluggieAP
-        - MagazineLightRifleBoxSlugEMPCraft
+        - Automortar90
+        - GrenadeBlast
+        - GrenadeBatonCraft
+        - GrenadeEMP
+        - MagazineGrenadeEmpty
+        - Needler60
         - MagazineVulcan
         - MagazineFlak
         - MagazinePistolSubMachineGun
+        - MagazineMagnumSub
         - BoxLethalshot
         - BoxShotgunFlare
         - BoxShotgunSlug
@@ -1235,7 +1244,6 @@
       - SheetPlasma30
       - SheetPGlass30
       - SheetRPGlass30
-      - SheetPlasteel30
       - SheetUranium30
       - SheetUGlass30
       - SheetRUGlass30

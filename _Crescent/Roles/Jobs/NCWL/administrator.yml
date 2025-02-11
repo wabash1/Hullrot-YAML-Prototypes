@@ -12,7 +12,7 @@
     - !type:WhitelistRequirement
     - !type:FactionRequirement
       factionID: "NCWL"
-  supervisors: job-supervisors-highcomm 
+  supervisors: job-supervisors-highcomm
   canBeAntag: false
   special:
   - !type:AddComponentSpecial
@@ -56,6 +56,8 @@
   - Service
   - External
   - NCWLAdministrator
+  - NCWLFunds
+  - NCWLKommissar
   - NCWLGeneral
   - NCWLArmory
   - NCWLCommand
@@ -68,8 +70,6 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitNCWLCommunications
     back: ClothingBackpackSatchelLeatherFilledNCWLAdministrator
-    shoes: ClothingShoesBootsLaceup
-    head: ClothingHeadHatNCWLBeretAdmiral
     id: AdministratorPDA
     neck: ClothingNeckAdminCapelet
     ears: ClothingHeadsetNCWL

@@ -15,6 +15,9 @@
         - SteelScrap25
         - ScrapBluespace
         - GarbageOre25
+        - TradeGoodNanoTrasen
+        - TradeGoodOldCyber
+        - TradeGoodOldParts
       rareChance: 0.03
       prototypes:
         - SteelScrap1
@@ -50,15 +53,19 @@
     - type: RandomSpawner
       rarePrototypes:
         - DelamDisk
+        - ShipVoucherRockchipper
+        - ShipVoucherMercury
         - ShipVoucherTermite
         - ShipVoucherParacelsus
         - DelamDisk
         - DelamDisk
         - ShipVoucherExhumer
+        - ShipVoucherAntiquarianWarthog
         - NanotrasenFabdiskWeapons
         - ShipVoucherHomesteader
         - ShipVoucherBroadsword
         - ImperialFabdiskKhopesh
+        - ShipVoucherKite
         - UnionFabdiskConscript
         - SyndicateFabdiskDrozd
         - UnionFabdiskJuggernaut
@@ -66,6 +73,7 @@
         - ImperialFabdiskArmor
         - ImperialFabdiskCompliance
         - CorporateFabdiskSabre
+        - CorporateFabdiskHammerhead
       rareChance: 0.03
       prototypes:
         - DelamDiskThumb

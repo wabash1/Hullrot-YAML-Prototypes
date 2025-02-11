@@ -10,6 +10,7 @@
   - type: Tag
     tags:
     - OrganMaterial
+    - DrugComponent
   - type: Sprite
     sprite: _Crescent/Objects/Misc/proteins.rsi
     state: icon
@@ -17,6 +18,8 @@
   - type: PhysicalComposition
     materialComposition:
       ExoticProteins: 500
+  - type: Contraband
+    value: 1
 
 - type: entity
   id: ProteinCan1

@@ -12,6 +12,9 @@
   weight: 5
   roles:
   - Borg
+  - GliessianDockmaster
+  - GliessianSheriff
+  - Spacer
  # - Botanist
  # - Boxer
  # - Chaplain
@@ -149,7 +152,7 @@
   - HunterSRM
   - MontagneSRM
   - OverseerSRM
-  enabled: true
+  enabled: false
 
 - type: department
   id: SHI
@@ -163,7 +166,7 @@
   - CorpsecSHI
   - EmployeeSHI
   - MedtechSHI
-  enabled: true
+  enabled: false
 
 - type: department
   id: CMM
@@ -178,4 +181,21 @@
   - WatchmasterCMM
   - DeputyMarshalCMM
   - MarshalCMM
+  enabled: true
+
+- type: department
+  id: TAP
+  description: department-TAP-description
+  color: "#50c878"
+  weight: 55
+  roles:
+  - ProphetTAP
+  - AcolyteTAP
+  - TinkererTAP
+  - TechminerTAP
+  - HangarTechTAP
+  - Antiquarian
+  - BeltrunnerTAP
+  - DraugrTAP
+  - ServileTAP
   enabled: true

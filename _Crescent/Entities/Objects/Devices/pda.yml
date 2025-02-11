@@ -337,7 +337,7 @@
   - type: PdaBorderColor
     borderColor: "#6d5f8a"
   - type: Icon
-    state: basic
+    state: pda-rd
 
 - type: entity
   parent: BasePDA
@@ -379,7 +379,7 @@
   - type: PdaBorderColor
     borderColor: "#6d5f8a"
   - type: Icon
-    state: basic
+    state: pda-science
 
 - type: entity
   parent: BasePDA
@@ -794,3 +794,147 @@
   - type: Icon
     sprite: _NF/Objects/Devices/pda.rsi
     state: pda-mercenary
+
+#fourfamilies
+
+- type: entity
+  parent: BasePDA
+  id: ProphetPDA
+  name: prophet's PDA
+  description: How clerical.
+  components:
+  - type: Pda
+    id: TAPIDCardProphet
+    state: hunter
+  - type: PdaBorderColor
+    borderColor: "#ffffff"
+  - type: Icon
+    state: hunter
+
+- type: entity
+  parent: BasePDA
+  id: AcolyteTAPPDA
+  name: devoted's PDA
+  description: How clerical.
+  components:
+  - type: Pda
+    id: TAPIDCardAcolyte
+    state: hunter
+  - type: PdaBorderColor
+    borderColor: "#ffffff"
+  - type: Icon
+    state: hunter
+
+- type: entity
+  parent: BasePDA
+  id: TinkererPDA
+  name: tinkerer's PDA
+  description: How tinker-y.
+  components:
+  - type: Pda
+    id: TAPIDCardTinkerer
+    state: hunter
+  - type: PdaBorderColor
+    borderColor: "#ffffff"
+  - type: Icon
+    state: hunter
+
+- type: entity
+  parent: BasePDA
+  id: TechminerPDA
+  name: techminer's PDA
+  description: Green for family.
+  components:
+  - type: Pda
+    id: TAPIDCardTechminer
+    state: hunter
+  - type: PdaBorderColor
+    borderColor: "#ffffff"
+  - type: Icon
+    state: hunter
+
+- type: entity
+  parent: BasePDA
+  id: HangarTechPDA
+  name: hangar technician's PDA
+  description: Green for family.
+  components:
+  - type: Pda
+    id: TAPIDCardHangarTech
+    state: hunter
+  - type: PdaBorderColor
+    borderColor: "#ffffff"
+  - type: Icon
+    state: hunter
+
+- type: entity
+  parent: BasePDA
+  id: BeltrunnerPDA
+  name: beltrunner's PDA
+  description: Green for family.
+  components:
+  - type: Pda
+    id: TAPIDCardBeltrunner
+    state: hunter
+  - type: PdaBorderColor
+    borderColor: "#ffffff"
+  - type: Icon
+    state: hunter
+
+- type: entity
+  parent: BasePDA
+  id: DraugrPDA
+  name: draugr's PDA
+  description: Green for family.
+  components:
+  - type: Pda
+    id: TAPIDCardDraugr
+    state: hunter
+  - type: PdaBorderColor
+    borderColor: "#ffffff"
+  - type: Icon
+    state: hunter
+
+- type: entity
+  parent: BasePDA
+  id: ServilePDA
+  name: servile's PDA
+  description: Green for family.
+  components:
+  - type: Pda
+    id: TAPIDCardServile
+    state: hunter
+  - type: PdaBorderColor
+    borderColor: "#ffffff"
+  - type: Icon
+    state: hunter
+
+#misc
+
+- type: entity
+  parent: BasePDA
+  id: GliessSheriffPDA
+  name: sheriff's PDA
+  description: You are the law.
+  components:
+  - type: Pda
+    id: GliessIDCardSheriff
+    state: pda-corpsec
+  - type: PdaBorderColor
+    borderColor: "#808080"
+  - type: Icon
+    state: pda-corpsec
+
+- type: entity
+  parent: BasePDA
+  id: GliessDockmasterPDA
+  name: dockmaster's PDA
+  description: You are the law.
+  components:
+  - type: Pda
+    id: GliessIDCardDockmaster
+    state: pda-corpsec
+  - type: PdaBorderColor
+    borderColor: "#808080"
+  - type: Icon
+    state: pda-corpsec

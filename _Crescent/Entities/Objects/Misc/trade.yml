@@ -271,6 +271,45 @@
 
 - type: entity
   parent: BaseTradeItem
+  id: TradeGoodNanoTrasen
+  name: NanoTrasen corporate goods crate
+  description: An antique cargo crate full of NanoTrasen consumer products that never got delivered. Not really worth much at face value anymore. But some collectors might pay a good sum for it.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/TradeGoods/militarycybernetics.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 750
+
+- type: entity
+  parent: BaseTradeItem
+  id: TradeGoodOldCyber
+  name: antique cybernetic goods crate
+  description: An antique cargo crate full of NanoTrasen cybernetics and replacement parts that never got delivered. Most of this crap is broken. But sealed crates resell for decent prices to scavs hoping to get lucky.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/TradeGoods/militarycybernetics.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 750
+
+- type: entity
+  parent: BaseTradeItem
+  id: TradeGoodOldParts
+  name: antique parts goods crate
+  description: An antique cargo crate full of NanoTrasen mechanical products and replacement parts that never got delivered. Most of this crap is broken. But sealed crates resell for decent prices to scavs hoping to get lucky.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/TradeGoods/militarycybernetics.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 750
+
+- type: entity
+  parent: BaseTradeItem
   id: TradeGoodAlloys
   name: high-grade plasteel alloys shipment
   description: A secured crate of specialized plasteel alloys. Most commonly put to use in military vessels. A sticker on the side reveals that this shipment is created by Shinohara Heavy Industries.
@@ -412,7 +451,7 @@
   parent: BaseItem
   id: TradeDeedLow
   name: deed of delivery
-  description: A printed deed of delivery. Blocky letting informs that this deed is worth seven hundred and fifty Union credits to an official chartered station.
+  description: A printed deed of delivery. Blocky letting informs that this deed is one thousand seven hundred and fifty Union credits to an official chartered station.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/TradeGoods/deed.rsi
@@ -423,7 +462,7 @@
   parent: BaseItem
   id: TradeDeedNormal
   name: deed of delivery
-  description: A printed deed of delivery. Blocky letting informs that this deed is worth one thousand Union credits to an official chartered station.
+  description: A printed deed of delivery. Blocky letting informs that this deed is worth two thousand Union credits to an official chartered station.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/TradeGoods/deed.rsi
@@ -434,7 +473,7 @@
   parent: BaseItem
   id: TradeDeedHigh
   name: deed of delivery
-  description: A printed deed of delivery. Blocky letting informs that this deed is worth one thousand and five hundred Union credits to an official chartered station.
+  description: A printed deed of delivery. Blocky letting informs that this deed is worth three thousand and five hundred Union credits to an official chartered station.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/TradeGoods/deed.rsi
@@ -445,7 +484,7 @@
   parent: BaseItem
   id: TradeDeedVeryHigh
   name: deed of delivery
-  description: A printed deed of delivery. Blocky letting informs that this deed is worth two thousand Union credits to an official chartered station.
+  description: A printed deed of delivery. Blocky letting informs that this deed is worth five thousand Union credits to an official chartered station.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/TradeGoods/deed.rsi
@@ -456,7 +495,7 @@
   parent: BaseItem
   id: TradeDeedExotic
   name: deed of delivery
-  description: A printed deed of delivery. Blocky letting informs that this deed is worth five thousand Union credits to an official chartered station.
+  description: A printed deed of delivery. Blocky letting informs that this deed is worth eight thousand Union credits to an official chartered station.
   components:
   - type: Sprite
     sprite: _Crescent/Objects/TradeGoods/deed.rsi

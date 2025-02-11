@@ -50,6 +50,8 @@
     proto: BulletMachineGunPlasmaShuttle
     capacity: 30
     count: 10
+  - type: StaticPrice
+    price: 3500
 
 ##mining turret
 
@@ -81,7 +83,7 @@
           acts: ["Destruction"]
   - type: Gun
     projectileSpeed: 65
-    fireRate: 2
+    fireRate: 3
     selectedMode: SemiAuto
     angleDecay: 45
     minAngle: 5
@@ -93,7 +95,7 @@
       params:
         variation: 0.12
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 3
+    rechargeCooldown: 1
     rechargeSound:
       path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
       params:
@@ -101,8 +103,10 @@
         variation: 0.08
   - type: BasicEntityAmmoProvider
     proto: BulletKineticShuttle
-    capacity: 10
-    count: 10
+    capacity: 100
+    count: 100
+  - type: StaticPrice
+    price: 1250
 
 ## Ion turret
 
@@ -156,6 +160,8 @@
     proto: BulletMachineGunIon
     capacity: 30
     count: 25
+  - type: StaticPrice
+    price: 6500
 
 ##Torpedo
 
@@ -210,6 +216,8 @@
     magState: mag
     steps: 8
     zeroVisible: false
+  - type: StaticPrice
+    price: 1500
 
 
 ## Missile Pods
@@ -265,6 +273,8 @@
     magState: mag
     steps: 8
     zeroVisible: false
+  - type: StaticPrice
+    price: 2500
 
 - type: entity
   id: ShuttleGunMissileRack
@@ -322,6 +332,8 @@
           params:
             pitch: 2
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+  - type: StaticPrice
+    price: 4500
 
 #50 cal
 
@@ -428,7 +440,7 @@
         ents: []
   - type: Gun
     fireRate: 3
-    projectileSpeed: 95
+    projectileSpeed: 80
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/50cal.ogg
     soundEmpty:
@@ -455,6 +467,8 @@
   - type: ApcPowerReceiver
     powerLoad: 3000
   - type: ExtensionCableReceiver
+  - type: StaticPrice
+    price: 8000
 
 # laser
 
@@ -566,6 +580,8 @@
     powerLoad: 1000
   - type: ExtensionCableReceiver
   - type: BatterySelfRecharger
+  - type: StaticPrice
+    price: 9000
 
 #120mm
 
@@ -623,7 +639,7 @@
   - type: ExaminableBattery
   - type: BallisticAmmoProvider
     cycleable: false
-    capacity: 2
+    capacity: 16
     proto: CartridgeShellArmorPiercing
     whitelist:
       tags:
@@ -649,7 +665,7 @@
       - SpaceArtilleryDetectedMalfunction
       - SpaceArtilleryDetectedSafetyChange
   - type: Gun
-    fireRate: 3
+    fireRate: 0.5
     projectileSpeed: 95
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ship_duster.ogg
@@ -668,6 +684,8 @@
     powerLoad: 3000
   - type: ExtensionCableReceiver
   - type: BatterySelfRecharger
+  - type: StaticPrice
+    price: 9000
 
 #railgun
 
@@ -731,7 +749,7 @@
   - type: ExaminableBattery
   - type: BallisticAmmoProvider
     cycleable: false
-    capacity: 1
+    capacity: 5
     proto: CartridgeRailHighExplosive
     whitelist:
       tags:
@@ -758,8 +776,8 @@
       - SpaceArtilleryDetectedMalfunction
       - SpaceArtilleryDetectedSafetyChange
   - type: Gun
-    fireRate: 1
-    projectileSpeed: 85
+    fireRate: 0.1
+    projectileSpeed: 135
     soundGunshot:
       path: /Audio/Effects/railfire.ogg
     soundEmpty:
@@ -794,6 +812,8 @@
   - type: BatterySelfRecharger
   - type: RadiationBlocker
     resistance: 8
+  - type: StaticPrice
+    price: 18000
 
 #vulcan
 
@@ -900,7 +920,7 @@
         ents: []
   - type: Gun
     fireRate: 9
-    projectileSpeed: 100
+    projectileSpeed: 135
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/vulcan.ogg
     soundEmpty:
@@ -927,6 +947,8 @@
   - type: ApcPowerReceiver
     powerLoad: 3000
   - type: ExtensionCableReceiver
+  - type: StaticPrice
+    price: 2500
 
 - type: entity
   id: SAWCleanser
@@ -1033,7 +1055,7 @@
     fireRate: 36
     maxAngle: 4
     minAngle: 0
-    projectileSpeed: 200
+    projectileSpeed: 135
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/vulcan.ogg
     soundEmpty:
@@ -1059,6 +1081,11 @@
   - type: ApcPowerReceiver
     powerLoad: 3000
   - type: ExtensionCableReceiver
+  - type: StaticPrice
+    price: 8000
+  - type: HardpointAnchorableOnly
+    class: Ballistic
+    size: Medium
 
 #Faction-tagged slugs
 

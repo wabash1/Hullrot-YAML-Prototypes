@@ -45,6 +45,8 @@
     layers:
     - state: crypt_gray
     - state: common_label
+  - type: Contraband
+    value: 2
 
 - type: entity
   parent: EncryptionKey
@@ -112,7 +114,7 @@
   - type: Sprite
     layers:
     - state: crypt_gray
-    - state: common_label    
+    - state: common_label
 
 - type: entity
   parent: EncryptionKey
@@ -123,7 +125,6 @@
   - type: EncryptionKey
     channels:
     - Imperial
-    - Nfsd
     - EmpireCiv
     - Common
     defaultChannel: Common
@@ -189,10 +190,27 @@
   - type: EncryptionKey
     channels:
     - Nfsd
-    - Imperial
     - Common
     defaultChannel: Common
   - type: Sprite
     layers:
     - state: crypt_blue
+    - state: common_label
+
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyFamilies
+  name: nomad encryption key
+  description: An encryption key used by the Families.
+  components:
+  - type: EncryptionKey
+    channels:
+    - Families
+    - Common
+    - Traffic
+    defaultChannel: Common
+  - type: Sprite
+    layers:
+    - state: crypt_rusted
     - state: common_label

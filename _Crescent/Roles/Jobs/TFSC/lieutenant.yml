@@ -18,7 +18,7 @@
   alwaysUseSpawner: true
   icon: "JobIconSyndieLieutenant"
   requireAdminNotify: true
-  supervisors: job-supervisors-ncsp 
+  supervisors: You answer to the Station Administrator.
   canBeAntag: false
   access:
   - EmergencyShuttleRepealAll

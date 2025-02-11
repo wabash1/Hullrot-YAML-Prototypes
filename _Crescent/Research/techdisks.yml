@@ -434,6 +434,22 @@
   - type: StaticPrice
     price: 2500
 
+- type: entity
+  parent: BaseItem
+  id: CorporateFabdiskHammerhead
+  name: shinohara fabdisk
+  description: A disk for the R&D server containing research technology. A label reads, 'SHINOHARA LABS - HAMMERHEAD LAUNCHER'.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/techdisks.rsi
+    layers:
+    - state: iconnanotrasen
+  - type: TechnologyDisk
+    recipes:
+      - WeaponLauncherHammerheadCraft
+  - type: StaticPrice
+    price: 5000
+
 #civ
 
 - type: entity
@@ -483,3 +499,87 @@
       - ExhumerLPC
   - type: StaticPrice
     price: 7500
+
+#corporate
+
+- type: entity
+  parent: BaseItem
+  id: CorporateFabdiskKorund
+  name: corporate armor fabdisk
+  description: A disk for the R&D server containing research technology. A label reads, 'PANG-TAI ARMS - KORUND'.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/techdisks.rsi
+    layers:
+    - state: iconnanotrasen
+  - type: TechnologyDisk
+    recipes:
+      - ClothingHeadHatPangtaiKorundHelmet
+      - ClothingOuterArmorPangTaiKorund
+  - type: StaticPrice
+    price: 7500
+
+- type: entity
+  parent: BaseItem
+  id: CorporateFabdiskCorvid
+  name: corporate armor fabdisk
+  description: A disk for the R&D server containing research technology. A label reads, 'PANG-TAI ARMS - CORVID'.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/techdisks.rsi
+    layers:
+    - state: iconnanotrasen
+  - type: TechnologyDisk
+    recipes:
+      - ClothingHeadHatPangtaiCorvidHelmet
+      - ClothingOuterArmorPangTaiVest
+  - type: StaticPrice
+    price: 2500
+
+- type: entity
+  parent: BaseItem
+  id: CorporateFabdiskMako
+  name: corporate weapon fabdisk
+  description: A disk for the R&D server containing research technology. A label reads, 'PANG-TAI ARMS - MAKO'.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/techdisks.rsi
+    layers:
+    - state: iconnanotrasen
+  - type: TechnologyDisk
+    recipes:
+      - WeaponSpecialMako
+  - type: StaticPrice
+    price: 5000
+
+- type: entity
+  parent: BaseItem
+  id: CorporateFabdiskCheshyre
+  name: corporate weapon fabdisk
+  description: A disk for the R&D server containing research technology. A label reads, 'PANG-TAI ARMS - CHESHYRE'.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/techdisks.rsi
+    layers:
+    - state: iconnanotrasen
+  - type: TechnologyDisk
+    recipes:
+      - WeaponSubMachineGunCheshyre
+  - type: StaticPrice
+    price: 3000
+
+- type: entity
+  parent: BaseItem
+  id: CorporateFabdiskRongyu
+  name: corporate weapon fabdisk
+  description: A disk for the R&D server containing research technology. A label reads, 'PANG-TAI ARMS - RONGYU'.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/techdisks.rsi
+    layers:
+    - state: iconnanotrasen
+  - type: TechnologyDisk
+    recipes:
+      - WeaponPistolRongyu
+  - type: StaticPrice
+    price: 1000

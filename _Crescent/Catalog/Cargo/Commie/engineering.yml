@@ -28,3 +28,13 @@
   cost: 600
   category: cargoproduct-category-name-engineering
   group: commie
+
+- type: cargoProduct
+  id: EngineAmeJarCommie
+  icon:
+    sprite: Objects/Power/AME/ame_jar.rsi
+    state: jar
+  product: CrateEngineeringAMEJar
+  cost: 2000
+  category: cargoproduct-category-name-engineering
+  group: commie

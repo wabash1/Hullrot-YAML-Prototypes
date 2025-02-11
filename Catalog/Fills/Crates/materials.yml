@@ -29,8 +29,7 @@
   - type: StorageFill
     contents:
       - id: MaterialCloth
-        amount: 2
-      - id: MaterialDurathread
+        amount: 3
 
 - type: entity
   id: CrateMaterialPlastic

@@ -228,3 +228,39 @@
   - type: ContainerContainer
     containers:
       station-bank-ATM-cashSlot: !type:ContainerSlot {}
+
+- type: entity
+  parent: StationAdminBankATM
+  id: StationAdminBankATMDSM
+  suffix: DSM
+  description: Used to pay out from the station's bank account
+  components:
+  - type: AccessReader
+    access: [["DSMFunds"]]
+
+- type: entity
+  parent: StationAdminBankATM
+  id: StationAdminBankATMNCWL
+  suffix: NCWL
+  description: Used to pay out from the station's bank account
+  components:
+  - type: AccessReader
+    access: [["NCWLFunds"]]
+
+- type: entity
+  parent: StationAdminBankATM
+  id: StationAdminBankATMSyndicate
+  suffix: Syndicate
+  description: Used to pay out from the station's bank account
+  components:
+  - type: AccessReader
+    access: [["SyndicateFunds"]]
+
+- type: entity
+  parent: StationAdminBankATM
+  id: StationAdminBankATMCMM
+  suffix: CMM
+  description: Used to pay out from the station's bank account
+  components:
+  - type: AccessReader
+    access: [["CMMFunds"]]

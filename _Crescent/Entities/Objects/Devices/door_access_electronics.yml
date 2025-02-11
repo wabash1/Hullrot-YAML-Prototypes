@@ -284,3 +284,53 @@
   components:
   - type: AccessReader
     access: [["Antiquarian"]]
+
+#4fam
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsFamilies
+  suffix: Four Families, Locked
+  components:
+  - type: AccessReader
+    access: [["Families"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsArabet
+  suffix: Arabet, Locked
+  components:
+  - type: AccessReader
+    access: [["Arabet"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsAlseik
+  suffix: Alseik, Locked
+  components:
+  - type: AccessReader
+    access: [["Alseik"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsServile
+  suffix: Al'Seik Servile, Locked
+  components:
+  - type: AccessReader
+    access: [["AlseikServile"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsIzdari
+  suffix: Izdari, Locked
+  components:
+  - type: AccessReader
+    access: [["Izdari"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsThukker
+  suffix: Thukker, Locked
+  components:
+  - type: AccessReader
+    access: [["Thukker"]]

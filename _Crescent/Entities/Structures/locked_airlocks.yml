@@ -607,6 +607,15 @@
       board: [ DoorElectronicsCMM ]
 
 - type: entity
+  parent:  AirlockEngineering
+  id:  AirlockEngineeringCMMLocked
+  suffix: Minutemen
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCMM ]
+
+- type: entity
   parent:  AirlockSecurity
   id:  AirlockCMMLockedRanking
   suffix: Minutemen Ranking
@@ -672,6 +681,135 @@
     containers:
       board: [ DoorElectronicsCMMMarshal ]
 
+#4fam
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandFamilies
+  suffix: Families, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsFamilies ]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandArabet
+  suffix: Arabet, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsArabet ]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandThukker
+  suffix: Thukker, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsThukker ]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandIzdari
+  suffix: Izdari, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsIzdari ]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandAlseik
+  suffix: Al'Seik, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAlseik ]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandServile
+  suffix: Servile, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsServile ]
+
+- type: entity
+  parent: WindoorSecure
+  id: WindoorSecureThukker
+  suffix: Thukker, Windoor
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsThukker ]
+
+- type: entity
+  parent: WindoorSecure
+  id: WindoorSecureAlseik
+  suffix: Al'Seik, Windoor
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAlseik ]
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandLockedFamiliesHorizontalAlseik
+  suffix: Al'Seik, Horizontal
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAlseik ]
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandLockedFamiliesHorizontalServile
+  suffix: Servile, Horizontal
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsServile ]
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandLockedFamiliesHorizontalIzdari
+  suffix: Izdari, Horizontal
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsIzdari ]
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandLockedFamiliesHorizontalThukker
+  suffix: Thukker, Horizontal
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsThukker ]
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandLockedFamiliesHorizontalArabet
+  suffix: Arabet, Horizontal
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsArabet ]
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandLockedFamiliesHorizontalFamilies
+  suffix: Families, Horizontal
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsFamilies ]
+
+
 #misc
 
 - type: entity
@@ -700,3 +838,39 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsAntiquarian ]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandGliessSheriff
+  suffix: Gliessian Sheriff, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsGliessSheriff ]
+
+- type: entity
+  parent: AirlockCommandHorizontal
+  id: AirlockCommandGliessSheriffHorizontal
+  suffix: Gliessian Sheriff, Horizontal
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsGliessSheriff ]
+
+- type: entity
+  parent: WindoorSecure
+  id: WindoorSecureGliessSheriff
+  suffix: GliessianSheriff, Windoor
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsGliessSheriff ]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockCommandGliessDockmaster
+  suffix: Gliessian Dockmaster, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsGliessDockmaster ]

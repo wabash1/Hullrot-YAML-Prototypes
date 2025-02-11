@@ -24,6 +24,11 @@
   id: NCWLJail
   name: id-card-access-level-ncwljail
 
+- type: accessLevel
+  id: NCWLFunds
+  name: NCWL Funding Account
+
+
 #syndicate#
 
 - type: accessLevel
@@ -53,6 +58,10 @@
 - type: accessLevel
   id: SyndicateRingleader
   name: id-card-access-level-syndicateringleader
+
+- type: accessLevel
+  id: SyndicateFunds
+  name: PMC Funding Account
 
 # empire #
 
@@ -91,6 +100,10 @@
 - type: accessLevel
   id: Advocatus
   name: id-card-access-level-advocatus
+
+- type: accessLevel
+  id: DSMFunds
+  name: Imperial Funding Account
 
 #srm
 
@@ -142,8 +155,46 @@
   id: MinutemanMarshal
   name: id-card-access-level-cmmmarshal
 
+- type: accessLevel
+  id: CMMFunds
+  name: CMM Funding Account
+
 #misc
 
 - type: accessLevel
   id: Antiquarian
   name: id-card-access-level-antiquarian
+
+- type: accessLevel
+  id: GliessDockmaster
+  name: id-card-access-level-gliess-admin
+
+- type: accessLevel
+  id: GliessSheriff
+  name: id-card-access-level-gliess-sheriff
+
+#4families
+
+- type: accessLevel
+  id: Arabet
+  name: id-card-access-level-arabet
+
+- type: accessLevel
+  id: Thukker
+  name: id-card-access-level-thukker
+
+- type: accessLevel
+  id: Alseik
+  name: id-card-access-level-Alseik
+
+- type: accessLevel
+  id: AlseikServile
+  name: id-card-access-level-Servile
+
+- type: accessLevel
+  id: Families
+  name: id-card-access-level-Families
+
+- type: accessLevel
+  id: Izdari
+  name: id-card-access-level-Izdari

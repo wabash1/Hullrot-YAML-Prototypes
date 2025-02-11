@@ -56,7 +56,7 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesTourist
-  name: tourist shoes
+  name: leather sandals
   description: These cheap sandals don't look very comfortable.
   components:
   - type: Sprite

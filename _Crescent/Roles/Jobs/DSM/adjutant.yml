@@ -59,7 +59,7 @@
   - Maintenance
   - Service
   - External
-
+  - DSMFunds
   - Maintenance
   - EmpireNoble
   - EmpireAdjutant
@@ -69,6 +69,9 @@
   - External
   - Mercenary # Frontier
   - Captain # Frontier
+  - DSMFunds
+  - ScribesGuild
+  - LogisticsWealth
 
 - type: startingGear
   id: AdjutantGear

@@ -16,12 +16,7 @@
     supportedDisciplines:
     - Pirate
     - Arsenal
-    unlockedTechnologies:
-    - SyndicateHardsuit
-    - SyndicateClothes
-    - SyndicateSmallArms
-    - SyndicateLongArms
-    - SyndicateEwar
+    - Experimental
   - type: ApcPowerReceiver
     powerLoad: 200
   - type: ExtensionCableReceiver
@@ -86,13 +81,73 @@
     - Industrial
     - CivilianServices
     - Communard
-    unlockedTechnologies:
-    - CommieClothes
-    - CommieArmor
-    - CommieHeavyArmor
-    - CommieLightArms
-    - CommieHeavyArms
 
+  - type: ApcPowerReceiver
+    powerLoad: 200
+  - type: ExtensionCableReceiver
+  - type: WiresPanel
+  - type: WiresVisuals
+  - type: Machine
+    board: ResearchAndDevelopmentServerMachineCircuitboard
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 600
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          SteelScrap1:
+            min: 1
+            max: 2
+  - type: Appearance
+  - type: AmbientSound
+    volume: -9
+    range: 5
+    sound:
+      path: /Audio/Ambience/Objects/server_fans.ogg
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+  - type: GuideHelp
+    guides:
+    - Science
+
+#families
+
+- type: entity
+  id: ResearchAndDevelopmentServerFamilies
+  parent: [ BaseMachinePowered, ConstructibleMachine ]
+  name: data analysis server
+  suffix: Families
+  description: Contains the collective knowledge of the station's scientists.
+  components:
+  - type: Sprite
+    sprite: Structures/Machines/server.rsi
+    layers:
+      - state: server
+      - state: variant-imperial
+      - state: server_o
+        map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: ResearchServer
+  - type: TechnologyDatabase
+    supportedDisciplines:
+    - Families
+    - Industrial
+    - Arsenal
+    - CivilianServices
   - type: ApcPowerReceiver
     powerLoad: 200
   - type: ExtensionCableReceiver
@@ -156,14 +211,7 @@
     supportedDisciplines:
     - Imperial
     - Arsenal
-    unlockedTechnologies:
-    - ImperialHardsuit
-    - ImperialClothes #They're fucking clothes. Why the fuck do you have to research this in the first place?
-    - ImperialLightArms
-    - ImperialLongarms
-    - ImperialArmor
-    - ImperialLaserguns
-    - ImperialSword
+    - CivilianServices
   - type: ApcPowerReceiver
     powerLoad: 200
   - type: ExtensionCableReceiver

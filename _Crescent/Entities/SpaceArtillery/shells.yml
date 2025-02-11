@@ -1,56 +1,6 @@
 # Space Artillery projectiles
 
 
-#EMP shell
-- type: entity
-  id: BulletShellEmp
-  name: shell
-  parent: BaseBulletTrigger
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: ProjectileIFF
-  - type: Projectile
-    ignoreWeaponGrid: true
-    damage:
-      types:
-        Structural: 100
-        Blunt: 20
-  - type: TimedDespawn
-    lifetime: 40
-    #roughly 600m range
-  - type: Sprite
-    sprite: _NF/Objects/SpaceArtillery/630_emp_shell_casing.rsi
-    layers:
-      - state: base-projectile
-  - type: EmpOnTrigger
-    range: 8
-    energyConsumption: 10000
-    disableDuration: 10
-  - type: ShipWeaponProjectile
-
-- type: entity
-  id: CartridgeShellEmp
-  name: 120mm EMP artillery shell
-  parent: BaseItem
-  description: A primitive artillery shell, lined with bluespace crystal fragments. Disrupts electronics.
-  components:
-  - type: Tag
-    tags:
-      - CartridgeShell
-  - type: Item
-    size: Normal
-  - type: CartridgeAmmo
-    proto: BulletShellEmp
-    deleteOnSpawn: false
-  - type: Sprite
-    sprite: _NF/Objects/SpaceArtillery/630_emp_shell_casing.rsi
-    layers:
-    - state: base
-      map: ["enum.AmmoVisualLayers.Base"]
-  - type: Appearance
-  - type: SpentAmmoVisuals
-  - type: SpaceGarbage
-
 
 #Solid Shell
 - type: entity
@@ -67,7 +17,7 @@
         Structural: 1000
         #currently explosion deals roughly 60 damage
   - type: TimedDespawn
-    lifetime: 40
+    lifetime: 240
     #roughly 600m range
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/630_armorpiercing_shell_casing.rsi
@@ -108,7 +58,6 @@
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
   - type: SpentAmmoVisuals
-  - type: SpaceGarbage
 
 #High Explosive Shell
 - type: entity
@@ -122,10 +71,10 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 250
+        Structural: 150
         #currently explosion deals roughly 30 damage per tile in large AoE
   - type: TimedDespawn
-    lifetime: 60
+    lifetime: 240
     #roughly 600m range
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/630_highexplosive_shell_casing.rsi
@@ -134,10 +83,10 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 95
+    maxIntensity: 100
     intensitySlope: 35
-    totalIntensity: 195
-    maxTileBreak: 6
+    totalIntensity: 500
+    maxTileBreak: 8
   - type: PointLight
     radius: 3.5
     color: red
@@ -166,7 +115,6 @@
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
   - type: SpentAmmoVisuals
-  - type: SpaceGarbage
 
 #Practice Shell
 - type: entity
@@ -224,7 +172,6 @@
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
   - type: SpentAmmoVisuals
-  - type: SpaceGarbage
 
 #.50 call EMP for machine gun
 - type: entity
@@ -584,7 +531,7 @@
         Structural: 5000
         #currently explosion deals 156 damage per tile in large AoE
   - type: TimedDespawn
-    lifetime: 55
+    lifetime: 300
     #roughly 1000m range
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/1000_armorpiercing_rail_casing.rsi
@@ -593,9 +540,9 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 30
-    intensitySlope: 30
-    totalIntensity: 750
+    maxIntensity: 3000
+    intensitySlope: 3
+    totalIntensity: 3000
     maxTileBreak: 53
   - type: PointLight
     radius: 3.5
@@ -608,6 +555,7 @@
   id: CartridgeRailHighExplosive
   name: 320mm subnuclear accelerator cartridge
   parent: BaseItem
+  suffix: Live Ammo
   description: A 320mm railgun cartridge produced out of a volatile plasma-cored tungsten shell. 'House Olywir Armaments' has been laser-stamped at the bottom.
   components:
   - type: Tag
@@ -994,9 +942,13 @@
     totalIntensity: 145
     maxTileBreak: 7
   - type: HeatSeeking
-    rotationSpeed: 75
-    acceleration: 90
-    seekRange: 1000
+    rotationSpeed: 25
+    acceleration: 5
+    topSpeed: 20
+    initialSpeed: 10
+    FOV: 80
+    defaultSeekingRange: 300
+    guidanceAlgorithm: PredictiveGuidance
   - type: PointLight
     radius: 3.5
     color: orange

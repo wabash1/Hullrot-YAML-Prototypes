@@ -25,9 +25,9 @@
 
 - type: crescentFactionBiome
   id: imperialbiome
-  name: Kal Surezai, Imperial Airspace
+  name: Low Imperial Orbit
   swapDuration: 2
-  parallax: KettleStation
+  parallax: Sky
 
 - type: entity
   id: ImperialBiomeSource
@@ -35,8 +35,8 @@
   components:
   - type: SpaceBiomeSource
     biome: imperialbiome
-    swapDistance: 2000
-    priority: 2500
+    swapDistance: 750
+    priority: 2550
 
 #hunter
 
@@ -187,6 +187,24 @@
 
 - type: crescentFactionBiome
   id: hadalbiome
-  name: Abyssal Rupture
+  name: The Fracture
   swapDuration: 2
   parallax: Rupture
+
+
+# breach
+
+- type: entity
+  id: ApproachSource
+  name: moon approach
+  components:
+  - type: SpaceBiomeSource
+    biome: moonapproach
+    swapDistance: 1500
+    priority: 2500
+
+- type: crescentFactionBiome
+  id: moonapproach
+  name: Lunar Approach
+  swapDuration: 2
+  parallax: MoonApproach

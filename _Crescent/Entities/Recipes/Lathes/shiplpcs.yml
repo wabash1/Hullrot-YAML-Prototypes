@@ -98,30 +98,39 @@
     ShipHull: 19000
 
 - type: latheRecipe
+  id: ClementineLPC
+  result: ShipVoucherClementine
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 12000
+    ShipComponents: 8000
+    ShipHull: 23000
+
+- type: latheRecipe
   id: GargutLPC
   result: ShipVoucherGargut
   completetime: 1
   materials:
     StarshipEngineComponents: 9250
     ShipComponents: 4750
-    ShipHull: 20000
+    ShipHull: 40000
 
 - type: latheRecipe
   id: BogatyrLPC
   result: ShipVoucherBogatyr
   completetime: 1
   materials:
-    StarshipEngineComponents: 2250
+    StarshipEngineComponents: 3000
     ShipComponents: 6750
-    ShipHull: 4000
+    ShipHull: 16000
 
 - type: latheRecipe
   id: BroadswordLPC
   result: ShipVoucherBroadsword
   completetime: 1
   materials:
-    StarshipEngineComponents: 250
-    ShipComponents: 300
+    StarshipEngineComponents: 2000
+    ShipComponents: 2000
     ShipHull: 1000
 
 - type: latheRecipe
@@ -129,8 +138,8 @@
   result: ShipVoucherKhopesh
   completetime: 1
   materials:
-    StarshipEngineComponents: 750
-    ShipComponents: 400
+    StarshipEngineComponents: 2000
+    ShipComponents: 2000
     ShipHull: 850
 
 - type: latheRecipe
@@ -138,9 +147,9 @@
   result: ShipVoucherRapier
   completetime: 1
   materials:
-    StarshipEngineComponents: 850
-    ShipComponents: 700
-    ShipHull: 550
+    StarshipEngineComponents: 2000
+    ShipComponents: 2000
+    ShipHull: 1000
 
 - type: latheRecipe
   id: IvarodLPC
@@ -165,18 +174,18 @@
   result: ShipVoucherTermite
   completetime: 1
   materials:
-    StarshipEngineComponents: 1000
-    ShipComponents: 250
-    ShipHull: 1000
+    StarshipEngineComponents: 2000
+    ShipComponents: 500
+    ShipHull: 1500
 
 - type: latheRecipe
   id: ParacelsusLPC
   result: ShipVoucherParacelsus
   completetime: 1
   materials:
-    StarshipEngineComponents: 3000
-    ShipComponents: 750
-    ShipHull: 3000
+    StarshipEngineComponents: 4000
+    ShipComponents: 2500
+    ShipHull: 5000
 
 - type: latheRecipe
   id: ExhumerLPC

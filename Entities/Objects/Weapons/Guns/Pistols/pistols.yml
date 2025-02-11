@@ -65,6 +65,8 @@
   - type: Appearance
   - type: StaticPrice
     price: 500
+  - type: DisarmMalus
+    malus: -1
 
 - type: entity
   name: PTA HJKE-11 Viper 9x19mm
@@ -154,6 +156,7 @@
       gun_magazine: !type:ContainerSlot
       gun_chamber: !type:ContainerSlot
   - type: Contraband #frontier
+    value : 3
 
 - type: entity
   name: SHI MK-58 Tayamura 9x19mm

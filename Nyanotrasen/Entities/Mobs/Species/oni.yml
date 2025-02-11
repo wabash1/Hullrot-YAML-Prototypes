@@ -17,6 +17,10 @@
         Slash: 1.2
         Piercing: 1.2
         Asphyxiation: 1.2
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      60: 0.7  # base
+      80: 2 # oni rage
   - type: Damageable
     damageModifierSet: Oni
   - type: Body

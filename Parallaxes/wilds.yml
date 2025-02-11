@@ -18,6 +18,12 @@
         configPath: "/Prototypes/Parallaxes/parallax_config_stars_dim.toml"
       slowness: 0.989375
     - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/Parallaxes/taypanprime.png"
+      slowness: 0.998046875
+      scale: "1.3, 1.3"
+      tiled: false
+    - texture:
         !type:GeneratedParallaxTextureSource
         id: "hq_wizard_stars_faster"
         configPath: "/Prototypes/Parallaxes/parallax_config_stars-2.toml"

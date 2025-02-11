@@ -104,8 +104,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretQM
-  name: quartermaster's beret
-  description: A beret with the cargo's insignia emblazoned on it. For quartermasters that are more inclined towards style.
+  name: hangar tech's beret
+  description: A beret belonging to some ship's cargo department. Likely stolen..
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_qm.rsi

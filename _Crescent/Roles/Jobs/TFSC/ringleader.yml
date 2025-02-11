@@ -17,7 +17,7 @@
   alwaysUseSpawner: true
   icon: "JobIconSyndieRingleader"
   requireAdminNotify: true
-  supervisors: job-supervisors-ncsp 
+  supervisors: You're the defacto Commander of the Taypani Free Stations, wheter by charm or by firepower. You answer to money and your heart's desires.
   canBeAntag: false
   access:
 
@@ -59,9 +59,8 @@
   - SyndicateBasic
   - SyndicateCommand
   - SyndicateRingleader
+  - SyndicateFunds
   - SyndicateGorlex
-  - SyndicateRamzi
-  - SyndicateInterdyne
 
 - type: startingGear
   id: RingleaderGear
@@ -75,3 +74,4 @@
     ears: ClothingHeadsetNCSP
     belt: WeaponRevolverPythonAP
     gloves: ClothingHandsGlovesFingerless
+ #   pocket1: AccesElevatorGSC

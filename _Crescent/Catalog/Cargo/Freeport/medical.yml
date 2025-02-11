@@ -9,6 +9,46 @@
   group: freeport
 
 - type: cargoProduct
+  id: PhoronFreeport
+  icon:
+    sprite: Objects/Materials/ore.rsi
+    state: deactivatedphoron
+  product: CratePhoron
+  cost: 7000
+  category: cargoproduct-category-name-medical
+  group: freeport
+
+- type: cargoProduct
+  id: PlasmaFreeport
+  icon:
+    sprite: Objects/Materials/ore.rsi
+    state: plasmaisotope
+  product: CrateIsotopes
+  cost: 8500
+  category: cargoproduct-category-name-medical
+  group: freeport
+
+- type: cargoProduct
+  id: GalineFreeport
+  icon:
+    sprite: Objects/Materials/ore.rsi
+    state: galine5
+  product: CrateGaline
+  cost: 6000
+  category: cargoproduct-category-name-medical
+  group: freeport
+
+- type: cargoProduct
+  id: MechaniteFreeport
+  icon:
+    sprite: Objects/Materials/ore.rsi
+    state: mechanites
+  product: CrateMechanite
+  cost: 12500
+  category: cargoproduct-category-name-medical
+  group: freeport
+
+- type: cargoProduct
   id: EmergencyBurnKitFreeport
   icon:
     sprite: Objects/Specific/Medical/firstaidkits.rsi

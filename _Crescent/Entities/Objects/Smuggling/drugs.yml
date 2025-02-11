@@ -25,6 +25,7 @@
   - type: StaticPrice
     price: 1000
   - type: Contraband
+    value: 3
 
 - type: entity
   name: exile autoinjector
@@ -53,13 +54,12 @@
         reagents:
         - ReagentId: Exile
           Quantity: 25
-        - ReagentId: Omnizine
-          Quantity: 5
         - ReagentId: TranexamicAcid
           Quantity: 5
   - type: Tag
     tags: []
   - type: Contraband
+    value: 5
 
 - type: entity
   name: kaiser autoinjector
@@ -90,11 +90,10 @@
           Quantity: 25
         - ReagentId: Ephedrine
           Quantity: 15
-        - ReagentId: TranexamicAcid
-          Quantity: 5
   - type: Tag
     tags: []
   - type: Contraband
+    value: 10
 
 - type: entity
   name: mechanite injector gun
@@ -122,9 +121,7 @@
         maxVol: 40
         reagents:
         - ReagentId: Mechanites
-          Quantity: 25
-        - ReagentId: Omnizine
-          Quantity: 15
+          Quantity: 35
         - ReagentId: TranexamicAcid
           Quantity: 5
   - type: Tag
@@ -156,13 +153,10 @@
         maxVol: 45
         reagents:
         - ReagentId: Bloodeye
-          Quantity: 20
+          Quantity: 30
         - ReagentId: Crash
-          Quantity: 10
-        - ReagentId: Stimulants
           Quantity: 15
-        - ReagentId: Impedrezene
-          Quantity: 5
   - type: Tag
     tags: []
   - type: Contraband
+    value: 4

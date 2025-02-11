@@ -13,27 +13,23 @@
           state: uranium_crab
     - type: RandomSpawner
       rarePrototypes:
-      - WallRockAndesiteBananiumGolem
       - WallRockAndesiteCoalGolem
       - WallRockAndesiteGoldGolem
       - WallRockAndesiteIronGolem
       - WallRockAndesitePlasmaGolem
       - WallRockAndesiteQuartzGolem
-      - WallRockAndesiteSaltGolem
       - WallRockAndesiteSilverGolem
       - WallRockAndesiteUraniumGolem
-      rareChance: 0.1
+      rareChance: 0.05
       prototypes:
-        - WallRockAndesiteBananiumCrabNF
         - WallRockAndesiteCoalCrabNF
         - WallRockAndesiteGoldCrabNF
         - WallRockAndesiteIronCrabNF
         - WallRockAndesitePlasmaCrabNF
         - WallRockAndesiteQuartzCrabNF
-        - WallRockAndesiteSaltCrabNF
         - WallRockAndesiteSilverCrabNF
         - WallRockAndesiteUraniumCrabNF
-      chance: 0.45
+      chance: 0.25
       offset: 0.2
 
 - type: entity
@@ -49,24 +45,20 @@
           state: uranium_crab
     - type: RandomSpawner
       rarePrototypes:
-      - WallRockBasaltBananiumGolem
       - WallRockBasaltCoalGolem
       - WallRockBasaltGoldGolem
       - WallRockBasaltIronGolem
       - WallRockBasaltPlasmaGolem
       - WallRockBasaltQuartzGolem
-      - WallRockBasaltSaltGolem
       - WallRockBasaltSilverGolem
       - WallRockBasaltUraniumGolem
       rareChance: 0.1
       prototypes:
-        - WallRockBasaltBananiumCrabNF
         - WallRockBasaltCoalCrabNF
         - WallRockBasaltGoldCrabNF
         - WallRockBasaltIronCrabNF
         - WallRockBasaltPlasmaCrabNF
         - WallRockBasaltQuartzCrabNF
-        - WallRockBasaltSaltCrabNF
         - WallRockBasaltSilverCrabNF
         - WallRockBasaltUraniumCrabNF
       chance: 0.45
@@ -85,24 +77,20 @@
           state: uranium_crab
     - type: RandomSpawner
       rarePrototypes:
-      - WallRockBananiumGolem
       - WallRockCoalGolem
       - WallRockGoldGolem
       - WallRockIronGolem
       - WallRockPlasmaGolem
       - WallRockQuartzGolem
-      - WallRockSaltGolem
       - WallRockSilverGolem
       - WallRockUraniumGolem
       rareChance: 0.1
       prototypes:
-        - WallRockBananiumCrabNF
         - WallRockCoalCrabNF
         - WallRockGoldCrabNF
         - WallRockIronCrabNF
         - WallRockPlasmaCrabNF
         - WallRockQuartzCrabNF
-        - WallRockSaltCrabNF
         - WallRockSilverCrabNF
         - WallRockUraniumCrabNF
       chance: 0.45
@@ -121,24 +109,20 @@
           state: uranium_crab
     - type: RandomSpawner
       rarePrototypes:
-      - WallRockSandBananiumGolem
       - WallRockSandCoalGolem
       - WallRockSandGoldGolem
       - WallRockSandIronGolem
       - WallRockSandPlasmaGolem
       - WallRockSandQuartzGolem
-      - WallRockSandSaltGolem
       - WallRockSandSilverGolem
       - WallRockSandUraniumGolem
       rareChance: 0.1
       prototypes:
-        - WallRockSandBananiumCrabNF
         - WallRockSandCoalCrabNF
         - WallRockSandGoldCrabNF
         - WallRockSandIronCrabNF
         - WallRockSandPlasmaCrabNF
         - WallRockSandQuartzCrabNF
-        - WallRockSandSaltCrabNF
         - WallRockSandSilverCrabNF
         - WallRockSandUraniumCrabNF
       chance: 0.45
@@ -157,24 +141,20 @@
           state: uranium_crab
     - type: RandomSpawner
       rarePrototypes:
-      - WallRockSnowBananiumGolem
       - WallRockSnowCoalGolem
       - WallRockSnowGoldGolem
       - WallRockSnowIronGolem
       - WallRockSnowPlasmaGolem
       - WallRockSnowQuartzGolem
-      - WallRockSnowSaltGolem
       - WallRockSnowSilverGolem
       - WallRockSnowUraniumGolem
       rareChance: 0.1 
       prototypes:
-        - WallRockSnowBananiumCrabNF
         - WallRockSnowCoalCrabNF
         - WallRockSnowGoldCrabNF
         - WallRockSnowIronCrabNF
         - WallRockSnowPlasmaCrabNF
         - WallRockSnowQuartzCrabNF
-        - WallRockSnowSaltCrabNF
         - WallRockSnowSilverCrabNF
         - WallRockSnowUraniumCrabNF
       chance: 0.45
@@ -193,27 +173,23 @@
           state: uranium_crab
     - type: RandomSpawner
       rarePrototypes:
-      - WallRockChromiteBananiumGolem
       - WallRockChromiteCoalGolem
       - WallRockChromiteGoldGolem
       - WallRockChromiteIronGolem
       - WallRockChromitePlasmaGolem
       - WallRockChromiteQuartzGolem
-      - WallRockChromiteSaltGolem
       - WallRockChromiteSilverGolem
       - WallRockChromiteUraniumGolem
-      rareChance: 0.1
+      rareChance: 0.2
       prototypes:
-        - WallRockChromiteBananiumCrabNF
         - WallRockChromiteCoalCrabNF
         - WallRockChromiteGoldCrabNF
         - WallRockChromiteIronCrabNF
         - WallRockChromitePlasmaCrabNF
         - WallRockChromiteQuartzCrabNF
-        - WallRockChromiteSaltCrabNF
         - WallRockChromiteSilverCrabNF
         - WallRockChromiteUraniumCrabNF
-      chance: 0.45
+      chance: 0.55
       offset: 0.2
 
 - type: entity
@@ -229,23 +205,21 @@
           state: uranium_crab
     - type: RandomSpawner
       rarePrototypes:
-      - AsteroidRockBananiumGolem
       - AsteroidRockCoalGolem
       - AsteroidRockGoldGolem
       - AsteroidRockIronGolem
       - AsteroidRockPlasmaGolem
       - AsteroidRockQuartzGolem
-      - AsteroidRockSaltGolem
       - AsteroidRockSilverGolem
       - AsteroidRockUraniumGolem
       rareChance: 0.1
       prototypes:
-        - AsteroidRockBananiumCrabNF
         - AsteroidRockCoalCrabNF
         - AsteroidRockGoldCrabNF
         - AsteroidRockTinCrabNF
         - AsteroidRockPlasmaCrabNF
         - AsteroidRockQuartzCrabNF
-        - AsteroidRockSaltCrabNF
         - AsteroidRockSilverCrabNF
         - AsteroidRockUraniumCrabNF
+      chance: 0.25
+      offset: 0.2

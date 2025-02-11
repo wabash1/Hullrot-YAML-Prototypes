@@ -3,7 +3,7 @@
 - type: entity
   parent: BaseStructure
   id: BaseWeaponTurretPDT
-  name: light dual machinegun
+  name: SHI MG-213 light dual machinegun 20x135mm
   abstract: true
   components:
     - type: PointCannon
@@ -62,15 +62,23 @@
     - type: TurretIFF
     - type: Gun
       projectileSpeed: 80
-      fireRate: 7
+      fireRate: 5
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       soundGunshot: /Audio/Weapons/Guns/Gunshots/gun_sentry.ogg
     # TODO: Power ammo provider?
-    - type: BallisticAmmoProvider
-      proto: PDTBulletCase
-      capacity: 5000
+    - type: BasicEntityAmmoProvider
+      proto: PDTBullet
+      capacity: 300
+      count: 300
+    - type: RechargeBasicEntityAmmo
+      rechargeCooldown: 2.5
+      rechargeSound:
+        path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
+        params:
+          pitch: 1.2
+          variation: 0.08
     - type: SignalControl
       isOnByDefault: true
     - type: DeviceNetwork
@@ -96,11 +104,15 @@
     - type: NoRotateOnMove
     - type: Input
       context: "human"
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Ballistic
+      size: Small
 
 
 - type: entity
   parent: BaseWeaponTurretPDT
-  name: NCWL 30mm 'Gran Sudaruska' point defense turret
+  name: SHI MG-213 light dual machinegun 20x135mm
   id: WeaponTurretPDTNCWL
   suffix: NCWL PDT
   components:
@@ -110,13 +122,14 @@
 
 - type: entity
   parent: BaseWeaponTurretPDT
-  name: NCSP 30mm 'Anklebiter' point defense turret
+  name: SHI MG-213 light dual machinegun 20x135mm Mk. II
   id: WeaponTurretPDTNCSP
-  suffix: NCSP PDT
+  suffix: Mark Two
   components:
-    - type: NpcFactionMember
-      factions:
-        - NCSPFighter
+    - type: Gun
+      projectileSpeed: 85
+      fireRate: 5.5
+
 
 - type: entity
   parent: BaseWeaponTurretPDT
@@ -165,7 +178,7 @@
 - type: entity
   parent: BaseStructure
   id: BaseWeaponTurretVulcan
-  name: ballistic autogun
+  name: vulcan gun
   abstract: true
   components:
     - type: PointCannon
@@ -219,12 +232,12 @@
                   min: 3
                   max: 5
     - type: Gun
-      fireRate: 9.6
+      fireRate: 9.5
+      projectileSpeed: 125
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       soundGunshot: /Audio/Weapons/Guns/Gunshots/vulcan.ogg
-    # TODO: Power ammo provider?
     - type: MagazineAmmoProvider
     - type: ItemSlots
       slots:
@@ -274,12 +287,16 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Ballistic
+      size: Small
 
 #faction-flagged variants
 
 - type: entity
   parent: BaseWeaponTurretVulcan
-  name: CMM 23mm automated turret
+  name: CMM 20mm automated turret
   id: WeaponTurretVulcanCMM
   suffix: CMM VLCN
   components:
@@ -289,7 +306,7 @@
 
 - type: entity
   parent: BaseWeaponTurretVulcan
-  name: SRM 23mm automated turret
+  name: SRM 20mm automated turret
   id: WeaponTurretVulcanSRM
   suffix: SRM VLCN
   components:
@@ -299,7 +316,7 @@
 
 - type: entity
   parent: BaseWeaponTurretVulcan
-  name: NCSP 23mm automated turret
+  name: NCSP 20mm automated turret
   id: WeaponTurretVulcanNCSP
   suffix: NCSP VLCN
   components:
@@ -309,7 +326,7 @@
 
 - type: entity
   parent: BaseWeaponTurretVulcan
-  name: NCWL 23mm automated turret
+  name: NCWL 20mm automated turret
   id: WeaponTurretVulcanNCWL
   suffix: NCWL VLCN
   components:
@@ -319,7 +336,7 @@
 
 - type: entity
   parent: BaseWeaponTurretVulcan
-  name: DSM 23mm automated turret
+  name: DSM 20mm automated turret
   id: WeaponTurretVulcanDSM
   suffix: DSM VLCN
   components:
@@ -329,7 +346,7 @@
 
 - type: entity
   parent: BaseWeaponTurretVulcan
-  name: SHI 23mm automated turret
+  name: SHI 20mm automated turret
   id: WeaponTurretVulcanSHI
   suffix: SHI VLCN
   components:
@@ -452,6 +469,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Missile
+      size: Small
 
 
 #faction variants
@@ -617,6 +638,12 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+      flags:
+      - None
+    - type: HardpointAnchorableOnly
+      class: Ballistic
+      size: Medium
 
 # faction-flagged
 
@@ -749,7 +776,7 @@
                   min: 3
                   max: 5
     - type: Gun
-      projectileSpeed: 70
+      projectileSpeed: 80
       fireRate: 0.2
       selectedMode: FullAuto
       availableModes:
@@ -804,6 +831,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Ballistic
+      size: Medium
 
 #faction-flagged
 
@@ -972,6 +1003,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Energy
+      size: Small
 
 - type: entity
   parent: BaseWeaponTurretLaser
@@ -1138,6 +1173,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Missile
+      size: Small
 
 - type: entity
   parent: BaseWeaponTurretSmartbomb
@@ -1313,6 +1352,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Ballistic
+      size: Medium
 
 - type: entity
   parent: BaseWeaponTurretNeedler
@@ -1440,6 +1483,10 @@
     - type: BallisticAmmoProvider
       proto: PDTBulletCase
       capacity: 25000
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Ballistic
+      size: Small
 
 # gargoyle
 
@@ -1531,6 +1578,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Missile
+      size: Large
 
 #lancer
 
@@ -1622,6 +1673,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Missile
+      size: Medium
 
 #battlemortar
 
@@ -1713,6 +1768,10 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Ballistic
+      size: Large
 
 
 # flak
@@ -1817,3 +1876,322 @@
     - type: Input
       context: "human"
     - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Ballistic
+      size: Large
+
+# catapult
+
+- type: entity
+  parent: BaseStructure
+  id: CatapultTorpedo
+  name: MU91 323mm "Catapult" torpedo launcher
+  components:
+    - type: PointCannon
+    - type: Clickable
+    - type: InteractionOutline
+    - type: Actions
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeAabb
+            bounds: "-0.45,-0.45,0.45,0.45"
+          density: 60
+          mask:
+            - MachineMask
+          layer:
+            - MachineLayer
+    - type: Sprite
+      sprite: _Crescent/Objects/Autoturrets/catapult.rsi
+      drawdepth: Mobs
+      layers:
+        - state: catapult
+    - type: WorldLoader
+      radius: 256
+    - type: CombatMode
+      toggleMouseRotator: false
+    - type: TurretIFF
+    - type: Damageable
+      damageContainer: Inorganic
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 1600
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+        - trigger:
+            !type:DamageTrigger
+            damage: 1600
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalGlassBreak
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                SheetSteel1:
+                  min: 3
+                  max: 5
+    - type: ProjectileIFF
+    - type: Gun
+      projectileSpeed: 30
+      fireRate: 0.2
+      selectedMode: FullAuto
+      availableModes:
+        - FullAuto
+      soundGunshot: /Audio/Weapons/Guns/Gunshots/rpgfire.ogg
+    - type: BallisticAmmoProvider
+      cycleable: false
+      capacity: 6
+      proto: TorpCatapult
+      whitelist:
+        tags:
+        - TorpedoCatapult
+    - type: ContainerContainer
+      containers:
+        ballistic-ammo: !type:Container
+          ents: []
+    - type: ApcPowerReceiver
+      powerLoad: 6500
+    - type: ExtensionCableReceiver
+    - type: LightningTarget
+      priority: 1
+    - type: MouseRotator
+      angleTolerance: 5
+      rotationSpeed: 180
+      simple4DirMode: false
+    - type: NoRotateOnInteract
+    - type: NoRotateOnMove
+    - type: Input
+      context: "human"
+    - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Missile
+      size: Large
+
+#heavyplasma
+
+- type: entity
+  parent: BaseStructure
+  id: BaseWeaponTurretHeavyPlasmaRimward
+  name: 800c "Rimward" hybrid plasma blaster
+  description: A heavy laser turret combining antimatter and plasma technology.
+  components:
+    - type: PointCannon
+    - type: Clickable
+    - type: InteractionOutline
+    - type: Actions
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeAabb
+            bounds: "-0.45,-0.45,0.45,0.45"
+          density: 60
+          mask:
+            - MachineMask
+          layer:
+            - MachineLayer
+    - type: ContainerContainer
+      containers:
+        ballistic-ammo: !type:Container
+    - type: Sprite
+      sprite: _Crescent/Objects/Autoturrets/heavyplasma.rsi
+      drawdepth: Mobs
+      layers:
+        - state: heavyplasma
+    - type: WorldLoader
+      radius: 256
+    - type: CombatMode
+      toggleMouseRotator: false
+    - type: Damageable
+      damageContainer: Inorganic
+    - type: TurretIFF
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 800
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+        - trigger:
+            !type:DamageTrigger
+            damage: 500
+          # TODO: Construction graph
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalGlassBreak
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                SheetSteel1:
+                  min: 3
+                  max: 5
+    - type: Gun
+      projectileSpeed: 75
+      fireRate: 1.7
+      selectedMode: FullAuto
+      availableModes:
+        - FullAuto
+      soundGunshot: _Crescent/Objects/ShuttleWeapons/ioncannon.rsi
+    - type: RechargeBasicEntityAmmo
+      rechargeCooldown: 2
+      rechargeSound:
+        path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
+        params:
+          pitch: 1.2
+          variation: 0.08
+    - type: BasicEntityAmmoProvider
+      proto: BulletPlasmaBlaster
+      capacity: 20
+      count: 20
+    - type: SignalControl
+      isOnByDefault: true
+    - type: DeviceNetwork
+      deviceNetId: Wireless
+      receiveFrequencyId: BasicDevice
+    - type: WirelessNetworkConnection
+      range: 2500
+    - type: DeviceLinkSink
+      ports:
+        - Toggle
+        - On
+        - Off
+    - type: ApcPowerReceiver
+      powerLoad: 3000
+    - type: ExtensionCableReceiver
+    - type: LightningTarget
+      priority: 1
+    - type: MouseRotator
+      angleTolerance: 5
+      rotationSpeed: 180
+      simple4DirMode: false
+    - type: NoRotateOnInteract
+    - type: NoRotateOnMove
+    - type: Input
+      context: "human"
+    - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Energy
+      size: Medium
+
+# compakt
+
+- type: entity
+  parent: BaseStructure
+  id: BaseWeaponTurretHeavyPlasma
+  name: 350c "Compakt" hybrid energy gatling
+  description: A versatile energy turret with interchangable lenses for varied effect.
+  components:
+    - type: PointCannon
+    - type: Clickable
+    - type: InteractionOutline
+    - type: Actions
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeAabb
+            bounds: "-0.45,-0.45,0.45,0.45"
+          density: 60
+          mask:
+            - MachineMask
+          layer:
+            - MachineLayer
+    - type: ContainerContainer
+      containers:
+        ballistic-ammo: !type:Container
+    - type: Sprite
+      sprite: _Crescent/Objects/Autoturrets/lasergatling.rsi
+      drawdepth: Mobs
+      layers:
+        - state: lasergatling
+    - type: WorldLoader
+      radius: 256
+    - type: CombatMode
+      toggleMouseRotator: false
+    - type: Damageable
+      damageContainer: Inorganic
+    - type: TurretIFF
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 800
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+        - trigger:
+            !type:DamageTrigger
+            damage: 500
+          # TODO: Construction graph
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalGlassBreak
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                SheetSteel1:
+                  min: 3
+                  max: 5
+    - type: Gun
+      projectileSpeed: 65
+      fireRate: 2
+      selectedMode: FullAuto
+      availableModes:
+        - FullAuto
+      soundGunshot: _Crescent/Objects/ShuttleWeapons/ioncannon.rsi
+    - type: MagazineAmmoProvider
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: LensInfared
+          insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - CompaktLens
+    - type: SignalControl
+      isOnByDefault: true
+    - type: DeviceNetwork
+      deviceNetId: Wireless
+      receiveFrequencyId: BasicDevice
+    - type: WirelessNetworkConnection
+      range: 2500
+    - type: DeviceLinkSink
+      ports:
+        - Toggle
+        - On
+        - Off
+    - type: ApcPowerReceiver
+      powerLoad: 3000
+    - type: ExtensionCableReceiver
+    - type: LightningTarget
+      priority: 1
+    - type: MouseRotator
+      angleTolerance: 5
+      rotationSpeed: 180
+      simple4DirMode: false
+    - type: NoRotateOnInteract
+    - type: NoRotateOnMove
+    - type: Input
+      context: "human"
+    - type: MobState
+    - type: Anchorable
+    - type: HardpointAnchorableOnly
+      class: Energy
+      size: Medium
