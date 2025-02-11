@@ -88,6 +88,7 @@
     quickEquip: false
     slots:
     - Belt
+    - suitStorage
   - type: DisarmMalus
     malus: -1
 
