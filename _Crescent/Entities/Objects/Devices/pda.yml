@@ -908,3 +908,33 @@
     borderColor: "#ffffff"
   - type: Icon
     state: hunter
+
+#misc
+
+- type: entity
+  parent: BasePDA
+  id: GliessSheriffPDA
+  name: sheriff's PDA
+  description: You are the law.
+  components:
+  - type: Pda
+    id: GliessIDCardSheriff
+    state: pda-corpsec
+  - type: PdaBorderColor
+    borderColor: "#808080"
+  - type: Icon
+    state: pda-corpsec
+
+- type: entity
+  parent: BasePDA
+  id: GliessDockmasterPDA
+  name: dockmaster's PDA
+  description: You are the law.
+  components:
+  - type: Pda
+    id: GliessIDCardDockmaster
+    state: pda-corpsec
+  - type: PdaBorderColor
+    borderColor: "#808080"
+  - type: Icon
+    state: pda-corpsec

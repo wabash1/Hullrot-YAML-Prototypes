@@ -375,3 +375,10 @@
   icon:
     sprite: Interface/Misc/job_icons.rsi
     state: beltrunner
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconGliessSheriff
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: sheriff

@@ -741,3 +741,29 @@
     - state: idquartermaster
   - type: PresetIdCard
     job: ServileTAP
+
+#misc
+
+- type: entity
+  parent: IDCardStandard
+  id: GliessIDCardSheriff
+  name: spacer ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idquartermaster
+  - type: PresetIdCard
+    job: GliessianSheriff
+
+- type: entity
+  parent: IDCardStandard
+  id: GliessIDCardDockmaster
+  name: spacer ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idquartermaster
+  - type: PresetIdCard
+    job: GliessianDockmaster
