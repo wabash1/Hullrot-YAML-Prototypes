@@ -776,7 +776,7 @@
                   min: 3
                   max: 5
     - type: Gun
-      projectileSpeed: 70
+      projectileSpeed: 80
       fireRate: 0.2
       selectedMode: FullAuto
       availableModes:

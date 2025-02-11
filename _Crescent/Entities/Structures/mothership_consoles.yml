@@ -15,15 +15,13 @@
 - type: entity
   id: JackalMothershipComputer
   parent: BaseMothershipComputer
-  name: NCSP shipyard
+  name: GSC shipyard
   components:
   - type: ShipyardListing
     shuttles:
     - Reaver
     - Corvax
-    - Piranha
     - Wolf
-    - Scuttlefish
     - Hornetsnest
 
 - type: entity

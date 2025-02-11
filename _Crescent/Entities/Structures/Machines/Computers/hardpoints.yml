@@ -8,9 +8,8 @@
     sprite: _Crescent/Structures/hardpoints.rsi
     state: Small
     snapCardinals: true
-  - type: Physics
-    bodyType: Static
   - type: Transform
+    noRot: false
   - type: Destructible
     thresholds:
     - trigger:

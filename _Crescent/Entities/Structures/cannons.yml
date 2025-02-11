@@ -1083,6 +1083,9 @@
   - type: ExtensionCableReceiver
   - type: StaticPrice
     price: 8000
+  - type: HardpointAnchorableOnly
+    class: Ballistic
+    size: Medium
 
 #Faction-tagged slugs
 
