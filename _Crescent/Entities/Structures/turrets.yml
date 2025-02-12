@@ -61,7 +61,7 @@
                   max: 5
     - type: TurretIFF
     - type: Gun
-      projectileSpeed: 80
+      projectileSpeed: 90
       fireRate: 5
       selectedMode: FullAuto
       availableModes:
@@ -73,7 +73,7 @@
       capacity: 300
       count: 300
     - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 2.5
+      rechargeCooldown: 5
       rechargeSound:
         path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
         params:
