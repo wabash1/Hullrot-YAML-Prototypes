@@ -176,7 +176,7 @@
     sprite: _Crescent/Objects/ShuttleWeapons/torpedo.rsi
     layers:
     - state: base
-    - state: mag-7
+    - state: mag-2
       map: ["enum.GunVisualLayers.Mag"]
   - type: ContainerContainer
     containers:
@@ -194,7 +194,7 @@
         - !type:DoActsBehavior
           acts: ["Destruction"]
   - type: Gun
-    projectileSpeed: 35
+    projectileSpeed: 30
     fireRate: 0.4
     angleDecay: 45
     minAngle: 0
@@ -214,7 +214,7 @@
       path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
   - type: MagazineVisuals
     magState: mag
-    steps: 8
+    steps: 3
     zeroVisible: false
   - type: StaticPrice
     price: 1500
