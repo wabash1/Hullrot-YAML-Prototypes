@@ -357,8 +357,6 @@
   - type: Physics
     bodyType: Static
   - type: Damageable
-    damageContainer: Inorganic
-  - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallicStrong
   - type: Destructible
