@@ -92,6 +92,8 @@
   components:
   - type: StaticPrice
     price: 4500  # Frontier - 500<625
+  - type: Transform
+    anchored: true
   - type: Anchorable
     flags:
     - Anchorable
