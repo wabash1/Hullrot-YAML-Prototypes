@@ -16,11 +16,14 @@
       machine_board: !type:Container
       machine_parts: !type:Container
   - type: TurretIFF
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
   - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 100
+        damage: 400
       behaviors:
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
@@ -75,7 +78,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 100
+        damage: 600
       behaviors:
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
@@ -130,7 +133,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 100
+        damage: 400
       behaviors:
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
@@ -187,7 +190,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 200
+        damage: 400
       behaviors:
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
@@ -240,11 +243,14 @@
       machine_board: !type:Container
       machine_parts: !type:Container
       ballistic-ammo: !type:Container
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
   - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 200
+        damage: 400
       behaviors:
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
@@ -298,7 +304,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 350
+        damage: 600
       behaviors:
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
@@ -352,11 +358,14 @@
     bodyType: Static
   - type: Damageable
     damageContainer: Inorganic
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
   - type: Destructible
     thresholds:
       - trigger:
           !type:DamageTrigger
-          damage: 450
+          damage: 400
         behaviors:
           - !type:DoActsBehavior
             acts: [ "Destruction" ]
@@ -594,11 +603,14 @@
     mode: SnapgridCenter
   components:
   - type: TurretIFF
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
   - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 150
+        damage: 800
       behaviors:
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
@@ -700,11 +712,14 @@
   - type: TurretIFF
   - type: Clickable
   - type: InteractionOutline
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
   - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 1550
+        damage: 2500
       behaviors:
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
@@ -831,12 +846,13 @@
   - type: Physics
     bodyType: Static
   - type: Damageable
-    damageContainer: Inorganic
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
   - type: Destructible
     thresholds:
       - trigger:
           !type:DamageTrigger
-          damage: 450
+          damage: 300
         behaviors:
           - !type:DoActsBehavior
             acts: [ "Destruction" ]
@@ -964,12 +980,13 @@
   - type: Physics
     bodyType: Static
   - type: Damageable
-    damageContainer: Inorganic
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
   - type: Destructible
     thresholds:
       - trigger:
           !type:DamageTrigger
-          damage: 300
+          damage: 250 # retrofits make it a bit flimsy
         behaviors:
           - !type:DoActsBehavior
             acts: [ "Destruction" ]
