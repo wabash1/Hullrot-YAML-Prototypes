@@ -90,6 +90,7 @@
     whitelist:
       tags:
       - DrugComponent
+      - Sheet
   - type: Lathe
     idleState: base_machine
     runningState: base_machine_processing
@@ -100,6 +101,7 @@
     - Kaiser
     - Mechanite
     - Bloodeye
+    - MedkitCombat
 
 #microforge
 
