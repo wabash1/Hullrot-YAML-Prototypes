@@ -1182,7 +1182,7 @@
       - SpaceArtilleryDetectedMalfunction
       - SpaceArtilleryDetectedSafetyChange
   - type: MagazineAmmoProvider
- - type: ItemSlots
+  - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
