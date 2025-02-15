@@ -1381,10 +1381,10 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 3
+    maxIntensity: 8
     intensitySlope: 3
-    totalIntensity: 3
-    maxTileBreak: 1
+    totalIntensity: 8
+    maxTileBreak: 2
   - type: Projectile
     ignoreWeaponGrid: true
     damage:
@@ -1458,7 +1458,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 300
+        Structural: 350
         Radiation: 20
   - type: TimedDespawn
     lifetime: 14
@@ -1503,7 +1503,7 @@
       tags:
       - SwarmerRockets
     proto: SwarmerRocketsGuidedCartridge
-    capacity: 40
+    capacity: 30
   - type: Item
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/swarmclip.rsi
