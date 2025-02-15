@@ -463,7 +463,7 @@
   groups:
   - ContractorTrinkets
 
-  - type: roleLoadout
+- type: roleLoadout
   id: JobSpacer
   groups:
   - ContractorTrinkets
