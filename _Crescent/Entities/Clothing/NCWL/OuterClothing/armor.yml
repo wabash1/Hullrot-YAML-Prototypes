@@ -25,7 +25,7 @@
   - type: StaticPrice
     price: 1000
 
-    - type: entity
+- type: entity
   parent: ClothingOuterBaseLarge
   id: ClothingOuterArmorNCWLOpremeCarapace
   name: admiral's greatcoat
