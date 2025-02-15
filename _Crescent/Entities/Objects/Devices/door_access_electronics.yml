@@ -376,3 +376,22 @@
   components:
   - type: AccessReader
     access: [["Kommandant"]]
+
+#misc
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsGliessDockmaster
+  suffix: Gliessian Dockmaster
+  components:
+  - type: AccessReader
+    access: [["GliessDockmaster"]]
+
+    - type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsGliessSheriff
+  suffix: Gliessian Sheriff
+  components:
+  - type: AccessReader
+    access: [["GliessSheriff"]]
+
