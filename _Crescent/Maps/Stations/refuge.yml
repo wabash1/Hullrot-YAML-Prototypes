@@ -52,5 +52,4 @@
           availableJobs:
             GliessianDockmaster: [ 1, 1 ]
             GliessianSheriff: [ 1, 1 ]
-            Bartender: [ 1, 1 ]
             Spacer: [ 15, 15 ]
