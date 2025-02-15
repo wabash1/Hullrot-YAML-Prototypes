@@ -4,7 +4,6 @@
   description: job-description-sanitat
   playTimeTracker: JobSanitatATH
   requirements:
-    - !type:WhitelistRequirement
     - !type:SpeciesRequirement
       allowedOnly:
         - Human
