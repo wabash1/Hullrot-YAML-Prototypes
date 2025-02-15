@@ -4,7 +4,6 @@
   description: job-description-soldat
   playTimeTracker: JobSoldatATH
   requirements:
-    - !type:WhitelistRequirement
     - !type:SpeciesRequirement
       allowedOnly:
         - Human
