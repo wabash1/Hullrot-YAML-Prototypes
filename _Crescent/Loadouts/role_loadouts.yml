@@ -454,11 +454,23 @@
 #misc
 
 - type: roleLoadout
-  id: JobGliessDockmaster
+  id: JobGliessianDockmaster
   groups:
   - ContractorTrinkets
 
 - type: roleLoadout
-  id: JobGliessSheriff
+  id: JobGliessianSheriff
   groups:
   - ContractorTrinkets
+
+  - type: roleLoadout
+  id: JobSpacer
+  groups:
+  - ContractorTrinkets
+  - ContractorGlasses
+  - ContractorImplanter
+  - ContractorUtility
+  - ContractorFun
+  - ContractorJumpsuit
+  - ContractorBackpack
+  - ContractorShoes
