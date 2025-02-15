@@ -421,6 +421,36 @@
   groups:
   - ContractorTrinkets
 
+#ath
+
+- type: roleLoadout
+  id: JobKommandantATH
+  groups:
+  - ContractorTrinkets
+
+- type: roleLoadout
+  id: JobLeutnantATH
+  groups:
+  - ContractorTrinkets
+
+- type: roleLoadout
+  id: JobSoldatATH
+  groups:
+  - ContractorTrinkets
+  - ContractorBackpack
+
+- type: roleLoadout
+  id: JobKanoneerATH
+  groups:
+  - ContractorTrinkets
+  - ContractorBackpack
+
+- type: roleLoadout
+  id: JobSanitatATH
+  groups:
+  - ContractorTrinkets
+  - ContractorBackpack
+
 #misc
 
 - type: roleLoadout
