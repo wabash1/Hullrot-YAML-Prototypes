@@ -387,7 +387,7 @@
   - type: AccessReader
     access: [["GliessDockmaster"]]
 
-    - type: entity
+- type: entity
   parent: DoorElectronics
   id: DoorElectronicsGliessSheriff
   suffix: Gliessian Sheriff
