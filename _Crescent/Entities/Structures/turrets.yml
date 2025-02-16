@@ -61,7 +61,7 @@
                   max: 5
     - type: TurretIFF
     - type: Gun
-      projectileSpeed: 90
+      projectileSpeed: 145
       fireRate: 5
       selectedMode: FullAuto
       availableModes:
@@ -127,7 +127,7 @@
   suffix: Mark Two
   components:
     - type: Gun
-      projectileSpeed: 85
+      projectileSpeed: 145
       fireRate: 5.5
 
 
@@ -1475,7 +1475,7 @@
     - type: TurretIFF
     - type: Gun
       fireRate: 7
-      projectileSpeed: 60
+      projectileSpeed: 145
       selectedMode: FullAuto
       availableModes:
         - FullAuto

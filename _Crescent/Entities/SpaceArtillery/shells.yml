@@ -737,6 +737,7 @@
         Blunt: 30
         Piercing: 30
         #currently explosion deals roughly 60 damage
+  - type: ProjectilePhasePrevent
   - type: ProjectileIFF
   - type: TimedDespawn
     lifetime: 15
