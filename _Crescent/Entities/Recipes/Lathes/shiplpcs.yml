@@ -129,18 +129,18 @@
   result: ShipVoucherBroadsword
   completetime: 1
   materials:
-    StarshipEngineComponents: 2500
-    ShipComponents: 2500
-    ShipHull: 2000
+    StarshipEngineComponents: 2000
+    ShipComponents: 2000
+    ShipHull: 1000
 
 - type: latheRecipe
   id: KhopeshLPC
   result: ShipVoucherKhopesh
   completetime: 1
   materials:
-    StarshipEngineComponents: 3500
-    ShipComponents: 3500
-    ShipHull: 1250
+    StarshipEngineComponents: 2000
+    ShipComponents: 2000
+    ShipHull: 850
 
 - type: latheRecipe
   id: RapierLPC
@@ -174,24 +174,24 @@
   result: ShipVoucherTermite
   completetime: 1
   materials:
-    StarshipEngineComponents: 4000
-    ShipComponents: 2500
-    ShipHull: 5000
+    StarshipEngineComponents: 2000
+    ShipComponents: 500
+    ShipHull: 1500
 
 - type: latheRecipe
   id: ParacelsusLPC
   result: ShipVoucherParacelsus
   completetime: 1
   materials:
-    StarshipEngineComponents: 9000
+    StarshipEngineComponents: 4000
     ShipComponents: 2500
-    ShipHull: 8000
+    ShipHull: 5000
 
 - type: latheRecipe
   id: ExhumerLPC
   result: ShipVoucherExhumer
   completetime: 1
   materials:
-    StarshipEngineComponents: 8000
-    ShipComponents: 500
+    StarshipEngineComponents: 4000
+    ShipComponents: 1000
     ShipHull: 3500
