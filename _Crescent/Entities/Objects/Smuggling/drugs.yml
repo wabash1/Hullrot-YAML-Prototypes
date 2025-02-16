@@ -179,11 +179,9 @@
   - type: SolutionContainerManager
     solutions:
       pen:
-        maxVol: 15
+        maxVol: 10
         reagents:
         - ReagentId: Narcan
           Quantity: 10
-        - ReagentId: TranexamicAcid # stops bleeding from bloodeye
-          Quantity: 5
   - type: Tag
     tags: []
