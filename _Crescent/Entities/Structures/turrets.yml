@@ -105,6 +105,7 @@
     - type: Input
       context: "human"
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Ballistic
       size: Small
@@ -288,6 +289,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Ballistic
       size: Small
@@ -470,6 +472,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Missile
       size: Small
@@ -832,6 +835,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Ballistic
       size: Medium
@@ -1004,6 +1008,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Energy
       size: Small
@@ -1174,6 +1179,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Missile
       size: Small
@@ -1353,6 +1359,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Ballistic
       size: Medium
@@ -1484,6 +1491,7 @@
       proto: PDTBulletCase
       capacity: 25000
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Ballistic
       size: Small
@@ -1579,6 +1587,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Missile
       size: Large
@@ -1674,6 +1683,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Missile
       size: Medium
@@ -1769,6 +1779,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Ballistic
       size: Large
@@ -1877,6 +1888,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Ballistic
       size: Large
@@ -1971,6 +1983,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Missile
       size: Large
@@ -2081,6 +2094,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Energy
       size: Medium
@@ -2192,6 +2206,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Energy
       size: Medium
@@ -2303,6 +2318,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Ballistic
       size: Medium
@@ -2417,6 +2433,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Missile
       size: Medium
@@ -2525,6 +2542,7 @@
       context: "human"
     - type: MobState
     - type: Anchorable
+      delay: 10
     - type: HardpointAnchorableOnly
       class: Missile
       size: Small
