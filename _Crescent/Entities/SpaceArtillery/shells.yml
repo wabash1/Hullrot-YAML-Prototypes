@@ -737,7 +737,7 @@
         Blunt: 30
         Piercing: 30
         #currently explosion deals roughly 60 damage
-  - type: ProjectilePhasePrevent
+ # - type: ProjectilePhasePrevent MERGE YOUR SHIT BEFORE PUTTING THIS HERE MLG
   - type: ProjectileIFF
   - type: TimedDespawn
     lifetime: 15
