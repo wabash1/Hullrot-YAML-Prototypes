@@ -27,6 +27,7 @@
     layers:
       - state: base-projectile
   - type: ShipWeaponProjectile
+  - type: ProjectilePhasePrevent
 
 - type: entity
   id: CartridgeVulcanStandard
