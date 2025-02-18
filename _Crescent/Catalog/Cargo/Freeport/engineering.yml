@@ -38,3 +38,13 @@
   cost: 6000
   category: cargoproduct-category-name-engineering
   group: ship
+
+- type: cargoProduct
+  id: EngineeringRCDAmmoShip
+  icon:
+    sprite: Objects/Tools/rcd.rsi
+    state: ammo
+  product: CrateRCDAmmo
+  cost: 8000
+  category: cargoproduct-category-name-engineering
+  group: ship
