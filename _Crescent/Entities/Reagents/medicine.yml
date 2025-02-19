@@ -1,8 +1,8 @@
 - type: reagent
   id: Narcan
-  name: reagent-name-narcan # pls fill this in for me. locale isnt in the repo.
+  name: narcan
   group: Medicine
-  desc: reagent-desc-narcan # pls fill this in for me. locale isnt in the repo.
+  desc: A chemical used for the stabilization of patients who have overdosed on narcotics.
   physicalDesc: reagent-physical-desc-pungent
   flavor: medicine
   color: "#ff7db5"
@@ -41,6 +41,15 @@
         amount: -5
       - !type:AdjustReagent
         reagent: Kaiser
+        amount: -5
+      - !type:AdjustReagent
+        reagent: Ephedrine
+        amount: -5
+      - !type:AdjustReagent
+        reagent: Desoxyephedrine
+        amount: -5
+      - !type:AdjustReagent
+        reagent: Stimulants
         amount: -5
       - !type:GenericStatusEffect
         key: SeeingRainbows

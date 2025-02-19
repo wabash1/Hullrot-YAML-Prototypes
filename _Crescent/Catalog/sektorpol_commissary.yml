@@ -304,8 +304,8 @@
 
 - type: listing
   id: UplinkSecurityNarcan
-  name:  uplink-security-narcan-name # pls fill this in for me. locale isnt in the repo.
-  description: uplink-security-narcan-desc # pls fill this in for me. locale isnt in the repo.
+  name:  narcan autoinjector
+  description: An autoinjector containing Narcan for stablising patients overdosing on narcotics.
   productEntity: NarcanAutoinjector
   icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: medipen }
   cost:
