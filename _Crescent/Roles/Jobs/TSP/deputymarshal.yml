@@ -18,7 +18,7 @@
   alwaysUseSpawner: true
   icon: "JobIconDeputyMarshal"
   requireAdminNotify: false
-  supervisors: job-supervisors-highcomm 
+  supervisors: You answer to your Colonial Marshal.
   canBeAntag: false
   access:
   - Command

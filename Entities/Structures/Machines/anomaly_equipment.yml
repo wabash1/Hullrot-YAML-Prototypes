@@ -266,11 +266,10 @@
   - type: MaterialStorage
     whitelist:
       tags:
-#        - Sheet # Frontier
+        - Sheet # Frontier
         - RawMaterial # Frontier
     materialWhiteList:
-#    - Plasma # Frontier
-    - Bananium # Frontier
+    - Plasma # Frontier
   - type: Fixtures
     fixtures:
       fix1:

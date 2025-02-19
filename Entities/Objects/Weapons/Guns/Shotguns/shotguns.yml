@@ -67,7 +67,7 @@
     - suitStorage
   - type: AmmoCounter
   - type: Gun
-    fireRate: 4
+    fireRate: 3
     selectedMode: FullAuto
     availableModes:
     - FullAuto
@@ -99,6 +99,8 @@
   - type: StaticPrice
     price: 750
   - type: Contraband #frontier
+  - type: DisarmMalus
+    malus: -1
 
 - type: entity
   name: double-barreled shotgun

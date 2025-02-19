@@ -19,6 +19,7 @@
       - 120mmCasingHE
       - GargoyleCasing
       - LancerCasing
+      - IdnaTorpedoManufacturing
 
 - type: entity
   id: Factory120Weld
@@ -97,6 +98,25 @@
         variation: 0.125
     recipes:
       - 320mmCasing
+
+- type: entity
+  id: FactoryPlasteelFamilies
+  parent: BaseMachinePowered
+  name: plasteel blast furnace
+  description: Uses advanced metallurgy patterns to smelt plasma and steel alloy into durable plasteel and plastitanium.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Structures/furnacefactory.rsi
+    snapCardinals: true
+    layers:
+    - state: furnace
+  - type: Factory
+    sound:
+      collection: Welder
+      params:
+        variation: 0.125
+    recipes:
+      - FourFamiliesPlasteel
 
 - type: entity
   parent: BaseMachinePowered

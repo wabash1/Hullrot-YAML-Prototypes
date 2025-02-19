@@ -37,6 +37,8 @@
           collection: MetalBreak
   - type: Pullable
   - type: NotDisposable
+  - type: Item
+    size: Ginormous
 
 - type: entity
   parent: BaseTradeItem
@@ -107,6 +109,17 @@
     - state: icon
   - type: StaticPrice
     price: 500
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.36,0.4,0.27"
+        density: 50
+        mask:
+        - CrateMask #this is so they can go under plastic flaps
+        layer:
+        - MachineLayer
 
 
 - type: entity
@@ -150,6 +163,17 @@
                 max: 4
           - !type:DoActsBehavior
             acts: [ "Destruction" ]
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.4,0.4,0.16"
+        density: 50
+        mask:
+        - CrateMask #this is so they can go under plastic flaps
+        layer:
+        - MachineLayer
 
 - type: entity
   parent: BaseTradeItem
@@ -215,6 +239,17 @@
     - state: icon
   - type: StaticPrice
     price: 750
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.25,-0.29,0.25,0.32"
+        density: 50
+        mask:
+        - CrateMask #this is so they can go under plastic flaps
+        layer:
+        - MachineLayer
 
 - type: entity
   parent: BaseTradeItem
@@ -271,6 +306,45 @@
 
 - type: entity
   parent: BaseTradeItem
+  id: TradeGoodNanoTrasen
+  name: NanoTrasen corporate goods crate
+  description: An antique cargo crate full of NanoTrasen consumer products that never got delivered. Not really worth much at face value anymore. But some collectors might pay a good sum for it.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/TradeGoods/militarycybernetics.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 750
+
+- type: entity
+  parent: BaseTradeItem
+  id: TradeGoodOldCyber
+  name: antique cybernetic goods crate
+  description: An antique cargo crate full of NanoTrasen cybernetics and replacement parts that never got delivered. Most of this crap is broken. But sealed crates resell for decent prices to scavs hoping to get lucky.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/TradeGoods/militarycybernetics.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 750
+
+- type: entity
+  parent: BaseTradeItem
+  id: TradeGoodOldParts
+  name: antique parts goods crate
+  description: An antique cargo crate full of NanoTrasen mechanical products and replacement parts that never got delivered. Most of this crap is broken. But sealed crates resell for decent prices to scavs hoping to get lucky.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/TradeGoods/militarycybernetics.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 750
+
+- type: entity
+  parent: BaseTradeItem
   id: TradeGoodAlloys
   name: high-grade plasteel alloys shipment
   description: A secured crate of specialized plasteel alloys. Most commonly put to use in military vessels. A sticker on the side reveals that this shipment is created by Shinohara Heavy Industries.
@@ -307,6 +381,17 @@
     - state: icon
   - type: StaticPrice
     price: 750
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.25,-0.29,0.25,0.32"
+        density: 50
+        mask:
+        - CrateMask #this is so they can go under plastic flaps
+        layer:
+        - MachineLayer
 
 - type: entity
   parent: BaseTradeItem

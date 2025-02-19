@@ -164,8 +164,6 @@
       - WeaponCapacitorRechargerCircuitboard
       - HandheldStationMap
       - ClothingHeadHatWelding
-      - Durathread # Frontier
-      - SheetPlasteel
       - ClothingOuterSuitEmergency # Frontier
       - ClothingHeadHelmetEVA # Frontier
       - ClothingHeadHelmetEVALarge # Frontier
@@ -866,12 +864,14 @@
         - SluggieAP
         - Automortar90
         - GrenadeBlast
+        - GrenadeBatonCraft
         - GrenadeEMP
         - MagazineGrenadeEmpty
         - Needler60
         - MagazineVulcan
         - MagazineFlak
         - MagazinePistolSubMachineGun
+        - MagazineMagnumSub
         - BoxLethalshot
         - BoxShotgunFlare
         - BoxShotgunSlug
@@ -1244,7 +1244,6 @@
       - SheetPlasma30
       - SheetPGlass30
       - SheetRPGlass30
-      - SheetPlasteel30
       - SheetUranium30
       - SheetUGlass30
       - SheetRUGlass30

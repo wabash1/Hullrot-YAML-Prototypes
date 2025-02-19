@@ -737,9 +737,10 @@
         Blunt: 30
         Piercing: 30
         #currently explosion deals roughly 60 damage
+  - type: ProjectilePhasePrevent
   - type: ProjectileIFF
   - type: TimedDespawn
-    lifetime: 10
+    lifetime: 15
     #roughly 600m range
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/pdtcasing.rsi
@@ -942,9 +943,13 @@
     totalIntensity: 145
     maxTileBreak: 7
   - type: HeatSeeking
-    rotationSpeed: 75
-    acceleration: 90
-    seekRange: 1000
+    rotationSpeed: 25
+    acceleration: 5
+    topSpeed: 20
+    initialSpeed: 10
+    FOV: 80
+    defaultSeekingRange: 300
+    guidanceAlgorithm: PredictiveGuidance
   - type: PointLight
     radius: 3.5
     color: orange

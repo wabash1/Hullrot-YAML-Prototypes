@@ -1,0 +1,61 @@
+# recomend you guys balance this shit, as i mostly guessed on what would be balanced. Also these should deal a lot more than 12 gauge.
+#-- Beanbag --------------------------- better than current beanbag
+- type: entity
+  id: PelletShotgunHeavyBean
+  name: pellet (4g beanbag)
+  categories: [ HideSpawnMenu ]
+  parent: BaseBullet
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    state: buckshot
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 20
+  - type: StaminaDamageOnCollide
+    damage: 55
+#-- Buckshot -------------------------- better than current buckshot
+- type: entity
+  id: PelletShotgunHeavyBuck
+  name: pellet (4g Buckshot)
+  categories: [ HideSpawnMenu ]
+  parent: BaseBullet
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    state: buckshot
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
+
+#-- Slug ------------------------------ very high damage i was thinking of something that 2 shots EVA dudes
+- type: entity
+  id: PelletShotgunHeavySlug
+  name: pellet (4g slug)
+  categories: [ HideSpawnMenu ]
+  parent: BaseBullet
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    state: slug
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 65
+#-- Breaching Slug -------------------- this is supposed to be used to break down doors and shit
+- type: entity
+  id: PelletShotgunHeavyBreach
+  name: pellet (4g breaching slug)
+  categories: [ HideSpawnMenu ]
+  parent: BaseBullet
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    state: slug
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
+        Structural: 100

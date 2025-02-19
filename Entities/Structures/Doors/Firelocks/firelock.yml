@@ -27,7 +27,7 @@
       thresholds:
       - trigger:
           !type:DamageTrigger
-          damage: 500
+          damage: 125
         behaviors:
         - !type:DoActsBehavior
           acts: ["Destruction"]
@@ -107,7 +107,7 @@
       price: 150
     - type: DoorBolt
     - type: AccessReader
-      access: [ [ "Engineering" ] ]
+      access: []
 
 - type: entity
   id: Firelock

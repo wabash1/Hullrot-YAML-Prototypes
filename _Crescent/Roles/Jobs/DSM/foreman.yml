@@ -11,13 +11,15 @@
       factionID: "DSM"
   icon: "JobIconImperialForeman"
   requireAdminNotify: false
-  supervisors: job-supervisors-imperial 
+  supervisors: job-supervisors-imperial
   canBeAntag: false
   access:
   - Command
   - Empire
   - Maintenance
   - Service
+  - ScribesGuild
+  - LogisticsWealth
   - External
   - Mercenary # Frontier
   - Captain # Frontier

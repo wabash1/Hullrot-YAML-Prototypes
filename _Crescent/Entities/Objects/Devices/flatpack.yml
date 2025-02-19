@@ -444,12 +444,12 @@
     layers:
     - state: ame-part
   - type: StaticPrice
-    price: 3000
+    price: 100
     
 - type: entity
   parent: BaseFlatpack
   id: ComputerShuttleFlatpack
-  name: ComputerShuttle
+  name: Computer Shuttle pilot console
   description:  Used to pilot a shuttle.
   components:
   - type: Flatpack
@@ -458,4 +458,34 @@
     layers:
     - state: ame-part
   - type: StaticPrice
-    price: 3000
+    price: 100
+
+- type: entity
+  parent: BaseFlatpack
+  id: CompaktFlatpack
+  name: 350c Compakt flatpack
+  description:  Parts used to build a 350c Compakt laser gatling.
+  components:
+  - type: Flatpack
+    entity: BaseWeaponTurretHeavyPlasma
+  - type: Sprite
+    layers:
+    - state: ame-part
+  - type: StaticPrice
+    price: 100
+
+- type: entity
+  parent: BaseFlatpack
+  id: MediumEnergyHardpointFlatpack
+  name: medium energy hardpoint flatpack
+  description:  Parts used to build a medium energy hardpoint.
+  components:
+  - type: Flatpack
+    entity: AAAHardpointMediumEnergy
+  - type: Sprite
+    layers:
+    - state: ame-part
+  - type: StaticPrice
+    price: 100
+
+

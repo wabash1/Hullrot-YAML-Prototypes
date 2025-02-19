@@ -91,16 +91,6 @@
     zeroVisible: false
   - type: Appearance
   - type: Contraband
-  - type: RadarConsole
-    maxRange: 256
-  - type: ActivatableUI
-    key: enum.RadarConsoleUiKey.Key
-    inHandsOnly: true
-    singleUser: true
-  - type: UserInterface
-    interfaces:
-      enum.RadarConsoleUiKey.Key:
-        type: RadarConsoleBoundUserInterface
    
 - type: entity
   id: BulletRocketSmart
@@ -125,9 +115,13 @@
     color: orange
     energy: 0.5
   - type: HeatSeeking
-    rotationSpeed: 245
-    acceleration: 90
-    seekRange: 300
+    rotationSpeed: 75
+    acceleration: 25 
+    topSpeed: 75
+    initialSpeed: 15
+    FOV: 90
+    defaultSeekingRange: 300
+    guidanceAlgorithm: PredictiveGuidance
 
 - type: entity
   name: SCHK-2 plasma hardlight sword

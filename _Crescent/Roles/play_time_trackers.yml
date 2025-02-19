@@ -194,6 +194,23 @@
 
 - type: playTimeTracker
   id: JobAntiquarianTAP
+
+#ath
+
+- type: playTimeTracker
+  id: JobKommandantATH
+
+- type: playTimeTracker
+  id: JobLeutnantATH
+
+- type: playTimeTracker
+  id: JobSoldatATH
+
+- type: playTimeTracker
+  id: JobKanoneerATH
+
+- type: playTimeTracker
+  id: JobSanitatATH
   
 #misc
 
@@ -208,3 +225,12 @@
 
 - type: playTimeTracker
   id: JobMercenary
+
+- type: playTimeTracker
+  id: JobSpacer
+
+- type: playTimeTracker
+  id: JobGliessSheriff
+
+- type: playTimeTracker
+  id: JobGliessDockmaster

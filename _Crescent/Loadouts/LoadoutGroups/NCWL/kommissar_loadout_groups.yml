@@ -1,0 +1,6 @@
+- type: loadoutGroup
+  id: SanitarHeadKommissar
+  name: loadout-group-contractor-head
+  minLimit: 0
+  loadouts:
+  - KommissarClothingHeadHatNCWLBeret

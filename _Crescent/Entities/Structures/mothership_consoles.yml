@@ -15,15 +15,14 @@
 - type: entity
   id: JackalMothershipComputer
   parent: BaseMothershipComputer
-  name: NCSP shipyard
+  name: GSC shipyard
   components:
   - type: ShipyardListing
     shuttles:
     - Reaver
     - Corvax
-    - Piranha
     - Wolf
-    - Scuttlefish
+    - Hornetsnest
 
 - type: entity
   id: CountsmanMothershipComputer
@@ -38,6 +37,7 @@
     - Jannissary
     - Nemesis
     - Triumphant
+    - Raider
 
 - type: entity
   id: LaborMothershipComputer
@@ -177,4 +177,27 @@
     shuttles:
     - Conquest
     - Valor
+
+- type: entity
+  id: AlseikMothershipComputer
+  parent: BaseMothershipComputer
+  name: alseik tribal shipyard
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - Svipul
+    - Einherji
+    - Glaive
+    - Bhaalgorn
+
+- type: entity
+  id: AuthorityMothershipComputer
+  parent: BaseMothershipComputer
+  name: authority shipyard
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - Archon
+    - Carrum
+    - Khorkoi
 

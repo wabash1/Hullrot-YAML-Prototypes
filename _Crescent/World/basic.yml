@@ -178,24 +178,12 @@
           prob: 0.1
         - id: AsteroidDebrisNFLarge
           prob: 0.2
-        - id: AsteroidDebrisNFSandLarge
-          prob: 0.1
-        - id: AsteroidDebrisNFSandHuge
-          prob: 0.2
         - id: AsteroidDebrisNFIceLarge
           prob: 0.1
         - id: AsteroidRockDebrisNFLarger
           prob: 0.1
         - id: AsteroidRockDebrisNFHuge
           prob: 0.2
-        - id: AsteroidSalvageNFAndesiteLarge
-          prob: 0.1
-        - id: AsteroidSalvageNFAndesiteHuge
-          prob: 0.1
-        - id: AsteroidSalvageNFBasaltLarge
-          prob: 0.1
-        - id: AsteroidSalvageNFBasaltHuge
-          prob: 0.3
         - id: AsteroidDebrisNFLarger
           prob: 0.3
         - id: AsteroidDebrisNFIceLarger

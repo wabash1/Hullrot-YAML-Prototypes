@@ -96,6 +96,9 @@
     defaultItem: TradeDeedStub
     inventory:
       TradeGoodAmmo: TradeDeedHigh
+      TradeGoodNanoTrasen: TradeDeedHigh
+      TradeGoodOldCyber: TradeDeedHigh
+      TradeGoodOldParts: TradeDeedHigh
       TradeGoodAntibiotics: TradeDeedVeryHigh
       TradeGoodScrap: TradeDeedHigh
       TradeGoodCybernetics: TradeDeedNormal
@@ -123,6 +126,9 @@
       TradeGoodAntibiotics: TradeDeedLow
       TradeGoodRice: TradeDeedLow
       TradeGoodFlour: TradeDeedNormal
+      TradeGoodNanoTrasen: TradeDeedHigh
+      TradeGoodOldCyber: TradeDeedHigh
+      TradeGoodOldParts: TradeDeedHigh
       TradeGoodSugar: TradeDeedNormal
       TradeGoodFabrics: TradeDeedVeryHigh
       TradeGoodMiltech: TradeDeedVeryHigh
@@ -268,9 +274,9 @@
       WeaponPistolHimehabu: SpaceCash2500
       WeaponPistolComplianceImperial: SpaceCash2500
       WeaponPistolSmartpistol: SpaceCash2500
-      TradeGoodOrgans: SpaceCash10000
-      TradeGoodDrugs: SpaceCash8000
-      FoodAmbrosiaVulgaris: SpaceCash350
+      TradeGoodOrgans: SpaceCash20000
+      TradeGoodDrugs: SpaceCash12500
+      FoodAmbrosiaVulgaris: SpaceCash1000
   - type: Sprite
     sprite: _Crescent/Structures/onionchute.rsi
     layers:
@@ -299,6 +305,9 @@
       TradeGoodAlloys: TradeDeedExotic
       TradeGoodGoodScrap: TradeDeedVeryHigh
       TradeGoodPlasma: TradeDeedExotic
+      TradeGoodNanoTrasen: TradeDeedHigh
+      TradeGoodOldCyber: TradeDeedHigh
+      TradeGoodOldParts: TradeDeedHigh
   - type: Sprite
     sprite: _Crescent/Structures/cargochute.rsi
     layers:
@@ -330,6 +339,9 @@
       TradeGoodPlasma: TradeDeedHigh
       TradeGoodWine: TradeDeedHigh
       TradeGoodFabrics: TradeDeedHigh
+      TradeGoodNanoTrasen: TradeDeedHigh
+      TradeGoodOldCyber: TradeDeedHigh
+      TradeGoodOldParts: TradeDeedHigh
   - type: Sprite
     sprite: _Crescent/Structures/cargochute.rsi
     layers:
@@ -360,6 +372,9 @@
       TradeGoodGoodScrap: TradeDeedVeryHigh
       TradeGoodPlasma: TradeDeedVeryHigh
       TradeGoodWine: TradeDeedVeryHigh
+      TradeGoodNanoTrasen: TradeDeedHigh
+      TradeGoodOldCyber: TradeDeedHigh
+      TradeGoodOldParts: TradeDeedHigh
   - type: Sprite
     sprite: _Crescent/Structures/cargochute.rsi
     layers:
@@ -390,6 +405,9 @@
       TradeGoodMiltech: TradeDeedVeryHigh
       TradeGoodAlloys: TradeDeedExotic
       TradeGoodWine: TradeDeedExotic
+      TradeGoodNanoTrasen: TradeDeedHigh
+      TradeGoodOldCyber: TradeDeedHigh
+      TradeGoodOldParts: TradeDeedHigh
   - type: Sprite
     sprite: _Crescent/Structures/cargochute.rsi
     layers:
@@ -418,6 +436,9 @@
       TradeGoodFabrics: TradeDeedExotic
       TradeGoodWine: TradeDeedVeryHigh
       TradeGoodPlasma: TradeDeedExotic
+      TradeGoodNanoTrasen: TradeDeedHigh
+      TradeGoodOldCyber: TradeDeedHigh
+      TradeGoodOldParts: TradeDeedHigh
   - type: Sprite
     sprite: _Crescent/Structures/cargochute.rsi
     layers:

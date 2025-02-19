@@ -57,3 +57,15 @@
     1: 0
     2: 0.75
     3: 0.75
+
+- type: techDiscipline
+  id: Families
+  name: research-discipline-families
+  color: "#a7a7a7"
+  icon:
+    sprite: Interface/Misc/research_disciplines.rsi
+    state: families
+  tierPrerequisites:
+    1: 0
+    2: 0.75
+    3: 0.75

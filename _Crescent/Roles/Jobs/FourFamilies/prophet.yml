@@ -10,9 +10,6 @@
     - !type:SpeciesRequirement
       allowedOnly:
         - Moth
-    - !type:SexRequirement
-      allowed:
-        - Female
   weight: 55
   startingGear: ProphetGear
   alwaysUseSpawner: true
@@ -25,6 +22,9 @@
     components:
       - type: ChatRank
         rank: crescent-rank-prophet
+  - !type:AddComponentSpecial
+    components:
+      - type: Telepathic
   access:
   - EmergencyShuttleRepealAll
   - Captain

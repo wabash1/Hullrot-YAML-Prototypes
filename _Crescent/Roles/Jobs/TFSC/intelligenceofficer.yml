@@ -8,7 +8,7 @@
   alwaysUseSpawner: true
   icon: "JobIconSyndieIntelligenceOfficer"
   requireAdminNotify: true
-  supervisors: job-supervisors-ncsp 
+  supervisors: You answer to the interests of the CyberDawn Technologies company. Protect your technology, make money,  take out competition.
   canBeAntag: false
   requirements:
     - !type:WhitelistRequirement
@@ -43,3 +43,4 @@
     gloves: ClothingHandsGlovesFingerless
     outerClothing: ClothingOuterArmorCyberdawnPatriarch
     ears: ClothingHeadsetNCSPCyberdawn
+    pocket1: AccesElevatorCD

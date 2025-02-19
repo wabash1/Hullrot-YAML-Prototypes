@@ -18,7 +18,7 @@
   alwaysUseSpawner: true
   icon: "JobIconCyberdawnTech"
   requireAdminNotify: false
-  supervisors: job-supervisors-ncsp 
+  supervisors: You answer to the patriach and the interests of the CyberDawn Technologies company.
   canBeAntag: false
   access:
   - Command
@@ -37,4 +37,4 @@
     shoes: ClothingShoesBootsCombat
     id: CyberdawnTechPDA
     ears: ClothingHeadsetNCSPCyberdawn
-    gloves: ClothingHandsGlovesFingerless    
+    gloves: ClothingHandsGlovesFingerless

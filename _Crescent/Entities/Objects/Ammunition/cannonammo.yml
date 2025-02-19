@@ -14,8 +14,8 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 95
-        Piercing: 45
+        Structural: 100
+        Piercing: 50
   - type: PointLight
     radius: 3.5
     color: orange
@@ -27,6 +27,7 @@
     layers:
       - state: base-projectile
   - type: ShipWeaponProjectile
+  - type: ProjectilePhasePrevent
 
 - type: entity
   id: CartridgeVulcanStandard
@@ -74,7 +75,7 @@
 
 - type: entity
   id: BulletMachineGunVulcanTurret
-  name: 23mm uranium-tipped vulcan bullet
+  name: 20mm uranium-tipped vulcan bullet
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -83,8 +84,8 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Piercing: 25
-        Structural: 60
+        Piercing: 50
+        Structural: 100
   - type: ProjectileIFF
   - type: ExplodeOnTrigger
   - type: Explosive
@@ -106,7 +107,7 @@
 
 - type: entity
   id: CartridgeVulcanStandardTurret
-  name: 23mm surplus casing
+  name: 20mm surplus casing
   parent: BaseItem
   description: Ammunition for turrets.
   components:
@@ -144,7 +145,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 275
+        Structural: 400
         Piercing: 25
   - type: ExplodeOnTrigger
   - type: Explosive
@@ -417,9 +418,13 @@
     intensitySlope: 150
     totalIntensity: 450
   - type: HeatSeeking
-    rotationSpeed: 245
-    acceleration: 90
-    seekRange: 1000
+    rotationSpeed: 75
+    acceleration: 25
+    topSpeed: 50
+    initialSpeed: 25
+    FOV: 90
+    defaultSeekingRange: 1000
+    guidanceAlgorithm: PredictiveGuidance
   - type: PointLight
     radius: 3.5
     color: orange
@@ -454,13 +459,17 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    totalIntensity: 800
-    intensitySlope: 200
-    maxIntensity: 200
+    totalIntensity: 600
+    intensitySlope: 40
+    maxIntensity: 20
   - type: HeatSeeking
-    acceleration: 75
-    rotationSpeed: 35
-    seekRange: 1250
+    rotationSpeed: 40 # slow turn rate
+    acceleration: 10
+    topSpeed: 30
+    initialSpeed: 15
+    FOV: 40 # narrow FOV to take advantage of long range
+    defaultSeekingRange: 1500 # long range
+    guidanceAlgorithm: PredictiveGuidance
   - type: PointLight
     radius: 3.5
     color: orange
@@ -553,9 +562,12 @@
     totalIntensity: 120
     maxTileBreak: 5
   - type: HeatSeeking
-    rotationSpeed: 250
-    acceleration: 100
-    seekRange: 1000
+    rotationSpeed: 40 # slow turn rate
+    acceleration: 10
+    topSpeed: 35
+    initialSpeed: 15
+    FOV: 40 # narrow FOV to take advantage of long range
+    defaultSeekingRange: 1500 # long range
   - type: PointLight
     radius: 3.5
     color: orange
@@ -623,6 +635,14 @@
     color: orange
     energy: 0.5
   - type: ProjectileIFF
+  - type: HeatSeeking
+    rotationSpeed: 20 # slow rotation so it isnt aimbot, still fairly accurate though
+    acceleration: 0 # it starts full speed
+    topSpeed: 50
+    initialSpeed: 50
+    FOV: 60
+    defaultSeekingRange: 400
+    guidanceAlgorithm: PredictiveGuidance
 
 # battlemortar
 
@@ -780,10 +800,9 @@
 #The precursors send their regards.
 - type: entity
   id: ThermonuclearMissile
-  name: 240mm thermonuclear missile
+  name: primed thermonuclear missile
   description: You recoil from ancient genetic memories telling you 'This hurt me. This ruined me. I was once a human being.' But there is no other way. A gun. A sword. A bomb. A vibrokhopesh. There is no other way.
   parent: BaseBulletTrigger
-  categories: [ HideSpawnMenu ]
   components:
   - type: ShipWeaponProjectile
   - type: Projectile
@@ -795,10 +814,11 @@
   - type: Tag
     tags:
       - TorpedoGarg
+      - TorpedoCatapult
   - type: TimedDespawn
     lifetime: 50
   - type: Sprite
-    sprite: _Crescent/Objects/ShuttleWeapons/torp.rsi
+    sprite: _Crescent/Objects/ShuttleWeapons/nuke.rsi
     layers:
       - state: base-projectile
   - type: ExplodeOnTrigger
@@ -815,3 +835,739 @@
   - type: RadiationSource
     intensity: 0.1
     slope: 1.0
+
+#catapult
+
+- type: Tag
+  id: TorpedoCatapult
+
+- type: entity
+  id: CatapultProjectile
+  name: 320mm high-explosive torpedo
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 5000
+        Blunt: 40
+  - type: Tag
+    tags:
+      - TorpedoCatapult
+  - type: TimedDespawn
+    lifetime: 35
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/catapult.rsi
+    layers:
+      - state: base-projectile
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 1500
+    intensitySlope: 35
+    maxIntensity: 250
+    maxTileBreak: 12
+  - type: PointLight
+    radius: 3.5
+    color: orange
+    energy: 0.5
+  - type: ProjectileIFF
+
+- type: entity
+  id: TorpCatapult
+  name: 320mm "Immolator" high-explosive torpedo
+  parent: BaseItem
+  description: A dumbfire torpedo meant to be fired from Catapult platforms.
+  components:
+  - type: Tag
+    tags:
+      - TorpedoCatapult
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    proto: CatapultProjectile
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/catapult.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+
+#plasmablaster
+
+- type: entity
+  id: BulletPlasmaBlaster
+  name: heavy plasma bolt
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 375
+        Radiation: 35
+        Heat: 40
+        Blunt: 20
+  - type: ProjectileIFF
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 35
+    intensitySlope: 7
+    totalIntensity: 25
+    maxTileBreak: 6
+  - type: PointLight
+    radius: 3.5
+    color: red
+    energy: 0.5
+  - type: TimedDespawn
+    lifetime: 20
+  - type: Sprite
+    sprite: _NF/Objects/SpaceArtillery/plasmaheavy.rsi
+    layers:
+      - state: base-projectile
+
+#compaktshit
+
+- type: Tag
+  id: CompaktLens
+
+- type: entity
+  id: CompaktXrayProjectile
+  name: xray laser
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 70
+        Radiation: 45
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: TimedDespawn
+    lifetime: 8
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    layers:
+      - state: base-xray
+  - type: EmpOnTrigger
+    range: 2
+    energyConsumption: 500
+    disableDuration: 1
+  - type: PointLight
+    radius: 3.5
+    color: blue
+    energy: 0.5
+  - type: ProjectileIFF
+
+- type: entity
+  id: XrayLensCartridge
+  name: hybrid xray lens
+  categories: [ HideSpawnMenu ]
+  parent: BaseItem
+  description: A laser lens meant to be fitted over laser gatlings. This one is tuned to the xray frequency.
+  components:
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    deleteOnSpawn: true
+    proto: CompaktXrayProjectile
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    layers:
+    - state: base-spent
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpaceGarbage
+
+- type: entity
+  id: LensXray
+  name: hybrid xray lens
+  parent: BaseMagazineLens
+  components:
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: BallisticAmmoProvider
+    mayTransfer: false
+    whitelist:
+      tags:
+      - CompaktLens
+    proto: XrayLensCartridge
+    capacity: 100
+  - type: Item
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    state: xraylens
+
+#infrared
+
+- type: entity
+  id: CompaktInfraredProjectile
+  name: infrared laser
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 125
+        Radiation: 20
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: TimedDespawn
+    lifetime: 25
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    layers:
+      - state: base-projectile
+  - type: PointLight
+    radius: 3.5
+    color: white
+    energy: 0.5
+  - type: ProjectileIFF
+
+- type: entity
+  id: InfraredLensCartridge
+  name: hybrid infrared lens
+  categories: [ HideSpawnMenu ]
+  parent: BaseItem
+  components:
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    deleteOnSpawn: true
+    proto: CompaktInfraredProjectile
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    layers:
+    - state: base-spent
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpaceGarbage
+
+- type: entity
+  id: LensInfared
+  name: hybrid infrared lens
+  description: A laser lens meant to be fitted over laser gatlings. This one is tuned to the infrared frequency.
+  parent: BaseMagazineLens
+  components:
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: BallisticAmmoProvider
+    mayTransfer: false
+    whitelist:
+      tags:
+      - CompaktLens
+    proto: InfraredLensCartridge
+    capacity: 250
+  - type: Item
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    state: infraredlens
+
+#microwave
+
+- type: entity
+  id: CompaktMicrowaveProjectile
+  name: microwave laser
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 75
+        Radiation: 20
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: TimedDespawn
+    lifetime: 14
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    layers:
+      - state: base-projectile
+  - type: PointLight
+    radius: 3.5
+    color: white
+    energy: 0.5
+  - type: ProjectileIFF
+
+- type: entity
+  id: MicrowaveLensCartridge
+  name: hybrid microwave lens
+  categories: [ HideSpawnMenu ]
+  parent: BaseItem
+  components:
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    deleteOnSpawn: true
+    proto: CompaktMicrowaveProjectile
+    count: 4
+    spread: 15
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    layers:
+    - state: base-spent
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpaceGarbage
+
+- type: entity
+  id: LensMicrowave
+  name: hybrid microwave lens
+  description: A laser lens meant to be fitted over laser gatlings. This one is tuned to the microwave frequency.
+  parent: BaseMagazineLens
+  components:
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: BallisticAmmoProvider
+    mayTransfer: false
+    whitelist:
+      tags:
+      - CompaktLens
+    proto: MicrowaveLensCartridge
+    capacity: 60
+  - type: Item
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    state: microwavelens
+
+#plasma
+
+- type: entity
+  id: CompaktPlasmaProjectile
+  name: plasma laser
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 4
+    intensitySlope: 3
+    totalIntensity: 4
+    maxTileBreak: 1
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 200
+        Radiation: 20
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: TimedDespawn
+    lifetime: 14
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    layers:
+      - state: base-projectile
+  - type: PointLight
+    radius: 3.5
+    color: white
+    energy: 0.5
+  - type: ProjectileIFF
+
+- type: entity
+  id: PlasmaLensCartridge
+  name: hybrid plasma lens
+  categories: [ HideSpawnMenu ]
+  parent: BaseItem
+  components:
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    deleteOnSpawn: true
+    proto: CompaktPlasmaProjectile
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    layers:
+    - state: base-spent
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpaceGarbage
+
+
+- type: entity
+  id: LensPlasma
+  name: hybrid plasma lens
+  description: A laser lens meant to be fitted over laser gatlings. This one comes pre-loaded with plasma-derived chemicals for an explosive payload.
+  parent: BaseMagazineLens
+  components:
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: BallisticAmmoProvider
+    mayTransfer: false
+    whitelist:
+      tags:
+      - CompaktLens
+    proto: PlasmaLensCartridge
+    capacity: 100
+  - type: Item
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
+    state: plasmalens
+
+# solaris
+
+- type: Tag
+  id: AntimatterCanister
+
+- type: Tag
+  id: AntimatterCartridge
+
+
+- type: entity
+  id: StandardAntimatterCanister
+  name: ballistic antimatter canister
+  description: A standard antimatter ammunition canister. Projectiles are manufactured in real time using the exotic particles within. Cost-effective and easy to make in the New World.
+  parent: BaseMagazineLens
+  components:
+  - type: Tag
+    tags:
+      - AntimatterCanister
+  - type: BallisticAmmoProvider
+    mayTransfer: false
+    whitelist:
+      tags:
+      - AntimatterCartridge
+    proto: StandardAntimatterCartridge
+    capacity: 75
+  - type: Item
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanister.rsi
+    state: base
+
+- type: entity
+  id: StandardAntimatterCartridge
+  name: exotic antimatter shell casing
+  categories: [ HideSpawnMenu ]
+  parent: BaseItem
+  components:
+  - type: Tag
+    tags:
+      - AntimatterCartridge
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    deleteOnSpawn: true
+    proto: StandardAntimatterProjectile
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanister.rsi
+    layers:
+    - state: base-spent
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpaceGarbage
+
+- type: entity
+  id: StandardAntimatterProjectile
+  name: exotic particles
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 400
+        Radiation: 20
+  - type: Tag
+    tags:
+      - CompaktLens
+  - type: TimedDespawn
+    lifetime: 14
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanister.rsi
+    layers:
+      - state: base-projectile
+  - type: PointLight
+    radius: 3.5
+    color: white
+    energy: 0.5
+  - type: ProjectileIFF
+
+- type: entity
+  id: PlasmaAntimatterCanister
+  name: plasma-charged ballistic antimatter canister
+  description: A standard antimatter ammunition canister. Projectiles are manufactured in real time using the exotic particles within. Cost-effective and easy to make in the New World. This one is charged with volatile plasma motes.
+  parent: BaseMagazineLens
+  components:
+  - type: Tag
+    tags:
+      - AntimatterCanister
+  - type: BallisticAmmoProvider
+    mayTransfer: false
+    whitelist:
+      tags:
+      - AntimatterCartridge
+    proto: PlasmaAntimatterCartridge
+    capacity: 75
+  - type: Item
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanisterplas.rsi
+    state: base
+
+- type: entity
+  id: PlasmaAntimatterCartridge
+  name: exotic antimatter shell casing
+  categories: [ HideSpawnMenu ]
+  parent: BaseItem
+  components:
+  - type: Tag
+    tags:
+      - AntimatterCartridge
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    deleteOnSpawn: true
+    proto: PlasmaAntimatterProjectile
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanisterplas.rsi
+    layers:
+    - state: base-spent
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpaceGarbage
+
+- type: entity
+  id: PlasmaAntimatterProjectile
+  name: exotic plasma particles
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 8
+    intensitySlope: 3
+    totalIntensity: 8
+    maxTileBreak: 2
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 200
+        Radiation: 20
+  - type: TimedDespawn
+    lifetime: 14
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanisterplas.rsi
+    layers:
+      - state: base-projectile
+  - type: PointLight
+    radius: 3.5
+    color: purple
+    energy: 0.5
+  - type: ProjectileIFF
+
+- type: entity
+  id: GuidedAntimatterCanister
+  name: guided ballistic antimatter canister
+  description: A standard antimatter ammunition canister. Projectiles are manufactured in real time using the exotic particles within. Cost-effective and easy to make in the New World. This one has primitive aim-correction capacity.
+  parent: BaseMagazineLens
+  components:
+  - type: Tag
+    tags:
+      - AntimatterCanister
+  - type: BallisticAmmoProvider
+    mayTransfer: false
+    whitelist:
+      tags:
+      - AntimatterCartridge
+    proto: GuidedAntimatterCartridge
+    capacity: 75
+  - type: Item
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanisterguided.rsi
+    state: base
+
+- type: entity
+  id: GuidedAntimatterCartridge
+  name: guided antimatter shell casing
+  categories: [ HideSpawnMenu ]
+  parent: BaseItem
+  components:
+  - type: Tag
+    tags:
+      - AntimatterCartridge
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    deleteOnSpawn: true
+    proto: GuidedAntimatterProjectile
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanisterguided.rsi
+    layers:
+    - state: base-spent
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpaceGarbage
+
+- type: entity
+  id: GuidedAntimatterProjectile
+  name: plasma particles
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 350
+        Radiation: 20
+  - type: TimedDespawn
+    lifetime: 14
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/amcanisterguided.rsi
+    layers:
+      - state: base-projectile
+  - type: PointLight
+    radius: 3.5
+    color: purple
+    energy: 0.5
+  - type: ProjectileIFF
+  - type: HeatSeeking
+    rotationSpeed: 20 # slow rotation so it isnt aimbot, still fairly accurate though
+    acceleration: 0 # it starts full speed
+    topSpeed: 50
+    initialSpeed: 50
+    FOV: 60
+    defaultSeekingRange: 400
+    guidanceAlgorithm: PredictiveGuidance
+
+#jeong/osiris
+
+- type: Tag
+  id: SwarmerRocketsClip
+
+- type: Tag
+  id: SwarmerRockets
+
+- type: entity
+  id: SwarmrocketClip
+  name: 70mm swarmer rocket drum
+  description: An autofeeder drum of 70mm Authoritat rockets.
+  parent: BaseMagazineLens
+  components:
+  - type: Tag
+    tags:
+      - SwarmerRocketsClip
+  - type: BallisticAmmoProvider
+    mayTransfer: false
+    whitelist:
+      tags:
+      - SwarmerRockets
+    proto: SwarmerRocketsGuidedCartridge
+    capacity: 30
+  - type: Item
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/swarmclip.rsi
+    state: base
+
+- type: entity
+  id: SwarmerRocketsGuidedCartridge
+  name: 70mm rocket
+  categories: [ HideSpawnMenu ]
+  parent: BaseItem
+  components:
+  - type: Tag
+    tags:
+      - SwarmerRockets
+  - type: Item
+    size: Small
+  - type: CartridgeAmmo
+    deleteOnSpawn: true
+    proto: SwarmerRocketsGuided
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/swarmclip.rsi
+    layers:
+    - state: base-spent
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpaceGarbage
+
+- type: entity
+  id: SwarmerRocketsGuided
+  name: 70mm rocket
+  description: Shit.
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShipWeaponProjectile
+  - type: Projectile
+    ignoreWeaponGrid: true
+    damage:
+      types:
+        Structural: 300
+  - type: TimedDespawn
+    lifetime: 20
+  - type: Sprite
+    sprite: _Crescent/Objects/ShuttleWeapons/swarmclip.rsi
+    layers:
+      - state: base-projectile
+  - type: ProjectileIFF
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 15
+    intensitySlope: 2
+    totalIntensity: 10
+    maxTileBreak: 1
+  - type: PointLight
+    radius: 3.5
+    color: orange
+    energy: 0.5
+  - type: HeatSeeking
+    rotationSpeed: 120
+    acceleration: 10
+    topSpeed: 45
+    initialSpeed: 3
+    FOV: 60
+    defaultSeekingRange: 400
+    guidanceAlgorithm: PredictiveGuidance

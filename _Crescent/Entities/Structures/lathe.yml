@@ -90,6 +90,8 @@
     whitelist:
       tags:
       - DrugComponent
+      - Sheet
+      - RawMaterial
   - type: Lathe
     idleState: base_machine
     runningState: base_machine_processing
@@ -100,6 +102,23 @@
     - Kaiser
     - Mechanite
     - Bloodeye
+    - Saw
+    - BodyBag
+    - Brutepack
+    - Ointment
+    - Gauze
+    - Defibrillator
+    - Medkit
+    - MedkitAdvanced
+    - MedkitCombat
+    - HandLabeler
+    - Beaker
+    - LargeBeaker
+    - Dropper
+    - Jug
+    - Syringe
+    - VehicleWheelchairFolded
+    - RollerBedSpawnFolded
 
 #microforge
 
@@ -154,6 +173,7 @@
       - MagazineRifle
       - MagazineShotgun
       - MagazineShotgunSlug
+      - MagazineMagnumSub
       - Wirecutter
       - Igniter
       - Signaller
@@ -208,12 +228,39 @@
       - ClothingHeadHatPangtaiKorundHelmet
       - BoxBeanbag
       - BoxShotgunIncendiary
+      - ClothingUniformJumpsuitTechminer
+      - ClothingUniformJumpsuitTinkerer
+      - ClothingUniformJumpsuitHangarTechnician
+      - ClothingUniformJumpsuitServile
+      - ClothingUniformJumpsuitServile
+      - ClothingUniformJumpsuitDraugr
+      - ClothingUniformJumpsuitBeltrunner
+      - WeaponPulsePistolFam
+      - ClothingUniformJumpsuitAntiquarianFamilies
+      - WeaponTeslaGunFam
+      - ClothingUniformJumpsuitBodysuit
+      - ClothingOuterHardsuitDraugr
+      - WeaponXrayCannonFam
+      - ClothingOuterHardsuitArabet
+      - ClothingOuterHardsuitIzdari
+      - ClothingOuterArmorServileAlseik
+      - ClothingOuterArmorDraugrAlseik
+      - WeaponLaserSvalinn
+      - PlasHalberd
+      - EnergySwordFamilies
+      - Plashammer
+      - ClothingOuterArmorAcolyteRobes
+      - ClothingOuterArmorThukkerEngiVest
       - BoxShotgunUranium
+      - ClothingHeadHelmetIzdariEVA
+      - ClothingOuterHardsuitDraugr
+      - ClothingOuterHardsuitArabet
+      - ClothingOuterHardsuitIzdari
+      - ClothingOuterBeltrunnerEVA
       - ExplosivePayload
       - FlashPayload
       - GrenadeBlast
       - GrenadeEMP
-      - GrenadeFlash
       - HoloprojectorSecurity
       - MagazineBoxLightRifleIncendiary
       - MagazineBoxLightRifleUranium
@@ -485,6 +532,11 @@
       - TermiteLPC
       - ParacelsusLPC
       - ExhumerLPC
+      - CompaktFlatpack
+      - MediumEnergyHardpointFlatpack
+      - LensPlasma
+      - LensInfrared
+      - LensMicrowave
   - type: Machine
     board: MicroforgeCircuitboard
 
@@ -552,6 +604,9 @@
     - ShipHull
     - ShipElectronics
     - ShipEngine
+  - type: Anchorable
+    flags:
+    - Anchorable
 
 #organs
 
@@ -581,6 +636,10 @@
     runningState: fab-active
     staticRecipes:
     - OrganCrate
+  - type: Anchorable
+    flags:
+    - Anchorable
+
 
 #crates
 #imperial
@@ -614,6 +673,9 @@
     staticRecipes:
     - FabricsCrate
     - WineCrate
+  - type: Anchorable
+    flags:
+    - Anchorable
 
 #shi
 
@@ -645,6 +707,9 @@
     staticRecipes:
     - MiltechCrate
     - AlloysCrate
+  - type: Anchorable
+    flags:
+    - Anchorable
 
 #saws
 
@@ -679,3 +744,6 @@
     - ScrapCrate
     - GunpartsCrate
     - TitaniumScrapAlloyCrate
+  - type: Anchorable
+    flags:
+    - Anchorable

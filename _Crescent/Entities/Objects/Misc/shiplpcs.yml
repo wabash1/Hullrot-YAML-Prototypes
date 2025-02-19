@@ -654,6 +654,23 @@
 
 - type: entity
   parent: BaseItem
+  id: ShipVoucherHornetsnest
+  name: GSC 'Hornets nest' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a Gorlex Security Consulting Hornet's nest class carrier. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 70000
+  - type: ShipVoucher
+    ship: Hornetsnest
+
+- type: entity
+  parent: BaseItem
   id: ShipVoucherSinn
   name: GSC 'Sinn' pattern LPC fabprint disk
   description: An LPC fabprint disk loaded with a Gorlex Security Consulting Sinn-class light destroyer pattern. Has to be redeemed at a shipyard console.
@@ -1123,7 +1140,7 @@
   parent: BaseItem
   id: ShipVoucherKite
   name: ICM 'Kite' pattern LPC fabprint disk
-  description: An LPC fabprint disk loaded with a Ihikerja Civilian Manufacturing Kite-class civilain shuttle pattern. Has to be redeemed at a shipyard console.
+  description: An LPC fabprint disk loaded with a Ihikerja Civilian Manufacturing Kite-class civilian shuttle pattern. Has to be redeemed at a shipyard console.
   components:
   - type: Item
     size: Small
@@ -1135,6 +1152,40 @@
     price: 12000
   - type: ShipVoucher
     ship: Kite
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherArchon
+  name: ATH 'Archon' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a Central Sol Authority Archon-class patrol corvette pattern. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 60000
+  - type: ShipVoucher
+    ship: Archon
+
+- type: entity
+  parent: BaseItem
+  id: ShipVoucherKhorkoi
+  name: ATH 'Khorkoi' pattern LPC fabprint disk
+  description: An LPC fabprint disk loaded with a Central Sol Authority Khorkoi-class light fighter pattern. Has to be redeemed at a shipyard console.
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    layers:
+    - state: icon
+  - type: StaticPrice
+    price: 10000
+  - type: ShipVoucher
+    ship: Khorkoi
 
 - type: entity
   parent: BaseItem

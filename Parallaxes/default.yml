@@ -1,15 +1,6 @@
 - type: parallax
   id: Blank
 
-- type: parallax
-  id: Default
-  layers:
-    - texture:
-        !type:ImageParallaxTextureSource
-        path: "/Textures/Parallaxes/hadal.png"
-      slowness: 0.998046875
-      scale: "1, 1"
-
 # Because hyperspace and the menu need their own.
 - type: parallax
   id: FastSpace

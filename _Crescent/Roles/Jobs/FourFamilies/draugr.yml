@@ -11,7 +11,7 @@
         - Human
         - Reptilian
   weight: 50
-  startingGear: ServileGear
+  startingGear: DraugrGear
   alwaysUseSpawner: true
   icon: "JobIconDraugr"
   requireAdminNotify: false
@@ -22,6 +22,9 @@
     components:
       - type: ChatRank
         rank: crescent-rank-draugr
+  - !type:AddComponentSpecial
+    components:
+      - type: Telepathic
   access:
   - EmergencyShuttleRepealAll
   - Captain
@@ -71,6 +74,7 @@
     jumpsuit: ClothingUniformJumpsuitDraugr
     back: ClothingBackpackSatchelFilled
     shoes: ClothingShoesBootsJack
+    head: ClothingHeadHatDraugr
     id: DraugrPDA
     outerClothing: ClothingOuterArmorDraugrAlseik
     ears: ClothingHeadsetFamilies

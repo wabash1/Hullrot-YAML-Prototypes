@@ -165,6 +165,36 @@
   id: Antiquarian
   name: id-card-access-level-antiquarian
 
+- type: accessLevel
+  id: GliessDockmaster
+  name: id-card-access-level-gliess-admin
+
+- type: accessLevel
+  id: GliessSheriff
+  name: id-card-access-level-gliess-sheriff
+
+#ath
+
+- type: accessLevel
+  id: Kommandant
+  name: id-card-access-level-authoritat-kommandant
+
+- type: accessLevel
+  id: AuthorityRanking
+  name: id-card-access-level-authoritat-ranking
+
+- type: accessLevel
+  id: Authority
+  name: id-card-access-level-authoritat
+
+- type: accessLevel
+  id: Authoritymed
+  name: id-card-access-level-authoritat-medical
+
+- type: accessLevel
+  id: AuthoritySupply
+  name: id-card-access-level-authoritat-cargo
+
 #4families
 
 - type: accessLevel

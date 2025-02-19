@@ -20,7 +20,7 @@
       - WallRockAndesiteQuartzGolem
       - WallRockAndesiteSilverGolem
       - WallRockAndesiteUraniumGolem
-      rareChance: 0.1
+      rareChance: 0.05
       prototypes:
         - WallRockAndesiteCoalCrabNF
         - WallRockAndesiteGoldCrabNF
@@ -29,7 +29,7 @@
         - WallRockAndesiteQuartzCrabNF
         - WallRockAndesiteSilverCrabNF
         - WallRockAndesiteUraniumCrabNF
-      chance: 0.45
+      chance: 0.25
       offset: 0.2
 
 - type: entity
@@ -180,7 +180,7 @@
       - WallRockChromiteQuartzGolem
       - WallRockChromiteSilverGolem
       - WallRockChromiteUraniumGolem
-      rareChance: 0.1
+      rareChance: 0.2
       prototypes:
         - WallRockChromiteCoalCrabNF
         - WallRockChromiteGoldCrabNF
@@ -189,7 +189,7 @@
         - WallRockChromiteQuartzCrabNF
         - WallRockChromiteSilverCrabNF
         - WallRockChromiteUraniumCrabNF
-      chance: 0.45
+      chance: 0.55
       offset: 0.2
 
 - type: entity
@@ -221,3 +221,5 @@
         - AsteroidRockQuartzCrabNF
         - AsteroidRockSilverCrabNF
         - AsteroidRockUraniumCrabNF
+      chance: 0.25
+      offset: 0.2

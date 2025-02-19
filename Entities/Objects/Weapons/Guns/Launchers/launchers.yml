@@ -19,6 +19,8 @@
     containers:
       ballistic-ammo: !type:Container
         ents: []
+  - type: DisarmMalus
+    malus: -1
 
 - type: entity
   name: china lake
