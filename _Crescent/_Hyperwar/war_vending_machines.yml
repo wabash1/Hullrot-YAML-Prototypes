@@ -26,7 +26,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
-    mod: 0
+    mod: 0.2
 
 
 - type: entity
@@ -56,7 +56,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
-    mod: 0
+    mod: 0.2
 
 
 - type: entity
@@ -86,7 +86,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
-    mod: 0
+    mod: 0.2
 
 - type: entity
   parent: [BaseStructureUnanchorable, VendingMachine]
@@ -115,7 +115,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
-    mod: 0
+    mod: 0.2
 
 
 - type: entity
@@ -145,4 +145,4 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier
-    mod: 0
+    mod: 0.2
