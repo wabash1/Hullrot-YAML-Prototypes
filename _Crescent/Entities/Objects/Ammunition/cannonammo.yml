@@ -396,6 +396,7 @@
     size: Normal
   - type: CartridgeAmmo
     proto: TorpedoBase
+    deleteOnSpawn: true
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/torpedop.rsi
     layers:
@@ -506,6 +507,7 @@
     size: Normal
   - type: CartridgeAmmo
     proto: TorpedoGargoyle
+    deleteOnSpawn: true
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/torp.rsi
     layers:
@@ -534,6 +536,7 @@
     size: Large
   - type: CartridgeAmmo
     proto: TorpedoGargoyleEMP
+    deleteOnSpawn: true
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/torpemp.rsi
     layers:
@@ -608,6 +611,7 @@
     size: Small
   - type: CartridgeAmmo
     proto: LanceRocketProjectile
+    deleteOnSpawn: true
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/lance.rsi
     layers:
@@ -906,6 +910,7 @@
     size: Small
   - type: CartridgeAmmo
     proto: CatapultProjectile
+    deleteOnSpawn: true
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/catapult.rsi
     layers:
@@ -967,8 +972,9 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 70
+        Structural: 100
         Radiation: 45
+        Blunt: 40
   - type: Tag
     tags:
       - CompaktLens
@@ -1047,6 +1053,7 @@
       types:
         Structural: 125
         Radiation: 20
+        Blunt: 40
   - type: Tag
     tags:
       - CompaktLens
@@ -1119,8 +1126,9 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 75
+        Structural: 120
         Radiation: 20
+        Blunt: 40
   - type: Tag
     tags:
       - CompaktLens
@@ -1151,7 +1159,7 @@
     deleteOnSpawn: true
     proto: CompaktMicrowaveProjectile
     count: 4
-    spread: 15
+    spread: 7
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
     layers:
@@ -1202,8 +1210,9 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 200
+        Structural: 175
         Radiation: 20
+        Blunt: 40
   - type: Tag
     tags:
       - CompaktLens

@@ -245,6 +245,7 @@
   - type: BallisticAmmoProvider
     proto: CartridgePistol6mm
     capacity: 20
+    cycleable: false
 
 - type: entity
   name: SHI-DG03 Blastpop 'Lavender Purple' 6mm
@@ -272,6 +273,7 @@
   - type: BallisticAmmoProvider
     proto: CartridgePistol6mm
     capacity: 20
+    cycleable: false
 
 - type: entity
   name: SHI-DG04 Blastpop 'Lethal Gray' 6mm
@@ -299,6 +301,7 @@
   - type: BallisticAmmoProvider
     proto: CartridgePistol6mm
     capacity: 20
+    cycleable: false
 
 - type: entity
   name: SHI-DG05 Blastpop 'Poison Green' 6mm
@@ -326,6 +329,7 @@
   - type: BallisticAmmoProvider
     proto: CartridgePistol6mm
     capacity: 20
+    cycleable: false
 
 - type: entity
   name: SHI-DG06 Blastpop 'Royal Gold' 6mm
@@ -353,6 +357,7 @@
   - type: BallisticAmmoProvider
     proto: CartridgePistol6mm
     capacity: 20
+    cycleable: false
 
 - type: entity
   name: SHI-DG07 Blastpop 'Fresh Blue' 6mm
@@ -380,10 +385,11 @@
   - type: BallisticAmmoProvider
     proto: CartridgePistol6mm
     capacity: 20
+    cycleable: false
 
 - type: entity
   name: IRM M-8 NeoVolker Tribune .45
-  parent: BasePistolOneuse
+  parent: BaseWeaponPistol
   id: WeaponPistolNeoVolker
   description: An antiquated, outdated Imperial sidearm, attributed to ancient Terran designs. Fires .45 rounds.
   components:

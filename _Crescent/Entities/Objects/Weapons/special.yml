@@ -83,6 +83,7 @@
   - type: BallisticAmmoProvider
     proto: BulletRocketSmart
     capacity: 3
+    cycleable: false
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
   - type: MagazineVisuals
