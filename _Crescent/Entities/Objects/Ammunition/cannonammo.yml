@@ -431,11 +431,11 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 20
-    intensitySlope: 10
+    maxIntensity: 40
+    intensitySlope: 20
     totalIntensity: 450
   - type: HeatSeeking
-    rotationSpeed: 75
+    rotationSpeed: 40
     acceleration: 25
     topSpeed: 50
     initialSpeed: 25
@@ -477,7 +477,7 @@
   - type: Explosive
     explosionType: Default
     totalIntensity: 600
-    intensitySlope: 40
+    intensitySlope: 10
     maxIntensity: 20
   - type: HeatSeeking
     rotationSpeed: 40 # slow turn rate
@@ -646,9 +646,9 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 400
-    intensitySlope: 50
-    totalIntensity: 80
+    maxIntensity: 20
+    intensitySlope: 20
+    totalIntensity: 120
     maxTileBreak: 4
   - type: PointLight
     radius: 3.5
@@ -972,7 +972,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 100
+        Structural: 250
         Radiation: 45
         Blunt: 40
   - type: Tag
@@ -1051,7 +1051,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 125
+        Structural: 450
         Radiation: 20
         Blunt: 40
   - type: Tag
@@ -1126,7 +1126,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 120
+        Structural: 250
         Radiation: 20
         Blunt: 40
   - type: Tag
@@ -1210,7 +1210,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 175
+        Structural: 400
         Radiation: 20
         Blunt: 40
   - type: Tag
@@ -1580,9 +1580,9 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 15
-    intensitySlope: 2
-    totalIntensity: 10
+    maxIntensity: 10
+    intensitySlope: 5
+    totalIntensity: 20
     maxTileBreak: 1
   - type: PointLight
     radius: 3.5
