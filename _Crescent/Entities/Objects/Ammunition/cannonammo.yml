@@ -431,8 +431,8 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 150
-    intensitySlope: 150
+    maxIntensity: 20
+    intensitySlope: 10
     totalIntensity: 450
   - type: HeatSeeking
     rotationSpeed: 75
@@ -985,8 +985,8 @@
     layers:
       - state: base-xray
   - type: EmpOnTrigger
-    range: 2
     energyConsumption: 500
+    range: 3
     disableDuration: 1
   - type: PointLight
     radius: 3.5
