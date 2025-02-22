@@ -396,6 +396,7 @@
     size: Normal
   - type: CartridgeAmmo
     proto: TorpedoBase
+    deleteOnSpawn: true
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/torpedop.rsi
     layers:
@@ -430,15 +431,14 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 150
-    intensitySlope: 150
+    maxIntensity: 40
+    intensitySlope: 20
     totalIntensity: 450
   - type: HeatSeeking
-    rotationSpeed: 75
+    rotationSpeed: 40
     acceleration: 25
     topSpeed: 50
-    initialSpeed: 25
-    FOV: 90
+    FOV: 70
     defaultSeekingRange: 1000
     guidanceAlgorithm: PredictiveGuidance
   - type: PointLight
@@ -476,13 +476,12 @@
   - type: Explosive
     explosionType: Default
     totalIntensity: 600
-    intensitySlope: 40
+    intensitySlope: 10
     maxIntensity: 20
   - type: HeatSeeking
-    rotationSpeed: 40 # slow turn rate
+    rotationSpeed: 15 # slow turn rate
     acceleration: 10
-    topSpeed: 30
-    initialSpeed: 15
+    topSpeed: 40
     FOV: 40 # narrow FOV to take advantage of long range
     defaultSeekingRange: 1500 # long range
     guidanceAlgorithm: PredictiveGuidance
@@ -506,6 +505,7 @@
     size: Normal
   - type: CartridgeAmmo
     proto: TorpedoGargoyle
+    deleteOnSpawn: true
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/torp.rsi
     layers:
@@ -534,6 +534,7 @@
     size: Large
   - type: CartridgeAmmo
     proto: TorpedoGargoyleEMP
+    deleteOnSpawn: true
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/torpemp.rsi
     layers:
@@ -578,10 +579,9 @@
     totalIntensity: 120
     maxTileBreak: 5
   - type: HeatSeeking
-    rotationSpeed: 40 # slow turn rate
+    rotationSpeed: 25 # slow turn rate
     acceleration: 10
-    topSpeed: 35
-    initialSpeed: 15
+    topSpeed: 40
     FOV: 40 # narrow FOV to take advantage of long range
     defaultSeekingRange: 1500 # long range
   - type: PointLight
@@ -608,6 +608,7 @@
     size: Small
   - type: CartridgeAmmo
     proto: LanceRocketProjectile
+    deleteOnSpawn: true
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/lance.rsi
     layers:
@@ -642,9 +643,9 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 400
-    intensitySlope: 50
-    totalIntensity: 80
+    maxIntensity: 20
+    intensitySlope: 20
+    totalIntensity: 120
     maxTileBreak: 4
   - type: PointLight
     radius: 3.5
@@ -654,9 +655,8 @@
   - type: HeatSeeking
     rotationSpeed: 20 # slow rotation so it isnt aimbot, still fairly accurate though
     acceleration: 0 # it starts full speed
-    topSpeed: 50
-    initialSpeed: 50
-    FOV: 60
+    topSpeed: 120
+    FOV: 40
     defaultSeekingRange: 400
     guidanceAlgorithm: PredictiveGuidance
 
@@ -906,6 +906,7 @@
     size: Small
   - type: CartridgeAmmo
     proto: CatapultProjectile
+    deleteOnSpawn: true
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/catapult.rsi
     layers:
@@ -967,8 +968,9 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 70
+        Structural: 250
         Radiation: 45
+        Blunt: 40
   - type: Tag
     tags:
       - CompaktLens
@@ -979,8 +981,8 @@
     layers:
       - state: base-xray
   - type: EmpOnTrigger
-    range: 2
     energyConsumption: 500
+    range: 3
     disableDuration: 1
   - type: PointLight
     radius: 3.5
@@ -1045,8 +1047,9 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 125
+        Structural: 450
         Radiation: 20
+        Blunt: 40
   - type: Tag
     tags:
       - CompaktLens
@@ -1119,8 +1122,9 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 75
+        Structural: 250
         Radiation: 20
+        Blunt: 40
   - type: Tag
     tags:
       - CompaktLens
@@ -1151,7 +1155,7 @@
     deleteOnSpawn: true
     proto: CompaktMicrowaveProjectile
     count: 4
-    spread: 15
+    spread: 7
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
     layers:
@@ -1202,8 +1206,9 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 200
+        Structural: 400
         Radiation: 20
+        Blunt: 40
   - type: Tag
     tags:
       - CompaktLens
@@ -1491,8 +1496,7 @@
   - type: HeatSeeking
     rotationSpeed: 20 # slow rotation so it isnt aimbot, still fairly accurate though
     acceleration: 0 # it starts full speed
-    topSpeed: 50
-    initialSpeed: 50
+    topSpeed: 85
     FOV: 60
     defaultSeekingRange: 400
     guidanceAlgorithm: PredictiveGuidance
@@ -1560,7 +1564,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 300
+        Structural: 700
   - type: TimedDespawn
     lifetime: 20
   - type: Sprite
@@ -1571,19 +1575,18 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 15
-    intensitySlope: 2
-    totalIntensity: 10
+    maxIntensity: 10
+    intensitySlope: 5
+    totalIntensity: 15
     maxTileBreak: 1
   - type: PointLight
     radius: 3.5
     color: orange
     energy: 0.5
   - type: HeatSeeking
-    rotationSpeed: 120
-    acceleration: 10
-    topSpeed: 45
-    initialSpeed: 3
-    FOV: 60
+    rotationSpeed: 25
+    acceleration: 25
+    topSpeed: 125
+    FOV: 50
     defaultSeekingRange: 400
     guidanceAlgorithm: PredictiveGuidance

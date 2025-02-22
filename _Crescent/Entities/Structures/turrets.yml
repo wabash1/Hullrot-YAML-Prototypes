@@ -2162,7 +2162,7 @@
                   max: 5
     - type: Gun
       projectileSpeed: 65
-      fireRate: 2
+      fireRate: 12
       selectedMode: FullAuto
       availableModes:
         - FullAuto

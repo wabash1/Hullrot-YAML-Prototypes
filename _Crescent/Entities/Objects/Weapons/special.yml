@@ -83,6 +83,7 @@
   - type: BallisticAmmoProvider
     proto: BulletRocketSmart
     capacity: 3
+    cycleable: false
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
   - type: MagazineVisuals
@@ -115,12 +116,11 @@
     color: orange
     energy: 0.5
   - type: HeatSeeking
-    rotationSpeed: 75
+    rotationSpeed: 40
     acceleration: 25 
-    topSpeed: 75
-    initialSpeed: 15
-    FOV: 90
-    defaultSeekingRange: 300
+    topSpeed: 125
+    FOV: 80
+    defaultSeekingRange: 400
     guidanceAlgorithm: PredictiveGuidance
 
 - type: entity
