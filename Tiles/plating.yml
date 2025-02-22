@@ -4,7 +4,7 @@
   sprite: /Textures/Tiles/plating.png
   baseTurf: Lattice
   isSubfloor: true
-  deconstructTools: [ Prying ]
+  deconstructTools: [ Welding ]
   ItemDrop: FloorTileItemSteel
   footstepSounds:
     collection: FootstepPlating
@@ -22,7 +22,7 @@
   - 1.0
   baseTurf: Lattice
   isSubfloor: true
-  deconstructTools: [ Prying ]
+  deconstructTools: [ Welding ]
   ItemDrop: FloorTileItemSteel
   footstepSounds:
     collection: FootstepPlating
@@ -35,7 +35,7 @@
   sprite: /Textures/Tiles/plating_burnt.png
   baseTurf: Lattice
   isSubfloor: true
-  deconstructTools: [ Prying ]
+  deconstructTools: [ Welding ]
   ItemDrop: FloorTileItemSteel
   footstepSounds:
     collection: FootstepPlating
@@ -48,6 +48,8 @@
   sprite: /Textures/Tiles/Asteroid/asteroid_plating.png
   baseTurf: Lattice
   isSubfloor: true
+  deconstructTools: [ Welding ]
+  ItemDrop: FloorTileItemSteel
   footstepSounds:
     collection: FootstepPlating
   friction: 0.3
@@ -59,6 +61,8 @@
   sprite: /Textures/Tiles/Misc/clockwork/clockwork_floor.png
   baseTurf: Lattice
   isSubfloor: true
+  deconstructTools: [ Welding ]
+  ItemDrop: FloorTileItemSteel
   footstepSounds:
     collection: FootstepPlating
   friction: 0.3
@@ -70,6 +74,8 @@
   sprite: /Textures/Tiles/snow_plating.png #Not in the snow planet RSI because it doesn't have any metadata. Should probably be moved to its own folder later.
   baseTurf: Lattice
   isSubfloor: true
+  deconstructTools: [ Welding ]
+  ItemDrop: FloorTileItemSteel
   footstepSounds:
     collection: FootstepPlating
   friction: 0.15 #a little less then actual snow
