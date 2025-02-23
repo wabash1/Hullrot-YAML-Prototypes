@@ -71,9 +71,8 @@
   id: JobAdministratorNCWL
   groups:
   - NCWLShoes
-  - AdmiralNCWLCoat
+  - NCWLOuterClothingKapitan
   - NCWLGloves
-  - AdmiralNCWLHats
   - ContractorGlasses
   - ContractorTrinkets
 
