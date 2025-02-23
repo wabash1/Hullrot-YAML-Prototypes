@@ -264,7 +264,7 @@
 
 - type: entity
   parent: SpaceCash
-  id: SpaceCash10000
+  id: SpaceCash12500
   suffix: 12500
   components:
   - type: Icon
