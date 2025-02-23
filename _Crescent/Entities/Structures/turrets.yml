@@ -113,17 +113,12 @@
 
 - type: entity
   parent: BaseWeaponTurretPDT
-  name: SHI MG-213 light dual machinegun 20x135mm
+  name: SHI MG-21 light machinegun 20x135mm
   id: WeaponTurretPDTNCWL
-  suffix: NCWL PDT
-  components:
-    - type: NpcFactionMember
-      factions:
-        - NCWLFighter
 
 - type: entity
   parent: BaseWeaponTurretPDT
-  name: SHI MG-213 light dual machinegun 20x135mm Mk. II
+  name: SHI MG-21 light dual machinegun Mk. II
   id: WeaponTurretPDTNCSP
   suffix: Mark Two
   components:
@@ -135,6 +130,7 @@
 - type: entity
   parent: BaseWeaponTurretPDT
   name: SRM 30mm 'Acolyte' point defense turret
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretPDTSRM
   suffix: SRM PDT
   components:
@@ -145,6 +141,7 @@
 - type: entity
   parent: BaseWeaponTurretPDT
   name: CMM 30mm 'Justiciar' point defense turret
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretPDTCMM
   suffix: CMM PDT
   components:
@@ -155,6 +152,7 @@
 - type: entity
   parent: BaseWeaponTurretPDT
   name: SHI 30mm 'Tsui' point defense turret
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretPDTSHI
   suffix: SHI PDT
   components:
@@ -165,6 +163,7 @@
 - type: entity
   parent: BaseWeaponTurretPDT
   name: DSM 30mm 'Lady' point defense turret
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretPDTDSM
   suffix: DSM PDT
   components:
@@ -298,17 +297,13 @@
 
 - type: entity
   parent: BaseWeaponTurretVulcan
-  name: CMM 20mm automated turret
+  name: 20mm PTA "Operator" gatling turret
   id: WeaponTurretVulcanCMM
-  suffix: CMM VLCN
-  components:
-    - type: NpcFactionMember
-      factions:
-        - CMMWarship
 
 - type: entity
   parent: BaseWeaponTurretVulcan
   name: SRM 20mm automated turret
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretVulcanSRM
   suffix: SRM VLCN
   components:
@@ -319,6 +314,7 @@
 - type: entity
   parent: BaseWeaponTurretVulcan
   name: NCSP 20mm automated turret
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretVulcanNCSP
   suffix: NCSP VLCN
   components:
@@ -329,6 +325,7 @@
 - type: entity
   parent: BaseWeaponTurretVulcan
   name: NCWL 20mm automated turret
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretVulcanNCWL
   suffix: NCWL VLCN
   components:
@@ -339,6 +336,7 @@
 - type: entity
   parent: BaseWeaponTurretVulcan
   name: DSM 20mm automated turret
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretVulcanDSM
   suffix: DSM VLCN
   components:
@@ -349,6 +347,7 @@
 - type: entity
   parent: BaseWeaponTurretVulcan
   name: SHI 20mm automated turret
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretVulcanSHI
   suffix: SHI VLCN
   components:
@@ -482,17 +481,13 @@
 
 - type: entity
   parent: BaseWeaponTurretSwarmer
-  name: CMM 'Swarmer' autorocket pod
+  name: SHI 60mm 'Swarmer' autorocket pod
   id: WeaponTurretSwarmerCMM
-  suffix: CMM SWRM
-  components:
-    - type: NpcFactionMember
-      factions:
-        - CMMWarship
 
 - type: entity
   parent: BaseWeaponTurretSwarmer
   name: SRM 'Swarmer' autorocket pod
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretSwarmerSRM
   suffix: SRM SWRM
   components:
@@ -503,6 +498,7 @@
 - type: entity
   parent: BaseWeaponTurretSwarmer
   name: NCWL 'Swarmer' autorocket pod
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretSwarmerNCWL
   suffix: NCWL SWRM
   components:
@@ -513,6 +509,7 @@
 - type: entity
   parent: BaseWeaponTurretSwarmer
   name: NCSP 'Swarmer' autorocket pod
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretSwarmerNCSP
   suffix: NCSP SWRM
   components:
@@ -523,6 +520,7 @@
 - type: entity
   parent: BaseWeaponTurretSwarmer
   name: SHI 'Swarmer' autorocket pod
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretSwarmerSHI
   suffix: SHI SWRM
   components:
@@ -533,6 +531,7 @@
 - type: entity
   parent: BaseWeaponTurretSwarmer
   name: DSM 'Swarmer' autorocket pod
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretSwarmerDSM
   suffix: DSM SWRM
   components:
@@ -652,9 +651,8 @@
 
 - type: entity
   parent: BaseWeaponTurretArtillery
-  name: NCSP 73mm antimatter boltgun
+  name: 60mm NT "Derecho" exotic blaster
   id: WeaponTurretCoilgunNCSP
-  suffix: NCSP CLGN
   components:
     - type: NpcFactionMember
       factions:
@@ -663,6 +661,7 @@
 - type: entity
   parent: BaseWeaponTurretArtillery
   name: 73mm antimatter boltgun
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretCoilgunHostile
   suffix: NPC HOSTILE
   components:
@@ -673,6 +672,7 @@
 - type: entity
   parent: BaseWeaponTurretArtillery
   name: NCWL 73mm antimatter boltgun
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretCoilgunNCWL
   suffix: NCWL CLGN
   components:
@@ -683,6 +683,7 @@
 - type: entity
   parent: BaseWeaponTurretArtillery
   name: CMM 73mm antimatter boltgun
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretCoilgunCMM
   suffix: CMM CLGN
   components:
@@ -693,6 +694,7 @@
 - type: entity
   parent: BaseWeaponTurretArtillery
   name: SRM 73mm antimatter boltgun
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretCoilgunSRM
   suffix: SRM CLGN
   components:
@@ -703,6 +705,7 @@
 - type: entity
   parent: BaseWeaponTurretArtillery
   name: SHI 73mm antimatter boltgun
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretCoilgunSHI
   suffix: SHI CLGN
   components:
@@ -713,6 +716,7 @@
 - type: entity
   parent: BaseWeaponTurretArtillery
   name: DSM 73mm antimatter boltgun
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretCoilgunDSM
   suffix: DSM CLGN
   components:
@@ -844,7 +848,7 @@
 
 - type: entity
   parent: BaseWeaponTurretMortar
-  name: SRM 90mm heavy mortar-pounder
+  name: 90mm SHI 'Abaddon' light mortar
   id: WeaponTurretMortarSRM
   suffix: SRM MRTR
   components:
@@ -855,6 +859,7 @@
 - type: entity
   parent: BaseWeaponTurretMortar
   name: SHI 90mm heavy mortar-pounder
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretMortarSHI
   suffix: SHI MRTR
   components:
@@ -865,6 +870,7 @@
 - type: entity
   parent: BaseWeaponTurretMortar
   name: DSM 90mm heavy mortar-pounder
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretMortarDSM
   suffix: DSM MRTR
   components:
@@ -875,6 +881,7 @@
 - type: entity
   parent: BaseWeaponTurretMortar
   name: CMM 90mm heavy mortar-pounder
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretMortarCMM
   suffix: CMM MRTR
   components:
@@ -885,6 +892,7 @@
 - type: entity
   parent: BaseWeaponTurretMortar
   name: NCWL 90mm heavy mortar-pounder
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretMortarNCWL
   suffix: NCWL MRTR
   components:
@@ -895,6 +903,7 @@
 - type: entity
   parent: BaseWeaponTurretMortar
   name: NCSP 90mm heavy mortar-pounder
+  categories: [ HideSpawnMenu ]
   id: WeaponTurretMortarNCSP
   suffix: NCSP MRTR
   components:
@@ -1015,23 +1024,16 @@
 
 - type: entity
   parent: BaseWeaponTurretLaser
-  name: TFSC 'Excavator' depth mining laser
+  name: SHI 180c 'Torch' pressure gatling
   id: BaseWeaponTurretLaserNCSP
-  suffix: NCSP PLAS
-  components:
-    - type: NpcFactionMember
-      factions:
-        - NCSPWarship
+  suffix: Basic
 
 - type: entity
   parent: BaseWeaponTurretLaser
-  name: DSM 'Flare' depth mining laser
+  name: SHI 200c 'Flare' pressure gatling
   id: BaseWeaponTurretLaserDSM
-  suffix: DSM PLAS
+  suffix: Upgraded
   components:
-    - type: NpcFactionMember
-      factions:
-        - DSMWarship
     - type: Sprite
       sprite: _Crescent/Objects/Autoturrets/imperialplasmacannon.rsi
       drawdepth: Mobs
@@ -1043,6 +1045,7 @@
 - type: entity
   parent: BaseWeaponTurretLaser
   name: SRM 'Excavator' depth mining laser
+  categories: [ HideSpawnMenu ]
   id: BaseWeaponTurretLaserSRM
   suffix: SRM PLAS
   components:
@@ -1053,6 +1056,7 @@
 - type: entity
   parent: BaseWeaponTurretLaser
   name: CMM 'Excavator' depth mining laser
+  categories: [ HideSpawnMenu ]
   id: BaseWeaponTurretLaserCMM
   suffix: CMM PLAS
   components:
@@ -1063,6 +1067,7 @@
 - type: entity
   parent: BaseWeaponTurretLaser
   name: NCWL 'Excavator' depth mining laser
+  categories: [ HideSpawnMenu ]
   id: BaseWeaponTurretLaserNCWL
   suffix: NCWL PLAS
   components:
@@ -1073,6 +1078,7 @@
 - type: entity
   parent: BaseWeaponTurretLaser
   name: SHI 'Excavator' depth mining laser
+  categories: [ HideSpawnMenu ]
   id: BaseWeaponTurretLaserSHI
   suffix: SHI PLAS
   components:
@@ -1187,6 +1193,7 @@
 - type: entity
   parent: BaseWeaponTurretSmartbomb
   name: NCWL 'Pilum' smartbomb missile rack
+  categories: [ HideSpawnMenu ]
   id: BaseWeaponTurretSmartbombNCWL
   suffix: NCWL SMRT
   components:
@@ -1197,6 +1204,7 @@
 - type: entity
   parent: BaseWeaponTurretSmartbomb
   name: NCSP 'Pilum' smartbomb missile rack
+  categories: [ HideSpawnMenu ]
   id: BaseWeaponTurretSmartbombNCSP
   suffix: NCSP SMRT
   components:
@@ -1207,6 +1215,7 @@
 - type: entity
   parent: BaseWeaponTurretSmartbomb
   name: DSM 'Pilum' smartbomb missile rack
+  categories: [ HideSpawnMenu ]
   id: BaseWeaponTurretSmartbombDSM
   suffix: DSM SMRT
   components:
@@ -1217,6 +1226,7 @@
 - type: entity
   parent: BaseWeaponTurretSmartbomb
   name: SHI 'Pilum' smartbomb missile rack
+  categories: [ HideSpawnMenu ]
   id: BaseWeaponTurretSmartbombSHI
   suffix: SHI SMRT
   components:
@@ -1227,6 +1237,7 @@
 - type: entity
   parent: BaseWeaponTurretSmartbomb
   name: SRM 'Pilum' smartbomb missile rack
+  categories: [ HideSpawnMenu ]
   id: BaseWeaponTurretSmartbombSRM
   suffix: SRM SMRT
   components:
@@ -1237,6 +1248,7 @@
 - type: entity
   parent: BaseWeaponTurretSmartbomb
   name: CMM 'Pilum' smartbomb missile rack
+  categories: [ HideSpawnMenu ]
   id: BaseWeaponTurretSmartbombCMM
   suffix: CMM SMRT
   components:
@@ -1366,17 +1378,13 @@
 
 - type: entity
   parent: BaseWeaponTurretNeedler
-  name: 60mm 'Needler' heavy precision autogun
+  name: 60mm PTA 'Needler' heavy precision autogun
   id: BaseWeaponTurretNeedlerSRM
-  suffix: SRM NDLR
-  components:
-    - type: NpcFactionMember
-      factions:
-        - SRMWarship
 
 - type: entity
   parent: BaseWeaponTurretNeedler
   name: 60mm 'Needler' heavy precision autogun
+  categories: [ HideSpawnMenu ]
   id: BaseWeaponTurretNeedlerDSM
   suffix: DSM NDLR
   components:
@@ -1397,6 +1405,7 @@
 - type: entity
   parent: BaseWeaponTurretNeedler
   name: 60mm 'Needler' heavy precision autogun
+  categories: [ HideSpawnMenu ]
   id: BaseWeaponTurretNeedlerNCWL
   suffix: NCWL NDLR
   components:
@@ -1407,6 +1416,7 @@
 - type: entity
   parent: BaseWeaponTurretNeedler
   name: 60mm 'Needler' heavy precision autogun
+  categories: [ HideSpawnMenu ]
   id: BaseWeaponTurretNeedlerCMM
   suffix: CMM NDLR
   components:
@@ -1417,6 +1427,7 @@
 - type: entity
   parent: BaseWeaponTurretNeedler
   name: 60mm 'Needler' heavy precision autogun
+  categories: [ HideSpawnMenu ]
   id: BaseWeaponTurretNeedlerSHI
   suffix: SHI NDLR
   components:
@@ -2162,7 +2173,7 @@
                   max: 5
     - type: Gun
       projectileSpeed: 65
-      fireRate: 12
+      fireRate: 2
       selectedMode: FullAuto
       availableModes:
         - FullAuto
@@ -2549,3 +2560,5 @@
     - type: MagazineVisuals
       magState: mag
       steps: 2
+
+#hydra
