@@ -933,7 +933,7 @@
       ballistic-ammo: !type:Container
         ents: []
   - type: Gun
-    fireRate: 12
+    fireRate: 24
     projectileSpeed: 135
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/vulcan.ogg
