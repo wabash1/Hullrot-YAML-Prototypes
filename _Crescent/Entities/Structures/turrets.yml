@@ -2177,7 +2177,7 @@
       selectedMode: FullAuto
       availableModes:
         - FullAuto
-      soundGunshot: Guns/Gunshots/lasergatling.ogg
+      soundGunshot: /Audio/Weapons/Guns/Gunshots/lasergatling.ogg
     - type: MagazineAmmoProvider
     - type: ItemSlots
       slots:
