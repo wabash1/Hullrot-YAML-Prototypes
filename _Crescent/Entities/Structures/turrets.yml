@@ -2173,11 +2173,11 @@
                   max: 5
     - type: Gun
       projectileSpeed: 65
-      fireRate: 2
+      fireRate: 12
       selectedMode: FullAuto
       availableModes:
         - FullAuto
-      soundGunshot: _Crescent/Objects/ShuttleWeapons/ioncannon.rsi
+      soundGunshot: Guns/Gunshots/lasergatling.ogg
     - type: MagazineAmmoProvider
     - type: ItemSlots
       slots:
