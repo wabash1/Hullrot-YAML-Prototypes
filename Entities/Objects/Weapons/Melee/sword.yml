@@ -80,13 +80,12 @@
   - type: Item
     size: Large
     sprite: Objects/Weapons/Melee/energykatana.rsi
-  - type: EnergyKatana
   - type: DashAbility
   - type: LimitedCharges
-    maxCharges: 3
-    charges: 3
+    maxCharges: 1
+    charges: 1
   - type: AutoRecharge
-    rechargeDuration: 20
+    rechargeDuration: 180
   - type: Clothing
     sprite: Objects/Weapons/Melee/energykatana.rsi
     slots:
