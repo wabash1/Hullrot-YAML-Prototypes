@@ -15,6 +15,7 @@
     proto: CartridgeMachineGunHighExplosive
     capacity: 75
   - type: Item
+    size: Large
   - type: Sprite
     sprite: _Crescent/Ammunition/conscript_ammo_box.rsi
     state: base
