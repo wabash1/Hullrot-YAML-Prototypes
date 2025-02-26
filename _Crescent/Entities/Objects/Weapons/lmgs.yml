@@ -40,14 +40,14 @@
         priority: 2
         whitelist:
           tags:
-            - MagazineLightRifleBox
+            - MagazineNCWLConscriptBox
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeLightRifle
+        startingItem: MagazineLightRifleBoxSlug
         priority: 1
         whitelist:
           tags:
-            - CartridgeLightRifle
+            - CartridgeMachineGun
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot

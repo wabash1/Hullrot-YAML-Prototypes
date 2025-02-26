@@ -6,10 +6,14 @@
   components:
   - type: Tag
     tags:
-      - MagazineLightRifleBox
+      - MagazineNCWLConscriptBox
   - type: BallisticAmmoProvider
-    proto: CartridgeLightRifle
-    capacity: 200
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeMachineGun
+    proto: CartridgeMachineGunHighExplosive
+    capacity: 75
   - type: Item
   - type: Sprite
     sprite: _Crescent/Ammunition/conscript_ammo_box.rsi
