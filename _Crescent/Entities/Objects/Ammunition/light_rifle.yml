@@ -21,6 +21,10 @@
   - type: Sprite
     sprite: _Crescent/Ammunition/conscript_ammo_box.rsi
     state: base
+  - type: Clothing
+    sprite: _Crescent/Ammunition/conscript_ammo_box.rsi
+    slots:
+    - Belt
 
 #slugs
 
