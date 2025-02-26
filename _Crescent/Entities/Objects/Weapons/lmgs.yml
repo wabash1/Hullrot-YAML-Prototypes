@@ -39,7 +39,7 @@
             - MagazineNCWLConscriptBox
       gun_chamber:
         name: Chamber
-        startingItem: MagazineLightRifleBoxSlug
+        startingItem: CartridgeMachineGunHighExplosive
         priority: 1
         whitelist:
           tags:
