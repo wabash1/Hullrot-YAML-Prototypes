@@ -5,9 +5,6 @@
   accesIdentifierToEntity:
     Crew:
       - Airlock
-      - GlassAirlock
-      - AirlockKit
-      - CrateAirlockKit
       - AirlockServiceLocked
       - AirlockLawyerLocked
       - AirlockTheatreLocked
@@ -346,3 +343,4 @@
       - AirlockMercenaryGlass
       - AirlockNfsdGlass
       - AirlockExternalGlassShuttleTransit
+      - HighSecDoor
