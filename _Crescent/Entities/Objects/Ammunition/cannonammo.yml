@@ -783,10 +783,13 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    totalIntensity: 55
-    intensitySlope: 7
-    maxIntensity: 30
+    totalIntensity: 150
+    intensitySlope: 0.2
+    maxIntensity: 2
     maxTileBreak: 5
+  - type: ProximityFuse
+    maxRange: 15
+    minRange: 2
   - type: PointLight
     radius: 3.5
     color: orange
