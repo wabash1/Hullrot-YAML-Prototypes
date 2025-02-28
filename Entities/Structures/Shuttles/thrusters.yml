@@ -151,6 +151,9 @@
   description: A thruster that allows a shuttle to move.
   abstract: true
   components:
+    - type: Weldable
+      fuel: 2.5
+      time: 3
     - type: AmbientSound
       enabled: false
       range: 4

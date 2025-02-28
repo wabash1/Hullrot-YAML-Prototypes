@@ -113,7 +113,7 @@
   - type: Occluder
   - type: Damageable
     damageContainer: StructuralInorganic
-    damageModifierSet: StrongMetallic
+    damageModifierSet: StructuralMetallic
   - type: RCDDeconstructable
     cost: 6
     delay: 8
