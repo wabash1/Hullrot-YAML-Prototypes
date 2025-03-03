@@ -120,7 +120,7 @@
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitClarize
   name: royal trooper's hardsuit
-  description: A modular worker's hardsuit, bears the colors of the Kaiser and House Olywir.
+  description: A modular soldier's hardsuit, bears the colors of the Queen.
   components:
   - type: Sprite
     sprite: _Crescent/Clothing/Empire/OuterClothing/clarizehardsuit.rsi
@@ -134,12 +134,12 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.95
+        Blunt: 0.8
         Slash: 0.95
-        Piercing: 0.95
-        Heat: 0.95
-        Radiation: 0.8
-        Caustic: 0.8
+        Piercing: 0.85
+        Heat: 0.8
+        Radiation: 0.9
+        Caustic: 0.9
   - type: ClothingSpeedModifier
     walkModifier: 0.85
     sprintModifier: 0.9
