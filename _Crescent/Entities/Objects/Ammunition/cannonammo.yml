@@ -21,7 +21,7 @@
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 7
+    lifetime: 4
   - type: Fixtures
     fixtures:
       projectile:
@@ -417,7 +417,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 5000
+        Structural: 250
         Blunt: 40
   - type: Tag
     tags:
